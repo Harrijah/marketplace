@@ -44,11 +44,15 @@ body{
 /* 	**************************************		SECTION 01		***********************************************		*/
 .mytext{
 	font-size: 14px;
+	padding: 10px;
+}
+.mywrapper{
+	margin: 15px;
 }
 #changeMyRayon{
 	border: solid rgb(212, 212, 212) 1px;
 	border-radius: 3px;
-	padding: 5px 0px;
+	padding: 10px 0px;
 }
 .section01{
 	margin: auto;
@@ -129,8 +133,6 @@ body{
 	transform: perspective(1px) translateY(-50%) translateX(-50%);
 	/* padding: 4px; */
 	width: 100%;
-}.testimg:hover{
-	cursor: pointer;
 }
 .photoprod{
 	position: relative;
@@ -150,6 +152,10 @@ body{
 	border: solid rgb(212, 212, 212) 1px;
 	border-radius: 5px;
 }
+.produits02:hover{
+	cursor: pointer;
+}
+
 .descprod{
 	position: relative;
 	width: 11vw;
@@ -211,6 +217,7 @@ body{
 	border-radius: 5px;
 	margin: 2px;
 	background-color: white;
+	z-index: 19;
 }
 .produits03{
 	position: relative;
@@ -218,6 +225,9 @@ body{
 	border-radius: 3px;
 	left: 50%;
 	transform: translateX(-50%); /* test*/
+}
+.produits03:hover{
+	cursor: pointer;
 }
 .textprod03{
 	position: absolute;
@@ -567,6 +577,22 @@ li a, .dropbtn{
 .sliderimages{
 	height : 400px;
 }
+.carousel{
+	border: solid rgb(190, 190, 190) 1px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px #343A40;
+}
+#changeCarousel{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.mysliderimage{
+	position: relative;
+	/* margin: auto; */
+	left: 50%;
+	transform: translateX(-50%);
+}
 .myimagetest{
 	position : relative;
 	height: 300px;
@@ -579,7 +605,7 @@ li a, .dropbtn{
 .myproductlink:hover{
 	text-decoration: none;
 	cursor: pointer;
-	color: #566069;
+	color: orange;
 }
 .dblock{
 	margin: auto;
@@ -592,7 +618,12 @@ li a, .dropbtn{
 	z-index: -1;
 }
 .productcounter{
+	position: relative;
 	display: block;
+	margin: auto;
 	font-size: 30px;
 	color: rgb(172, 171, 171);
+}
+.myrayonList{
+	height: 40px;
 }

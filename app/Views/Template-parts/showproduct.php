@@ -18,10 +18,10 @@
 
 <div class="card-footer">
     <div class="row">
-        <div class="col-5">
+        <div class="col-3">
             <span style="font-weight:800">Ar <?php echo $product[0]['prix']; ?> </span>
         </div>
-        <div class="col-7">
+        <div class="col-9">
             <div class="">
                 <button class="btn btn-outline-warning idproduit" value="<?php echo $product[0]['idproduit']; ?> ">Ajouter au panier <span><i class="fa fa-cart-plus"></i></span></button>
                 <button class="btn btn-outline-warning idproduit" value="<?php echo $product[0]['idproduit']; ?> ">Voir les détails</button>

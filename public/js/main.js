@@ -1,7 +1,7 @@
 $(document).ready(function() { 
     const tabs = document.querySelector(".wrapper");
     const selectButton = document.querySelector('.thema');
-    const tabButton = document.querySelectorAll(".mybutton");
+    const tabButton = document.querySelectorAll(".mybutton"); 
     const contents = document.querySelectorAll(".content"); 
     const mybaseurl = $(document.querySelector('#myurl')).attr('value'); // base URL pour le filtre
     let sortir = document.getElementsByClassName('sortir'); // fermer le modal
