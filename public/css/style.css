@@ -1,0 +1,530 @@
+body{
+	font-size: 14px;
+}
+/* 	**************************************		TOGGLE		***********************************************		*/
+.content {
+	display: none;
+	padding: 5px 10px;
+  }
+  .content.active {
+	display: block;
+	
+  }
+  .topmenu{
+	color: orange;
+}
+
+/* 	**************************************		FOOTER		***********************************************		*/
+.bigfoot{
+	position: relative;
+	bottom: 0;
+}
+.lienfooter{
+	list-style-type: none;
+	left: 0px;
+	margin-left: 0px;
+}
+.lienfooter a{
+	text-decoration: none;
+	color: white;
+	left: 0px;
+	margin-left: 0px;
+}
+.lienfooter a:hover{
+	color: orange;
+}
+.footband{
+	position: relative;
+	width: 100%;
+	height: 5vh;
+	background-color: #3a4147;
+}
+
+
+/* 	**************************************		SECTION 01		***********************************************		*/
+.section01{
+	margin: auto;
+	padding-right: 10px;
+}
+.pplimg01{
+	vertical-align: middle;
+}
+
+.pub01{
+	margin: 0px;
+	height: 56vh;
+	text-align: center;
+}
+.inner-div{
+	position: relative;
+	top: 50%;
+	transform: perspective(1px) translateY(-50%);
+}
+.pub{
+	margin: auto;
+	top: 500px;
+}
+
+
+/* 	**************************************		PRODUITS		***********************************************		*/
+/* .mesmenus{
+	display: block;
+} */
+.categories{
+	margin: auto;
+	position: relative;
+	height: 13%;
+	width: 100%;
+}
+.listprod04{
+	position: relative;
+	margin: auto;
+	padding: 3px;
+	height: 87%;
+}
+.listprod{
+	margin: auto;
+	position: relative;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	padding: 2px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.card00{
+	margin: auto;
+	position: relative;
+	display: inline-block;
+	text-align: left;
+	border: solid rgb(190, 190, 190) 1px;
+	border-radius: 5px;
+	padding: 2px;
+	background-color: white;
+}
+.testimg{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: perspective(1px) translateY(-50%) translateX(-50%);
+}
+.produits02{
+	margin: 0px;
+	height: 95%;
+	width: 95%;
+	border-radius: 3px;
+	padding: 2px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: perspective(1px) translateY(-50%) translateX(-50%);
+}
+.photoprod{
+	position: relative;
+	width: 7vw;
+	height: 15vh;
+
+}
+.descprod{
+	position: relative;
+	width: 11vw;
+	height: 15vh;
+}
+.textprod{
+	margin: 0px;
+}
+
+/* 	**************************************		BANDEAU		***********************************************		*/
+.bandeau{
+	width: 100%;
+	background: linear-gradient(45deg, #1b1b1b, rgba(27, 27, 27, 0.747)), url(../uploads/images/4.jpg) fixed;
+}
+.bloc{
+	height: 10vh;
+}
+
+/* 	**************************************		CATEGORIES	***********************************************		*/
+.categories02{
+	position: relative;
+	text-align: center;
+	height: 15vh;
+	width: 100%;
+}
+.card01{
+	position: relative;
+	display: inline-block;
+	top: 50%;
+	transform: translateY(-50%);
+	padding: 8px;
+	border: none;
+	color: gray;
+}
+.monicone{
+	color:grey;
+}
+.monicone:hover{
+	color:orange;
+}
+.card01:hover{
+	color:orange;
+}
+
+/* 	**************************************		PRODUITS 02		***********************************************		*/
+.blocrandomprod{
+	margin: auto;
+	width: auto;
+}
+.photoprod02{
+	position: relative;
+	width: 15vw;
+	height: 38vh;
+	display: inline-block;
+	border: solid rgb(190, 190, 190) 1px;
+	border-radius: 5px;
+	padding: 2px 5px 0px 5px;
+	margin: 2px;
+	background-color: white;
+}
+.produits03{
+	margin: 2px 0px 5px 0px;
+	width: 95%;
+	height: 50%;
+	border-radius: 3px;
+	position: relative;
+	left: 50%;
+	transform: perspective(1px)  translateX(-50%);
+}
+.textprod03{
+	width: 95%;
+	height: 45%;
+	padding: 2px 5px 2px 5px;
+	/* background-color: white; */
+}
+
+/* 	**************************************		MENU ACTUS		***********************************************		*/
+.actus{
+	margin: auto;
+	height: 350px;
+	width: 100%;
+	text-align: center;
+}
+.card02{
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	top: 50%;
+	transform: translateY(-50%);
+	padding: 5px;
+	margin: 0% 1% 1% 1%;
+}
+
+.produits04{
+	position: relative;
+	height: 30vh;
+	width: 90%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+/* 	**************************************		CONNEXION		***********************************************		*/
+.personnalcontainer{
+	position: absolute;
+	height: 80%;
+	width: 100%;
+	margin: 0px;
+	display: block;
+}
+.generalcontainer{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+	width: 400px;
+	height: 325px;
+	background-color: black;
+	border-radius: 5px;
+}
+.formcontainer{
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 98%;
+	height: 200px;
+	background-color: white;
+	border-radius: 5px;
+}
+.accountcreate{
+	position: relative;
+	top: 15%;
+	left: 5%;
+	transform: translateY(-85%) ;
+}
+
+/* 	**************************************		ENREGISTREMENT		***********************************************		*/
+.personnalcontainerstore{
+	position: absolute;
+	height: auto;
+	width: 100%;
+	margin: 0px;
+	display: block;
+}
+.generalcontainerstore{
+	position: relative;
+	margin: 2% 0% 2% 0%;
+	left: 50%;
+	transform:  translateX(-50%);
+	width: 400px;
+	height: 600px;
+	background-color: black;
+	border-radius: 5px;
+}
+.formcontainerstore{
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 98%;
+	height: 78%;
+	background-color: white;
+	border-radius: 5px;
+}
+.accountcreatestore{
+	position: relative;
+	top: 9%;
+	left: 5%;
+	transform: translateY(-91%) ;
+}
+
+/* 	**************************************		CREATION MAGASIN		***********************************************		*/
+.formcontainer03{
+	position: relative;
+	padding: 2% 1%;
+}
+.infoboutique{
+	position: relative;
+	width: 30%;
+	display: inline-block;
+	margin: 10px 20px;
+}
+.formboutique01{
+	position: relative;
+	width: 50%;
+	display: inline-block;
+	margin-left: 2%;
+}
+.formboutique02{
+	width: 29%;
+	display: inline-block;
+	background-color: purple;
+}
+.testclass{
+	/* top: 0%; */
+	text-align: center;
+}
+
+.formcontainer04{
+	position: relative;
+}
+.testformboutique{
+	position: relative;
+	width: 50vw;
+	top: 1vh;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+/* 	**************************************		CREATION MAGASIN		***********************************************		*/
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.726); /* Black w/ opacity */
+  }
+
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 2% auto; /* 15% from the top and centered */
+    padding: 5px;
+    border: 1px solid #888;
+    width: 40%; /* Could be more or less, depending on screen size */
+  }
+  .modal-content2 {
+    background-color: #fefefe;
+	height: fit-content;
+    margin: 2% auto; /* 15% from the top and centered */
+    padding: 5px;
+    border: 1px solid #888;
+    width: 90%; /* Could be more or less, depending on screen size */
+  }
+  .modal-body{
+	padding: 1% 3%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  } 
+
+  
+/* 	**************************************		dropdown menu		***********************************************		*/
+.dropdown{
+	width: 125px;
+}
+li a, .dropbtn{
+	display: inline-block;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	z-index: 1;
+}
+.dropdown-content a{
+	display: block;
+	text-align: left;
+	text-decoration: none;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+	transition: 9s;
+}
+/* 	**************************************		magasin back end		***********************************************		*/
+.allstoretop{
+	position: relative;
+}
+.imagecontainer{
+	display: block;
+	width:100%;
+	height:35vh;
+	overflow: hidden;
+}
+.imagepdc{
+	width: 100%;
+}
+.storename{
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	transform: translateY(-30%);
+}
+.storinfobar{
+	display: block;
+	width: 100%;
+	height: 6vh;
+	background-color: #aaa;
+	border-top: solid 1px #888;
+	padding: 5px 10px;
+}
+.storetext{
+	display: inline-block;
+}
+
+/* 	**************************************		magasin menu vertical		***********************************************		*/
+.containme{
+	height: max-content;
+}
+	.verticalmenu{
+		position: relative;
+		height: 85%;
+		width: 15%;
+		float: left;
+		background-color: #3e464d;
+	}
+	
+	/* 	**************************************		UL Vertical Menu		***********************************************		*/
+	.verticalmenulist{
+		width: 100%;
+		margin:0;
+		padding: 0;
+		list-style-type: none;
+	}
+	.verticalmenulist li a{
+		display: block;
+		text-decoration: none;
+		color: whitesmoke;
+		padding: 10px 20px;
+	}
+	.verticalmenulist li a.active{
+		background-color: rgb(180, 180, 180);
+		color: #343A40;
+	}
+	.verticalmenulist li a:hover:not(.active) {
+		background-color: #566069;
+		color: white;
+	}
+/* 	**************************************		horizontal menu list		***********************************************		*/
+	.insidecontent{
+		position: relative;
+		height: max-content;
+		width: 85%;
+		display: inline-block;
+	}
+	.notifnav{
+		position: relative;
+		display: block;
+		height: 9vh;
+		width: 100%;
+	}
+		.tdb{
+			position: relative;
+			float: left;
+			width: 15%;
+			top: 50%;
+			transform: translateY(-50%); 
+		}
+			.tdbinside{
+				position: relative;
+			}
+		.mainnotifs{
+			position: relative;
+			display: inline-block;
+			height: 100%;
+			width: 85%;
+		}
+			.centernotifs{
+				position: relative;
+				float: left;
+				top: 50%;
+				left: 50%;
+				transform: translateY(-50%) translateX(-50%); 
+			}
+				.storenotifs{
+					position: relative;
+					display: inline-block;
+				}
+					.centermytext{
+						position: relative;
+						display: inline-block;
+						margin: 0px 5px;
+					}
+
+
+
+/* 	**************************************		toggle content		***********************************************		*/
+.productlist{
+	display: block;
+	background-color: #aaa;
+	list-style-type: none;
+	margin: 10px 2px;
+}
+.displaymeblock{
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}

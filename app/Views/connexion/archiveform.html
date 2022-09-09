@@ -1,0 +1,165 @@
+<div>
+    <div class="allstoretop">
+        <div class="imagecontainer">
+            <div class="">
+                <img src="<?php echo base_url('uploads/images/pdc.jpg'); ?>" class="imgpdc img-fluid" alt="photo de couverture">
+            </div>
+            <div class="storename"><h1 class="text-light ml-5">Ma boutique</h1></div>
+        </div>
+        <div class="storinfobar bg-light text-dark pl-5">
+            <div class="storetext"><p class="" style="font-size:18px; font-weight:200"> Analakely &nbsp;</p></div>
+            <div class="storetext"><p class="" style="font-size:18px; font-weight:200"> boutique@event.mg &nbsp;</p></div>
+            <div class="storetext"><p style="font-size:18px">Tel :&nbsp;</p></div>
+            <div class="storetext"><p class="" style="font-size:18px; font-weight:200"> +261 33 04 876 45 &nbsp;</p></div>
+        </div>
+    </div>
+
+    <div class="containme wrapper">
+        <div class="notifnav bg-dark text-light">
+            <div class="tdb"><h5 class="tdbinside text-light text-center">Tableau de bord</h5></div>
+            <div class="mainnotifs">
+                <div class="centernotifs">                    
+                    <div class="storenotifs"><p class="centermytext">Visites de votre boutique : </p><p class="centermytext" style="font-weight:100;"> 0 </p></div>
+                    <div class="storenotifs"><p class="centermytext">Total ventes : </p><p class="centermytext" style="font-weight:100;">Ar 0 </p></div>
+                    <div class="storenotifs"><p class="centermytext">Messages : </p><p class="centermytext" style="font-weight:100;"> 0 </p></div>
+                    <div class="storenotifs"><p class="centermytext">Commentaires : </p><p class="centermytext" style="font-weight:100;"> 0 </p></div>
+                    <div class="storenotifs"><button class="centermytext btn btn-outline-warning ajouterproduit">Ajouter produit</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="verticalmenu buttonWrapper">
+            <ul class="verticalmenulist">
+                <li><a href="#" class="mybutton active" data-id="listproduits">Liste des produits</a></li>
+                <li><a href="#" class="mybutton" data-id="ventesboutiques">Ventes</a></li>
+                <li><a href="#" class="mybutton" data-id="publicationsboutiques">Publications</a></li>
+                <li><a href="#" class="mybutton" data-id="messagesboutiques">Messages</a></li>
+                <li><a href="#" class="mybutton" data-id="commentairesboutiques">Commentaires</a></li>
+            </ul>
+        </div>
+        <div class="insidecontent contentWrapper">
+            <div class="content active" id="listproduits">
+                
+            </div>
+            <div class="content" id="ventesboutiques">Content 02</div>
+            <div class="content" id="publicationsboutiques">Content 03</div>
+            <div class="content" id="messagesboutiques">Content 04</div>
+            <div class="content" id="commentairesboutiques">Content 05</div>
+        </div>
+            
+    </div>
+</div>
+<!------------------------------------------ Ajout produit ---------------------------------------->
+<div class="modal" id="productmodal">
+    <div class="modal-content2">
+            <span class="close text-right">&times;</span>
+        <div class="modal-header">
+            <h3 class="text-left text-warning">Ajouter un produit</h3>
+        </div>
+        <div class="modal-body">
+            <form action="" method="post" class="form-group">
+                <div><input type="hidden" name="boutique" value="1"></div>
+                <div class="allformproduct pt-2 pr-2 pb-2 pl-2">
+                    <div class="row01">
+                        <div class="mainnotifs2">
+                        <div class="tubecenter">
+                            <div class="generalproductsinfo1">
+                                <!-- Catégories -->
+                                <div class="selectcategories displaymeblock shadow">
+                                    <div class="categorieselect01">
+                                        <label class="displaymeblock" for="categorie02">Rayon</label>
+                                        <select name="rayon" id="" url="<?php echo base_url('connexion/changerayon'); ?>" class="selectrayon form-control">
+                                            <?php foreach($rayons as $ray): ?>
+                                                <option value="<?php echo $ray['id']; ?>"><?php echo $ray['rayon']; ?></option>
+                                            <?php endforeach; ?>
+                                        </select>
+                                    </div>
+                                <div class="splitcategories displaymeblock">
+                                    <div class="splitedcategorie01">
+                                        <label class="displaymeblock" for="categorie02">Catégorie</label>
+                                        <select name="categorie" id="" url="<?php echo base_url('connexion/changecategorie'); ?>"class="selectcategory form-control"></select>
+                                    </div>
+                                    <div class="splitedcategorie02">
+                                        <label  class="displaymeblock" for="categorie03">Sous-catégorie</label>
+                                        <select name="souscategorie" id="" class="selectsouscategorie form-control"></select>
+                                    </div>
+                                </div>
+                                    
+                                </div>
+                                <div class="selectcategories shadow">
+                                    <!-- Nom produit -->
+                                    <label class="displaymeblock" for="nomproduit"><h4>Nom du produit</h4></label>
+                                    <div><input type="text" name="nomproduit"  class="categorytest"></div>
+                                    <div class="splitcategories displaymeblock">
+                                        <div class="splitedcategorie01">
+                                            <!-- Référence -->
+                                            <label   class="displaymeblock"for="reference">Référence</label>
+                                            <div><input type="text"  name="reference"  class="categorytest"></div>
+                                        </div>
+                                        <div class="splitedcategorie02">
+                                            <!-- Marque -->
+                                            <label  class="displaymeblock" for="marque">Marque</label>
+                                            <div><input type="text"  name="marque"  class="categorytest"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="selectcategories shadow">
+                                    <!-- Prix -->
+                                    <div class="pricesplit">
+                                        <div class="splitedcategorie01">
+                                            <label for="prixproduit" class="displaymeblock"><h4>Prix</h4></label>
+                                            <div><input type="number" name="prixproduit" id="" class="categorytest"><span>Ar</span></div>
+                                        </div>
+                                        <div class="splitedcategorie02">
+                                            <label for="prixpromo" class="displaymeblock" ><h4>Prix promo</h4></label>
+                                            <div><input type="number" name="prixpromo" id="" class="categorytest"><span>Ar</span></div>
+                                        </div>
+                                    </div>
+                                    <!-- Promotion -->
+                                    <div class="pricesplit">
+                                        <div class="splitedcategorie01">
+                                            <label for="debutpromo" class="displaymeblock">Date début promo</label>
+                                            <div><input type="date" name="debutpromo" id=""></div>
+                                        </div>
+                                        <div class="splitedcategorie02">
+                                            <label for="finpromo" class="displaymeblock">Date début promo</label>
+                                            <div><input type="date" name="finpromo" id=""></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="generalproductsinfo2">
+                                <!-- Images -->
+                                <div class="gravissime2">
+                                    <div class="selectcategories shadow">
+                                        <h4>Images</h4>
+                                        <div class="splitedcategorie01"><img src="<?php echo base_url('uploads/images/store7.jpg'); ?>" alt="" class="testmyimage01 img-fluid" alt="image"><input type="file" name="photo01"></div>
+                                        <div class="splitedcategorie02"><img src="<?php echo base_url('uploads/images/store7.jpg'); ?>" alt="" class="testmyimage01"><input type="file" name="photo02"></div>
+                                        <div class="splitedcategorie03"><img src="<?php echo base_url('uploads/images/store7.jpg'); ?>" alt="" class="testmyimage02"><input type="file" name="photo03"></div>
+                                        <div class="splitedcategorie03"><img src="<?php echo base_url('uploads/images/store7.jpg'); ?>" alt="" class="testmyimage02"><input type="file" name="photo04"></div>
+                                        <div class="splitedcategorie03"><img src="<?php echo base_url('uploads/images/store7.jpg'); ?>" alt="" class="testmyimage02"><input type="file" name="photo05"></div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="allproductdescriptions  mt-2">
+                        <!-- Descriptions -->
+                        <label for="shortdescprod">Description courte</label>
+                        <textarea name="shortdescprod" rows="3" id="" placeholder="Description courte du produit" class="form-control"></textarea>
+                        <label for="longdescprod mt2">Description longue</label>
+                        <textarea name="longdescprod" id="" placeholder="Description longue du produit" class="form-control"></textarea>
+                        <input type="submit" class="btn btn-warning form-control mt-2" value="Enregistrer">
+                    </div>
+                    
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <p>Test footer</p>
+        </div>
+    </div>
+    
+</div>

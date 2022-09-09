@@ -1,0 +1,12 @@
+.containme02{
+    position:relative;
+    height: 350vh;
+    width: 100%;
+    background-color: whitesmoke;
+}
+.mycard{
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    background-color: aquamarine;
+}

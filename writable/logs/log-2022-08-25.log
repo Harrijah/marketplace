@@ -1,0 +1,498 @@
+CRITICAL - 2022-08-25 01:37:20 --> Undefined variable: avatar
+#0 E:\Projets\marketplace\app\Controllers\Produit.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 26, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-25 01:43:08 --> Undefined variable: avatar
+#0 E:\Projets\marketplace\app\Controllers\Produit.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 27, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-25 01:49:06 --> Undefined index: photo03
+#0 E:\Projets\marketplace\app\Models\Productmodel.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 28, Array)
+#1 E:\Projets\marketplace\app\Controllers\Produit.php(40): App\Models\Productmodel->addProduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#3 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-25 01:52:13 --> Table 'marketplace.file' doesn't exist
+#0 E:\Projets\marketplace\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `fi...')
+#1 E:\Projets\marketplace\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fi...')
+#2 E:\Projets\marketplace\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fi...')
+#3 E:\Projets\marketplace\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fi...', Array, false)
+#4 E:\Projets\marketplace\app\Controllers\Produit.php(41): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#6 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#7 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#10 {main}
+CRITICAL - 2022-08-25 01:54:58 --> Unknown column 'name' in 'field list'
+#0 E:\Projets\marketplace\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `pr...')
+#1 E:\Projets\marketplace\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 E:\Projets\marketplace\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 E:\Projets\marketplace\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 E:\Projets\marketplace\app\Controllers\Produit.php(41): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#6 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#7 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#10 {main}
+CRITICAL - 2022-08-25 01:55:56 --> Unknown column 'type' in 'field list'
+#0 E:\Projets\marketplace\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `pr...')
+#1 E:\Projets\marketplace\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 E:\Projets\marketplace\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 E:\Projets\marketplace\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 E:\Projets\marketplace\app\Controllers\Produit.php(41): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#6 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#7 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#10 {main}
+CRITICAL - 2022-08-25 02:13:33 --> Operand should contain 1 column(s)
+#0 E:\Projets\marketplace\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `pr...')
+#1 E:\Projets\marketplace\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 E:\Projets\marketplace\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 E:\Projets\marketplace\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 E:\Projets\marketplace\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\Projets\marketplace\app\Models\Productmodel.php(35): CodeIgniter\Model->insert(Array)
+#6 E:\Projets\marketplace\app\Controllers\Produit.php(30): App\Models\Productmodel->addProduct()
+#7 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#8 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#9 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#12 {main}
+CRITICAL - 2022-08-25 02:17:30 --> Operand should contain 1 column(s)
+#0 E:\Projets\marketplace\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `pr...')
+#1 E:\Projets\marketplace\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 E:\Projets\marketplace\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 E:\Projets\marketplace\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 E:\Projets\marketplace\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\Projets\marketplace\app\Models\Productmodel.php(35): CodeIgniter\Model->insert(Array)
+#6 E:\Projets\marketplace\app\Controllers\Produit.php(30): App\Models\Productmodel->addProduct()
+#7 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#8 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#9 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#12 {main}
+CRITICAL - 2022-08-25 02:17:30 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at E:\Projets\marketplace\app\Config\Events.php:27) in E:\Projets\marketplace\system\Debug\Exceptions.php:162
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'E:\\Projets\\mark...', 162, Array)
+#1 E:\Projets\marketplace\system\Debug\Exceptions.php(162): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-25 02:17:57 --> Operand should contain 1 column(s)
+#0 E:\Projets\marketplace\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `pr...')
+#1 E:\Projets\marketplace\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 E:\Projets\marketplace\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 E:\Projets\marketplace\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 E:\Projets\marketplace\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\Projets\marketplace\app\Models\Productmodel.php(35): CodeIgniter\Model->insert(Array)
+#6 E:\Projets\marketplace\app\Controllers\Produit.php(30): App\Models\Productmodel->addProduct()
+#7 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#8 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#9 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#12 {main}
+CRITICAL - 2022-08-25 02:27:39 --> Undefined variable: avatar
+#0 E:\Projets\marketplace\app\Models\Productmodel.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 28, Array)
+#1 E:\Projets\marketplace\app\Controllers\Produit.php(27): App\Models\Productmodel->addProduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#3 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-25 02:30:06 --> Undefined variable: _FILE
+#0 E:\Projets\marketplace\app\Models\Productmodel.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 27, Array)
+#1 E:\Projets\marketplace\app\Controllers\Produit.php(27): App\Models\Productmodel->addProduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#3 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-25 02:46:15 --> uploaded[file is not a valid rule.
+#0 E:\Projets\marketplace\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('uploaded[file')
+#1 E:\Projets\marketplace\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('photo03', 'photo03', NULL, Array, Array)
+#2 E:\Projets\marketplace\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 E:\Projets\marketplace\app\Controllers\Produit.php(11): CodeIgniter\Controller->validate(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-25 02:48:02 --> Argument 1 passed to CodeIgniter\HTTP\IncomingRequest::getFile() must be of the type string, array given, called in E:\Projets\marketplace\app\Controllers\Produit.php on line 30
+#0 E:\Projets\marketplace\app\Controllers\Produit.php(30): CodeIgniter\HTTP\IncomingRequest->getFile(Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-25 03:02:31 --> Argument 1 passed to CodeIgniter\HTTP\IncomingRequest::getFile() must be of the type string, array given, called in E:\Projets\marketplace\app\Controllers\Produit.php on line 30
+#0 E:\Projets\marketplace\app\Controllers\Produit.php(30): CodeIgniter\HTTP\IncomingRequest->getFile(Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-25 03:18:09 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 E:\Projets\marketplace\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\Projets\\mark...')
+#1 E:\Projets\marketplace\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 E:\Projets\marketplace\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-25 03:24:54 --> Invalid argument supplied for foreach()
+#0 E:\Projets\marketplace\app\Controllers\Produit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'E:\\Projets\\mark...', 32, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-25 03:28:48 --> Argument 1 passed to CodeIgniter\HTTP\IncomingRequest::getFileMultiple() must be of the type string, array given, called in E:\Projets\marketplace\app\Controllers\Produit.php on line 32
+#0 E:\Projets\marketplace\app\Controllers\Produit.php(32): CodeIgniter\HTTP\IncomingRequest->getFileMultiple(Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-25 03:32:03 --> Invalid argument supplied for foreach()
+#0 E:\Projets\marketplace\app\Controllers\Produit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'E:\\Projets\\mark...', 32, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-25 03:33:50 --> Invalid argument supplied for foreach()
+#0 E:\Projets\marketplace\app\Controllers\Produit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'E:\\Projets\\mark...', 32, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-25 03:46:01 --> Undefined index: images
+#0 E:\Projets\marketplace\app\Models\Productmodel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 29, Array)
+#1 E:\Projets\marketplace\app\Controllers\Produit.php(40): App\Models\Productmodel->addProduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#3 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-25 12:47:53 --> Undefined variable: request
+#0 E:\Projets\marketplace\app\Controllers\Produit.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 35, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-25 12:48:20 --> The original file is not a valid file.
+#0 E:\Projets\marketplace\system\HTTP\Files\UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 E:\Projets\marketplace\app\Controllers\Produit.php(37): CodeIgniter\HTTP\Files\UploadedFile->move('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#3 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-25 12:51:32 --> The original file is not a valid file.
+#0 E:\Projets\marketplace\system\HTTP\Files\UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 E:\Projets\marketplace\app\Controllers\Produit.php(37): CodeIgniter\HTTP\Files\UploadedFile->move('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#3 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-25 12:52:10 --> The original file is not a valid file.
+#0 E:\Projets\marketplace\system\HTTP\Files\UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 E:\Projets\marketplace\app\Controllers\Produit.php(37): CodeIgniter\HTTP\Files\UploadedFile->move('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#3 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-25 12:53:11 --> The original file is not a valid file.
+#0 E:\Projets\marketplace\system\HTTP\Files\UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 E:\Projets\marketplace\app\Controllers\Produit.php(37): CodeIgniter\HTTP\Files\UploadedFile->move('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#3 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-25 12:55:25 --> The original file is not a valid file.
+#0 E:\Projets\marketplace\system\HTTP\Files\UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 E:\Projets\marketplace\app\Controllers\Produit.php(37): CodeIgniter\HTTP\Files\UploadedFile->move('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#3 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-25 12:57:23 --> The original file is not a valid file.
+#0 E:\Projets\marketplace\system\HTTP\Files\UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 E:\Projets\marketplace\app\Controllers\Produit.php(37): CodeIgniter\HTTP\Files\UploadedFile->move('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#3 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-25 13:00:01 --> The original file is not a valid file.
+#0 E:\Projets\marketplace\system\HTTP\Files\UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 E:\Projets\marketplace\app\Controllers\Produit.php(37): CodeIgniter\HTTP\Files\UploadedFile->move('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#3 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-25 13:24:18 --> The original file is not a valid file.
+#0 E:\Projets\marketplace\system\HTTP\Files\UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 E:\Projets\marketplace\app\Controllers\Produit.php(40): CodeIgniter\HTTP\Files\UploadedFile->move('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#3 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-25 13:26:37 --> Function name must be a string
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-25 13:27:47 --> Function name must be a string
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-25 13:28:52 --> Function name must be a string
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-25 13:30:10 --> The original file is not a valid file.
+#0 E:\Projets\marketplace\system\HTTP\Files\UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 E:\Projets\marketplace\app\Controllers\Produit.php(40): CodeIgniter\HTTP\Files\UploadedFile->move('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#3 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-25 13:34:22 --> Undefined offset: 0
+#0 E:\Projets\marketplace\app\Controllers\Produit.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 40, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-25 13:36:25 --> Undefined offset: 1
+#0 E:\Projets\marketplace\app\Controllers\Produit.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 40, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-25 13:42:47 --> Undefined offset: 0
+#0 E:\Projets\marketplace\app\Controllers\Produit.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 40, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-25 13:44:51 --> The original file is not a valid file.
+#0 E:\Projets\marketplace\system\HTTP\Files\UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 E:\Projets\marketplace\app\Controllers\Produit.php(40): CodeIgniter\HTTP\Files\UploadedFile->move('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#3 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-25 14:09:50 --> The original file is not a valid file.
+#0 E:\Projets\marketplace\system\HTTP\Files\UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 E:\Projets\marketplace\app\Controllers\Produit.php(40): CodeIgniter\HTTP\Files\UploadedFile->move('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#3 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-25 14:12:54 --> Cannot use object of type CodeIgniter\HTTP\Files\UploadedFile as array
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-25 14:14:51 --> The original file is not a valid file.
+#0 E:\Projets\marketplace\system\HTTP\Files\UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 E:\Projets\marketplace\app\Controllers\Produit.php(40): CodeIgniter\HTTP\Files\UploadedFile->move('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#3 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-25 14:18:54 --> The original file is not a valid file.
+#0 E:\Projets\marketplace\system\HTTP\Files\UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 E:\Projets\marketplace\app\Controllers\Produit.php(40): CodeIgniter\HTTP\Files\UploadedFile->move('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#3 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-25 14:20:57 --> Too few arguments to function CodeIgniter\HTTP\IncomingRequest::getFile(), 0 passed in E:\Projets\marketplace\app\Controllers\Produit.php on line 39 and exactly 1 expected
+#0 E:\Projets\marketplace\app\Controllers\Produit.php(39): CodeIgniter\HTTP\IncomingRequest->getFile()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-25 14:26:17 --> Undefined variable: fileS
+#0 E:\Projets\marketplace\app\Controllers\Produit.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 40, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-25 14:26:39 --> Call to a member function move() on array
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-25 14:30:11 --> Undefined offset: 0
+#0 E:\Projets\marketplace\app\Controllers\Produit.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 41, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-25 14:32:49 --> Use of undefined constant name - assumed 'name' (this will throw an Error in a future version of PHP)
+#0 E:\Projets\marketplace\app\Controllers\Produit.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'E:\\Projets\\mark...', 41, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-25 23:11:01 --> Call to a member function move() on array
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-25 23:14:50 --> syntax error, unexpected '}', expecting ',' or ';'
+#0 E:\Projets\marketplace\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\Projets\\mark...')
+#1 E:\Projets\marketplace\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 E:\Projets\marketplace\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-25 23:15:17 --> Array to string conversion
+#0 E:\Projets\marketplace\app\Controllers\Produit.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\Projets\\mark...', 42, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-25 23:15:44 --> Undefined offset: 0
+#0 E:\Projets\marketplace\app\Controllers\Produit.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 42, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-25 23:16:24 --> Call to undefined function var__dump()
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-25 23:16:48 --> Undefined offset: 0
+#0 E:\Projets\marketplace\app\Controllers\Produit.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 42, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-25 23:17:12 --> Undefined offset: 1
+#0 E:\Projets\marketplace\app\Controllers\Produit.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 42, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-25 23:31:53 --> Undefined offset: 1
+#0 E:\Projets\marketplace\app\Controllers\Produit.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 42, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-25 23:35:19 --> Undefined index: file
+#0 E:\Projets\marketplace\app\Controllers\Produit.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 42, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}

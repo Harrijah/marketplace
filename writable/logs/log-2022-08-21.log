@@ -1,0 +1,459 @@
+CRITICAL - 2022-08-21 14:49:35 --> Call to undefined function form_open()
+#0 E:\Projets\marketplace\system\View\View.php(246): include()
+#1 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('connexion/monco...', Array, true)
+#2 E:\Projets\marketplace\app\Controllers\Connexion.php(16): view('connexion/monco...')
+#3 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->moncompte()
+#4 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#5 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#8 {main}
+CRITICAL - 2022-08-21 14:50:24 --> Call to undefined function form_open()
+#0 E:\Projets\marketplace\system\View\View.php(246): include()
+#1 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('connexion/monco...', Array, true)
+#2 E:\Projets\marketplace\app\Controllers\Connexion.php(16): view('connexion/monco...')
+#3 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->moncompte()
+#4 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#5 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#8 {main}
+CRITICAL - 2022-08-21 15:03:06 --> Undefined variable: pagetitle
+#0 E:\Projets\marketplace\app\Views\Templates\header.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 17, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('Templates/heade...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(87): view('Templates/heade...')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->createrayon()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-21 15:08:14 --> syntax error, unexpected '?>'
+#0 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('connexion/monco...', Array, true)
+#1 E:\Projets\marketplace\app\Controllers\Connexion.php(16): view('connexion/monco...')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->moncompte()
+#3 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-21 15:08:16 --> syntax error, unexpected '?>'
+#0 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('connexion/monco...', Array, true)
+#1 E:\Projets\marketplace\app\Controllers\Connexion.php(16): view('connexion/monco...')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->moncompte()
+#3 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-21 15:12:43 --> Call to undefined function modrel()
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->createrayon()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-21 22:01:28 --> The action you requested is not allowed.
+#0 E:\Projets\marketplace\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\Projets\marketplace\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\Projets\marketplace\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('connexion/creat...', 'before')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-21 22:01:49 --> The action you requested is not allowed.
+#0 E:\Projets\marketplace\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\Projets\marketplace\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\Projets\marketplace\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('connexion/conne...', 'before')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-21 22:02:05 --> The action you requested is not allowed.
+#0 E:\Projets\marketplace\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\Projets\marketplace\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\Projets\marketplace\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('connexion/creat...', 'before')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-21 22:02:12 --> The action you requested is not allowed.
+#0 E:\Projets\marketplace\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\Projets\marketplace\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\Projets\marketplace\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('connexion/creat...', 'before')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-21 22:02:29 --> The action you requested is not allowed.
+#0 E:\Projets\marketplace\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\Projets\marketplace\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\Projets\marketplace\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('connexion/creat...', 'before')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-21 22:02:38 --> The action you requested is not allowed.
+#0 E:\Projets\marketplace\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\Projets\marketplace\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\Projets\marketplace\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('connexion/conne...', 'before')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-21 22:03:50 --> The action you requested is not allowed.
+#0 E:\Projets\marketplace\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\Projets\marketplace\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\Projets\marketplace\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('connexion/conne...', 'before')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-21 22:03:56 --> The action you requested is not allowed.
+#0 E:\Projets\marketplace\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\Projets\marketplace\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\Projets\marketplace\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('connexion/creat...', 'before')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-21 22:04:04 --> The action you requested is not allowed.
+#0 E:\Projets\marketplace\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\Projets\marketplace\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\Projets\marketplace\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('connexion/creat...', 'before')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-21 22:04:12 --> The action you requested is not allowed.
+#0 E:\Projets\marketplace\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\Projets\marketplace\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\Projets\marketplace\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('connexion/conne...', 'before')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-21 22:04:40 --> The action you requested is not allowed.
+#0 E:\Projets\marketplace\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\Projets\marketplace\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\Projets\marketplace\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('connexion/conne...', 'before')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-21 22:04:52 --> The action you requested is not allowed.
+#0 E:\Projets\marketplace\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\Projets\marketplace\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\Projets\marketplace\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('connexion/conne...', 'before')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-21 22:05:10 --> The action you requested is not allowed.
+#0 E:\Projets\marketplace\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\Projets\marketplace\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\Projets\marketplace\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('connexion/creat...', 'before')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-21 22:05:29 --> The action you requested is not allowed.
+#0 E:\Projets\marketplace\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\Projets\marketplace\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\Projets\marketplace\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('connexion/conne...', 'before')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-21 22:05:36 --> The action you requested is not allowed.
+#0 E:\Projets\marketplace\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\Projets\marketplace\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\Projets\marketplace\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('connexion/creat...', 'before')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-21 22:06:22 --> The action you requested is not allowed.
+#0 E:\Projets\marketplace\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\Projets\marketplace\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\Projets\marketplace\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('connexion/conne...', 'before')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-21 22:06:29 --> The action you requested is not allowed.
+#0 E:\Projets\marketplace\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\Projets\marketplace\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\Projets\marketplace\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('connexion/creat...', 'before')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-21 22:07:26 --> The action you requested is not allowed.
+#0 E:\Projets\marketplace\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\Projets\marketplace\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\Projets\marketplace\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('connexion/conne...', 'before')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-21 22:07:38 --> The action you requested is not allowed.
+#0 E:\Projets\marketplace\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\Projets\marketplace\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\Projets\marketplace\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('connexion/creat...', 'before')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-21 22:07:46 --> The action you requested is not allowed.
+#0 E:\Projets\marketplace\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\Projets\marketplace\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\Projets\marketplace\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('connexion/creat...', 'before')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-21 22:07:53 --> The action you requested is not allowed.
+#0 E:\Projets\marketplace\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\Projets\marketplace\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\Projets\marketplace\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('connexion/conne...', 'before')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-21 22:08:20 --> The action you requested is not allowed.
+#0 E:\Projets\marketplace\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\Projets\marketplace\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\Projets\marketplace\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('connexion/conne...', 'before')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-21 22:08:28 --> The action you requested is not allowed.
+#0 E:\Projets\marketplace\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\Projets\marketplace\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\Projets\marketplace\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('connexion/creat...', 'before')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-21 22:09:58 --> The action you requested is not allowed.
+#0 E:\Projets\marketplace\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\Projets\marketplace\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\Projets\marketplace\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('connexion/conne...', 'before')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-21 22:10:08 --> The action you requested is not allowed.
+#0 E:\Projets\marketplace\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\Projets\marketplace\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\Projets\marketplace\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('connexion/creat...', 'before')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-21 22:10:43 --> The action you requested is not allowed.
+#0 E:\Projets\marketplace\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\Projets\marketplace\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\Projets\marketplace\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('connexion/conne...', 'before')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-21 22:10:55 --> The action you requested is not allowed.
+#0 E:\Projets\marketplace\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\Projets\marketplace\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\Projets\marketplace\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('connexion/creat...', 'before')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-21 22:12:24 --> The action you requested is not allowed.
+#0 E:\Projets\marketplace\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\Projets\marketplace\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\Projets\marketplace\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('connexion/conne...', 'before')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-21 22:12:28 --> The action you requested is not allowed.
+#0 E:\Projets\marketplace\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\Projets\marketplace\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\Projets\marketplace\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('connexion/creat...', 'before')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-21 22:40:26 --> The action you requested is not allowed.
+#0 E:\Projets\marketplace\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\Projets\marketplace\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\Projets\marketplace\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('connexion/conne...', 'before')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-21 22:42:41 --> The action you requested is not allowed.
+#0 E:\Projets\marketplace\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\Projets\marketplace\system\Filters\CSRF.php(85): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\Projets\marketplace\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('connexion/conne...', 'before')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-21 22:50:13 --> Call to a member function save() on null
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->createrayon()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-21 22:52:16 --> Call to a member function save() on null
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->createrayon()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-21 22:53:56 --> Call to a member function save() on null
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->createrayon()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-21 22:59:12 --> Allowed fields must be specified for model: App\Models\CategoriesModel
+#0 E:\Projets\marketplace\system\Model.php(1234): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Cate...')
+#1 E:\Projets\marketplace\system\Model.php(709): CodeIgniter\Model->doProtectFields(Array)
+#2 E:\Projets\marketplace\system\Model.php(557): CodeIgniter\Model->insert(Array, false)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(81): CodeIgniter\Model->save(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->createrayon()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-21 23:02:02 --> Allowed fields must be specified for model: App\Models\CategoriesModel
+#0 E:\Projets\marketplace\system\Model.php(1234): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Cate...')
+#1 E:\Projets\marketplace\system\Model.php(709): CodeIgniter\Model->doProtectFields(Array)
+#2 E:\Projets\marketplace\system\Model.php(557): CodeIgniter\Model->insert(Array, false)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(81): CodeIgniter\Model->save(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->createrayon()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-21 23:02:24 --> Allowed fields must be specified for model: App\Models\CategoriesModel
+#0 E:\Projets\marketplace\system\Model.php(1234): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Cate...')
+#1 E:\Projets\marketplace\system\Model.php(709): CodeIgniter\Model->doProtectFields(Array)
+#2 E:\Projets\marketplace\system\Model.php(557): CodeIgniter\Model->insert(Array, false)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(81): CodeIgniter\Model->save(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->createrayon()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-21 23:06:17 --> You must use the "set" method to update an entry.
+#0 E:\Projets\marketplace\system\Database\BaseBuilder.php(2219): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 E:\Projets\marketplace\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#2 E:\Projets\marketplace\system\Model.php(557): CodeIgniter\Model->insert(Array, false)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(81): CodeIgniter\Model->save(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->createrayon()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-21 23:14:00 --> Allowed fields must be specified for model: App\Models\CategoriesModel
+#0 E:\Projets\marketplace\system\Model.php(1234): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Cate...')
+#1 E:\Projets\marketplace\system\Model.php(709): CodeIgniter\Model->doProtectFields(Array)
+#2 E:\Projets\marketplace\system\Model.php(557): CodeIgniter\Model->insert(Array, false)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(83): CodeIgniter\Model->save(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->createrayon()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-21 23:15:21 --> Allowed fields must be specified for model: App\Models\CategoriesModel
+#0 E:\Projets\marketplace\system\Model.php(1234): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Cate...')
+#1 E:\Projets\marketplace\system\Model.php(709): CodeIgniter\Model->doProtectFields(Array)
+#2 E:\Projets\marketplace\system\Model.php(557): CodeIgniter\Model->insert(Array, false)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(83): CodeIgniter\Model->save(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->createrayon()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-21 23:20:28 --> Access denied for user '****'@'localhost' (using password: YES)
+#0 E:\Projets\marketplace\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\Projets\marketplace\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\Projets\marketplace\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ra...', Array, false)
+#3 E:\Projets\marketplace\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#4 E:\Projets\marketplace\system\Model.php(557): CodeIgniter\Model->insert(Array, false)
+#5 E:\Projets\marketplace\app\Controllers\Connexion.php(83): CodeIgniter\Model->save(Array)
+#6 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->createrayon()
+#7 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#8 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#11 {main}
+CRITICAL - 2022-08-21 23:27:55 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in E:\Projets\marketplace\app\Controllers\Connexion.php on line 87
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(87): CodeIgniter\HTTP\RedirectResponse->to('connexion/monco...', Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->createrayon()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-21 23:29:06 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in E:\Projets\marketplace\app\Controllers\Connexion.php on line 87
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(87): CodeIgniter\HTTP\RedirectResponse->to('/connexion/monc...', Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->createrayon()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-21 23:33:22 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in E:\Projets\marketplace\app\Controllers\Connexion.php on line 87
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(87): CodeIgniter\HTTP\RedirectResponse->to('/moncompte', Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->createrayon()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}

@@ -1,0 +1,399 @@
+CRITICAL - 2022-08-24 11:02:29 --> requested is not a valid rule.
+#0 E:\Projets\marketplace\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('requested')
+#1 E:\Projets\marketplace\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('boutique', 'boutique', '1', Array, Array)
+#2 E:\Projets\marketplace\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 E:\Projets\marketplace\app\Controllers\Produit.php(10): CodeIgniter\Controller->validate(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-24 11:59:57 --> Unknown column 'nomproduit' in 'field list'
+#0 E:\Projets\marketplace\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `te...')
+#1 E:\Projets\marketplace\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `te...')
+#2 E:\Projets\marketplace\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `te...')
+#3 E:\Projets\marketplace\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `te...', Array, false)
+#4 E:\Projets\marketplace\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\Projets\marketplace\system\Model.php(557): CodeIgniter\Model->insert(Array, false)
+#6 E:\Projets\marketplace\app\Controllers\Produit.php(25): CodeIgniter\Model->save(Array)
+#7 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#8 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#9 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#12 {main}
+CRITICAL - 2022-08-24 13:10:15 --> You must use the "set" method to update an entry.
+#0 E:\Projets\marketplace\system\Database\BaseBuilder.php(2219): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 E:\Projets\marketplace\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#2 E:\Projets\marketplace\system\Model.php(557): CodeIgniter\Model->insert(Array, false)
+#3 E:\Projets\marketplace\app\Controllers\Produit.php(21): CodeIgniter\Model->save(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-24 13:13:22 --> You must use the "set" method to update an entry.
+#0 E:\Projets\marketplace\system\Database\BaseBuilder.php(2219): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 E:\Projets\marketplace\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#2 E:\Projets\marketplace\system\Model.php(557): CodeIgniter\Model->insert(Array, false)
+#3 E:\Projets\marketplace\app\Controllers\Produit.php(21): CodeIgniter\Model->save(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-24 13:18:53 --> You must use the "set" method to update an entry.
+#0 E:\Projets\marketplace\system\Database\BaseBuilder.php(2219): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 E:\Projets\marketplace\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#2 E:\Projets\marketplace\system\Model.php(557): CodeIgniter\Model->insert(Array, false)
+#3 E:\Projets\marketplace\app\Controllers\Produit.php(18): CodeIgniter\Model->save(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-24 13:19:44 --> You must use the "set" method to update an entry.
+#0 E:\Projets\marketplace\system\Database\BaseBuilder.php(2219): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 E:\Projets\marketplace\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#2 E:\Projets\marketplace\system\Model.php(557): CodeIgniter\Model->insert(Array, false)
+#3 E:\Projets\marketplace\app\Controllers\Produit.php(18): CodeIgniter\Model->save(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-24 13:23:40 --> You must use the "set" method to update an entry.
+#0 E:\Projets\marketplace\system\Database\BaseBuilder.php(2219): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 E:\Projets\marketplace\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#2 E:\Projets\marketplace\system\Model.php(557): CodeIgniter\Model->insert(Array, false)
+#3 E:\Projets\marketplace\app\Controllers\Produit.php(18): CodeIgniter\Model->save(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-24 13:25:03 --> You must use the "set" method to update an entry.
+#0 E:\Projets\marketplace\system\Database\BaseBuilder.php(2219): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 E:\Projets\marketplace\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#2 E:\Projets\marketplace\system\Model.php(557): CodeIgniter\Model->insert(Array, false)
+#3 E:\Projets\marketplace\app\Controllers\Produit.php(18): CodeIgniter\Model->save(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-24 13:27:21 --> You must use the "set" method to update an entry.
+#0 E:\Projets\marketplace\system\Database\BaseBuilder.php(2219): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 E:\Projets\marketplace\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#2 E:\Projets\marketplace\app\Controllers\Produit.php(18): CodeIgniter\Model->insert(Array)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#4 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#5 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#8 {main}
+CRITICAL - 2022-08-24 13:28:32 --> You must use the "set" method to update an entry.
+#0 E:\Projets\marketplace\system\Database\BaseBuilder.php(2219): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 E:\Projets\marketplace\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#2 E:\Projets\marketplace\app\Controllers\Produit.php(16): CodeIgniter\Model->insert(Array)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#4 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#5 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#8 {main}
+CRITICAL - 2022-08-24 13:29:02 --> You must use the "set" method to update an entry.
+#0 E:\Projets\marketplace\system\Database\BaseBuilder.php(2219): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 E:\Projets\marketplace\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#2 E:\Projets\marketplace\system\Model.php(557): CodeIgniter\Model->insert(Array, false)
+#3 E:\Projets\marketplace\app\Controllers\Produit.php(18): CodeIgniter\Model->save(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-24 13:29:17 --> You must use the "set" method to update an entry.
+#0 E:\Projets\marketplace\system\Database\BaseBuilder.php(2219): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 E:\Projets\marketplace\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#2 E:\Projets\marketplace\system\Model.php(557): CodeIgniter\Model->insert(Array, false)
+#3 E:\Projets\marketplace\app\Controllers\Produit.php(18): CodeIgniter\Model->save(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-24 13:32:55 --> You must use the "set" method to update an entry.
+#0 E:\Projets\marketplace\system\Database\BaseBuilder.php(2219): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 E:\Projets\marketplace\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#2 E:\Projets\marketplace\system\Model.php(557): CodeIgniter\Model->insert(Array, false)
+#3 E:\Projets\marketplace\app\Controllers\Produit.php(15): CodeIgniter\Model->save(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-24 13:39:46 --> You must use the "set" method to update an entry.
+#0 E:\Projets\marketplace\system\Database\BaseBuilder.php(2219): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 E:\Projets\marketplace\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#2 E:\Projets\marketplace\system\Model.php(557): CodeIgniter\Model->insert(Array, false)
+#3 E:\Projets\marketplace\app\Controllers\Produit.php(15): CodeIgniter\Model->save(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-24 13:45:46 --> You must use the "set" method to update an entry.
+#0 E:\Projets\marketplace\system\Database\BaseBuilder.php(2219): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 E:\Projets\marketplace\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#2 E:\Projets\marketplace\system\Model.php(557): CodeIgniter\Model->insert(Array, false)
+#3 E:\Projets\marketplace\app\Controllers\Produit.php(15): CodeIgniter\Model->save(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-24 14:06:18 --> You must use the "set" method to update an entry.
+#0 E:\Projets\marketplace\system\Database\BaseBuilder.php(2219): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 E:\Projets\marketplace\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#2 E:\Projets\marketplace\system\Model.php(557): CodeIgniter\Model->insert(Array, false)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(110): CodeIgniter\Model->save(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->addproduct()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-24 14:10:12 --> You must use the "set" method to update an entry.
+#0 E:\Projets\marketplace\system\Database\BaseBuilder.php(2219): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 E:\Projets\marketplace\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#2 E:\Projets\marketplace\system\Model.php(557): CodeIgniter\Model->insert(Array, false)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(110): CodeIgniter\Model->save(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->addproduct()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-24 14:15:33 --> You must use the "set" method to update an entry.
+#0 E:\Projets\marketplace\system\Database\BaseBuilder.php(2219): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 E:\Projets\marketplace\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#2 E:\Projets\marketplace\system\Model.php(557): CodeIgniter\Model->insert(Array, false)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(140): CodeIgniter\Model->save(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->addproduct()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-24 14:17:55 --> You must use the "set" method to update an entry.
+#0 E:\Projets\marketplace\system\Database\BaseBuilder.php(2219): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 E:\Projets\marketplace\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#2 E:\Projets\marketplace\system\Model.php(557): CodeIgniter\Model->insert(Array, false)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(140): CodeIgniter\Model->save(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->addproduct()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-24 14:20:56 --> You must use the "set" method to update an entry.
+#0 E:\Projets\marketplace\system\Database\BaseBuilder.php(2219): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 E:\Projets\marketplace\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#2 E:\Projets\marketplace\system\Model.php(557): CodeIgniter\Model->insert(Array, false)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(140): CodeIgniter\Model->save(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->addproduct()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-24 14:28:03 --> You must use the "set" method to update an entry.
+#0 E:\Projets\marketplace\system\Database\BaseBuilder.php(2219): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 E:\Projets\marketplace\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#2 E:\Projets\marketplace\system\Model.php(557): CodeIgniter\Model->insert(Array, false)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(140): CodeIgniter\Model->save(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->addproduct()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-24 14:29:29 --> Unknown column 'nomproduit' in 'field list'
+#0 E:\Projets\marketplace\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `te...')
+#1 E:\Projets\marketplace\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `te...')
+#2 E:\Projets\marketplace\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `te...')
+#3 E:\Projets\marketplace\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `te...', Array, false)
+#4 E:\Projets\marketplace\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\Projets\marketplace\system\Model.php(557): CodeIgniter\Model->insert(Array, false)
+#6 E:\Projets\marketplace\app\Controllers\Connexion.php(140): CodeIgniter\Model->save(Array)
+#7 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->addproduct()
+#8 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#9 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#12 {main}
+CRITICAL - 2022-08-24 14:47:28 --> Unknown column 'rayon' in 'field list'
+#0 E:\Projets\marketplace\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `te...')
+#1 E:\Projets\marketplace\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `te...')
+#2 E:\Projets\marketplace\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `te...')
+#3 E:\Projets\marketplace\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `te...', Array, false)
+#4 E:\Projets\marketplace\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\Projets\marketplace\system\Model.php(557): CodeIgniter\Model->insert(Array, false)
+#6 E:\Projets\marketplace\app\Controllers\Produit.php(28): CodeIgniter\Model->save(Array)
+#7 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#8 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#9 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#12 {main}
+CRITICAL - 2022-08-24 15:03:40 --> Call to a member function getPost() on null
+#0 E:\Projets\marketplace\app\Controllers\Produit.php(18): App\Models\Productmodel->addProduct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-24 15:05:51 --> Undefined variable: data
+#0 E:\Projets\marketplace\app\Controllers\Produit.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 18, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-24 15:07:25 --> Too few arguments to function App\Controllers\Produit::addproduct(), 0 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-24 15:08:54 --> Too few arguments to function App\Controllers\Produit::addproduct(), 0 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-24 15:10:43 --> Call to a member function getPost() on null
+#0 E:\Projets\marketplace\app\Controllers\Produit.php(18): App\Models\Productmodel->addProduct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-24 15:24:20 --> Call to a member function getMethod() on null
+#0 E:\Projets\marketplace\app\Controllers\Produit.php(9): App\Models\Productmodel->addProduct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-24 15:35:14 --> Call to a member function getPost() on null
+#0 E:\Projets\marketplace\app\Controllers\Produit.php(9): App\Models\Productmodel->addProduct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-24 15:37:20 --> Call to a member function getMethod() on null
+#0 E:\Projets\marketplace\app\Controllers\Produit.php(9): App\Models\Productmodel->addProduct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-24 15:46:21 --> Call to a member function getPost() on null
+#0 E:\Projets\marketplace\app\Controllers\Produit.php(9): App\Models\Productmodel->addProduct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-24 15:50:41 --> Call to a member function getMethod() on null
+#0 E:\Projets\marketplace\app\Controllers\Produit.php(9): App\Models\Productmodel->addProduct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-24 15:52:59 --> Call to a member function getMethod() on null
+#0 E:\Projets\marketplace\app\Controllers\Produit.php(18): App\Models\Productmodel->addProduct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-24 16:06:21 --> Function name must be a string
+#0 E:\Projets\marketplace\app\Controllers\Produit.php(18): App\Models\Productmodel->addProduct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-24 16:29:53 --> Undefined variable: request
+#0 E:\Projets\marketplace\app\Models\Productmodel.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 16, Array)
+#1 E:\Projets\marketplace\app\Controllers\Produit.php(18): App\Models\Productmodel->addProduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#3 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-24 22:20:53 --> Trying to get property 'getPost' of non-object
+#0 E:\Projets\marketplace\app\Models\Productmodel.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\Projets\\mark...', 16, Array)
+#1 E:\Projets\marketplace\app\Controllers\Produit.php(18): App\Models\Productmodel->addProduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#3 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-24 22:51:47 --> Undefined variable: FILES
+#0 E:\Projets\marketplace\app\Models\Productmodel.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 27, Array)
+#1 E:\Projets\marketplace\app\Controllers\Produit.php(19): App\Models\Productmodel->addProduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#3 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-24 22:52:39 --> Undefined index: photo01
+#0 E:\Projets\marketplace\app\Models\Productmodel.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 27, Array)
+#1 E:\Projets\marketplace\app\Controllers\Produit.php(19): App\Models\Productmodel->addProduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#3 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-24 22:53:18 --> Undefined index: userfile
+#0 E:\Projets\marketplace\app\Models\Productmodel.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 27, Array)
+#1 E:\Projets\marketplace\app\Controllers\Produit.php(19): App\Models\Productmodel->addProduct()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Produit->addproduct()
+#3 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produit))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}

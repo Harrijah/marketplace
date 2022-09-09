@@ -1,0 +1,11 @@
+CRITICAL - 2022-08-15 23:38:18 --> syntax error, unexpected 'return' (T_RETURN), expecting ';'
+#0 E:\Projets\marketplace\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\Projets\\mark...')
+#1 E:\Projets\marketplace\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 E:\Projets\marketplace\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}

@@ -1,0 +1,994 @@
+CRITICAL - 2022-08-22 01:10:31 --> Undefined variable: db
+#0 E:\Projets\marketplace\app\Models\CategoriesModel.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 11, Array)
+#1 E:\Projets\marketplace\app\Controllers\Connexion.php(18): App\Models\CategoriesModel->getRayon()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->moncompte()
+#3 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-22 01:14:19 --> Undefined variable: db
+#0 E:\Projets\marketplace\app\Models\CategoriesModel.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 14, Array)
+#1 E:\Projets\marketplace\app\Controllers\Connexion.php(18): App\Models\CategoriesModel->getRayon()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->moncompte()
+#3 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-22 01:15:03 --> Undefined variable: db
+#0 E:\Projets\marketplace\app\Models\CategoriesModel.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 15, Array)
+#1 E:\Projets\marketplace\app\Controllers\Connexion.php(18): App\Models\CategoriesModel->getRayon()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->moncompte()
+#3 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-22 01:15:34 --> Invalid argument supplied for foreach()
+#0 E:\Projets\marketplace\app\Views\connexion\moncompte.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'E:\\Projets\\mark...', 31, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('connexion/monco...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(22): view('connexion/monco...')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->moncompte()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 01:16:17 --> Invalid argument supplied for foreach()
+#0 E:\Projets\marketplace\app\Views\connexion\moncompte.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'E:\\Projets\\mark...', 31, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('connexion/monco...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(22): view('connexion/monco...')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->moncompte()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 01:16:27 --> Invalid argument supplied for foreach()
+#0 E:\Projets\marketplace\app\Views\connexion\moncompte.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'E:\\Projets\\mark...', 31, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('connexion/monco...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(22): view('connexion/monco...')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->moncompte()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 01:16:43 --> You must set the database table to be used with your query.
+#0 E:\Projets\marketplace\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 E:\Projets\marketplace\system\Model.php(437): CodeIgniter\Model->builder()
+#2 E:\Projets\marketplace\app\Models\CategoriesModel.php(16): CodeIgniter\Model->findAll()
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(18): App\Models\CategoriesModel->getRayon()
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->moncompte()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 01:17:54 --> You must set the database table to be used with your query.
+#0 E:\Projets\marketplace\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 E:\Projets\marketplace\system\Model.php(437): CodeIgniter\Model->builder()
+#2 E:\Projets\marketplace\app\Models\CategoriesModel.php(17): CodeIgniter\Model->findAll()
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(18): App\Models\CategoriesModel->getRayon()
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->moncompte()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 01:18:02 --> You must set the database table to be used with your query.
+#0 E:\Projets\marketplace\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 E:\Projets\marketplace\system\Model.php(437): CodeIgniter\Model->builder()
+#2 E:\Projets\marketplace\app\Models\CategoriesModel.php(17): CodeIgniter\Model->findAll()
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(18): App\Models\CategoriesModel->getRayon()
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->moncompte()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 01:18:20 --> Undefined variable: db
+#0 E:\Projets\marketplace\app\Models\CategoriesModel.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 15, Array)
+#1 E:\Projets\marketplace\app\Controllers\Connexion.php(18): App\Models\CategoriesModel->getRayon()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->moncompte()
+#3 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-22 01:18:33 --> You must set the database table to be used with your query.
+#0 E:\Projets\marketplace\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 E:\Projets\marketplace\system\Model.php(437): CodeIgniter\Model->builder()
+#2 E:\Projets\marketplace\app\Models\CategoriesModel.php(17): CodeIgniter\Model->findAll()
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(18): App\Models\CategoriesModel->getRayon()
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->moncompte()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 01:20:31 --> Array to string conversion
+#0 E:\Projets\marketplace\system\Model.php(380): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\Projets\\mark...', 380, Array)
+#1 E:\Projets\marketplace\app\Models\CategoriesModel.php(18): CodeIgniter\Model->find('3')
+#2 E:\Projets\marketplace\app\Controllers\Connexion.php(18): App\Models\CategoriesModel->getRayon()
+#3 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->moncompte()
+#4 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#5 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#8 {main}
+CRITICAL - 2022-08-22 01:21:00 --> Array to string conversion
+#0 E:\Projets\marketplace\system\Model.php(380): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\Projets\\mark...', 380, Array)
+#1 E:\Projets\marketplace\app\Models\CategoriesModel.php(18): CodeIgniter\Model->find(3)
+#2 E:\Projets\marketplace\app\Controllers\Connexion.php(18): App\Models\CategoriesModel->getRayon()
+#3 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->moncompte()
+#4 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#5 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#8 {main}
+CRITICAL - 2022-08-22 01:21:03 --> Array to string conversion
+#0 E:\Projets\marketplace\system\Model.php(380): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\Projets\\mark...', 380, Array)
+#1 E:\Projets\marketplace\app\Models\CategoriesModel.php(18): CodeIgniter\Model->find(3)
+#2 E:\Projets\marketplace\app\Controllers\Connexion.php(18): App\Models\CategoriesModel->getRayon()
+#3 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->moncompte()
+#4 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#5 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#8 {main}
+CRITICAL - 2022-08-22 02:06:58 --> Call to a member function getRayon() on null
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->moncompte()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-22 02:17:44 --> Call to a member function getCategory() on null
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->moncompte()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-22 02:19:03 --> Call to a member function getCategory() on null
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->moncompte()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-22 02:19:14 --> Call to a member function getCategory() on null
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->moncompte()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-22 02:46:28 --> Call to a member function getCategory() on null
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->moncompte()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-22 03:32:29 --> Undefined variable: rayons
+#0 E:\Projets\marketplace\app\Views\connexion\moncompte.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 33, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('connexion/monco...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(25): view('connexion/monco...', Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->moncompte()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 04:35:21 --> Undefined index: rayon
+#0 E:\Projets\marketplace\app\Views\connexion\moncompte.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 85, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('connexion/monco...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(28): view('connexion/monco...', Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->moncompte()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 05:33:15 --> Undefined variable: db
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 19, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->moncompte()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-22 06:18:00 --> Call to undefined method App\Controllers\Connexion::select()
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->moncompte()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-22 06:19:10 --> Call to undefined method App\Controllers\Connexion::table()
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->moncompte()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-22 06:20:16 --> Call to undefined method App\Controllers\Connexion::select()
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->moncompte()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-22 06:22:28 --> Call to undefined method App\Controllers\Connexion::join()
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->moncompte()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-22 08:18:53 --> Undefined variable: rayons
+#0 E:\Projets\marketplace\app\Views\testpage.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 20, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('testpage', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(47): view('testpage')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 08:23:38 --> Undefined index: id
+#0 E:\Projets\marketplace\app\Views\testpage.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 20, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('testpage', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(48): view('testpage')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 08:24:12 --> Undefined index: rayon
+#0 E:\Projets\marketplace\app\Views\testpage.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 21, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('testpage', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(48): view('testpage')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 08:24:30 --> Undefined index: id
+#0 E:\Projets\marketplace\app\Views\testpage.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 29, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('testpage', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(48): view('testpage')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 08:27:34 --> Undefined index: rayon
+#0 E:\Projets\marketplace\app\Views\testpage.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 20, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('testpage', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(48): view('testpage')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 08:27:55 --> Undefined index: id
+#0 E:\Projets\marketplace\app\Views\testpage.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 20, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('testpage', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(48): view('testpage')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 08:30:51 --> Undefined index: id
+#0 E:\Projets\marketplace\app\Views\testpage.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 20, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('testpage', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(48): view('testpage', Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 08:36:56 --> Undefined variable: table
+#0 E:\Projets\marketplace\app\Models\CategoriescategoryModel.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 15, Array)
+#1 E:\Projets\marketplace\app\Controllers\Connexion.php(44): App\Models\CategoriescategoryModel->jointest()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#3 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-22 09:23:15 --> Call to undefined method App\Models\CategoriessouscategoryModel::jointest
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(44): CodeIgniter\Model->__call('jointest', Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-22 09:25:02 --> Unknown column 'categorie.rayon' in 'on clause'
+#0 E:\Projets\marketplace\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 E:\Projets\marketplace\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Projets\marketplace\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Projets\marketplace\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Projets\marketplace\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Projets\marketplace\app\Models\CategoriessouscategoryModel.php(13): CodeIgniter\Model->findAll()
+#6 E:\Projets\marketplace\app\Controllers\Connexion.php(44): App\Models\CategoriessouscategoryModel->getSouscategory()
+#7 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#8 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#9 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#12 {main}
+CRITICAL - 2022-08-22 09:27:54 --> Call to undefined method App\Models\CategoriescategoryModel::getCategory
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(24): CodeIgniter\Model->__call('getCategory', Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->moncompte()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-22 09:38:21 --> Undefined index: souscategorie
+#0 E:\Projets\marketplace\app\Views\connexion\moncompte.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 49, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('connexion/monco...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(29): view('connexion/monco...', Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->moncompte()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 09:51:06 --> Undefined index: rayon
+#0 E:\Projets\marketplace\app\Views\testpage.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 20, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('testpage', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(48): view('testpage', Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 10:03:59 --> Undefined index: rayon
+#0 E:\Projets\marketplace\app\Views\testpage.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 20, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('testpage', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(48): view('testpage', Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 10:08:13 --> Undefined variable: rayon
+#0 E:\Projets\marketplace\app\Views\testpage.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 20, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('testpage', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(48): view('testpage', Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 10:34:19 --> Call to a member function getSouscategory() on null
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-22 10:34:56 --> Call to a member function getRayon() on null
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->moncompte()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-22 11:26:51 --> Undefined index: rayon
+#0 E:\Projets\marketplace\app\Views\testpage.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 20, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('testpage', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(48): view('testpage', Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 11:29:04 --> Undefined variable: rayons
+#0 E:\Projets\marketplace\app\Views\testpage.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 19, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('testpage', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(48): view('testpage', Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 11:33:47 --> Undefined variable: category
+#0 E:\Projets\marketplace\app\Views\testpage.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 20, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('testpage', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(48): view('testpage', Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 11:34:10 --> Undefined index: rayon
+#0 E:\Projets\marketplace\app\Views\testpage.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 20, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('testpage', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(48): view('testpage', Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 11:35:52 --> Call to undefined method App\Models\CategoriessouscategoryModel::linkrayoncategorie
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(44): CodeIgniter\Model->__call('linkrayoncatego...', Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-22 11:36:42 --> Invalid argument supplied for foreach()
+#0 E:\Projets\marketplace\app\Views\testpage.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'E:\\Projets\\mark...', 19, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('testpage', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(48): view('testpage', Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 11:37:33 --> Invalid argument supplied for foreach()
+#0 E:\Projets\marketplace\app\Views\testpage.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'E:\\Projets\\mark...', 19, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('testpage', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(48): view('testpage', Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 11:39:14 --> Table 'marketplace.category' doesn't exist
+#0 E:\Projets\marketplace\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 E:\Projets\marketplace\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Projets\marketplace\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Projets\marketplace\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Projets\marketplace\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Projets\marketplace\app\Models\CategoriesrayonModel.php(16): CodeIgniter\Model->findAll()
+#6 E:\Projets\marketplace\app\Controllers\Connexion.php(44): App\Models\CategoriesrayonModel->linkrayoncategorie()
+#7 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#8 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#9 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#12 {main}
+CRITICAL - 2022-08-22 11:39:35 --> Undefined index: souscategorie
+#0 E:\Projets\marketplace\app\Views\testpage.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 20, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('testpage', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(48): view('testpage', Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 11:53:55 --> Undefined variable: rayon
+#0 E:\Projets\marketplace\app\Views\testpage.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 23, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('testpage', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(48): view('testpage', Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 11:56:36 --> Trying to get property 'rayon' of non-object
+#0 E:\Projets\marketplace\app\Views\testpage.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\Projets\\mark...', 23, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('testpage', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(48): view('testpage', Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 11:57:55 --> syntax error, unexpected '{'
+#0 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('testpage', Array, true)
+#1 E:\Projets\marketplace\app\Controllers\Connexion.php(48): view('testpage', Array)
+#2 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#3 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-22 11:59:02 --> Undefined variable: globaldata
+#0 E:\Projets\marketplace\app\Views\testpage.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 22, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('testpage', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(48): view('testpage', Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 12:00:32 --> Undefined index: data
+#0 E:\Projets\marketplace\app\Views\testpage.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 22, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('testpage', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(48): view('testpage', Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 12:01:10 --> Undefined index: rayon
+#0 E:\Projets\marketplace\app\Views\testpage.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 22, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('testpage', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(48): view('testpage', Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 12:02:24 --> Trying to get property 'rayon' of non-object
+#0 E:\Projets\marketplace\app\Views\testpage.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\Projets\\mark...', 23, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('testpage', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(48): view('testpage', Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 12:03:34 --> Array to string conversion
+#0 E:\Projets\marketplace\app\Views\testpage.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\Projets\\mark...', 23, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('testpage', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(48): view('testpage', Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 13:18:41 --> Use of undefined constant f - assumed 'f' (this will throw an Error in a future version of PHP)
+#0 E:\Projets\marketplace\app\Views\testpage.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'E:\\Projets\\mark...', 23, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('testpage', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(48): view('testpage', Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 13:33:09 --> Column 'id' in where clause is ambiguous
+#0 E:\Projets\marketplace\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 E:\Projets\marketplace\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Projets\marketplace\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Projets\marketplace\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Projets\marketplace\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Projets\marketplace\app\Models\CategoriesrayonModel.php(17): CodeIgniter\Model->findAll()
+#6 E:\Projets\marketplace\app\Controllers\Connexion.php(44): App\Models\CategoriesrayonModel->linkrayoncategorie('1')
+#7 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#8 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#9 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#12 {main}
+CRITICAL - 2022-08-22 13:33:54 --> Column 'rayon' in where clause is ambiguous
+#0 E:\Projets\marketplace\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 E:\Projets\marketplace\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Projets\marketplace\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Projets\marketplace\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Projets\marketplace\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Projets\marketplace\app\Models\CategoriesrayonModel.php(17): CodeIgniter\Model->findAll()
+#6 E:\Projets\marketplace\app\Controllers\Connexion.php(44): App\Models\CategoriesrayonModel->linkrayoncategorie('1')
+#7 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#8 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#9 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#12 {main}
+CRITICAL - 2022-08-22 13:33:57 --> Column 'rayon' in where clause is ambiguous
+#0 E:\Projets\marketplace\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 E:\Projets\marketplace\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Projets\marketplace\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Projets\marketplace\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Projets\marketplace\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Projets\marketplace\app\Models\CategoriesrayonModel.php(17): CodeIgniter\Model->findAll()
+#6 E:\Projets\marketplace\app\Controllers\Connexion.php(44): App\Models\CategoriesrayonModel->linkrayoncategorie('1')
+#7 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#8 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#9 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#12 {main}
+CRITICAL - 2022-08-22 13:36:05 --> Column 'rayon' in where clause is ambiguous
+#0 E:\Projets\marketplace\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 E:\Projets\marketplace\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Projets\marketplace\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Projets\marketplace\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Projets\marketplace\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Projets\marketplace\app\Models\CategoriesrayonModel.php(17): CodeIgniter\Model->findAll()
+#6 E:\Projets\marketplace\app\Controllers\Connexion.php(44): App\Models\CategoriesrayonModel->linkrayoncategorie('1')
+#7 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#8 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#9 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#12 {main}
+CRITICAL - 2022-08-22 13:36:14 --> Column 'rayon' in where clause is ambiguous
+#0 E:\Projets\marketplace\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 E:\Projets\marketplace\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Projets\marketplace\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Projets\marketplace\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Projets\marketplace\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Projets\marketplace\app\Models\CategoriesrayonModel.php(17): CodeIgniter\Model->findAll()
+#6 E:\Projets\marketplace\app\Controllers\Connexion.php(44): App\Models\CategoriesrayonModel->linkrayoncategorie('1')
+#7 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#8 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#9 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#12 {main}
+CRITICAL - 2022-08-22 13:37:29 --> Column 'rayon' in where clause is ambiguous
+#0 E:\Projets\marketplace\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 E:\Projets\marketplace\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Projets\marketplace\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Projets\marketplace\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Projets\marketplace\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Projets\marketplace\app\Models\CategoriesrayonModel.php(17): CodeIgniter\Model->findAll()
+#6 E:\Projets\marketplace\app\Controllers\Connexion.php(44): App\Models\CategoriesrayonModel->linkrayoncategorie('1')
+#7 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#8 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#9 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#12 {main}
+CRITICAL - 2022-08-22 13:37:45 --> Column 'id' in where clause is ambiguous
+#0 E:\Projets\marketplace\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 E:\Projets\marketplace\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Projets\marketplace\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Projets\marketplace\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Projets\marketplace\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Projets\marketplace\app\Models\CategoriesrayonModel.php(17): CodeIgniter\Model->findAll()
+#6 E:\Projets\marketplace\app\Controllers\Connexion.php(44): App\Models\CategoriesrayonModel->linkrayoncategorie('1')
+#7 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#8 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#9 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#12 {main}
+CRITICAL - 2022-08-22 13:40:19 --> Too few arguments to function App\Controllers\Connexion::testpage(), 0 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-22 13:41:24 --> Too few arguments to function App\Controllers\Connexion::testpage(), 0 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-22 13:41:26 --> Too few arguments to function App\Controllers\Connexion::testpage(), 0 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-22 13:41:28 --> Too few arguments to function App\Controllers\Connexion::testpage(), 0 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-22 13:41:57 --> Undefined variable: idrayon
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 45, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->testpage()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-22 14:07:46 --> Call to undefined method App\Models\CategoriessouscategoryModel::linkcategorysouscategories
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(40): CodeIgniter\Model->__call('linkcategorysou...', Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->moncompte()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-22 16:22:52 --> Undefined variable: idrayon
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 56, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->mystore()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-22 16:46:41 --> Call to a member function getPost() on null
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(57): App\Models\CategoriesrayonModel->linkrayoncategorie('0')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->mystore()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-22 16:49:44 --> Undefined variable: idrayon
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 53, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->mystore()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-22 16:51:26 --> Undefined variable: idrayon
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 53, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->mystore()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-22 16:52:27 --> Call to a member function getMethod() on null
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(53): App\Models\CategoriesrayonModel->linkrayoncategorie()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->mystore()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-22 22:24:06 --> Too few arguments to function App\Controllers\Connexion::mystore(), 0 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->mystore()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-22 22:24:28 --> Too few arguments to function App\Controllers\Connexion::mystore(), 0 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->mystore()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-22 22:24:31 --> Too few arguments to function App\Controllers\Connexion::mystore(), 0 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->mystore()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-22 22:26:41 --> Undefined variable: souscategories
+#0 E:\Projets\marketplace\app\Views\connexion\mystore.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 87, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('connexion/mysto...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(63): view('connexion/mysto...')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->mystore()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 22:27:09 --> Undefined variable: souscategories
+#0 E:\Projets\marketplace\app\Views\connexion\mystore.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 87, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('connexion/mysto...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(63): view('connexion/mysto...')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->mystore()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 22:27:11 --> Undefined variable: souscategories
+#0 E:\Projets\marketplace\app\Views\connexion\mystore.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 87, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('connexion/mysto...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(63): view('connexion/mysto...')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->mystore()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-22 22:53:46 --> Too few arguments to function App\Controllers\Connexion::changerayon(), 0 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-22 22:54:41 --> Too few arguments to function App\Controllers\Connexion::changerayon(), 0 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-22 22:58:49 --> Too few arguments to function App\Controllers\Connexion::changerayon(), 0 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-22 22:58:53 --> Too few arguments to function App\Controllers\Connexion::changerayon(), 0 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-22 22:58:57 --> Too few arguments to function App\Controllers\Connexion::changerayon(), 0 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-22 22:59:02 --> Too few arguments to function App\Controllers\Connexion::changerayon(), 0 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-22 22:59:06 --> Too few arguments to function App\Controllers\Connexion::changerayon(), 0 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-22 22:59:28 --> Too few arguments to function App\Controllers\Connexion::changerayon(), 0 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-22 23:00:10 --> Too few arguments to function App\Controllers\Connexion::changerayon(), 0 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-22 23:00:14 --> Too few arguments to function App\Controllers\Connexion::changerayon(), 0 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-22 23:00:17 --> Too few arguments to function App\Controllers\Connexion::changerayon(), 0 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-22 23:00:20 --> Too few arguments to function App\Controllers\Connexion::changerayon(), 0 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-22 23:00:51 --> Too few arguments to function App\Controllers\Connexion::changerayon(), 0 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-22 23:01:09 --> Too few arguments to function App\Controllers\Connexion::changerayon(), 0 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-22 23:02:10 --> Too few arguments to function App\Controllers\Connexion::changerayon(), 0 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-22 23:02:15 --> Too few arguments to function App\Controllers\Connexion::changerayon(), 0 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-22 23:02:37 --> Too few arguments to function App\Controllers\Connexion::changerayon(), 0 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-22 23:08:22 --> Too few arguments to function App\Controllers\Connexion::changerayon(), 0 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-22 23:35:34 --> Too few arguments to function App\Controllers\Connexion::mystore(), 0 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->mystore()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-22 23:41:40 --> Undefined variable: idrayon
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 53, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->mystore()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-22 23:58:23 --> Undefined variable: categories
+#0 E:\Projets\marketplace\app\Views\connexion\mystore.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 79, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('connexion/mysto...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Connexion.php(59): view('connexion/mysto...')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->mystore()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}

@@ -1,0 +1,11 @@
+<div class="row mx-auto  mt-4">
+    <div class="col-1 text-center"><i class="fa fa-angle-left text-warning inner-div" style="font-size:76px"></i></div>
+    <div class="col-10 bg-light">
+        <div class="blocrandomprod mt-2 mr-2 mb-2 ml-2" id="allproductshome">
+
+            <?php echo(\App\Controllers\Filtre::getResultat('getSelectedProduct', null, 10, 'allproductshome')); ?>
+            
+        </div>
+    </div>
+    <div class="col-1 text-center"><i class="fa fa-angle-right text-warning inner-div" style="font-size:76px"></i></div>
+</div>

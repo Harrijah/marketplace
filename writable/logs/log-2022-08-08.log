@@ -1,0 +1,140 @@
+CRITICAL - 2022-08-08 05:41:45 --> Undefined class constant '__construct'
+#0 E:\Projets\marketplace\system\CodeIgniter.php(886): App\Controllers\Accueil->__construct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-08 05:41:50 --> Undefined class constant '__construct'
+#0 E:\Projets\marketplace\system\CodeIgniter.php(886): App\Controllers\Accueil->__construct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-08 05:42:17 --> Undefined class constant '__construct'
+#0 E:\Projets\marketplace\system\CodeIgniter.php(886): App\Controllers\Accueil->__construct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-08 05:42:40 --> Cannot call constructor
+#0 E:\Projets\marketplace\system\CodeIgniter.php(886): App\Controllers\Accueil->__construct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-08 05:43:39 --> Cannot call constructor
+#0 E:\Projets\marketplace\system\CodeIgniter.php(886): App\Controllers\Accueil->__construct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-08 05:44:07 --> Cannot call constructor
+#0 E:\Projets\marketplace\system\CodeIgniter.php(886): App\Controllers\Accueil->__construct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-08 05:45:38 --> Cannot call constructor
+#0 E:\Projets\marketplace\system\CodeIgniter.php(886): App\Controllers\Accueil->__construct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-08 05:45:41 --> Cannot call constructor
+#0 E:\Projets\marketplace\system\CodeIgniter.php(886): App\Controllers\Accueil->__construct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-08 05:46:17 --> Cannot call constructor
+#0 E:\Projets\marketplace\system\CodeIgniter.php(886): App\Controllers\Accueil->__construct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-08 05:46:19 --> Cannot call constructor
+#0 E:\Projets\marketplace\system\CodeIgniter.php(886): App\Controllers\Accueil->__construct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-08 05:46:30 --> Cannot call constructor
+#0 E:\Projets\marketplace\system\CodeIgniter.php(886): App\Controllers\Accueil->__construct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-08 05:46:51 --> Cannot call constructor
+#0 E:\Projets\marketplace\system\CodeIgniter.php(886): App\Controllers\Accueil->__construct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-08 05:46:53 --> Cannot call constructor
+#0 E:\Projets\marketplace\system\CodeIgniter.php(886): App\Controllers\Accueil->__construct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-08 05:47:03 --> Cannot call constructor
+#0 E:\Projets\marketplace\system\CodeIgniter.php(886): App\Controllers\Accueil->__construct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-08 05:50:40 --> Cannot call constructor
+#0 E:\Projets\marketplace\system\CodeIgniter.php(886): App\Controllers\Accueil->__construct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-08 05:51:07 --> Cannot call constructor
+#0 E:\Projets\marketplace\system\CodeIgniter.php(886): App\Controllers\Accueil->__construct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-08 05:51:09 --> Cannot call constructor
+#0 E:\Projets\marketplace\system\CodeIgniter.php(886): App\Controllers\Accueil->__construct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-08 05:51:28 --> Cannot call constructor
+#0 E:\Projets\marketplace\system\CodeIgniter.php(886): App\Controllers\Accueil->__construct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-08 05:51:35 --> Cannot call constructor
+#0 E:\Projets\marketplace\system\CodeIgniter.php(886): App\Controllers\Accueil->__construct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-08 05:58:04 --> Cannot call constructor
+#0 E:\Projets\marketplace\system\CodeIgniter.php(886): App\Controllers\Accueil->__construct()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}

@@ -1,0 +1,30 @@
+CRITICAL - 2022-08-17 08:06:47 --> Invalid file: connexion/createstore01.php
+#0 E:\Projets\marketplace\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('connexion/creat...')
+#1 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('connexion/creat...', Array, true)
+#2 E:\Projets\marketplace\app\Controllers\Connexion.php(22): view('connexion/creat...')
+#3 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->createstore01()
+#4 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#5 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#8 {main}
+CRITICAL - 2022-08-17 08:10:58 --> Invalid file: connexion/createstore02.php
+#0 E:\Projets\marketplace\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('connexion/creat...')
+#1 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('connexion/creat...', Array, true)
+#2 E:\Projets\marketplace\app\Controllers\Connexion.php(29): view('connexion/creat...')
+#3 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->createstore02()
+#4 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#5 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#8 {main}
+CRITICAL - 2022-08-17 13:10:00 --> Invalid file: connexion/createstore00.php
+#0 E:\Projets\marketplace\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('connexion/creat...')
+#1 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('connexion/creat...', Array, true)
+#2 E:\Projets\marketplace\app\Controllers\Connexion.php(21): view('connexion/creat...')
+#3 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->createstore00()
+#4 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#5 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#8 {main}

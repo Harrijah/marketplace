@@ -1,0 +1,797 @@
+CRITICAL - 2022-08-23 00:00:33 --> Array to string conversion
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\Projets\\mark...', 68, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('4')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 00:00:38 --> Array to string conversion
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\Projets\\mark...', 68, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('1')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 00:00:57 --> Array to string conversion
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\Projets\\mark...', 68, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('3')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 00:01:01 --> Array to string conversion
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\Projets\\mark...', 68, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('1')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 00:01:04 --> Array to string conversion
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\Projets\\mark...', 68, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('7')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 00:23:54 --> Undefined variable: categories
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 68, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('3')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 00:23:59 --> Undefined variable: categories
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 68, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('5')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 00:37:48 --> Undefined variable: categories
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 68, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('2')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 00:40:57 --> Undefined variable: category
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 69, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('3')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 00:41:01 --> Undefined variable: category
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 69, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('1')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 00:41:31 --> Undefined variable: category
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 69, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('3')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 00:41:35 --> Undefined variable: category
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 69, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('2')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 00:45:34 --> Undefined variable: category
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 69, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('3')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 00:45:38 --> Undefined variable: category
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 69, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('2')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 01:29:31 --> Undefined offset: 1
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 71, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('2')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 01:29:36 --> Undefined offset: 1
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 71, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('1')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 01:31:08 --> Use of undefined constant categorie - assumed 'categorie' (this will throw an Error in a future version of PHP)
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'E:\\Projets\\mark...', 71, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('3')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 01:31:12 --> Use of undefined constant categorie - assumed 'categorie' (this will throw an Error in a future version of PHP)
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'E:\\Projets\\mark...', 71, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('2')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 01:31:16 --> Use of undefined constant categorie - assumed 'categorie' (this will throw an Error in a future version of PHP)
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'E:\\Projets\\mark...', 71, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('1')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 01:32:12 --> Undefined index: categorie
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 71, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('2')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 01:32:16 --> Undefined index: categorie
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 71, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('1')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 01:32:56 --> Undefined index: categorie
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 71, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('4')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 01:33:05 --> Undefined index: categorie
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 71, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('2')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 01:34:25 --> Undefined variable: categories
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 70, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('2')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 01:34:30 --> Undefined variable: categories
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 70, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('1')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 01:35:21 --> Undefined variable: categories
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 70, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('3')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 01:35:26 --> Undefined variable: categories
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 70, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('1')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 01:35:42 --> Undefined variable: categories
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 70, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('4')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 01:35:47 --> Undefined variable: categories
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 70, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('1')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 01:35:52 --> Undefined variable: categories
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 70, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('7')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 01:35:56 --> Undefined variable: categories
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 70, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('1')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 01:40:38 --> Undefined variable: categories
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 70, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('2')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 01:40:47 --> Undefined variable: categories
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 70, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('6')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 01:44:03 --> Undefined index: categorie
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 71, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('7')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 01:45:05 --> Undefined index: categories
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 71, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('3')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 01:45:09 --> Undefined index: categories
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 71, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('7')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 01:46:04 --> Undefined index: category
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 71, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('7')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 01:47:24 --> Use of undefined constant categories - assumed 'categories' (this will throw an Error in a future version of PHP)
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'E:\\Projets\\mark...', 70, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('2')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 01:47:34 --> Use of undefined constant categories - assumed 'categories' (this will throw an Error in a future version of PHP)
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'E:\\Projets\\mark...', 70, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('2')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 01:48:47 --> Trying to get property 'categories' of non-object
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\Projets\\mark...', 70, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('2')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 01:52:31 --> Trying to get property 'categories' of non-object
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\Projets\\mark...', 70, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('3')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 01:52:35 --> Trying to get property 'categories' of non-object
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\Projets\\mark...', 70, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('1')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 01:52:40 --> Trying to get property 'categories' of non-object
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\Projets\\mark...', 70, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('6')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 01:54:31 --> Use of undefined constant categories - assumed 'categories' (this will throw an Error in a future version of PHP)
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'E:\\Projets\\mark...', 70, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('2')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 01:54:36 --> Use of undefined constant categories - assumed 'categories' (this will throw an Error in a future version of PHP)
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'E:\\Projets\\mark...', 70, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('5')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 01:54:41 --> Use of undefined constant categories - assumed 'categories' (this will throw an Error in a future version of PHP)
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'E:\\Projets\\mark...', 70, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('7')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 01:55:35 --> Undefined index: category
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 71, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('2')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 01:55:42 --> Undefined index: category
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 71, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('7')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 01:55:46 --> Undefined index: category
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 71, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('1')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 05:18:12 --> Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée.
+
+#0 E:\Projets\marketplace\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\Projets\marketplace\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\Projets\marketplace\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\Projets\marketplace\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\Projets\marketplace\app\Models\CategoriesrayonModel.php(11): CodeIgniter\Model->findAll()
+#5 E:\Projets\marketplace\app\Controllers\Connexion.php(49): App\Models\CategoriesrayonModel->getRayon()
+#6 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->mystore()
+#7 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#8 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#11 {main}
+CRITICAL - 2022-08-23 05:20:21 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-23 06:17:51 --> Undefined offset: 0
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 63, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('4')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:19:36 --> Undefined index: categorie
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 63, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('3')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:19:41 --> Undefined index: categorie
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 63, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('7')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:19:46 --> Undefined index: categorie
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 63, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('1')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:20:15 --> Undefined index: categorie
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 63, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('4')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:20:19 --> Undefined index: categorie
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 63, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('7')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:20:54 --> Undefined variable: category
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 63, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('4')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:20:57 --> Undefined variable: category
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 63, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('2')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:21:01 --> Undefined variable: category
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 63, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('1')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:24:22 --> Undefined offset: 0
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 64, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('4')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:24:29 --> Undefined offset: 0
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 64, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('6')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:24:37 --> Undefined offset: 0
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 64, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('6')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:26:59 --> Undefined index: 
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 64, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('3')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:27:04 --> Undefined index: 
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 64, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('5')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:27:08 --> Undefined index: 
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 64, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('7')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:28:04 --> Undefined offset: 0
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 64, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('4')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:28:13 --> Undefined offset: 0
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 64, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('4')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:29:54 --> Undefined offset: 0
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 64, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('5')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:30:02 --> Undefined offset: 0
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 64, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('4')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:31:06 --> Undefined offset: 0
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 64, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('4')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:31:38 --> Undefined variable: k
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 64, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('4')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:31:42 --> Undefined variable: k
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 64, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('1')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:31:47 --> Undefined variable: k
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 64, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('2')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:31:51 --> Undefined variable: k
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 64, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('1')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:32:13 --> Undefined index: 
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 64, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('4')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:32:17 --> Undefined index: 
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 64, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('2')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:32:21 --> Undefined index: 
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 64, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('7')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:32:44 --> Undefined variable: k
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 64, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('3')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:32:48 --> Undefined variable: k
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 64, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('6')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:32:54 --> Undefined variable: k
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 64, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('7')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:35:27 --> Undefined offset: 0
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 63, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('5')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:35:39 --> Undefined offset: 0
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 63, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('6')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:37:33 --> Undefined offset: 0
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 63, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('4')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:37:42 --> Undefined offset: 0
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 63, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('6')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:38:21 --> Undefined offset: 0
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 63, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('5')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:38:31 --> Undefined offset: 0
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 63, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('4')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:38:36 --> Undefined offset: 0
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 63, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('5')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:38:46 --> Undefined offset: 0
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 63, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('6')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 06:39:21 --> Undefined offset: 0
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 63, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changerayon('5')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 07:59:44 --> Undefined variable: selectme01
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 88, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changecategorie('3')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 08:00:18 --> Undefined variable: selectme01
+#0 E:\Projets\marketplace\app\Controllers\Connexion.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 88, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->changecategorie('3')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 14:37:12 --> Undefined variable: category
+#0 E:\Projets\marketplace\app\Controllers\Accueil.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 15, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 14:38:17 --> Undefined variable: idrayon
+#0 E:\Projets\marketplace\app\Controllers\Accueil.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 16, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-23 14:49:33 --> Undefined variable: categories
+#0 E:\Projets\marketplace\app\Views\accueil.php(285): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 285, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('accueil', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Accueil.php(19): view('accueil')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-23 14:52:23 --> Undefined variable: souscategories
+#0 E:\Projets\marketplace\app\Views\accueil.php(292): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 292, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('accueil', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Accueil.php(19): view('accueil')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-23 15:21:47 --> Undefined variable: categories
+#0 E:\Projets\marketplace\app\Views\accueil.php(291): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 291, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('accueil', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Accueil.php(16): view('accueil')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-23 15:36:16 --> Undefined variable: categories
+#0 E:\Projets\marketplace\app\Views\accueil.php(299): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 299, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('accueil', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Accueil.php(16): view('accueil')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}

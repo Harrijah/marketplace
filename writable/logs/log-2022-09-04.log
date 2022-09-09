@@ -1,0 +1,15 @@
+CRITICAL - 2022-09-04 01:23:37 --> Array to string conversion
+#0 E:\Projets\marketplace\app\Controllers\Addons.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\Projets\\mark...', 37, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons->changecategorie('3')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-09-04 01:30:28 --> Too few arguments to function App\Controllers\Addons::changecategorie(), 0 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons->changecategorie()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}

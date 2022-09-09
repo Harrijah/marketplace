@@ -1,0 +1,269 @@
+.grandebarre{
+    height: 150vh;
+    background-color: black;
+}
+.colonnegauche{
+    position: relative;
+    height: 70%;
+    width: 15%;
+    float: left;
+    background-color: blue;
+}
+.colonnedroite{
+    position: relative;
+    height: 70%;
+    width: 85%;
+    float: left;
+    background-color: white;
+}
+.menulava{
+    position: relative;
+    height: 10%;
+    display: inline-block;
+    width: 100%;
+    background-color: yellow;
+}
+
+.tranony{
+    position: relative;
+    height: 50%;
+    width: 85%;
+    display: inline-block;
+    margin-left: 15%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: darkgreen;
+}
+.chambre{
+    position: relative;
+    height: 100%;
+    width: 46%;
+    left: 50%;
+    transform: translateX(-50%);
+    /* background-color: aqua; */
+}
+.menukely1{
+    position: relative;
+    height: 100%;
+    width: 150px;
+    margin-right: 2%;
+    float: left;
+    background-color: red;
+}
+.menukely2{
+    position: relative;
+    height: 100%;
+    width: 150px;
+    margin-right: 2%;
+    float: left;
+    background-color: green;
+}
+.menukely3{
+    position: relative;
+    height: 100%;
+    width: 150px;
+    margin-right: 2%;
+    display: inline-block;
+    background-color: purple;
+}
+
+
+/* *******************************      Test formulaire produits    *******************************************/
+.allformproduct{
+    position: relative;
+    height: fit-content;
+    width: 100%;
+    /* background-color: rgb(180, 180, 180); */
+}
+.row01{
+    position: relative;
+    display: block;
+    height: 80vh;
+    width: 100%;
+    /* margin: 10px 2px; */
+}
+.mainnotifs2{
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+.tubecenter{
+    position: relative;
+    float: left;
+    left: 50%;
+    transform: translateX(-50%); 
+    /* background-color: rgb(180, 180, 180); */
+}
+    .generalproductsinfo1{
+        position: relative;
+        float: left;
+        height: 100%;
+        width: 45%;
+        /* background-color: rgb(180, 180, 180); */
+    }
+    .generalproductsinfo2{
+        position: relative;
+        display: inline-block;
+        height: 100%;
+        width: 55%;
+        /* background-color: rgb(180, 180, 180); */
+    }
+        .selectcategories{
+            position: relative;
+            display: inline-block;
+            height: 100%;
+            margin: 1% 1%;
+            padding: 5px 1%;
+            width: 100%;
+            background-color: rgb(212, 211, 211);
+            border: solid 1px rgb(180, 180, 180);
+            border-radius: 2px;
+            box-shadow: 10px left black;
+        }
+        .gravissime2{
+            position: relative;
+            display: block;
+            height: 100%;
+            width: 98%;
+            padding-left: 1%;
+            padding-right:1%;
+            left: 50%;
+            transform: translateX(-50%); 
+        }
+            .categorieselect01{
+                position: relative;
+                display: block;
+            }
+                .splitedcategorie01{
+                    position: relative;
+                    display: block;
+                    width: 50%;
+                    padding: 1%;
+                    float: left;
+                }
+                .splitedcategorie02{
+                    position: relative;
+                    display: block;
+                    width: 50%;
+                    padding: 1%;
+                    display: inline-block;
+                }
+                
+                .splitedcategorie03{
+                    position: relative;
+                    width: 30%;
+                    display: inline-block;
+                }
+                .categorytest{
+                    width: 100%;
+                    height: 40px;
+                }
+            .pricesplit{
+                position: relative;
+                /* background-color: darkgoldenrod; */
+            }
+        .testmyimage01{
+            position: relative;
+            height: 250px;
+            width: 250px;
+            /* margin: 2px; */
+            /* padding: 2px; */
+            display: inline-block;
+            border-radius: 5px;
+            background-color: whitesmoke;
+        }
+        .testmyimage02{
+            position: relative;
+            height: 125px;
+            width: 125px;
+            margin: 2px;
+            display: inline-block;
+            border-radius: 5px;
+            background-color: whitesmoke;
+        }
+    .allproductdescriptions{
+        position: relative;
+        display: block;
+        /* height: 120vh; */
+        background-color: rgb(180, 180, 180);
+    }
+
+    
+/* *******************************      Test catégories    *******************************************/
+.rowforms{
+    position: relative;
+    display: block;
+    height: 33vh;
+    width: 100%;
+    background-color: grey;
+}
+.rayon{
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    width: 33%;
+}
+.rowforms2{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+/* *******************************      Test catégories    *******************************************/
+.myproducts{
+    position: relative;
+    height: fit-content;
+}
+.storeproductbar{
+    position: relative;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(180, 180, 180);
+    margin: 1px 0px;
+    padding: 0px 1px;
+}
+.storeproductbar:hover{
+    background-color: rgb(212, 211, 211);
+}
+.infoproductcontainer{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    /* height: 100%; */
+    top: 50%;
+    transform: translateY(-50%);
+    /* background-color: aqua; */
+}
+.productsname{
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+    width:40%;
+    overflow: hidden;
+    /* background-color: green; */
+}
+.productcategories{
+    position: relative;
+    display: inline-block;
+    width:50%;
+    overflow-x: hidden;
+    /* background-color: blue; */
+}
+.editproducts{
+    position: relative;
+    /* display: inline-block; */
+    width: 5%;
+    margin: 0px 20px;
+    float: inline-end;
+    /* top: 50%;
+    transform: translateY(-50%); */
+    /* background-color: brown; */
+}
+.modifyproduct{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: inherit;
+    border: none;
+}

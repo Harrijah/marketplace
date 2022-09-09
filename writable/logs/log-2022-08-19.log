@@ -1,0 +1,90 @@
+CRITICAL - 2022-08-19 00:57:18 --> Invalid file: Templates/mystore.php
+#0 E:\Projets\marketplace\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Templates/mysto...')
+#1 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('Templates/mysto...', Array, true)
+#2 E:\Projets\marketplace\app\Controllers\Connexion.php(34): view('Templates/mysto...', Array)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->mystore()
+#4 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#5 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#8 {main}
+CRITICAL - 2022-08-19 00:59:01 --> Invalid file: Templates/mystore.php
+#0 E:\Projets\marketplace\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Templates/mysto...')
+#1 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('Templates/mysto...', Array, true)
+#2 E:\Projets\marketplace\app\Controllers\Connexion.php(34): view('Templates/mysto...', Array)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->mystore()
+#4 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#5 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#8 {main}
+CRITICAL - 2022-08-19 01:13:01 --> Invalid file: Templates/mystore.php
+#0 E:\Projets\marketplace\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Templates/mysto...')
+#1 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('Templates/mysto...', Array, true)
+#2 E:\Projets\marketplace\app\Controllers\Connexion.php(34): view('Templates/mysto...', Array)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->mystore()
+#4 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#5 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#8 {main}
+CRITICAL - 2022-08-19 01:13:13 --> Invalid file: Templates/mystore.php
+#0 E:\Projets\marketplace\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Templates/mysto...')
+#1 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('Templates/mysto...', Array, true)
+#2 E:\Projets\marketplace\app\Controllers\Connexion.php(34): view('Templates/mysto...', Array)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->mystore()
+#4 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#5 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#8 {main}
+CRITICAL - 2022-08-19 01:13:59 --> Invalid file: Templates/mystore.php
+#0 E:\Projets\marketplace\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Templates/mysto...')
+#1 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('Templates/mysto...', Array, true)
+#2 E:\Projets\marketplace\app\Controllers\Connexion.php(34): view('Templates/mysto...', Array)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->mystore()
+#4 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#5 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#8 {main}
+CRITICAL - 2022-08-19 01:14:16 --> Invalid file: Templates/mystore.php
+#0 E:\Projets\marketplace\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Templates/mysto...')
+#1 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('Templates/mysto...', Array, true)
+#2 E:\Projets\marketplace\app\Controllers\Connexion.php(34): view('Templates/mysto...', Array)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->mystore()
+#4 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#5 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#8 {main}
+CRITICAL - 2022-08-19 01:15:36 --> Invalid file: Templates/mystore.php
+#0 E:\Projets\marketplace\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Templates/mysto...')
+#1 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('Templates/mysto...', Array, true)
+#2 E:\Projets\marketplace\app\Controllers\Connexion.php(34): view('Templates/mysto...', Array)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->mystore()
+#4 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#5 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#8 {main}
+CRITICAL - 2022-08-19 01:15:37 --> Invalid file: Templates/mystore.php
+#0 E:\Projets\marketplace\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Templates/mysto...')
+#1 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('Templates/mysto...', Array, true)
+#2 E:\Projets\marketplace\app\Controllers\Connexion.php(34): view('Templates/mysto...', Array)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->mystore()
+#4 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#5 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#8 {main}
+CRITICAL - 2022-08-19 01:15:45 --> Invalid file: Templates/mystore.php
+#0 E:\Projets\marketplace\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Templates/mysto...')
+#1 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('Templates/mysto...', Array, true)
+#2 E:\Projets\marketplace\app\Controllers\Connexion.php(34): view('Templates/mysto...', Array)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Connexion->mystore()
+#4 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#5 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#8 {main}

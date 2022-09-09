@@ -1,0 +1,1614 @@
+CRITICAL - 2022-08-31 00:15:16 --> Non-static method App\Controllers\Addons::threenews() should not be called statically
+#0 E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Non-static meth...', 'E:\\Projets\\mark...', 22, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/addons/littleh...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(79): view('/addons/littleh...', Array)
+#4 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#5 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#6 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#7 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#10 {main}
+CRITICAL - 2022-08-31 00:15:30 --> Non-static method App\Controllers\Addons::threenews() should not be called statically
+#0 E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Non-static meth...', 'E:\\Projets\\mark...', 22, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/addons/littleh...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(79): view('/addons/littleh...', Array)
+#4 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#5 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#6 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#7 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#10 {main}
+CRITICAL - 2022-08-31 00:15:52 --> Non-static method App\Controllers\Addons::threenews() should not be called statically
+#0 E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Non-static meth...', 'E:\\Projets\\mark...', 22, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/addons/littleh...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(79): view('/addons/littleh...', Array)
+#4 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#5 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#6 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#7 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#10 {main}
+CRITICAL - 2022-08-31 00:16:09 --> Unable to locate view cell class: <!-- DEBUG-VIEW START 4 APPPATH/Config/../Views//addons/threeactus.php -->
+<div class="container mt-4">
+    <h3>Les dernières actus</h3>
+    <div class="actus">
+         
+            <div class="card card02 bg-light text-center">
+                <div class="produits04">
+                    <img src="http.
+#0 E:\Projets\marketplace\system\View\Cell.php(268): CodeIgniter\View\Exceptions\ViewException::forInvalidCellClass('<!-- DEBUG-VIEW...')
+#1 E:\Projets\marketplace\system\View\Cell.php(110): CodeIgniter\View\Cell->determineClass('<!-- DEBUG-VIEW...')
+#2 E:\Projets\marketplace\system\Common.php(1108): CodeIgniter\View\Cell->render('<!-- DEBUG-VIEW...', NULL, 0, NULL)
+#3 E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php(22): view_cell('<!-- DEBUG-VIEW...')
+#4 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#5 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/addons/littleh...', Array, true)
+#6 E:\Projets\marketplace\app\Controllers\Addons.php(79): view('/addons/littleh...', Array)
+#7 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#8 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#9 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#10 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#13 {main}
+CRITICAL - 2022-08-31 00:19:16 --> App\Controllers\Addons::threenews() is not a valid method.
+#0 E:\Projets\marketplace\system\View\Cell.php(132): CodeIgniter\View\Exceptions\ViewException::forInvalidCellMethod('App\\Controllers...', 'threenews()')
+#1 E:\Projets\marketplace\system\Common.php(1108): CodeIgniter\View\Cell->render('App\\Controllers...', NULL, 0, 'AppControllersA...')
+#2 E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php(22): view_cell('App\\Controllers...')
+#3 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#4 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/addons/littleh...', Array, true)
+#5 E:\Projets\marketplace\app\Controllers\Addons.php(79): view('/addons/littleh...', Array)
+#6 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#7 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#8 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#9 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#12 {main}
+CRITICAL - 2022-08-31 00:20:02 --> Call to undefined method App\Controllers\Accueil::threenews()
+#0 E:\Projets\marketplace\system\View\View.php(246): include()
+#1 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/addons/littleh...', Array, true)
+#2 E:\Projets\marketplace\app\Controllers\Addons.php(79): view('/addons/littleh...', Array)
+#3 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-31 00:20:22 --> Unable to locate view cell class: <!-- DEBUG-VIEW START 4 APPPATH/Config/../Views//addons/threeactus.php -->
+<div class="container mt-4">
+    <h3>Les dernières actus</h3>
+    <div class="actus">
+         
+            <div class="card card02 bg-light text-center">
+                <div class="produits04">
+                    <img src="http.
+#0 E:\Projets\marketplace\system\View\Cell.php(268): CodeIgniter\View\Exceptions\ViewException::forInvalidCellClass('<!-- DEBUG-VIEW...')
+#1 E:\Projets\marketplace\system\View\Cell.php(110): CodeIgniter\View\Cell->determineClass('<!-- DEBUG-VIEW...')
+#2 E:\Projets\marketplace\system\Common.php(1108): CodeIgniter\View\Cell->render('<!-- DEBUG-VIEW...', NULL, 0, NULL)
+#3 E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php(22): view_cell('<!-- DEBUG-VIEW...')
+#4 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#5 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/addons/littleh...', Array, true)
+#6 E:\Projets\marketplace\app\Controllers\Addons.php(79): view('/addons/littleh...', Array)
+#7 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#8 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#9 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#10 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#13 {main}
+CRITICAL - 2022-08-31 00:24:38 --> Non-static method App\Controllers\Produit::getProduct() should not be called statically
+#0 E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Non-static meth...', 'E:\\Projets\\mark...', 22, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/addons/littleh...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(79): view('/addons/littleh...', Array)
+#4 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#5 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#6 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#7 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#10 {main}
+CRITICAL - 2022-08-31 00:25:04 --> Argument 1 passed to view_cell() must be of the type string, array given, called in E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php on line 22
+#0 E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php(22): view_cell(Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/addons/littleh...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(79): view('/addons/littleh...', Array)
+#4 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#5 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#6 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#7 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#10 {main}
+CRITICAL - 2022-08-31 00:26:05 --> Unable to locate view cell class: <!-- DEBUG-VIEW START 4 APPPATH/Config/../Views//addons/threeactus.php -->
+<div class="container mt-4">
+    <h3>Les dernières actus</h3>
+    <div class="actus">
+         
+            <div class="card card02 bg-light text-center">
+                <div class="produits04">
+                    <img src="http.
+#0 E:\Projets\marketplace\system\View\Cell.php(268): CodeIgniter\View\Exceptions\ViewException::forInvalidCellClass('<!-- DEBUG-VIEW...')
+#1 E:\Projets\marketplace\system\View\Cell.php(110): CodeIgniter\View\Cell->determineClass('<!-- DEBUG-VIEW...')
+#2 E:\Projets\marketplace\system\Common.php(1108): CodeIgniter\View\Cell->render('<!-- DEBUG-VIEW...', NULL, 0, NULL)
+#3 E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php(22): view_cell('<!-- DEBUG-VIEW...')
+#4 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#5 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/addons/littleh...', Array, true)
+#6 E:\Projets\marketplace\app\Controllers\Addons.php(79): view('/addons/littleh...', Array)
+#7 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#8 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#9 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#10 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#13 {main}
+CRITICAL - 2022-08-31 00:27:38 --> Invalid file: <!-- DEBUG-VIEW START 4 APPPATH/Config/../Views//addons/threeactus.php -->
+<div class="container mt-4">
+    <h3>Les dernières actus</h3>
+    <div class="actus">
+         
+            <div class="card card02 bg-light text-center">
+                <div class="produits04">
+                    <img src="http://localhost:8080/uploads/images/smartphone.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="container text-left">
+                    <h5 class="text-center" style="font-weight:bold">Les tendances du moment</h5>
+                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem dolorum, nesciunt ...</span>
+                    <a href="" class="text-warning">Lire la suite</a>
+                </div>
+            </div>
+         
+            <div class="card card02 bg-light text-center">
+                <div class="produits04">
+                    <img src="http://localhost:8080/uploads/images/smartphone.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="container text-left">
+                    <h5 class="text-center" style="font-weight:bold">Les tendances du moment</h5>
+                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem dolorum, nesciunt ...</span>
+                    <a href="" class="text-warning">Lire la suite</a>
+                </div>
+            </div>
+         
+            <div class="card card02 bg-light text-center">
+                <div class="produits04">
+                    <img src="http://localhost:8080/uploads/images/smartphone.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="container text-left">
+                    <h5 class="text-center" style="font-weight:bold">Les tendances du moment</h5>
+                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem dolorum, nesciunt ...</span>
+                    <a href="" class="text-warning">Lire la suite</a>
+                </div>
+            </div>
+         
+    </div>
+</div>
+<!-- DEBUG-VIEW ENDED 4 APPPATH/Config/../Views//addons/threeactus.php -->
+
+#0 E:\Projets\marketplace\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('<!-- DEBUG-VIEW...')
+#1 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('<!-- DEBUG-VIEW...', Array, true)
+#2 E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php(22): view('<!-- DEBUG-VIEW...')
+#3 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#4 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/addons/littleh...', Array, true)
+#5 E:\Projets\marketplace\app\Controllers\Addons.php(79): view('/addons/littleh...', Array)
+#6 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#7 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#8 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#9 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#12 {main}
+CRITICAL - 2022-08-31 00:27:56 --> Invalid file: <!-- DEBUG-VIEW START 4 APPPATH/Config/../Views//addons/threeactus.php -->
+<div class="container mt-4">
+    <h3>Les dernières actus</h3>
+    <div class="actus">
+         
+            <div class="card card02 bg-light text-center">
+                <div class="produits04">
+                    <img src="http://localhost:8080/uploads/images/smartphone.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="container text-left">
+                    <h5 class="text-center" style="font-weight:bold">Les tendances du moment</h5>
+                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem dolorum, nesciunt ...</span>
+                    <a href="" class="text-warning">Lire la suite</a>
+                </div>
+            </div>
+         
+            <div class="card card02 bg-light text-center">
+                <div class="produits04">
+                    <img src="http://localhost:8080/uploads/images/smartphone.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="container text-left">
+                    <h5 class="text-center" style="font-weight:bold">Les tendances du moment</h5>
+                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem dolorum, nesciunt ...</span>
+                    <a href="" class="text-warning">Lire la suite</a>
+                </div>
+            </div>
+         
+            <div class="card card02 bg-light text-center">
+                <div class="produits04">
+                    <img src="http://localhost:8080/uploads/images/smartphone.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="container text-left">
+                    <h5 class="text-center" style="font-weight:bold">Les tendances du moment</h5>
+                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem dolorum, nesciunt ...</span>
+                    <a href="" class="text-warning">Lire la suite</a>
+                </div>
+            </div>
+         
+    </div>
+</div>
+<!-- DEBUG-VIEW ENDED 4 APPPATH/Config/../Views//addons/threeactus.php -->
+
+#0 E:\Projets\marketplace\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('<!-- DEBUG-VIEW...')
+#1 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('<!-- DEBUG-VIEW...', Array, true)
+#2 E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php(22): view('<!-- DEBUG-VIEW...')
+#3 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#4 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/addons/littleh...', Array, true)
+#5 E:\Projets\marketplace\app\Controllers\Addons.php(79): view('/addons/littleh...', Array)
+#6 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#7 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#8 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#9 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#12 {main}
+CRITICAL - 2022-08-31 00:28:44 --> Call to undefined function App\Controllers\changeselectedproduct()
+#0 E:\Projets\marketplace\system\View\View.php(246): include()
+#1 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/addons/littleh...', Array, true)
+#2 E:\Projets\marketplace\app\Controllers\Addons.php(79): view('/addons/littleh...', Array)
+#3 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-31 00:29:05 --> Undefined variable: idrayon
+#0 E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 22, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/addons/littleh...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(79): view('/addons/littleh...', Array)
+#4 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#5 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#6 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#7 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#10 {main}
+CRITICAL - 2022-08-31 00:29:17 --> Invalid file: <!-- DEBUG-VIEW START 4 APPPATH/Config/../Views/addons/selectedproducts.php -->
+<div class="listprod d-block">
+            <div class="card00">
+            <div class="photoprod float-left">
+                <div class="produits02">
+                    <img src="http://localhost:8080/writable/uploads/images" alt="image" class="testimg img-fluid">
+                </div> 
+            </div>
+            <div class="descprod float-left">
+                <span class="textprod text-primary" style="font-size:13px">iPhone 11</span><br>
+                <span class="textprod" style="font-size:13px">3500000 Ar</span><br>
+                <span class="textprod" style="font-size:13px">Boutique vendeur</span><br>
+                <span class="textprod" style="font-size:13px">High Tech</span>
+            </div>
+        </div>
+            <div class="card00">
+            <div class="photoprod float-left">
+                <div class="produits02">
+                    <img src="http://localhost:8080/writable/uploads/images" alt="image" class="testimg img-fluid">
+                </div> 
+            </div>
+            <div class="descprod float-left">
+                <span class="textprod text-primary" style="font-size:13px">Perçeuse 1000W</span><br>
+                <span class="textprod" style="font-size:13px">340000 Ar</span><br>
+                <span class="textprod" style="font-size:13px">Boutique vendeur</span><br>
+                <span class="textprod" style="font-size:13px">Quincaillerie</span>
+            </div>
+        </div>
+            <div class="card00">
+            <div class="photoprod float-left">
+                <div class="produits02">
+                    <img src="http://localhost:8080/writable/uploads/images" alt="image" class="testimg img-fluid">
+                </div> 
+            </div>
+            <div class="descprod float-left">
+                <span class="textprod text-primary" style="font-size:13px">Table de mixage 48 pistes Eurorack</span><br>
+                <span class="textprod" style="font-size:13px">4500000 Ar</span><br>
+                <span class="textprod" style="font-size:13px">Boutique vendeur</span><br>
+                <span class="textprod" style="font-size:13px">Musique</span>
+            </div>
+        </div>
+            <div class="card00">
+            <div class="photoprod float-left">
+                <div class="produits02">
+                    <img src="http://localhost:8080/writable/uploads/images" alt="image" class="testimg img-fluid">
+                </div> 
+            </div>
+            <div class="descprod float-left">
+                <span class="textprod text-primary" style="font-size:13px">HP Core i7</span><br>
+                <span class="textprod" style="font-size:13px">340000 Ar</span><br>
+                <span class="textprod" style="font-size:13px">Boutique vendeur</span><br>
+                <span class="textprod" style="font-size:13px">High Tech</span>
+            </div>
+        </div>
+            <div class="card00">
+            <div class="photoprod float-left">
+                <div class="produits02">
+                    <img src="http://localhost:8080/writable/uploads/images" alt="image" class="testimg img-fluid">
+                </div> 
+            </div>
+            <div class="descprod float-left">
+                <span class="textprod text-primary" style="font-size:13px">Cadre photo</span><br>
+                <span class="textprod" style="font-size:13px">55000 Ar</span><br>
+                <span class="textprod" style="font-size:13px">Boutique vendeur</span><br>
+                <span class="textprod" style="font-size:13px">Maison</span>
+            </div>
+        </div>
+            <div class="card00">
+            <div class="photoprod float-left">
+                <div class="produits02">
+                    <img src="http://localhost:8080/writable/uploads/images" alt="image" class="testimg img-fluid">
+                </div> 
+            </div>
+            <div class="descprod float-left">
+                <span class="textprod text-primary" style="font-size:13px">Rideau blanc</span><br>
+                <span class="textprod" style="font-size:13px">32543450 Ar</span><br>
+                <span class="textprod" style="font-size:13px">Boutique vendeur</span><br>
+                <span class="textprod" style="font-size:13px">Maison</span>
+            </div>
+        </div>
+    </div>
+
+<!-- DEBUG-VIEW ENDED 4 APPPATH/Config/../Views/addons/selectedproducts.php -->
+
+#0 E:\Projets\marketplace\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('<!-- DEBUG-VIEW...')
+#1 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('<!-- DEBUG-VIEW...', Array, true)
+#2 E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php(22): view('<!-- DEBUG-VIEW...')
+#3 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#4 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/addons/littleh...', Array, true)
+#5 E:\Projets\marketplace\app\Controllers\Addons.php(79): view('/addons/littleh...', Array)
+#6 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#7 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#8 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#9 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#12 {main}
+CRITICAL - 2022-08-31 00:30:09 --> Unable to locate view cell class: <!-- DEBUG-VIEW START 4 APPPATH/Config/../Views/addons/selectedproducts.php -->
+<div class="listprod d-block">
+            <div class="card00">
+            <div class="photoprod float-left">
+                <div class="produits02">
+                    <img src="http.
+#0 E:\Projets\marketplace\system\View\Cell.php(268): CodeIgniter\View\Exceptions\ViewException::forInvalidCellClass('<!-- DEBUG-VIEW...')
+#1 E:\Projets\marketplace\system\View\Cell.php(110): CodeIgniter\View\Cell->determineClass('<!-- DEBUG-VIEW...')
+#2 E:\Projets\marketplace\system\Common.php(1108): CodeIgniter\View\Cell->render('<!-- DEBUG-VIEW...', NULL, 0, NULL)
+#3 E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php(22): view_cell('<!-- DEBUG-VIEW...')
+#4 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#5 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/addons/littleh...', Array, true)
+#6 E:\Projets\marketplace\app\Controllers\Addons.php(79): view('/addons/littleh...', Array)
+#7 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#8 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#9 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#10 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#13 {main}
+CRITICAL - 2022-08-31 00:31:12 --> Unable to locate view cell class: <!-- DEBUG-VIEW START 4 APPPATH/Config/../Views/addons/selectedproducts.php -->
+<div class="listprod d-block">
+            <div class="card00">
+            <div class="photoprod float-left">
+                <div class="produits02">
+                    <img src="http.
+#0 E:\Projets\marketplace\system\View\Cell.php(268): CodeIgniter\View\Exceptions\ViewException::forInvalidCellClass('<!-- DEBUG-VIEW...')
+#1 E:\Projets\marketplace\system\View\Cell.php(110): CodeIgniter\View\Cell->determineClass('<!-- DEBUG-VIEW...')
+#2 E:\Projets\marketplace\system\Common.php(1108): CodeIgniter\View\Cell->render('<!-- DEBUG-VIEW...', NULL, 0, NULL)
+#3 E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php(22): view_cell('<!-- DEBUG-VIEW...')
+#4 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#5 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/addons/littleh...', Array, true)
+#6 E:\Projets\marketplace\app\Controllers\Addons.php(79): view('/addons/littleh...', Array)
+#7 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#8 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#9 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#10 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#13 {main}
+CRITICAL - 2022-08-31 00:31:14 --> Unable to locate view cell class: <!-- DEBUG-VIEW START 4 APPPATH/Config/../Views/addons/selectedproducts.php -->
+<div class="listprod d-block">
+            <div class="card00">
+            <div class="photoprod float-left">
+                <div class="produits02">
+                    <img src="http.
+#0 E:\Projets\marketplace\system\View\Cell.php(268): CodeIgniter\View\Exceptions\ViewException::forInvalidCellClass('<!-- DEBUG-VIEW...')
+#1 E:\Projets\marketplace\system\View\Cell.php(110): CodeIgniter\View\Cell->determineClass('<!-- DEBUG-VIEW...')
+#2 E:\Projets\marketplace\system\Common.php(1108): CodeIgniter\View\Cell->render('<!-- DEBUG-VIEW...', NULL, 0, NULL)
+#3 E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php(22): view_cell('<!-- DEBUG-VIEW...')
+#4 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#5 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/addons/littleh...', Array, true)
+#6 E:\Projets\marketplace\app\Controllers\Addons.php(79): view('/addons/littleh...', Array)
+#7 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#8 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#9 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#10 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#13 {main}
+CRITICAL - 2022-08-31 00:31:34 --> Invalid file: <!-- DEBUG-VIEW START 4 APPPATH/Config/../Views/addons/selectedproducts.php -->
+<div class="listprod d-block">
+            <div class="card00">
+            <div class="photoprod float-left">
+                <div class="produits02">
+                    <img src="http://localhost:8080/writable/uploads/images" alt="image" class="testimg img-fluid">
+                </div> 
+            </div>
+            <div class="descprod float-left">
+                <span class="textprod text-primary" style="font-size:13px">iPhone 11</span><br>
+                <span class="textprod" style="font-size:13px">3500000 Ar</span><br>
+                <span class="textprod" style="font-size:13px">Boutique vendeur</span><br>
+                <span class="textprod" style="font-size:13px">High Tech</span>
+            </div>
+        </div>
+            <div class="card00">
+            <div class="photoprod float-left">
+                <div class="produits02">
+                    <img src="http://localhost:8080/writable/uploads/images" alt="image" class="testimg img-fluid">
+                </div> 
+            </div>
+            <div class="descprod float-left">
+                <span class="textprod text-primary" style="font-size:13px">Perçeuse 1000W</span><br>
+                <span class="textprod" style="font-size:13px">340000 Ar</span><br>
+                <span class="textprod" style="font-size:13px">Boutique vendeur</span><br>
+                <span class="textprod" style="font-size:13px">Quincaillerie</span>
+            </div>
+        </div>
+            <div class="card00">
+            <div class="photoprod float-left">
+                <div class="produits02">
+                    <img src="http://localhost:8080/writable/uploads/images" alt="image" class="testimg img-fluid">
+                </div> 
+            </div>
+            <div class="descprod float-left">
+                <span class="textprod text-primary" style="font-size:13px">Table de mixage 48 pistes Eurorack</span><br>
+                <span class="textprod" style="font-size:13px">4500000 Ar</span><br>
+                <span class="textprod" style="font-size:13px">Boutique vendeur</span><br>
+                <span class="textprod" style="font-size:13px">Musique</span>
+            </div>
+        </div>
+            <div class="card00">
+            <div class="photoprod float-left">
+                <div class="produits02">
+                    <img src="http://localhost:8080/writable/uploads/images" alt="image" class="testimg img-fluid">
+                </div> 
+            </div>
+            <div class="descprod float-left">
+                <span class="textprod text-primary" style="font-size:13px">HP Core i7</span><br>
+                <span class="textprod" style="font-size:13px">340000 Ar</span><br>
+                <span class="textprod" style="font-size:13px">Boutique vendeur</span><br>
+                <span class="textprod" style="font-size:13px">High Tech</span>
+            </div>
+        </div>
+            <div class="card00">
+            <div class="photoprod float-left">
+                <div class="produits02">
+                    <img src="http://localhost:8080/writable/uploads/images" alt="image" class="testimg img-fluid">
+                </div> 
+            </div>
+            <div class="descprod float-left">
+                <span class="textprod text-primary" style="font-size:13px">Cadre photo</span><br>
+                <span class="textprod" style="font-size:13px">55000 Ar</span><br>
+                <span class="textprod" style="font-size:13px">Boutique vendeur</span><br>
+                <span class="textprod" style="font-size:13px">Maison</span>
+            </div>
+        </div>
+            <div class="card00">
+            <div class="photoprod float-left">
+                <div class="produits02">
+                    <img src="http://localhost:8080/writable/uploads/images" alt="image" class="testimg img-fluid">
+                </div> 
+            </div>
+            <div class="descprod float-left">
+                <span class="textprod text-primary" style="font-size:13px">Rideau blanc</span><br>
+                <span class="textprod" style="font-size:13px">32543450 Ar</span><br>
+                <span class="textprod" style="font-size:13px">Boutique vendeur</span><br>
+                <span class="textprod" style="font-size:13px">Maison</span>
+            </div>
+        </div>
+    </div>
+
+<!-- DEBUG-VIEW ENDED 4 APPPATH/Config/../Views/addons/selectedproducts.php -->
+
+#0 E:\Projets\marketplace\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('<!-- DEBUG-VIEW...')
+#1 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('<!-- DEBUG-VIEW...', Array, true)
+#2 E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php(22): view('<!-- DEBUG-VIEW...')
+#3 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#4 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/addons/littleh...', Array, true)
+#5 E:\Projets\marketplace\app\Controllers\Addons.php(79): view('/addons/littleh...', Array)
+#6 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#7 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#8 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#9 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#12 {main}
+CRITICAL - 2022-08-31 00:31:54 --> Invalid file: \App\Controllers\Addons::changeselectedproduct($idrayon=null).php
+#0 E:\Projets\marketplace\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\App\\Controller...')
+#1 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('\\App\\Controller...', Array, true)
+#2 E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php(22): view('\\App\\Controller...')
+#3 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#4 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/addons/littleh...', Array, true)
+#5 E:\Projets\marketplace\app\Controllers\Addons.php(79): view('/addons/littleh...', Array)
+#6 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#7 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#8 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#9 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#12 {main}
+CRITICAL - 2022-08-31 00:32:16 --> \App\Controllers\Addons::changeselectedproduct($idrayon=null) is not a valid method.
+#0 E:\Projets\marketplace\system\View\Cell.php(132): CodeIgniter\View\Exceptions\ViewException::forInvalidCellMethod('\\App\\Controller...', 'changeselectedp...')
+#1 E:\Projets\marketplace\system\Common.php(1108): CodeIgniter\View\Cell->render('\\App\\Controller...', NULL, 0, 'AppControllersA...')
+#2 E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php(22): view_cell('\\App\\Controller...')
+#3 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#4 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/addons/littleh...', Array, true)
+#5 E:\Projets\marketplace\app\Controllers\Addons.php(79): view('/addons/littleh...', Array)
+#6 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#7 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#8 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#9 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#12 {main}
+CRITICAL - 2022-08-31 00:32:37 --> Unable to locate view cell class: <!-- DEBUG-VIEW START 4 APPPATH/Config/../Views/addons/selectedproducts.php -->
+<div class="listprod d-block">
+            <div class="card00">
+            <div class="photoprod float-left">
+                <div class="produits02">
+                    <img src="http.
+#0 E:\Projets\marketplace\system\View\Cell.php(268): CodeIgniter\View\Exceptions\ViewException::forInvalidCellClass('<!-- DEBUG-VIEW...')
+#1 E:\Projets\marketplace\system\View\Cell.php(110): CodeIgniter\View\Cell->determineClass('<!-- DEBUG-VIEW...')
+#2 E:\Projets\marketplace\system\Common.php(1108): CodeIgniter\View\Cell->render('<!-- DEBUG-VIEW...', NULL, 0, NULL)
+#3 E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php(22): view_cell('<!-- DEBUG-VIEW...')
+#4 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#5 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/addons/littleh...', Array, true)
+#6 E:\Projets\marketplace\app\Controllers\Addons.php(79): view('/addons/littleh...', Array)
+#7 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#8 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#9 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#10 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#13 {main}
+CRITICAL - 2022-08-31 00:47:06 --> Unable to locate view cell class: <!-- DEBUG-VIEW START 4 APPPATH/Config/../Views//addons/threeactus.php -->
+<div class="container mt-4">
+    <h3>Les dernières actus</h3>
+    <div class="actus">
+         
+            <div class="card card02 bg-light text-center">
+                <div class="produits04">
+                    <img src="http.
+#0 E:\Projets\marketplace\system\View\Cell.php(268): CodeIgniter\View\Exceptions\ViewException::forInvalidCellClass('<!-- DEBUG-VIEW...')
+#1 E:\Projets\marketplace\system\View\Cell.php(110): CodeIgniter\View\Cell->determineClass('<!-- DEBUG-VIEW...')
+#2 E:\Projets\marketplace\system\Common.php(1108): CodeIgniter\View\Cell->render('<!-- DEBUG-VIEW...', NULL, 0, NULL)
+#3 E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php(22): view_cell('<!-- DEBUG-VIEW...')
+#4 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#5 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/addons/littleh...', Array, true)
+#6 E:\Projets\marketplace\app\Controllers\Addons.php(84): view('/addons/littleh...', Array)
+#7 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#8 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#9 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#10 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#13 {main}
+CRITICAL - 2022-08-31 00:47:36 --> Argument 1 passed to view_cell() must be of the type string, null given, called in E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php on line 22
+#0 E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php(22): view_cell(NULL)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/addons/littleh...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(84): view('/addons/littleh...', Array)
+#4 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#5 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#6 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#7 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#10 {main}
+CRITICAL - 2022-08-31 00:47:56 --> Unable to locate view cell class: <!-- DEBUG-VIEW START 4 APPPATH/Config/../Views//addons/threeactus.php -->
+<div class="container mt-4">
+    <h3>Les dernières actus</h3>
+    <div class="actus">
+         
+            <div class="card card02 bg-light text-center">
+                <div class="produits04">
+                    <img src="http.
+#0 E:\Projets\marketplace\system\View\Cell.php(268): CodeIgniter\View\Exceptions\ViewException::forInvalidCellClass('<!-- DEBUG-VIEW...')
+#1 E:\Projets\marketplace\system\View\Cell.php(110): CodeIgniter\View\Cell->determineClass('<!-- DEBUG-VIEW...')
+#2 E:\Projets\marketplace\system\Common.php(1108): CodeIgniter\View\Cell->render('<!-- DEBUG-VIEW...', NULL, 0, NULL)
+#3 E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php(22): view_cell('<!-- DEBUG-VIEW...')
+#4 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#5 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/addons/littleh...', Array, true)
+#6 E:\Projets\marketplace\app\Controllers\Addons.php(84): view('/addons/littleh...', Array)
+#7 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#8 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#9 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#10 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#13 {main}
+CRITICAL - 2022-08-31 00:49:29 --> Invalid file: <!-- DEBUG-VIEW START 4 APPPATH/Config/../Views//addons/threeactus.php -->
+<div class="container mt-4">
+    <h3>Les dernières actus</h3>
+    <div class="actus">
+         
+            <div class="card card02 bg-light text-center">
+                <div class="produits04">
+                    <img src="http://localhost:8080/uploads/images/smartphone.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="container text-left">
+                    <h5 class="text-center" style="font-weight:bold">Les tendances du moment</h5>
+                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem dolorum, nesciunt ...</span>
+                    <a href="" class="text-warning">Lire la suite</a>
+                </div>
+            </div>
+         
+            <div class="card card02 bg-light text-center">
+                <div class="produits04">
+                    <img src="http://localhost:8080/uploads/images/smartphone.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="container text-left">
+                    <h5 class="text-center" style="font-weight:bold">Les tendances du moment</h5>
+                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem dolorum, nesciunt ...</span>
+                    <a href="" class="text-warning">Lire la suite</a>
+                </div>
+            </div>
+         
+            <div class="card card02 bg-light text-center">
+                <div class="produits04">
+                    <img src="http://localhost:8080/uploads/images/smartphone.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="container text-left">
+                    <h5 class="text-center" style="font-weight:bold">Les tendances du moment</h5>
+                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem dolorum, nesciunt ...</span>
+                    <a href="" class="text-warning">Lire la suite</a>
+                </div>
+            </div>
+         
+    </div>
+</div>
+<!-- DEBUG-VIEW ENDED 4 APPPATH/Config/../Views//addons/threeactus.php -->
+
+#0 E:\Projets\marketplace\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('<!-- DEBUG-VIEW...')
+#1 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('<!-- DEBUG-VIEW...', Array, true)
+#2 E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php(22): view('<!-- DEBUG-VIEW...')
+#3 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#4 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/addons/littleh...', Array, true)
+#5 E:\Projets\marketplace\app\Controllers\Addons.php(84): view('/addons/littleh...', Array)
+#6 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#7 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#8 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#9 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#12 {main}
+CRITICAL - 2022-08-31 00:50:01 --> Invalid file: <!-- DEBUG-VIEW START 4 APPPATH/Config/../Views//addons/threeactus.php -->
+<div class="container mt-4">
+    <h3>Les dernières actus</h3>
+    <div class="actus">
+         
+            <div class="card card02 bg-light text-center">
+                <div class="produits04">
+                    <img src="http://localhost:8080/uploads/images/smartphone.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="container text-left">
+                    <h5 class="text-center" style="font-weight:bold">Les tendances du moment</h5>
+                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem dolorum, nesciunt ...</span>
+                    <a href="" class="text-warning">Lire la suite</a>
+                </div>
+            </div>
+         
+            <div class="card card02 bg-light text-center">
+                <div class="produits04">
+                    <img src="http://localhost:8080/uploads/images/smartphone.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="container text-left">
+                    <h5 class="text-center" style="font-weight:bold">Les tendances du moment</h5>
+                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem dolorum, nesciunt ...</span>
+                    <a href="" class="text-warning">Lire la suite</a>
+                </div>
+            </div>
+         
+            <div class="card card02 bg-light text-center">
+                <div class="produits04">
+                    <img src="http://localhost:8080/uploads/images/smartphone.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="container text-left">
+                    <h5 class="text-center" style="font-weight:bold">Les tendances du moment</h5>
+                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem dolorum, nesciunt ...</span>
+                    <a href="" class="text-warning">Lire la suite</a>
+                </div>
+            </div>
+         
+    </div>
+</div>
+<!-- DEBUG-VIEW ENDED 4 APPPATH/Config/../Views//addons/threeactus.php -->
+
+#0 E:\Projets\marketplace\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('<!-- DEBUG-VIEW...')
+#1 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('<!-- DEBUG-VIEW...', Array, true)
+#2 E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php(22): view('<!-- DEBUG-VIEW...')
+#3 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#4 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/addons/littleh...', Array, true)
+#5 E:\Projets\marketplace\app\Controllers\Addons.php(84): view('/addons/littleh...', Array)
+#6 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#7 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#8 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#9 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#12 {main}
+CRITICAL - 2022-08-31 00:50:23 --> Unable to locate view cell class: <!-- DEBUG-VIEW START 4 APPPATH/Config/../Views//addons/threeactus.php -->
+<div class="container mt-4">
+    <h3>Les dernières actus</h3>
+    <div class="actus">
+         
+            <div class="card card02 bg-light text-center">
+                <div class="produits04">
+                    <img src="http.
+#0 E:\Projets\marketplace\system\View\Cell.php(268): CodeIgniter\View\Exceptions\ViewException::forInvalidCellClass('<!-- DEBUG-VIEW...')
+#1 E:\Projets\marketplace\system\View\Cell.php(110): CodeIgniter\View\Cell->determineClass('<!-- DEBUG-VIEW...')
+#2 E:\Projets\marketplace\system\Common.php(1108): CodeIgniter\View\Cell->render('<!-- DEBUG-VIEW...', NULL, 0, NULL)
+#3 E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php(22): view_cell('<!-- DEBUG-VIEW...')
+#4 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#5 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/addons/littleh...', Array, true)
+#6 E:\Projets\marketplace\app\Controllers\Addons.php(84): view('/addons/littleh...', Array)
+#7 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#8 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#9 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#10 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#13 {main}
+CRITICAL - 2022-08-31 00:50:35 --> Invalid file: <!-- DEBUG-VIEW START 4 APPPATH/Config/../Views//addons/threeactus.php -->
+<div class="container mt-4">
+    <h3>Les dernières actus</h3>
+    <div class="actus">
+         
+            <div class="card card02 bg-light text-center">
+                <div class="produits04">
+                    <img src="http://localhost:8080/uploads/images/smartphone.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="container text-left">
+                    <h5 class="text-center" style="font-weight:bold">Les tendances du moment</h5>
+                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem dolorum, nesciunt ...</span>
+                    <a href="" class="text-warning">Lire la suite</a>
+                </div>
+            </div>
+         
+            <div class="card card02 bg-light text-center">
+                <div class="produits04">
+                    <img src="http://localhost:8080/uploads/images/smartphone.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="container text-left">
+                    <h5 class="text-center" style="font-weight:bold">Les tendances du moment</h5>
+                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem dolorum, nesciunt ...</span>
+                    <a href="" class="text-warning">Lire la suite</a>
+                </div>
+            </div>
+         
+            <div class="card card02 bg-light text-center">
+                <div class="produits04">
+                    <img src="http://localhost:8080/uploads/images/smartphone.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="container text-left">
+                    <h5 class="text-center" style="font-weight:bold">Les tendances du moment</h5>
+                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem dolorum, nesciunt ...</span>
+                    <a href="" class="text-warning">Lire la suite</a>
+                </div>
+            </div>
+         
+    </div>
+</div>
+<!-- DEBUG-VIEW ENDED 4 APPPATH/Config/../Views//addons/threeactus.php -->
+
+#0 E:\Projets\marketplace\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('<!-- DEBUG-VIEW...')
+#1 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('<!-- DEBUG-VIEW...', Array, true)
+#2 E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php(22): view('<!-- DEBUG-VIEW...')
+#3 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#4 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/addons/littleh...', Array, true)
+#5 E:\Projets\marketplace\app\Controllers\Addons.php(84): view('/addons/littleh...', Array)
+#6 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#7 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#8 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#9 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#12 {main}
+CRITICAL - 2022-08-31 00:51:38 --> Non-static method App\Controllers\Addons::changeselectedproduct() should not be called statically
+#0 E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Non-static meth...', 'E:\\Projets\\mark...', 22, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/addons/littleh...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(79): view('/addons/littleh...', Array)
+#4 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#5 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#6 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#7 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#10 {main}
+CRITICAL - 2022-08-31 06:04:53 --> Class 'App\Addons' not found
+#0 E:\Projets\marketplace\system\View\View.php(246): include()
+#1 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('storebackoffice...', Array, true)
+#2 E:\Projets\marketplace\app\Controllers\Storebackoffice.php(28): view('storebackoffice...')
+#3 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Storebackoffice->mystore()
+#4 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Storebackoffice))
+#5 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#8 {main}
+CRITICAL - 2022-08-31 06:05:35 --> Invalid file: <!-- DEBUG-VIEW START 3 APPPATH/Config/../Views/addons/filterproducts.php -->
+<div class="row  bg-light mx-auto mt-1">
+    <div class="col-8 pt-2 pr-2 pb-2 pl-2">
+        <div class="row">
+            <div class="col-4">
+                <select name="rayon" id="" url="http://localhost:8080/addons/changerayon" class="selectrayon form-control">
+                                            <option value="0">Choisissez un rayon</option>
+                                            <option value="1">Maison</option>
+                                            <option value="2">High Tech</option>
+                                            <option value="3">Quincaillerie</option>
+                                            <option value="4">Epicerie</option>
+                                            <option value="5">Vêtements & Mode</option>
+                                            <option value="6">Auto Moto</option>
+                                            <option value="7">Musique</option>
+                                    </select>
+            </div>
+            <div class="col-4">
+                <select name="categorie" id="" url="http://localhost:8080/addons/changecategorie"class="selectcategory form-control"></select>
+            </div>
+            <div class="col-3">
+                <select name="souscategorie" id="" class="selectsouscategorie form-control"></select>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+    <div class="col-4 pt-2 pr-2 pb-2 pl-2">
+        <form action="">
+            <div class="row mx-auto">
+                <div class="col-8"><input type="text" class="form-control" placeholder="Tapez un nom de produit"></div>
+                <div class="col-4"><input type="submit" class="form-control btn-outline-warning" value="Recherche"></div>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- DEBUG-VIEW ENDED 3 APPPATH/Config/../Views/addons/filterproducts.php -->
+
+#0 E:\Projets\marketplace\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('<!-- DEBUG-VIEW...')
+#1 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('<!-- DEBUG-VIEW...', Array, true)
+#2 E:\Projets\marketplace\app\Views\storebackoffice\mystore.php(42): view('<!-- DEBUG-VIEW...')
+#3 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#4 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('storebackoffice...', Array, true)
+#5 E:\Projets\marketplace\app\Controllers\Storebackoffice.php(28): view('storebackoffice...')
+#6 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Storebackoffice->mystore()
+#7 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Storebackoffice))
+#8 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#11 {main}
+CRITICAL - 2022-08-31 08:12:52 --> Too few arguments to function App\Controllers\Produit::getSelectedProduct(), 1 passed in E:\Projets\marketplace\app\Controllers\Addons.php on line 92 and exactly 2 expected
+#0 E:\Projets\marketplace\app\Controllers\Addons.php(92): App\Controllers\Produit->getSelectedProduct(NULL)
+#1 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#2 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#3 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-31 08:14:05 --> Too few arguments to function App\Controllers\Produit::getSelectedProduct(), 1 passed in E:\Projets\marketplace\app\Controllers\Addons.php on line 101 and exactly 2 expected
+#0 E:\Projets\marketplace\app\Controllers\Addons.php(101): App\Controllers\Produit->getSelectedProduct(NULL)
+#1 E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php(20): App\Controllers\Addons::changeselectedproduct(NULL)
+#2 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#3 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/addons/littleh...', Array, true)
+#4 E:\Projets\marketplace\app\Controllers\Addons.php(95): view('/addons/littleh...', Array)
+#5 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#6 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#7 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#8 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#11 {main}
+CRITICAL - 2022-08-31 08:14:49 --> Too few arguments to function App\Controllers\Addons::changeselectedproduct(), 1 passed in E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php on line 20 and exactly 2 expected
+#0 E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php(20): App\Controllers\Addons::changeselectedproduct(NULL)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/addons/littleh...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(95): view('/addons/littleh...', Array)
+#4 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#5 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#6 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#7 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#10 {main}
+CRITICAL - 2022-08-31 08:15:27 --> Undefined variable: limit
+#0 E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 20, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/addons/littleh...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(95): view('/addons/littleh...', Array)
+#4 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#5 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#6 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#7 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#10 {main}
+CRITICAL - 2022-08-31 08:17:59 --> Too few arguments to function App\Controllers\Addons::changeselectedproduct(), 1 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 2 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::changeselectedproduct('4')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-31 08:18:05 --> Too few arguments to function App\Controllers\Addons::changeselectedproduct(), 1 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 2 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::changeselectedproduct('2')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-31 08:18:09 --> Too few arguments to function App\Controllers\Addons::changeselectedproduct(), 1 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 2 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::changeselectedproduct('1')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-31 08:18:27 --> Too few arguments to function App\Controllers\Addons::changeselectedproduct(), 1 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 2 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::changeselectedproduct('2')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-31 08:18:31 --> Too few arguments to function App\Controllers\Addons::changeselectedproduct(), 1 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 2 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::changeselectedproduct('7')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-31 08:18:37 --> Too few arguments to function App\Controllers\Addons::changeselectedproduct(), 1 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 2 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::changeselectedproduct('4')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-31 08:19:46 --> Too few arguments to function App\Controllers\Addons::changeselectedproduct(), 1 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 2 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::changeselectedproduct('3')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-31 08:20:24 --> Too few arguments to function App\Controllers\Addons::changeselectedproduct(), 1 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 2 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::changeselectedproduct('4')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-31 08:20:28 --> Too few arguments to function App\Controllers\Addons::changeselectedproduct(), 1 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 2 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::changeselectedproduct('7')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-31 08:21:03 --> Too few arguments to function App\Controllers\Addons::changeselectedproduct(), 1 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 2 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::changeselectedproduct('5')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-31 08:21:07 --> Too few arguments to function App\Controllers\Addons::changeselectedproduct(), 1 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 2 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::changeselectedproduct('7')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-31 08:22:26 --> Too few arguments to function App\Controllers\Addons::changeselectedproduct(), 1 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 2 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::changeselectedproduct('36')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-31 08:22:30 --> Too few arguments to function App\Controllers\Addons::changeselectedproduct(), 1 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 2 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::changeselectedproduct('66')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-31 08:22:38 --> Too few arguments to function App\Controllers\Addons::changeselectedproduct(), 1 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 2 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::changeselectedproduct('06')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-31 08:24:16 --> Undefined variable: limit
+#0 E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 20, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/addons/littleh...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(95): view('/addons/littleh...', Array)
+#4 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#5 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#6 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#7 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#10 {main}
+CRITICAL - 2022-08-31 08:25:11 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::limit() must be of the type int or null, string given, called in E:\Projets\marketplace\system\Model.php on line 1716
+#0 E:\Projets\marketplace\system\Model.php(1716): CodeIgniter\Database\BaseBuilder->limit('')
+#1 E:\Projets\marketplace\app\Models\Productmodel.php(46): CodeIgniter\Model->__call('limit', Array)
+#2 E:\Projets\marketplace\app\Controllers\Produit.php(47): App\Models\Productmodel->getSelectedProduct(NULL, '')
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(101): App\Controllers\Produit->getSelectedProduct(NULL, '')
+#4 E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php(20): App\Controllers\Addons::changeselectedproduct(NULL, '')
+#5 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#6 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/addons/littleh...', Array, true)
+#7 E:\Projets\marketplace\app\Controllers\Addons.php(95): view('/addons/littleh...', Array)
+#8 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#9 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#10 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#11 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#13 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#14 {main}
+CRITICAL - 2022-08-31 08:28:21 --> Undefined variable: limit
+#0 E:\Projets\marketplace\app\Controllers\Addons.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 92, Array)
+#1 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#2 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#3 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-08-31 08:28:38 --> Too few arguments to function App\Controllers\Addons::littlehorizontalcard(), 1 passed in E:\Projets\marketplace\app\Controllers\Accueil.php on line 18 and exactly 2 expected
+#0 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-31 08:30:53 --> Too few arguments to function App\Controllers\Addons::littlehorizontalcard(), 1 passed in E:\Projets\marketplace\app\Controllers\Accueil.php on line 18 and exactly 2 expected
+#0 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-31 08:31:34 --> Too few arguments to function App\Controllers\Addons::littlehorizontalcard(), 1 passed in E:\Projets\marketplace\app\Controllers\Accueil.php on line 18 and exactly 2 expected
+#0 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-31 08:47:05 --> Too few arguments to function App\Controllers\Addons::allproducts(), 0 passed in E:\Projets\marketplace\app\Controllers\Accueil.php on line 22 and exactly 2 expected
+#0 E:\Projets\marketplace\app\Controllers\Accueil.php(22): App\Controllers\Addons->allproducts()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-31 08:47:51 --> Call to undefined method App\Controllers\Produit::getSelectedProducts()
+#0 E:\Projets\marketplace\app\Controllers\Accueil.php(22): App\Controllers\Addons->allproducts()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-31 08:54:28 --> Call to a member function getRayon() on null
+#0 E:\Projets\marketplace\app\Controllers\Accueil.php(22): App\Controllers\Addons->allproducts()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-31 11:54:31 --> Undefined variable: rayons
+#0 E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 13, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/addons/littleh...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(92): view('/addons/littleh...')
+#4 E:\Projets\marketplace\app\Controllers\Accueil.php(18): App\Controllers\Addons->littlehorizontalcard(NULL)
+#5 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#6 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#7 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#10 {main}
+CRITICAL - 2022-08-31 11:57:45 --> Undefined variable: idrayon
+#0 E:\Projets\marketplace\app\Controllers\Accueil.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 15, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-31 11:58:17 --> Too few arguments to function App\Controllers\Accueil::accueil(), 0 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 2 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-31 12:00:15 --> Undefined variable: selectedproducts
+#0 E:\Projets\marketplace\app\Controllers\Addons.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 97, Array)
+#1 E:\Projets\marketplace\app\Views\addons\littlehorizontalcard.php(26): App\Controllers\Addons::changeselectedproduct(NULL, '6')
+#2 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#3 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/addons/littleh...', Array, true)
+#4 E:\Projets\marketplace\app\Controllers\Addons.php(92): view('/addons/littleh...')
+#5 E:\Projets\marketplace\app\Controllers\Accueil.php(19): App\Controllers\Addons->littlehorizontalcard(NULL)
+#6 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#7 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#8 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#11 {main}
+CRITICAL - 2022-08-31 13:26:56 --> Too few arguments to function App\Controllers\Addons::changeselectedallproduct(), 1 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 2 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::changeselectedallproduct('3')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-31 13:27:06 --> Too few arguments to function App\Controllers\Addons::changeselectedallproduct(), 1 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 2 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::changeselectedallproduct('6')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-31 13:29:00 --> Too few arguments to function App\Controllers\Addons::changeselectedallproduct(), 1 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 2 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::changeselectedallproduct('5')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-31 13:29:00 --> Undefined variable: products
+#0 E:\Projets\marketplace\app\Views\addons\allproductshome.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 1, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('addons/allprodu...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(118): view('addons/allprodu...')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::changeselectedallproduct('5', '10')
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-31 13:29:10 --> Too few arguments to function App\Controllers\Addons::changeselectedallproduct(), 1 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 2 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::changeselectedallproduct('1')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-31 13:29:10 --> Undefined variable: products
+#0 E:\Projets\marketplace\app\Views\addons\allproductshome.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 1, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('addons/allprodu...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(118): view('addons/allprodu...')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::changeselectedallproduct('1', '10')
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-31 13:31:53 --> Too few arguments to function App\Controllers\Addons::changeselectedallproduct(), 1 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 2 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::changeselectedallproduct('4')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-31 13:31:53 --> Undefined variable: products
+#0 E:\Projets\marketplace\app\Views\addons\allproductshome.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 1, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('addons/allprodu...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(118): view('addons/allprodu...')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::changeselectedallproduct('4', '10')
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-31 13:32:03 --> Too few arguments to function App\Controllers\Addons::changeselectedallproduct(), 1 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 2 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::changeselectedallproduct('1')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-31 13:32:04 --> Undefined variable: products
+#0 E:\Projets\marketplace\app\Views\addons\allproductshome.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 1, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('addons/allprodu...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(118): view('addons/allprodu...')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::changeselectedallproduct('1', '10')
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-31 13:34:13 --> Too few arguments to function App\Controllers\Addons::changeselectedallproduct(), 1 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 2 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::changeselectedallproduct('3')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-31 13:34:38 --> Undefined variable: products
+#0 E:\Projets\marketplace\app\Views\addons\allproductshome.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 1, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('addons/allprodu...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(118): view('addons/allprodu...')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::changeselectedallproduct('3', '10')
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-31 13:35:46 --> Undefined variable: products
+#0 E:\Projets\marketplace\app\Views\addons\allproductshome.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 1, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('addons/allprodu...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(118): view('addons/allprodu...')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::changeselectedallproduct('4', '10')
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-31 13:35:56 --> Undefined variable: products
+#0 E:\Projets\marketplace\app\Views\addons\allproductshome.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 1, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('addons/allprodu...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(118): view('addons/allprodu...')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::changeselectedallproduct('2', '10')
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-31 13:38:27 --> Too few arguments to function App\Controllers\Addons::allproductshome(), 1 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 2 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::allproductshome('4')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-31 13:38:41 --> Too few arguments to function App\Controllers\Addons::allproductshome(), 1 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 2 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::allproductshome('2')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-31 14:47:08 --> Undefined variable: categories
+#0 E:\Projets\marketplace\app\Views\addons\productcategories.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 2, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('addons/productc...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(62): view('addons/productc...')
+#4 E:\Projets\marketplace\app\Controllers\Addons.php(107): App\Controllers\Addons::productcategories(Array)
+#5 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons->changerayon('2')
+#6 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#7 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#10 {main}
+CRITICAL - 2022-08-31 14:47:15 --> Undefined variable: categories
+#0 E:\Projets\marketplace\app\Views\addons\productcategories.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 2, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('addons/productc...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(62): view('addons/productc...')
+#4 E:\Projets\marketplace\app\Controllers\Addons.php(107): App\Controllers\Addons::productcategories(Array)
+#5 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons->changerayon('6')
+#6 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#7 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#10 {main}
+CRITICAL - 2022-08-31 14:47:20 --> Undefined variable: categories
+#0 E:\Projets\marketplace\app\Views\addons\productcategories.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 2, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('addons/productc...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(62): view('addons/productc...')
+#4 E:\Projets\marketplace\app\Controllers\Addons.php(107): App\Controllers\Addons::productcategories(Array)
+#5 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons->changerayon('3')
+#6 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#7 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#10 {main}
+CRITICAL - 2022-08-31 14:47:25 --> Undefined variable: categories
+#0 E:\Projets\marketplace\app\Views\addons\productcategories.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 2, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('addons/productc...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(62): view('addons/productc...')
+#4 E:\Projets\marketplace\app\Controllers\Addons.php(107): App\Controllers\Addons::productcategories(Array)
+#5 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons->changerayon('4')
+#6 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#7 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#10 {main}
+CRITICAL - 2022-08-31 14:47:57 --> Undefined variable: categories
+#0 E:\Projets\marketplace\app\Views\addons\productcategories.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 2, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('addons/productc...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(62): view('addons/productc...')
+#4 E:\Projets\marketplace\app\Controllers\Addons.php(107): App\Controllers\Addons::productcategories(Array)
+#5 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons->changerayon('2')
+#6 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#7 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#10 {main}
+CRITICAL - 2022-08-31 15:10:52 --> Undefined variable: categories
+#0 E:\Projets\marketplace\app\Views\addons\productcategories.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 2, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('addons/productc...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(62): view('addons/productc...')
+#4 E:\Projets\marketplace\app\Controllers\Addons.php(101): App\Controllers\Addons::productcategories(Array)
+#5 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons->changerayon('2')
+#6 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#7 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#10 {main}
+CRITICAL - 2022-08-31 15:10:58 --> Undefined variable: categories
+#0 E:\Projets\marketplace\app\Views\addons\productcategories.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 2, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('addons/productc...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(62): view('addons/productc...')
+#4 E:\Projets\marketplace\app\Controllers\Addons.php(101): App\Controllers\Addons::productcategories(Array)
+#5 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons->changerayon('4')
+#6 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#7 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#10 {main}
+CRITICAL - 2022-08-31 15:11:55 --> Undefined variable: categories
+#0 E:\Projets\marketplace\app\Views\addons\productcategories.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 2, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('addons/productc...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(62): view('addons/productc...')
+#4 E:\Projets\marketplace\app\Controllers\Addons.php(101): App\Controllers\Addons::productcategories()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons->changerayon('2')
+#6 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#7 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#10 {main}
+CRITICAL - 2022-08-31 15:15:57 --> Undefined variable: categories
+#0 E:\Projets\marketplace\app\Views\addons\productcategories.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 3, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('addons/productc...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(62): view('addons/productc...')
+#4 E:\Projets\marketplace\app\Controllers\Addons.php(101): App\Controllers\Addons::productcategories(Array)
+#5 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons->changerayon('2')
+#6 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#7 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#10 {main}
+CRITICAL - 2022-08-31 15:16:03 --> Undefined variable: categories
+#0 E:\Projets\marketplace\app\Views\addons\productcategories.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 3, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('addons/productc...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(62): view('addons/productc...')
+#4 E:\Projets\marketplace\app\Controllers\Addons.php(101): App\Controllers\Addons::productcategories(Array)
+#5 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons->changerayon('4')
+#6 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#7 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#10 {main}
+CRITICAL - 2022-08-31 15:19:42 --> Undefined index: souscategorie
+#0 E:\Projets\marketplace\app\Views\addons\productcategories.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 8, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('addons/productc...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(62): view('addons/productc...', Array)
+#4 E:\Projets\marketplace\app\Controllers\Addons.php(101): App\Controllers\Addons::productcategories(Array)
+#5 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons->changerayon('2')
+#6 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#7 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#10 {main}
+CRITICAL - 2022-08-31 15:19:48 --> Undefined index: souscategorie
+#0 E:\Projets\marketplace\app\Views\addons\productcategories.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 8, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('addons/productc...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(62): view('addons/productc...', Array)
+#4 E:\Projets\marketplace\app\Controllers\Addons.php(101): App\Controllers\Addons::productcategories(Array)
+#5 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons->changerayon('4')
+#6 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#7 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#10 {main}
+CRITICAL - 2022-08-31 15:21:40 --> Undefined index: souscategorie
+#0 E:\Projets\marketplace\app\Views\addons\productcategories.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 8, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('addons/productc...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(102): view('addons/productc...', Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons->changerayon('3')
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-31 15:21:59 --> Undefined index: souscategorie
+#0 E:\Projets\marketplace\app\Views\addons\productcategories.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 8, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('addons/productc...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(102): view('addons/productc...', Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons->changerayon('1')
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-31 15:22:05 --> Undefined index: souscategorie
+#0 E:\Projets\marketplace\app\Views\addons\productcategories.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 8, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('addons/productc...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(102): view('addons/productc...', Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons->changerayon('3')
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-31 15:22:10 --> Undefined index: souscategorie
+#0 E:\Projets\marketplace\app\Views\addons\productcategories.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 8, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('addons/productc...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(102): view('addons/productc...', Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons->changerayon('7')
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-31 15:22:22 --> Undefined index: souscategorie
+#0 E:\Projets\marketplace\app\Views\addons\productcategories.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 8, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('addons/productc...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(102): view('addons/productc...', Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons->changerayon('4')
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-31 15:22:27 --> Undefined index: souscategorie
+#0 E:\Projets\marketplace\app\Views\addons\productcategories.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 8, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('addons/productc...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(102): view('addons/productc...', Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons->changerayon('0')
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-31 15:22:32 --> Undefined index: souscategorie
+#0 E:\Projets\marketplace\app\Views\addons\productcategories.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 8, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('addons/productc...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(102): view('addons/productc...', Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons->changerayon('1')
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-31 15:22:36 --> Undefined index: souscategorie
+#0 E:\Projets\marketplace\app\Views\addons\productcategories.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 8, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('addons/productc...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Addons.php(102): view('addons/productc...', Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons->changerayon('2')
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-08-31 15:58:28 --> Too few arguments to function App\Controllers\Addons::allcategorieshome(), 1 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 2 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::allcategorieshome('3')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-31 15:58:33 --> Too few arguments to function App\Controllers\Addons::allcategorieshome(), 1 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 2 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::allcategorieshome('2')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-31 15:59:32 --> Too few arguments to function App\Controllers\Addons::allcategorieshome(), 1 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 2 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::allcategorieshome('3')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-31 15:59:48 --> Too few arguments to function App\Controllers\Addons::allcategorieshome(), 1 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 2 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::allcategorieshome('3')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-31 16:00:07 --> Too few arguments to function App\Controllers\Addons::allcategorieshome(), 1 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 2 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::allcategorieshome('3')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-31 16:01:43 --> Too few arguments to function App\Controllers\Addons::allcategorieshome(), 1 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 2 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::allcategorieshome('3')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-08-31 16:02:35 --> Undefined variable: categories
+#0 E:\Projets\marketplace\app\Controllers\Addons.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 110, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::allcategorieshome('3', '10')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-31 16:25:42 --> Undefined variable: categories
+#0 E:\Projets\marketplace\app\Controllers\Addons.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 110, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::allcategorieshome('3', '10')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-31 16:25:47 --> Undefined variable: categories
+#0 E:\Projets\marketplace\app\Controllers\Addons.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 110, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::allcategorieshome('8', '10')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-08-31 16:25:51 --> Undefined variable: categories
+#0 E:\Projets\marketplace\app\Controllers\Addons.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 110, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Addons::allcategorieshome('2', '10')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
