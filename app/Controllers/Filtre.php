@@ -6,12 +6,12 @@
     class Filtre extends BaseController
     {
     // ---------------  CHANGER LE NOM DE LA CATEGORIE DANS LE FILTRE, SELON LE RAYON
-        public function changerayon($idrayon) 
+        public function changerayon($idrayons) 
         {
             $assets  = model(Assets::class);
             $rayon = model(RayonModel::class);
             $data1 = [
-                'categories' => $rayon->linkrayoncategorie($idrayon)
+                'categories' => $rayon->linkrayoncategorie($idrayons)
             ];
             return $assets->productcategories($data1);
         }
