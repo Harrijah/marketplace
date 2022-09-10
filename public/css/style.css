@@ -189,7 +189,7 @@ body{
 	height: 240px;
 	border-radius: 3px;
 	left: 50%;
-	transform: translateX(-50%); // test
+	transform: translateX(-50%); /* test*/
 }
 .textprod03{
 	position: absolute;
