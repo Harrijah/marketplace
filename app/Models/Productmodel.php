@@ -21,7 +21,7 @@
                 'descriptifcourt' => ($_POST['shortdescprod']),
                 'descriptiflong' => ($_POST['longdescprod']),
                 'photo01' => ($_FILES['file']['name']),
-                'photo02' => ($_FILES['photo02']['name']), 
+                // 'photo02' => ($_FILES['photo02']['name']), 
                 // 'photo03' => ($_FILES['photo03']['name']),
                 // 'photo04' => ($_FILES['photo04']['name']),
                 // 'photo05' => ($_FILES['photo05']['name']), 

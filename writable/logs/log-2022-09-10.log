@@ -1,0 +1,52 @@
+CRITICAL - 2022-09-10 09:08:47 --> Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée.
+
+#0 E:\Projets\marketplace\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\Projets\marketplace\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\Projets\marketplace\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\Projets\marketplace\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\Projets\marketplace\app\Models\RayonModel.php(11): CodeIgniter\Model->findAll()
+#5 E:\Projets\marketplace\app\Controllers\Accueil.php(15): App\Models\RayonModel->getRayon()
+#6 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#7 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#8 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#11 {main}
+CRITICAL - 2022-09-10 10:18:44 --> Too few arguments to function App\Controllers\Assets::productcategories(), 0 passed in E:\Projets\marketplace\app\Views\assets\productmodal.php on line 25 and exactly 1 expected
+#0 E:\Projets\marketplace\app\Views\assets\productmodal.php(25): App\Controllers\Assets::productcategories()
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('assets/productm...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Storebackoffice.php(30): view('assets/productm...')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Storebackoffice->mystore()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Storebackoffice))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-09-10 10:19:48 --> Undefined variable: data
+#0 E:\Projets\marketplace\app\Views\assets\productmodal.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 25, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('assets/productm...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Storebackoffice.php(30): view('assets/productm...')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Storebackoffice->mystore()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Storebackoffice))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-09-10 11:06:23 --> Undefined index: image
+#0 E:\Projets\marketplace\app\Views\assets\allproductshome.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 4, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('assets/allprodu...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Filtre.php(47): view('assets/allprodu...', Array)
+#4 E:\Projets\marketplace\app\Views\assets\allproducts.php(8): App\Controllers\Filtre::getResultat('getSelectedProd...', NULL, 10, 'allproductshome')
+#5 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#6 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/assets/allprod...', Array, true)
+#7 E:\Projets\marketplace\app\Controllers\Assets.php(34): view('/assets/allprod...')
+#8 E:\Projets\marketplace\app\Controllers\Accueil.php(25): App\Controllers\Assets->allproducts()
+#9 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#10 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#11 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#13 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#14 {main}

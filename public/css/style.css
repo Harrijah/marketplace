@@ -104,9 +104,8 @@ body{
 }
 .testimg{
 	position: relative;
-	top: 50%;
-	left: 50%;
-	transform: perspective(1px) translateY(-50%) translateX(-50%);
+	padding: 4px;
+	height: 100%;
 }
 .produits02{
 	margin: 0px;
@@ -132,6 +131,7 @@ body{
 }
 .textprod{
 	margin: 0px;
+	overflow-y: hidden;
 }
 
 /* 	**************************************		BANDEAU		***********************************************		*/
@@ -177,29 +177,36 @@ body{
 .photoprod02{
 	position: relative;
 	width: 15vw;
-	height: 38vh;
+	height: 240px;
 	display: inline-block;
-	border: solid rgb(190, 190, 190) 1px;
+	border: solid 1px rgb(190, 190, 190);
 	border-radius: 5px;
-	padding: 2px 5px 0px 5px;
 	margin: 2px;
 	background-color: white;
 }
 .produits03{
-	margin: 2px 0px 5px 0px;
-	width: 95%;
-	height: 50%;
-	border-radius: 3px;
 	position: relative;
+	height: 240px;
+	border-radius: 3px;
 	left: 50%;
-	transform: perspective(1px)  translateX(-50%);
+	transform: translateX(-50%); /* test*/
 }
 .textprod03{
-	width: 95%;
-	height: 45%;
-	padding: 2px 5px 2px 5px;
-	/* background-color: white; */
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 10;
+	width: 100%;
+	padding: 10px;
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, 0.655);
+	transition: .5s ease;
 }
+.photoprod02:hover .textprod03{
+	height: 50%;
+}
+
 
 /* 	**************************************		MENU ACTUS		***********************************************		*/
 .actus{
