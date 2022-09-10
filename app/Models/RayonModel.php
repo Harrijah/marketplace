@@ -10,9 +10,9 @@
         {
             return $this->findAll();
         }
-        public function getSelectedRayon()
+        public function getSelectedRayon($idrayon)
         {
-            // $this->where('id', $idrayon);
+            $this->where('id', $idrayon);
             // $this->where('id', 2);
             // $this->where('id', 3);
             // $this->where('id', 4);
