@@ -12,6 +12,7 @@
         }
         public function getSelectedRayon()
         {
+            $this->where('id !=', 0);
             return $this->findAll(); 
         }
 

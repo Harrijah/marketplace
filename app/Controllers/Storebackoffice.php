@@ -23,12 +23,12 @@
                 'rayons' => $rayon->getRayon(),
                 'products' => $products->getSelectedProduct($idrayon=null, $limit=10)
             ];
-            return view('Templates/header', $data)
-            . $assets->storebackofficebanner()
-            . $assets->storebackofficebar()
-            . view('storebackoffice/mystore')
-            . view('assets/productmodal') 
-            . view('Templates/footer');
+            return view('Templates/header', $data) //Ceci est le menu
+            . $assets->storebackofficebanner() // Ceci est la bannière avec photo de couverture de la boutique
+            . $assets->storebackofficebar() // Ceci est la barre horizontale contenant les infos de la boutique
+            . view('storebackoffice/mystore') // Ceci contient le menu toggle avec la liste des produits
+            . view('assets/productmodal') // Ceci est le modal pour insérer les produits de la boutique
+            . view('Templates/footer'); // Ceci est le footer
         }
         public function modifyproduct($idproduit)
         {

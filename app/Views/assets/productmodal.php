@@ -17,20 +17,16 @@
                                 <div class="selectcategories displaymeblock shadow">
                                     <div class="categorieselect01">
                                         <label class="displaymeblock" for="categorie02">Rayon</label>
-                                        <select name="rayon" id="" url="<?php echo base_url('addons/changerayon'); ?>" class="selectrayon form-control">
-                                            <?php foreach($rayons as $ray): ?>
-                                                <option value="<?php echo $ray['id']; ?>"><?php echo $ray['rayon']; ?></option>
-                                            <?php endforeach; ?>
-                                        </select>
+                                        <?php echo App\Controllers\Assets::productrayons(); ?>
                                     </div>
                                 <div class="splitcategories displaymeblock">
                                     <div class="splitedcategorie01">
                                         <label class="displaymeblock" for="categorie02">Catégorie</label>
-                                        <select name="categorie" id="" url="<?php echo base_url('addons/changecategorie'); ?>"class="selectcategory2 form-control"></select>
+                                            <select name="categorie" id="" url="<?php echo base_url('filtre/changecategorie'); ?>" url2="<?php echo base_url('filtre/getResultat'); ?>" class="selectcategory form-control"></select>
                                     </div>
                                     <div class="splitedcategorie02">
                                         <label  class="displaymeblock" for="categorie03">Sous-catégorie</label>
-                                        <select name="souscategorie" id="" class="selectsouscategorie form-control"></select>
+                                            <select name="souscategorie" id="" url="<?php echo base_url('filtre/getResultat'); ?>" class="selectsouscategorie form-control"></select>
                                     </div>
                                 </div>
                                     
