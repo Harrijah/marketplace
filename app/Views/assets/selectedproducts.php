@@ -3,7 +3,7 @@
         <div class="card00">
             <div class="photoprod float-left">
                 <div class="produits02">
-                    <img src="<?php echo base_url('writable/uploads/images/').$product['photo01'];  ?>" alt="image" class="testimg img-fluid">
+                    <img src="<?php echo base_url('uploads/image/'.$product['photo01']);  ?>" alt="image" class="testimg img-fluid">
                 </div> 
             </div>
             <div class="descprod float-left">
