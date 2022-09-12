@@ -1,6 +1,15 @@
 <div id="produits" class="col-10 content active">
     <div class="row">
         <div class="col-6">
+            <?php                                  
+                App\Controllers\Produit::getSelectedProduct(null, 6);
+                var_dump(['idproduit']);
+                // for($i=0; $i<6; $i++)
+                // {
+                //     echo [1][0]["idproduit"];
+                // } 
+                
+            ?>
             <img src="<?php echo base_url('uploads/images/1.jpg'); ?>" alt="" class="d-inline img-fluid"> 
         </div>
         

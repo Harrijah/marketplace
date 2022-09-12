@@ -50,7 +50,7 @@
             return $product->getProduct();
         }
 
-        public function getSelectedProduct($idrayon, $limit)
+        public static function getSelectedProduct($idrayon, $limit)
         {
             $product = model(Productmodel::class);
             return $product->getSelectedProduct($idrayon, $limit);
