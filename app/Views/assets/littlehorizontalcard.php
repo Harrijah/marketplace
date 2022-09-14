@@ -2,12 +2,11 @@
     <div class="row">
         <div class="col-6">
             <?php                                  
-                App\Controllers\Produit::getSelectedProduct(null, 6);
-                var_dump(['idproduit']);
-                // for($i=0; $i<6; $i++)
-                // {
-                //     echo [1][0]["idproduit"];
-                // } 
+                $produit = App\Controllers\Produit::getSelectedProduct(null, 6);
+                for($i=0; $i<count($produit); $i++)
+                {
+                    echo$produit[$i]['nom']."<br>";
+                } 
                 
             ?>
             <img src="<?php echo base_url('uploads/images/1.jpg'); ?>" alt="" class="d-inline img-fluid"> 
@@ -25,7 +24,7 @@
                 <div class="col-6"></div>
             </div>
             <div class="listprod04 bg-light"  id="homeselectedproduct">
-                <?php  echo (\App\Controllers\Filtre::getResultat('getSelectedProduct', null, 6, 'selectedproducts')); ?>
+                <?php  //echo (\App\Controllers\Assets::selectedproducts()); ?>
             </div>
         </div>
     </div>
