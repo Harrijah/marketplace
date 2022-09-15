@@ -13,7 +13,8 @@ class Accueil extends BaseController
         [
             'pagetitle' => 'Marketplace',
             'rayons' => $rayon->getRayon(),
-            'rayon' => $rayon->getSelectedRayon()
+            'rayon' => $rayon->getSelectedRayon(),
+            'products' => $products->getSelectedProduct(null, 6)
         ];
         return view('Templates/header', $data)
         . view('accueil')

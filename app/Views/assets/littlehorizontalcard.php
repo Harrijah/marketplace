@@ -1,15 +1,25 @@
 <div id="produits" class="col-10 content active">
     <div class="row">
         <div class="col-6">
-            <?php                                  
-                $produit = App\Controllers\Produit::getSelectedProduct(null, 6);
-                for($i=0; $i<count($produit); $i++)
-                {
-                    echo$produit[$i]['nom']."<br>";
-                } 
-                
-            ?>
-            <img src="<?php echo base_url('uploads/images/1.jpg'); ?>" alt="" class="d-inline img-fluid"> 
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <?php for($i=0; $i<count($products); $i++): ?>
+                        <li data-target="#myCarousel" data-slide-to="<?php echo $i; ?>" class=""></li>
+                    <?php endfor; ?>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="item">
+                        <?php for($i=0; $i<count($products); $i++): ?>
+                            <img src="<?php echo base_url('uploads/image/'.$products[$i]['photo01']); ?>" alt="">
+                        <?php endfor; ?>
+                    </div>
+                </div>
+
+                <div></div>
+
+
+            </div>
         </div>
         
         <div class="col-6">
@@ -24,7 +34,7 @@
                 <div class="col-6"></div>
             </div>
             <div class="listprod04 bg-light"  id="homeselectedproduct">
-                <?php  //echo (\App\Controllers\Assets::selectedproducts()); ?>
+                <?php  echo (\App\Controllers\Assets::selectedproducts()); ?> 
             </div>
         </div>
     </div>
