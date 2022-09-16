@@ -10,7 +10,10 @@
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('font-awesome5/css/fontawesome.css'); ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('font-awesome5/css/fontawesome.min.css'); ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('ckeditor/contents.css'); ?>">
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/bootstrap.css'); ?>"> 
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/bootstrap.css'); ?>">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/docs.min.css'); ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/style.css'); ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/test.css'); ?>">
