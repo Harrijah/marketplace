@@ -1,6 +1,6 @@
 <div id="produits" class="col-10 content active">
     <div class="row">
-        <div class="col-6">
+        <div class="col-6 sliderimages">
             
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -10,26 +10,41 @@
                 </ol>
    
 
+                <!-- List of products -->
                 <div class="carousel-inner">
+                    <?php //for($i=0; $i<count($products); $i++): ?>
+                        <img src="<?php //echo base_url('uploads/image/'.$products[$i]['photo01']); ?>" alt="">
+                    <?php //endfor; ?>
+
                     <div class="item active">
-                        <?php //for($i=0; $i<count($products); $i++): ?><img src="<?php //echo base_url('uploads/image/'.$products[$i]['photo01']); ?>" alt=""><?php //endfor; ?>
-                        <img src="<?php echo base_url('uploads/image/'.$products[2]['photo01']); ?>" alt="">
+                        <img src="<?php echo base_url('uploads/image/'.$products[2]['photo01']); ?>" alt="" class="slider-image img-fluid"> 
+                        <div class="carousel-caption custom-caption-background">
+                            <h3><?php echo $products[2]['nom']; ?></h3>
+                            <p><?php echo $products[2]['prix']; ?> Ar</p>
+                        </div>
                     </div>
                     <div class="item">
-                        <img src="<?php echo base_url('uploads/image/'.$products[4]['photo01']); ?>" alt="">
+                        <img src="<?php echo base_url('uploads/image/'.$products[4]['photo01']); ?>" alt="" class="slider-image img-fluid"> 
+                        <div class="carousel-caption custom-caption-background">
+                            <h3><?php echo $products[4]['nom']; ?></h3>
+                            <p><?php echo $products[4]['prix']; ?> Ar</p>
+                        </div>
                     </div>
                     <div class="item">
-                        <img src="<?php echo base_url('uploads/image/'.$products[5]['photo01']); ?>" alt="">
+                        <img src="<?php echo base_url('uploads/image/'.$products[5]['photo01']); ?>" alt="" class="slider-image img-fluid"> 
+                        <div class="carousel-caption custom-caption-background">
+                            <h3><?php echo $products[5]['nom']; ?></h3>
+                            <p><?php echo $products[5]['prix']; ?> Ar</p>
+                        </div>
                     </div>
                 </div>
-
-                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-                <span class="sr-only">Previous</span>
+                
+                <!-- Carousel commands -->
+                <a class="left carousel-control carousel-control-prev" href="#myCarousel" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
                 </a>
-                <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-                <span class="sr-only">Next</span>
+                <a class="right carousel-control carousel-control-next" href="#myCarousel" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
                 </a>
 
             </div>

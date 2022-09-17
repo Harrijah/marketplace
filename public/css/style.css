@@ -1,4 +1,4 @@
-body{
+body, .mytext{
 	font-size: 14px;
 }
 /* 	**************************************		TOGGLE		***********************************************		*/
@@ -534,4 +534,15 @@ li a, .dropbtn{
 	display: block;
 	margin: 0px;
 	padding: 0px;
+}
+/* 	**************************************		principal slider		***********************************************		*/
+.sliderimages{
+	height : 400px;
+}
+.slider-image{
+	position : relative;
+	height: 100%;
+}
+.custom-caption-background{
+	background-color: #1b1b1b6c;
 }

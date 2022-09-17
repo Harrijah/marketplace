@@ -7,10 +7,10 @@
             <li class="nav-item"><a class="mybutton nav-link" href="#" data-id="topventes">Top ventes</a></li>
         </ul> -->
         <div class="btn-group">
-            <button type="button" class="active mybutton btn btn-outline-warning" data-id="produits">Produits de la semaine</button>
-            <button type="button" class="mybutton btn btn-outline-warning" data-id="nouveautes">Les nouveautés</button>
-            <button type="button" class="mybutton btn btn-outline-warning" data-id="promos">En promotion</button>
-            <button type="button" class="mybutton btn btn-outline-warning" data-id="topventes">Top ventes</button>
+            <button type="button" class="active mybutton btn btn-outline-warning mytext" data-id="produits">Produits de la semaine</button>
+            <button type="button" class="mybutton btn btn-outline-warning mytext" data-id="nouveautes">Les nouveautés</button>
+            <button type="button" class="mybutton btn btn-outline-warning mytext" data-id="promos">En promotion</button>
+            <button type="button" class="mybutton btn btn-outline-warning mytext" data-id="topventes">Top ventes</button>
         </div>
     </div>
 </div>
