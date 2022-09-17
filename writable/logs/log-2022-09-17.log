@@ -1,0 +1,240 @@
+CRITICAL - 2022-09-17 03:25:18 --> Undefined variable: ptoduct
+#0 E:\Projets\marketplace\app\Views\assets\littlehorizontalcard.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 18, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/assets/littleh...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Assets.php(10): view('/assets/littleh...')
+#4 E:\Projets\marketplace\app\Controllers\Accueil.php(22): App\Controllers\Assets->littlehorizontalcard()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#6 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#7 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#10 {main}
+CRITICAL - 2022-09-17 03:25:25 --> Undefined variable: ptoduct
+#0 E:\Projets\marketplace\app\Views\assets\littlehorizontalcard.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 18, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/assets/littleh...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Assets.php(10): view('/assets/littleh...')
+#4 E:\Projets\marketplace\app\Controllers\Accueil.php(22): App\Controllers\Assets->littlehorizontalcard()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#6 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#7 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#10 {main}
+CRITICAL - 2022-09-17 03:27:35 --> Undefined variable: ptoducts
+#0 E:\Projets\marketplace\app\Views\assets\littlehorizontalcard.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 19, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/assets/littleh...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Assets.php(10): view('/assets/littleh...')
+#4 E:\Projets\marketplace\app\Controllers\Accueil.php(22): App\Controllers\Assets->littlehorizontalcard()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#6 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#7 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#10 {main}
+CRITICAL - 2022-09-17 08:48:59 --> noauth filter must have a matching alias defined.
+#0 E:\Projets\marketplace\system\Filters\Filters.php(324): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('noauth')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(369): CodeIgniter\Filters\Filters->enableFilter('noauth', 'before')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-09-17 08:57:28 --> syntax error, unexpected '='
+#0 E:\Projets\marketplace\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\Projets\\mark...')
+#1 E:\Projets\marketplace\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Fil...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Fil...')
+#3 E:\Projets\marketplace\system\Config\Services.php(308): spl_autoload_call('CodeIgniter\\Fil...')
+#4 E:\Projets\marketplace\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(Object(Config\Filters), false)
+#5 E:\Projets\marketplace\system\Config\Services.php(300): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#6 E:\Projets\marketplace\system\CodeIgniter.php(363): CodeIgniter\Config\Services::filters()
+#7 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#10 {main}
+CRITICAL - 2022-09-17 08:58:01 --> syntax error, unexpected '='
+#0 E:\Projets\marketplace\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\Projets\\mark...')
+#1 E:\Projets\marketplace\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Fil...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Fil...')
+#3 E:\Projets\marketplace\system\Config\Services.php(308): spl_autoload_call('CodeIgniter\\Fil...')
+#4 E:\Projets\marketplace\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(Object(Config\Filters), false)
+#5 E:\Projets\marketplace\system\Config\Services.php(300): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#6 E:\Projets\marketplace\system\CodeIgniter.php(363): CodeIgniter\Config\Services::filters()
+#7 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#10 {main}
+CRITICAL - 2022-09-17 08:58:03 --> syntax error, unexpected '='
+#0 E:\Projets\marketplace\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\Projets\\mark...')
+#1 E:\Projets\marketplace\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Fil...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Fil...')
+#3 E:\Projets\marketplace\system\Config\Services.php(308): spl_autoload_call('CodeIgniter\\Fil...')
+#4 E:\Projets\marketplace\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(Object(Config\Filters), false)
+#5 E:\Projets\marketplace\system\Config\Services.php(300): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#6 E:\Projets\marketplace\system\CodeIgniter.php(363): CodeIgniter\Config\Services::filters()
+#7 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#10 {main}
+CRITICAL - 2022-09-17 09:02:30 --> Class 'CodeIgniter\Filters\Filters' not found
+#0 E:\Projets\marketplace\system\Config\BaseService.php(123): CodeIgniter\Config\Services::filters(Object(Config\Filters), false)
+#1 E:\Projets\marketplace\system\Config\Services.php(300): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#2 E:\Projets\marketplace\system\CodeIgniter.php(363): CodeIgniter\Config\Services::filters()
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-09-17 09:03:03 --> noauth filter must have a matching alias defined.
+#0 E:\Projets\marketplace\system\Filters\Filters.php(324): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('noauth')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(369): CodeIgniter\Filters\Filters->enableFilter('noauth', 'before')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-09-17 09:08:45 --> noauth filter must have a matching alias defined.
+#0 E:\Projets\marketplace\system\Filters\Filters.php(324): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('noauth')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(369): CodeIgniter\Filters\Filters->enableFilter('noauth', 'before')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-09-17 09:08:51 --> noauth filter must have a matching alias defined.
+#0 E:\Projets\marketplace\system\Filters\Filters.php(324): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('noauth')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(369): CodeIgniter\Filters\Filters->enableFilter('noauth', 'before')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-09-17 09:10:51 --> noauth filter must have a matching alias defined.
+#0 E:\Projets\marketplace\system\Filters\Filters.php(324): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('noauth')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(369): CodeIgniter\Filters\Filters->enableFilter('noauth', 'before')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-09-17 09:12:05 --> Undefined variable: pagetitle
+#0 E:\Projets\marketplace\app\Views\Templates\header.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 21, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Users.php(94): view('templates/heade...', Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-09-17 10:08:56 --> Undefined variable: pagetitle
+#0 E:\Projets\marketplace\app\Views\Templates\header.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 21, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Users.php(41): view('templates/heade...', Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-09-17 10:25:42 --> validateUser is not a valid rule.
+#0 E:\Projets\marketplace\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('validateUser')
+#1 E:\Projets\marketplace\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('motdepasse', 'motdepasse', 'Hari1234!!', Array, Array)
+#2 E:\Projets\marketplace\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 E:\Projets\marketplace\app\Controllers\Users.php(29): CodeIgniter\Controller->validate(Array, Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-09-17 10:26:19 --> validateUser is not a valid rule.
+#0 E:\Projets\marketplace\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('validateUser')
+#1 E:\Projets\marketplace\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('motdepasse', 'motdepasse', 'Hari1234!!', Array, Array)
+#2 E:\Projets\marketplace\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 E:\Projets\marketplace\app\Controllers\Users.php(29): CodeIgniter\Controller->validate(Array, Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-09-17 10:30:27 --> validateUser is not a valid rule.
+#0 E:\Projets\marketplace\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('validateUser')
+#1 E:\Projets\marketplace\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('motdepasse', 'motdepasse', 'Hari1234!!', Array, Array)
+#2 E:\Projets\marketplace\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 E:\Projets\marketplace\app\Controllers\Users.php(29): CodeIgniter\Controller->validate(Array, Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-09-17 10:33:29 --> Undefined variable: errors
+#0 E:\Projets\marketplace\app\Controllers\Users.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 25, Array)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-09-17 10:33:51 --> validateUser is not a valid rule.
+#0 E:\Projets\marketplace\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('validateUser')
+#1 E:\Projets\marketplace\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('motdepasse', 'motdepasse', 'Hari1234!!', Array, Array)
+#2 E:\Projets\marketplace\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 E:\Projets\marketplace\app\Controllers\Users.php(25): CodeIgniter\Controller->validate(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-09-17 10:34:11 --> validateUser is not a valid rule.
+#0 E:\Projets\marketplace\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('validateUser')
+#1 E:\Projets\marketplace\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('motdepasse', 'motdepasse', 'Hari1234!!', Array, Array)
+#2 E:\Projets\marketplace\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 E:\Projets\marketplace\app\Controllers\Users.php(29): CodeIgniter\Controller->validate(Array, Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-09-17 10:34:42 --> validateUser is not a valid rule.
+#0 E:\Projets\marketplace\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('validateUser')
+#1 E:\Projets\marketplace\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('motdepasse', 'motdepasse', 'Hari1234!!', Array, Array)
+#2 E:\Projets\marketplace\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 E:\Projets\marketplace\app\Controllers\Users.php(29): CodeIgniter\Controller->validate(Array, Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-09-17 10:34:59 --> Validation is not a valid rule.
+#0 E:\Projets\marketplace\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('Validation')
+#1 E:\Projets\marketplace\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('motdepasse', 'motdepasse', 'Hari1234!!', Array, Array)
+#2 E:\Projets\marketplace\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 E:\Projets\marketplace\app\Controllers\Users.php(29): CodeIgniter\Controller->validate(Array, Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-09-17 10:35:23 -->  is not a valid rule.
+#0 E:\Projets\marketplace\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 E:\Projets\marketplace\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('motdepasse', 'motdepasse', 'Hari1234!!', Array, Array)
+#2 E:\Projets\marketplace\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 E:\Projets\marketplace\app\Controllers\Users.php(29): CodeIgniter\Controller->validate(Array, Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-09-17 10:50:29 --> auth filter must have a matching alias defined.
+#0 E:\Projets\marketplace\system\Filters\Filters.php(324): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(369): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}

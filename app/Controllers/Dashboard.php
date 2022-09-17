@@ -6,7 +6,7 @@ class Dashboard extends BaseController
 {
     public function index()
     {
-        $data = [] ;
+        $data = ['pagetitle' => 'Bienvenue'] ;
         // if (!session()->get('connecté')) {
         //     redirect()->to('/');
         // }

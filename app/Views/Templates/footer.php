@@ -25,9 +25,9 @@
     </div>
 
     <script type="text/javascript" src="<?php echo base_url('js/all.min.js'); ?>"></script>
-    <script type="text/javascript" src="<?php echo base_url('js/bootstrap.min.js'); ?>"></script>
     <script type="text/javascript" src="<?php echo base_url('js/jquery.min.js'); ?>"></script>
     <script type="text/javascript" src="<?php echo base_url('js/jquery.js'); ?>"></script>
+    <script type="text/javascript" src="<?php echo base_url('js/bootstrap.min.js'); ?>"></script>
     <script src="<?php echo base_url('ckeditor/ckeditor.js'); ?>"></script>
     <script>CKEDITOR.replace('cgvtext');</script> 
     <script>CKEDITOR.replace('shortdescprod');</script> 

@@ -42,6 +42,11 @@ $routes->get('storebackoffice/createstore', 'Storebackoffice::createstore');
 $routes->get('storebackoffice/mystore', 'Storebackoffice::mystore');
 $routes->get('connexion/changerayon', 'Connexion/changerayon');
 $routes->get('connexion/changecategorie', 'Connexion/changecategorie');
+$routes->match(['get','post'],'register','Users::register');
+$routes->get('Users::index', ['filter' => 'noauth']); 
+$routes->get('logout', 'Users::logout');
+$routes->match(['get','post'],'profile','Users::profile',['filter' => 'auth']);
+$routes->get('dashboard/index', 'Dashboard::index', ['filter' => 'auth']);
 // $routes->get('connexion/storesuccess', 'Connexion::storesuccess');
 // $routes->get('store/storebackhome', 'Store::storebackhome');
 

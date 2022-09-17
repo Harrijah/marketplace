@@ -3,19 +3,21 @@
 namespace App\Controllers ;
 
 use App\Models\UserModel ;
+use App\Controllers\Accueil;
 
 class Users extends BaseController
 {
     public function index()
     {
-        $data = [];
+        $accueil = model(Accueil::class);
+        $data = ['pagetitle' => 'Enregistrement'];
         helper(['form']);
 
         if ($this->request->getMethod() == 'post') {
             //let's do the validation here
             $rules = [
                 'email' => 'required|min_length[6]|max_length[50]|valid_email',
-                'motdepasse' => 'required|min_length[8]|max_length[255]|validateUser[email,motdepasse]',
+                'motdepasse' => 'required|min_length[8]|max_length[255]',
             ];
 
             $errors = [
@@ -34,7 +36,7 @@ class Users extends BaseController
                               
                 $this->setUserSession($user) ;
 
-                return redirect()->to('dashboard') ;
+                return $accueil->accueil() ;
 
             }    
         }
@@ -58,7 +60,7 @@ class Users extends BaseController
 
     public function register()
     {
-        $data = [];
+        $data = ['pagetitle' => 'Enregistrement'];
         helper(['form']);
 
         if ($this->request->getMethod() == 'post') {
