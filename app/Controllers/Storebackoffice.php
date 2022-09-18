@@ -21,6 +21,7 @@
             $data = [
                 'pagetitle' => 'Mon magasin',
                 'rayons' => $rayon->getRayon(),
+                'rayon' => $rayon->getSelectedRayon(),
                 'products' => $products->getSelectedProduct($idrayon=null, $limit=10)
             ];
             return view('Templates/header', $data) //Ceci est le menu

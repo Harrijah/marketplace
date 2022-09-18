@@ -40,6 +40,7 @@
             $souscategory = model(SouscategorieModel::class);
             $data = [
                 'rayons' => $rayon->getRayon(),
+                'rayon' => $rayon->getSelectedRayon(),
                 'categories' => $category->getCategory(),
                 'souscategories' => $souscategory->getSouscategory(),
                 'pagetitle' => 'Mon compte'
