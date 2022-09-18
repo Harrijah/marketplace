@@ -14,6 +14,7 @@ class Users extends BaseController
         $data = [
             'pagetitle' => 'Enregistrement',
             'rayons' => $rayon->getSelectedRayon(),
+            'rayon' => $rayon->getSelectedRayon(),
         ];
         helper(['form']);
 
@@ -68,6 +69,7 @@ class Users extends BaseController
         $data = [
             'pagetitle' => 'Enregistrement',
             'rayons' => $rayon->getSelectedRayon(),
+            'rayon' => $rayon->getSelectedRayon(),
         ];
         helper(['form']);
 
