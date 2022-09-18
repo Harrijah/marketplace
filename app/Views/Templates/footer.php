@@ -9,7 +9,9 @@
                 <li class="lienfooter"><a href="#">CGU & CGV</a></li>
                 <li class="lienfooter"><a href="#">A propos de nous</a></li>
                 <li class="lienfooter"><a href="#">Blog</a></li>
-                <li class="lienfooter"><a href="<?php echo base_url('storebackoffice/createstore'); ?>">Nouvelle boutique</a></li>
+                <?php if(session()->get('connecté')): ?>
+                    <li class="lienfooter"><a href="<?php echo base_url('storebackoffice/createstore'); ?>">Nouvelle boutique</a></li>
+                <?php endif;?>
             </ul>
         </div>
         <div class="col-md-6">

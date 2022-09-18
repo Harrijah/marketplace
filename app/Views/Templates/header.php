@@ -38,6 +38,9 @@
               <li class="text-white nav-item nav-link ">Bonjour <a href="#" class="d-inline"><?= session()->get('nom') ?></a>,</li>
               <li class="text-white nav-item nav-link ">Votre visite N° <span class="text-warning">0 </span></li>
               <li class="text-white nav-item nav-link ">Vos points de fidelité : <span class="text-warning">0 Pts</span></li>
+              <li class="text-white nav-item nav-link  <?= ($uri->getSegment(1) == 'profile' ? 'active' : null) ?>" >
+                <a class="text-white d-inline nav-link" href="users/profile">Voir Profil</a>
+              </li>
             </ul>
             <!-- <ul class="navbar-nav mr-auto">
               <li class="nav-item <?= ($uri->getSegment(1) == 'dashboard' ? 'active' : null) ?>" >
@@ -55,7 +58,6 @@
                 <a class="nav-link text-warning" href="javascript:void(0)" class="dropbtn">Mon profil</a>
                   <div class="dropdown-content">
                     <a href="<?php echo base_url('connexion/moncompte'); ?>" class="nav-link text-warning bg-dark">Mon compte</a>
-                    <a href="#" class="createbutton nav-link text-warning bg-dark" value="<?php echo base_url('connexion/createmodal'); ?>">Créer un compte</a>
                     <a href="/logout" class="nav-link text-warning bg-dark">Se déconnecter</a>
                   </div>
                   <!-- <div class="dropdown-content">
@@ -74,22 +76,23 @@
               <a class="nav-link text-white" href="register">S'inscrire</a>
               </li>
             </ul>
-          <?php endif;?>
+          <?php endif; ?>
         </div>
     </nav>
 
 <nav class="navbar-expand-lg navbar-light bg-light">
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Catégories</a>
-      <li class="nav-item"><a class="nav-link" href="<?php echo base_url('connexion/test'); ?>">Boutiques</a></li>
+      <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nos rayons</a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <?php foreach($rayon as $ray) :?>
+            <a class="dropdown-item" href="#"><?php echo $ray['rayon'] ?></a>
+          <?php endforeach; ?>
+          <!-- <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a> -->
         </div>
       </li>
+      <li class="nav-item"><a class="nav-link" href="#">Boutiques</a></li>
       <li class="nav-item"><a class="nav-link" href="#">Actus</a></li>
     </ul>
     

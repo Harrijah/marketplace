@@ -2,15 +2,19 @@
 
 namespace App\Controllers ;
 
-use App\Models\UserModel ;
+use App\Models\UserModel;
+use App\Models\RayonModel;
 use App\Controllers\Accueil;
 
 class Users extends BaseController
 {
     public function index()
     {
-        $accueil = model(Accueil::class);
-        $data = ['pagetitle' => 'Enregistrement'];
+        $rayon = model(RayonModel::class);
+        $data = [
+            'pagetitle' => 'Enregistrement',
+            'rayons' => $rayon->getSelectedRayon(),
+        ];
         helper(['form']);
 
         if ($this->request->getMethod() == 'post') {
@@ -36,7 +40,7 @@ class Users extends BaseController
                               
                 $this->setUserSession($user) ;
 
-                return $accueil->accueil() ;
+                return redirect()->to(base_url()) ;
 
             }    
         }
@@ -60,7 +64,11 @@ class Users extends BaseController
 
     public function register()
     {
-        $data = ['pagetitle' => 'Enregistrement'];
+        $rayon = model(RayonModel::class);
+        $data = [
+            'pagetitle' => 'Enregistrement',
+            'rayons' => $rayon->getSelectedRayon(),
+        ];
         helper(['form']);
 
         if ($this->request->getMethod() == 'post') {
@@ -138,7 +146,9 @@ class Users extends BaseController
                 return redirect()->to('/profile') ;
             }
         }
-        $data['user'] = $model->where('id', session()->get('id'))->first();
+        $data = [
+            'user' => $model->where('id', session()->get('id'))->first(),
+        ];
         echo view('templates/header', $data);
         echo view('profile');
         echo view('templates/footer');
