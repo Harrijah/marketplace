@@ -1,0 +1,9 @@
+CRITICAL - 2022-09-20 03:24:26 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 E:\PROJET\marketplace\system\Config\BaseService.php(123): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 E:\PROJET\marketplace\system\Config\Services.php(115): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 E:\PROJET\marketplace\system\Common.php(102): CodeIgniter\Config\Services::cache()
+#3 E:\PROJET\marketplace\system\CodeIgniter.php(625): cache()
+#4 E:\PROJET\marketplace\system\CodeIgniter.php(294): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 E:\PROJET\marketplace\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#6 E:\PROJET\marketplace\spark(57): CodeIgniter\CLI\Console->run()
+#7 {main}

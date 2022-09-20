@@ -1,6 +1,6 @@
 <div class="container">
     <div class="row">
-        <div class="col-12 col-sm8- offset-sm-2 col-md-6 offset-md-3 mt-5 pt-3 pb-3 bg-white from-wrapper">
+        <div class="col-12 col-sm8- offset-sm-2 col-md-6 offset-md-3 mt-5 pt-3 pb-3 bg-secondary text-white from-wrapper shadow mb-5">
             <div class="container">
                 <h3>S'inscrire</h3>
                 <hr>
@@ -20,10 +20,22 @@
                         </div>  
                         <div class="col-12">
                             <div class="form-group">
-                            <label for="email">Adresse email</label>
+                            <label for="email">Email</label>
                             <input type="text" class="form-control" value="<?= set_value('email') ?>" name="email" id="email">
                             </div>
-                        </div>                 
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group">
+                            <label for="adresse">Adresse</label>
+                            <input type="text" class="form-control" value="<?= set_value('adresse') ?>" name="adresse" id="adresse">
+                            </div>
+                        </div> 
+                        <div class="col-12">
+                            <div class="form-group">
+                            <label for="telephone">Telephone</label>
+                            <input type="text" class="form-control" value="<?= set_value('telephone') ?>" name="telephone" id="telephone">
+                            </div>
+                        </div>                  
                         <div class="col-12 col-sm-6">
                             <div class="form-group">
                             <label for="motdepasse">Mot de Passe</label>
@@ -51,7 +63,7 @@
                             <button type="submit" class="btn btn-primary">Enregistrer</button>
                         </div>
                         <div class="col-12 col-sm-8 text-right">
-                            <a href="/" style="float:right">J'ai deja un compte</a>
+                            <a href="/login" style="float:right" class="text-white">J'ai deja un compte</a>
                         </div>
                     </div>             
                 </form>
