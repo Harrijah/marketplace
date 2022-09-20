@@ -116,6 +116,7 @@ class Users extends BaseController
         $data = [];
         helper(['form']);
         $model = new UserModel() ;
+        $rayon = model(RayonModel::class);
 
         if ($this->request->getMethod() == 'post') {
             //Validation des champs
@@ -150,6 +151,9 @@ class Users extends BaseController
         }
         $data = [
             'user' => $model->where('id', session()->get('id'))->first(),
+            'pagetitle'  => "Mon compte",
+            'rayon'  => $rayon->getSelectedRayon()
+
         ];
         echo view('templates/header', $data);
         echo view('profile');

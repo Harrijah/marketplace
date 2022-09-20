@@ -1,0 +1,160 @@
+CRITICAL - 2022-09-19 22:29:48 --> Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée.
+
+#0 E:\Projets\marketplace\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\Projets\marketplace\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\Projets\marketplace\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\Projets\marketplace\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\Projets\marketplace\app\Models\RayonModel.php(11): CodeIgniter\Model->findAll()
+#5 E:\Projets\marketplace\app\Controllers\Accueil.php(15): App\Models\RayonModel->getRayon()
+#6 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#7 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#8 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#11 {main}
+CRITICAL - 2022-09-19 22:32:48 --> Undefined offset: 1
+#0 E:\Projets\marketplace\system\Router\Router.php(482): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 482, Array)
+#1 E:\Projets\marketplace\system\Router\Router.php(174): CodeIgniter\Router\Router->checkRoutes('users/profile')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('users/profile')
+#3 E:\Projets\marketplace\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-09-19 22:34:46 --> Undefined offset: 1
+#0 E:\Projets\marketplace\system\Router\Router.php(482): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 482, Array)
+#1 E:\Projets\marketplace\system\Router\Router.php(174): CodeIgniter\Router\Router->checkRoutes('users/profile')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('users/profile')
+#3 E:\Projets\marketplace\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-09-19 22:34:48 --> Undefined offset: 1
+#0 E:\Projets\marketplace\system\Router\Router.php(482): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 482, Array)
+#1 E:\Projets\marketplace\system\Router\Router.php(174): CodeIgniter\Router\Router->checkRoutes('users/profile')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('users/profile')
+#3 E:\Projets\marketplace\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-09-19 22:36:09 --> Undefined offset: 1
+#0 E:\Projets\marketplace\system\Router\Router.php(482): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 482, Array)
+#1 E:\Projets\marketplace\system\Router\Router.php(174): CodeIgniter\Router\Router->checkRoutes('users/profile')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('users/profile')
+#3 E:\Projets\marketplace\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-09-19 22:36:31 --> Undefined offset: 1
+#0 E:\Projets\marketplace\system\Router\Router.php(482): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 482, Array)
+#1 E:\Projets\marketplace\system\Router\Router.php(174): CodeIgniter\Router\Router->checkRoutes('users/profile')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('users/profile')
+#3 E:\Projets\marketplace\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-09-19 22:36:43 --> Undefined offset: 1
+#0 E:\Projets\marketplace\system\Router\Router.php(482): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 482, Array)
+#1 E:\Projets\marketplace\system\Router\Router.php(174): CodeIgniter\Router\Router->checkRoutes('users/profile')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('users/profile')
+#3 E:\Projets\marketplace\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-09-19 22:36:58 --> Undefined offset: 1
+#0 E:\Projets\marketplace\system\Router\Router.php(482): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 482, Array)
+#1 E:\Projets\marketplace\system\Router\Router.php(174): CodeIgniter\Router\Router->checkRoutes('users/profile')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('users/profile')
+#3 E:\Projets\marketplace\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-09-19 22:37:00 --> Undefined offset: 1
+#0 E:\Projets\marketplace\system\Router\Router.php(482): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 482, Array)
+#1 E:\Projets\marketplace\system\Router\Router.php(174): CodeIgniter\Router\Router->checkRoutes('users/profile')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('users/profile')
+#3 E:\Projets\marketplace\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-09-19 22:37:19 --> Undefined offset: 1
+#0 E:\Projets\marketplace\system\Router\Router.php(482): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 482, Array)
+#1 E:\Projets\marketplace\system\Router\Router.php(174): CodeIgniter\Router\Router->checkRoutes('users/profile')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('users/profile')
+#3 E:\Projets\marketplace\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-09-19 22:37:44 --> Undefined offset: 1
+#0 E:\Projets\marketplace\system\Router\Router.php(482): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 482, Array)
+#1 E:\Projets\marketplace\system\Router\Router.php(174): CodeIgniter\Router\Router->checkRoutes('users/profile')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('users/profile')
+#3 E:\Projets\marketplace\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-09-19 22:37:54 --> Undefined offset: 1
+#0 E:\Projets\marketplace\system\Router\Router.php(482): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 482, Array)
+#1 E:\Projets\marketplace\system\Router\Router.php(174): CodeIgniter\Router\Router->checkRoutes('users/profile')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('users/profile')
+#3 E:\Projets\marketplace\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-09-19 22:38:03 --> Undefined offset: 1
+#0 E:\Projets\marketplace\system\Router\Router.php(482): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 482, Array)
+#1 E:\Projets\marketplace\system\Router\Router.php(174): CodeIgniter\Router\Router->checkRoutes('users/profile')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('users/profile')
+#3 E:\Projets\marketplace\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-09-19 22:38:16 --> Undefined offset: 1
+#0 E:\Projets\marketplace\system\Router\Router.php(482): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 482, Array)
+#1 E:\Projets\marketplace\system\Router\Router.php(174): CodeIgniter\Router\Router->checkRoutes('users/profile')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('users/profile')
+#3 E:\Projets\marketplace\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-09-19 22:39:19 --> Undefined variable: pagetitle
+#0 E:\Projets\marketplace\app\Views\Templates\header.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 21, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Users.php(154): view('templates/heade...', Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->profile()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-09-19 22:40:16 --> Undefined variable: rayon
+#0 E:\Projets\marketplace\app\Views\Templates\header.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 88, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Users.php(155): view('templates/heade...', Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->profile()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-09-19 22:42:19 --> auth filter must have a matching alias defined.
+#0 E:\Projets\marketplace\system\Filters\Filters.php(324): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(369): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}

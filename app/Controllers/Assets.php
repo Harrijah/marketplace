@@ -9,6 +9,10 @@
         {
             return view('/assets/littlehorizontalcard');
         }
+        public static function carouselproducts()
+        {
+            return view('assets/carouselproducts');
+        }
         public static function selectedproducts() // Boucle contenant les petits cards de 6 produits près du slider
         {
             return view('assets/selectedproducts');
