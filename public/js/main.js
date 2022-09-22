@@ -50,7 +50,7 @@ $(document).ready(function() {
         });
     }
     
-    /*  ****************    Fonction filtre    ************ */
+    /*  ****************     Utiliser le filtre par rayon à côté du slider principal dans la page d'accueil    ************ */
     function filtre(bouton, url, fonction, limit, destination, contenu)
     {
         $(bouton).on('change', function(e)

@@ -12,7 +12,7 @@ class Users extends BaseController
     {
         $rayon = model(RayonModel::class);
         $data = [
-            'pagetitle' => 'Enregistrement',
+            'pagetitle' => 'Connexion',
             'rayons' => $rayon->getSelectedRayon(),
             'rayon' => $rayon->getSelectedRayon(),
         ];
@@ -56,6 +56,8 @@ class Users extends BaseController
             'nom' => $user['nom'],
             'prenoms' => $user['prenoms'],
             'email' => $user['email'],
+            'adresse' => $user['adresse'],
+            'telephone' => $user['telephone'],
             'connecté' => true,
         ];
 
@@ -79,6 +81,8 @@ class Users extends BaseController
                 'nom' => 'required|min_length[3]|max_length[20]',
                 'prenoms' => 'required|min_length[3]|max_length[20]',
                 'email' => 'required|min_length[6]|max_length[50]|valid_email|is_unique[users.email]',
+                'adresse' => 'required|min_length[10]|max_length[255]',
+                'telephone' => 'required|min_length[8]|max_length[255]|',
                 'motdepasse' => 'required|min_length[8]|max_length[255]',
                 'motdepasse_confirm' => 'matches[motdepasse]',
             ];
@@ -87,12 +91,14 @@ class Users extends BaseController
                 $data['validation'] = $this->validator;
             } else {
                 //Ajout user dans la BDD
-                $model = new UserModel() ;
+                $model = model(UsersModel::class);
 
                 $newData = [
                     'nom' => $this->request->getVar('nom'),
                     'prenoms' => $this->request->getVar('prenoms'),
                     'email' => $this->request->getVar('email'),
+                    'adresse' => $this->request->getVar('adresse'),
+                    'telephone' => $this->request->getVar('telephone'),
                     'motdepasse' => $this->request->getVar('motdepasse'),
                 ] ;
 

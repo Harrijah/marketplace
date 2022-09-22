@@ -1,5 +1,5 @@
 <div class="container">
-    <div class="row">
+    <div class="row" style="margin-top:100px; margin-bottom:100px">
         <div class="col-12 col-sm8- offset-sm-2 col-md-6 offset-md-3 mt-5 pt-3 pb-3 bg-secondary text-white from-wrapper mb-5 shadow">
             <div class="container">
                 <h3>Se connecter</h3>
