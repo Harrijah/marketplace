@@ -34,6 +34,7 @@ $routes->match(['get', 'post'], 'connexion/createrayon', 'Connexion::createrayon
 $routes->match(['get', 'post'], 'connexion/createcategory', 'Connexion::createcategory');
 $routes->match(['get', 'post'], 'connexion/souscategorie', 'Connexion::souscategorie');
 $routes->match(['get', 'post'], 'produit/addproduct', 'Produit::addproduct');
+$routes->match(['get','post'],'register','Users::register');
 $routes->get('/', 'Accueil::accueil');
 $routes->get('connexion', 'Accueil::accueil');
 $routes->get('connexion/moncompte', 'Connexion::moncompte');
@@ -45,7 +46,9 @@ $routes->get('connexion/changecategorie', 'Connexion/changecategorie');
 $routes->get('users/profile', 'Users::profile');
 $routes->match(['get','post'],'register','Users::register');
 $routes->get('Users::index', ['filter' => 'noauth']); 
+$routes->get('login', 'Users::index');
 $routes->get('logout', 'Users::logout');
+
 $routes->match(['get','post'],'profile','Users::profile');
 $routes->get('dashboard/index', 'Dashboard::index', ['filter' => 'auth']);
 // $routes->get('connexion/storesuccess', 'Connexion::storesuccess');

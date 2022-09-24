@@ -1,0 +1,42 @@
+CRITICAL - 2022-09-20 03:24:26 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 E:\PROJET\marketplace\system\Config\BaseService.php(123): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 E:\PROJET\marketplace\system\Config\Services.php(115): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 E:\PROJET\marketplace\system\Common.php(102): CodeIgniter\Config\Services::cache()
+#3 E:\PROJET\marketplace\system\CodeIgniter.php(625): cache()
+#4 E:\PROJET\marketplace\system\CodeIgniter.php(294): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 E:\PROJET\marketplace\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#6 E:\PROJET\marketplace\spark(57): CodeIgniter\CLI\Console->run()
+#7 {main}
+CRITICAL - 2022-09-20 07:44:21 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 E:\PROJET\test\system\Config\BaseService.php(123): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 E:\PROJET\test\system\Config\Services.php(115): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 E:\PROJET\test\system\Common.php(102): CodeIgniter\Config\Services::cache()
+#3 E:\PROJET\test\system\CodeIgniter.php(625): cache()
+#4 E:\PROJET\test\system\CodeIgniter.php(294): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 E:\PROJET\test\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#6 E:\PROJET\test\spark(57): CodeIgniter\CLI\Console->run()
+#7 {main}
+CRITICAL - 2022-09-20 08:08:35 --> Undefined index: icone
+#0 E:\PROJET\test\app\Views\assets\allcategories.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\PROJET\\test\\...', 8, Array)
+#1 E:\PROJET\test\system\View\View.php(246): include('E:\\PROJET\\test\\...')
+#2 E:\PROJET\test\system\Common.php(1087): CodeIgniter\View\View->render('assets/allcateg...', Array, true)
+#3 E:\PROJET\test\app\Controllers\Assets.php(26): view('assets/allcateg...')
+#4 E:\PROJET\test\app\Controllers\Accueil.php(24): App\Controllers\Assets->allcategories(Array)
+#5 E:\PROJET\test\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#6 E:\PROJET\test\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#7 E:\PROJET\test\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\PROJET\test\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\PROJET\test\system\Commands\Server\rewrite.php(34): require_once('E:\\PROJET\\test\\...')
+#10 {main}
+CRITICAL - 2022-09-20 09:59:30 --> Undefined index: icone
+#0 E:\PROJET\test\app\Views\assets\allcategories.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\PROJET\\test\\...', 8, Array)
+#1 E:\PROJET\test\system\View\View.php(246): include('E:\\PROJET\\test\\...')
+#2 E:\PROJET\test\system\Common.php(1087): CodeIgniter\View\View->render('assets/allcateg...', Array, true)
+#3 E:\PROJET\test\app\Controllers\Assets.php(26): view('assets/allcateg...')
+#4 E:\PROJET\test\app\Controllers\Accueil.php(24): App\Controllers\Assets->allcategories(Array)
+#5 E:\PROJET\test\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#6 E:\PROJET\test\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#7 E:\PROJET\test\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\PROJET\test\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\PROJET\test\system\Commands\Server\rewrite.php(34): require_once('E:\\PROJET\\test\\...')
+#10 {main}

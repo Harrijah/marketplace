@@ -1,0 +1,40 @@
+CRITICAL - 2022-09-22 07:35:22 --> noauth filter must have a matching alias defined.
+#0 E:\PROJET\test\system\Filters\Filters.php(324): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('noauth')
+#1 E:\PROJET\test\system\CodeIgniter.php(369): CodeIgniter\Filters\Filters->enableFilter('noauth', 'before')
+#2 E:\PROJET\test\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\PROJET\test\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\PROJET\test\system\Commands\Server\rewrite.php(34): require_once('E:\\PROJET\\test\\...')
+#5 {main}
+CRITICAL - 2022-09-22 07:47:14 -->  is not a valid rule.
+#0 E:\PROJET\test\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 E:\PROJET\test\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('telephone', 'telephone', '0202203489', Array, Array)
+#2 E:\PROJET\test\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 E:\PROJET\test\app\Controllers\Users.php(90): CodeIgniter\Controller->validate(Array)
+#4 E:\PROJET\test\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#5 E:\PROJET\test\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 E:\PROJET\test\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\PROJET\test\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\PROJET\test\system\Commands\Server\rewrite.php(34): require_once('E:\\PROJET\\test\\...')
+#9 {main}
+CRITICAL - 2022-09-22 08:39:53 -->  is not a valid rule.
+#0 E:\PROJET\test\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 E:\PROJET\test\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('telephone', 'telephone', '0202203489', Array, Array)
+#2 E:\PROJET\test\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 E:\PROJET\test\app\Controllers\Users.php(79): CodeIgniter\Controller->validate(Array)
+#4 E:\PROJET\test\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#5 E:\PROJET\test\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 E:\PROJET\test\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\PROJET\test\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\PROJET\test\system\Commands\Server\rewrite.php(34): require_once('E:\\PROJET\\test\\...')
+#9 {main}
+CRITICAL - 2022-09-22 08:41:31 -->  is not a valid rule.
+#0 E:\PROJET\test\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 E:\PROJET\test\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('telephone', 'telephone', '0202203489', Array, Array)
+#2 E:\PROJET\test\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 E:\PROJET\test\app\Controllers\Users.php(90): CodeIgniter\Controller->validate(Array)
+#4 E:\PROJET\test\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#5 E:\PROJET\test\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 E:\PROJET\test\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\PROJET\test\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\PROJET\test\system\Commands\Server\rewrite.php(34): require_once('E:\\PROJET\\test\\...')
+#9 {main}
