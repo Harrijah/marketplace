@@ -1,6 +1,13 @@
 $(document).ready(function() {
     changecategory();
     changesouscategorie();
+    addactive();
+    /*  **************************     USE CAROUSEL     ******************************* */
+function addactive(){
+    var imagecarousel = document.querySelector('.montre-moi-00');
+    imagecarousel.classList.add('active');
+}
+    
     /*  ****************     Activer le filtre de produits   ************ */
     function changecategory()
     {
@@ -76,6 +83,7 @@ $(document).ready(function() {
             })
             .done(function(data){
                 $(contenu).html(data);
+                addactive();
             })
             .fail(function(errorMessage){
                 alert(errorMessage);
@@ -85,6 +93,7 @@ $(document).ready(function() {
     /*  ****************     UTILISER LE FILTRE PAR RAYON/CATEGORIE/SOUSCATEGORIE    ************ */
     // Rayon à côté slider principal page d'accueil
     filtre('.selectrayon2', 'url2', 'getSelectedProduct', '6', 'selectedproducts', '#homeselectedproduct');    
+    filtre('.selectrayon2', 'url2', 'getSelectedProduct', '6', 'carouselproducts', '#changeCarousel');    
     // Page d'accueil
     filtre('.selectrayon', 'url2', 'getSelectedProduct', '10', 'allproductshome', '#allproductshome');   
     filtre('.selectcategory', 'url2', 'getProductByCategory', '10', 'allproductshome', '#allproductshome');
@@ -95,7 +104,6 @@ $(document).ready(function() {
     filtre('.selectsouscategorie', 'url', 'getProductBySousCategory', '10', 'storebackofficeallproducts', '#backofficestoreproductlist');
     
 
-    
     /*  **************************     TOGGLE MENU     ******************************* */
     const tabs = document.querySelector(".wrapper");
     const tabButton = document.querySelectorAll(".mybutton");

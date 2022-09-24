@@ -9,9 +9,13 @@
         {
             return view('/assets/littlehorizontalcard');
         }
-        public static function carouselproducts()
+        public static function carouselcommand()
         {
-            return view('assets/carouselproducts');
+            return view('assets/carouselcommand');
+        }
+        public static function carouselproducts($idrayon)
+        {
+            return view('assets/carouselproducts', $idrayon);
         }
         public static function selectedproducts() // Boucle contenant les petits cards de 6 produits près du slider
         {
@@ -73,6 +77,7 @@
         {
             return view('filtre/productsouscategories', $data);
         }
+        
 
         
     }
