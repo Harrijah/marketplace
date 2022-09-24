@@ -5,7 +5,7 @@
         </div>
         <div class="textprod03 text-left text-white">
             <span class="textprod"><?php echo $product['nom']; ?></span><br>
-            <span class="textprod"><span class="text-warning">Ar </span>1200</span><br>
+            <span class="textprod"><span class="text-warning">Ar </span><?= $product['prix']; ?></span><br>
         </div>
     </div>
 <?php endforeach; ?>

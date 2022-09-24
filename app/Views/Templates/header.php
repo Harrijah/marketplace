@@ -35,12 +35,9 @@
           </div>
           <?php if(session()->get('connecté')): ?>
             <ul class="navbar-nav mr-auto">
-              <li class="text-white nav-item nav-link ">Bonjour <a href="#" class="d-inline"><?= session()->get('nom') ?></a>,</li>
-              <li class="text-white nav-item nav-link ">Votre visite N° <span class="text-warning">0 </span></li>
+              <li class="text-white nav-item nav-link ">Bonjour <a href="<?= base_url('users/profile'); ?>" class="d-inline"><?= session()->get('nom') ?></a>,</li>
+              <li class="text-white nav-item nav-link <?= ($uri->getSegment(1) == 'profile' ? 'active' : null) ?>">Votre visite N° <span class="text-warning">0 </span></li>
               <li class="text-white nav-item nav-link ">Vos points de fidelité : <span class="text-warning">0 Pts</span></li>
-              <li class="text-white nav-item nav-link  <?= ($uri->getSegment(1) == 'profile' ? 'active' : null) ?>" >
-                <a class="text-white d-inline nav-link" href="users/profile">Voir Profil</a>
-              </li>
             </ul>
             <!-- <ul class="navbar-nav mr-auto">
               <li class="nav-item <?= ($uri->getSegment(1) == 'dashboard' ? 'active' : null) ?>" >
@@ -55,9 +52,9 @@
               <li><a class="nav-link text-warning" href=""><i style="font-size:20px" class="fa fa-cart-plus"></i></a></li>
               <li><a href="" class="nav-link text-warning"></a></li>
               <li class="dropdown">
-                <a class="nav-link text-warning" href="javascript:void(0)" class="dropbtn">Mon profil</a>
+                <a class="nav-link text-warning" href="javascript:void(0)" class="dropbtn">Mon compte</a>
                   <div class="dropdown-content">
-                    <a href="<?php echo base_url('connexion/moncompte'); ?>" class="nav-link text-warning bg-dark">Mon compte</a>
+                    <a href="<?php echo base_url('connexion/moncompte'); ?>" class="nav-link text-warning bg-dark">Tableau de bord</a>
                     <a href="/logout" class="nav-link text-warning bg-dark">Se déconnecter</a>
                   </div>
                   <!-- <div class="dropdown-content">

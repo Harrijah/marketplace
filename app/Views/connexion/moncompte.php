@@ -7,12 +7,18 @@
             <div class="btn-group">
                 <div class="mybutton btn btn-outline-warning active" data-id="monpanier">Mon panier</div>
                 <div class="mybutton btn btn-outline-warning" data-id="mesfactures">Mes factures</div>
-                <div class="mybutton btn btn-outline-warning" data-id="mesmessages">Catégories</div>
+                <div class="mybutton btn btn-outline-warning" data-id="mesmessages">Création atégories</div>
                 <button type="button" onclick="location.href='<?php echo base_url('storebackoffice/mystore'); ?>'" class="btn btn-outline-warning">Mon magasin</button>
             </div>
         </div>
         <div class="contentWrapper formcontainer03">
             <div class="content active" id="monpanier">
+                <p>Ici, le "panier" en cours </p>
+            </div>
+            <div class="content" id="mesfactures">
+                <p>Ici, la liste des achats effectués avec possibilité de télécharger les factures en PDF</p>
+            </div>
+            <div class="content" id="mesmessages">                
                 <div class="rowforms">
                     <div class="parentcategorie rayon">
                         <div class="formcontainer01 pr-3 pl-3">
@@ -87,10 +93,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="content" id="mesfactures">2</div>
-            <div class="content" id="mesmessages">
-                
             </div>
         </div>
     </div>
