@@ -67,7 +67,7 @@
           <?php else: ?>
             <ul class="navbar-nav">
               <li class="nav-item <?= ($uri->getSegment(1) == '' ? 'active' : null) ?> ">
-              <a class="nav-link text-white" href="users/index">Se connecter</a>
+              <a class="nav-link text-white" href="<?php echo base_url('users/index'); ?>">Se connecter</a>
               </li>
               <li class="nav-item <?= ($uri->getSegment(1) == 'register' ? 'active' : null) ?> ">
               <a class="nav-link text-white" href="register">S'inscrire</a>
@@ -85,8 +85,6 @@
           <?php foreach($rayon as $ray) :?>
             <a class="dropdown-item" href="#"><?php echo $ray['rayon'] ?></a>
           <?php endforeach; ?>
-          <!-- <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a> -->
         </div>
       </li>
       <li class="nav-item"><a class="nav-link" href="#">Boutiques</a></li>

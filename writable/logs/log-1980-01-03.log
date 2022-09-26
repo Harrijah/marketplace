@@ -77,3 +77,25 @@ CRITICAL - 1980-01-03 18:03:21 --> Undefined variable: i
 #7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
 #9 {main}
+CRITICAL - 1980-01-03 18:57:32 --> Undefined variable: rayon
+#0 E:\Projets\marketplace\app\Views\Templates\header.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 85, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('Templates/heade...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Storebackoffice.php(12): view('Templates/heade...', Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Storebackoffice->createstore()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Storebackoffice))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 1980-01-03 19:02:04 --> syntax error, unexpected ':'
+#0 E:\Projets\marketplace\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\Projets\\mark...')
+#1 E:\Projets\marketplace\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 E:\Projets\marketplace\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}

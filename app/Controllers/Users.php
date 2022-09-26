@@ -46,7 +46,7 @@ class Users extends BaseController
             }    
         }
         echo view('templates/header', $data);
-        echo view('login');
+        echo view('/login');
         echo view('templates/footer');
     }
 
@@ -56,8 +56,8 @@ class Users extends BaseController
             'nom' => $user['nom'],
             'prenoms' => $user['prenoms'],
             'email' => $user['email'],
-            'adresse' => $user['adresse'],
-            'telephone' => $user['telephone'],
+            // 'adresse' => $user['adresse'],
+            // 'telephone' => $user['telephone'],
             'connecté' => true,
         ];
 

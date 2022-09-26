@@ -5,15 +5,13 @@
                 <?php echo (\App\Controllers\Assets::carouselcommand()); ?>
             </div>
             <div class="col-6">
-                <!-- <div class="row categories">
-                    <div class="col-6 bg-light">
-                    </div>
-                    <div class="col-6"></div>
-                </div> -->
                 <div class="listprod04 bg-light"  id="homeselectedproduct">
                     <?php  echo (\App\Controllers\Assets::selectedproducts()); ?> 
                 </div>
             </div>
         </div>
+    </div>
+    <div class='col-2'>
+        <img src="<?php echo base_url('uploads/images/pub.jpg'); ?>" alt="pub" class="img-fluid">
     </div>
 </div>
