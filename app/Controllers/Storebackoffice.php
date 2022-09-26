@@ -8,7 +8,11 @@
 // --------------------------------------------- Creer compte & vue sur store backoffice ------------------------------
         public function createstore()
         {
-            $data['pagetitle'] = 'A propos de la boutique';  
+            $rayon = model(RayonModel::class);
+            $data = [
+                'pagetitle' => 'A propos de la boutique',
+                'rayon' => $rayon->getRayon(),
+             ];  
             return view('Templates/header', $data) 
             . view('storebackoffice/createstore') 
             . view('Templates/footer');

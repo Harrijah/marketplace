@@ -539,9 +539,9 @@ li a, .dropbtn{
 .sliderimages{
 	height : 400px;
 }
-.slider-image{
+.myimagetest{
 	position : relative;
-	height: 100%;
+	height: 300px;
 }
 /* .custom-caption-background{
 	background-color: #1b1b1b6c;
