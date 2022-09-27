@@ -1,0 +1,228 @@
+CRITICAL - 2022-09-27 04:02:13 -->  is not a valid rule.
+#0 E:\Projets\marketplace\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 E:\Projets\marketplace\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('telephone', 'telephone', '0340425441', Array, Array)
+#2 E:\Projets\marketplace\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 E:\Projets\marketplace\app\Controllers\Users.php(90): CodeIgniter\Controller->validate(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-09-27 04:04:25 -->  is not a valid rule.
+#0 E:\Projets\marketplace\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 E:\Projets\marketplace\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('telephone', 'telephone', '0340425441', Array, Array)
+#2 E:\Projets\marketplace\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 E:\Projets\marketplace\app\Controllers\Users.php(90): CodeIgniter\Controller->validate(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-09-27 04:05:36 -->  is not a valid rule.
+#0 E:\Projets\marketplace\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 E:\Projets\marketplace\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('telephone', 'telephone', '0340425441', Array, Array)
+#2 E:\Projets\marketplace\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 E:\Projets\marketplace\app\Controllers\Users.php(90): CodeIgniter\Controller->validate(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-09-27 04:09:49 -->  is not a valid rule.
+#0 E:\Projets\marketplace\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 E:\Projets\marketplace\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('telephone', 'telephone', '0340425441', Array, Array)
+#2 E:\Projets\marketplace\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 E:\Projets\marketplace\app\Controllers\Users.php(90): CodeIgniter\Controller->validate(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-09-27 04:09:53 -->  is not a valid rule.
+#0 E:\Projets\marketplace\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 E:\Projets\marketplace\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('telephone', 'telephone', '0340425441', Array, Array)
+#2 E:\Projets\marketplace\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 E:\Projets\marketplace\app\Controllers\Users.php(90): CodeIgniter\Controller->validate(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-09-27 04:10:05 -->  is not a valid rule.
+#0 E:\Projets\marketplace\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 E:\Projets\marketplace\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('telephone', 'telephone', '0340425441', Array, Array)
+#2 E:\Projets\marketplace\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 E:\Projets\marketplace\app\Controllers\Users.php(90): CodeIgniter\Controller->validate(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-09-27 04:10:27 -->  is not a valid rule.
+#0 E:\Projets\marketplace\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 E:\Projets\marketplace\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('telephone', 'telephone', '0340425441', Array, Array)
+#2 E:\Projets\marketplace\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 E:\Projets\marketplace\app\Controllers\Users.php(90): CodeIgniter\Controller->validate(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-09-27 04:11:26 -->  is not a valid rule.
+#0 E:\Projets\marketplace\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 E:\Projets\marketplace\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('telephone', 'telephone', '0340425441', Array, Array)
+#2 E:\Projets\marketplace\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 E:\Projets\marketplace\app\Controllers\Users.php(90): CodeIgniter\Controller->validate(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-09-27 04:11:29 -->  is not a valid rule.
+#0 E:\Projets\marketplace\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 E:\Projets\marketplace\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('telephone', 'telephone', '0340425441', Array, Array)
+#2 E:\Projets\marketplace\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 E:\Projets\marketplace\app\Controllers\Users.php(90): CodeIgniter\Controller->validate(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-09-27 04:14:18 -->  is not a valid rule.
+#0 E:\Projets\marketplace\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 E:\Projets\marketplace\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('telephone', 'telephone', '0340425441', Array, Array)
+#2 E:\Projets\marketplace\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 E:\Projets\marketplace\app\Controllers\Users.php(90): CodeIgniter\Controller->validate(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-09-27 04:16:04 -->  is not a valid rule.
+#0 E:\Projets\marketplace\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 E:\Projets\marketplace\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('telephone', 'telephone', '0340425441', Array, Array)
+#2 E:\Projets\marketplace\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 E:\Projets\marketplace\app\Controllers\Users.php(90): CodeIgniter\Controller->validate(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-09-27 04:16:08 -->  is not a valid rule.
+#0 E:\Projets\marketplace\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 E:\Projets\marketplace\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('telephone', 'telephone', '0340425441', Array, Array)
+#2 E:\Projets\marketplace\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 E:\Projets\marketplace\app\Controllers\Users.php(90): CodeIgniter\Controller->validate(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-09-27 04:16:12 -->  is not a valid rule.
+#0 E:\Projets\marketplace\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 E:\Projets\marketplace\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('telephone', 'telephone', '0340425441', Array, Array)
+#2 E:\Projets\marketplace\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 E:\Projets\marketplace\app\Controllers\Users.php(90): CodeIgniter\Controller->validate(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-09-27 04:17:56 --> Call to a member function save() on null
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-09-27 04:18:21 --> Call to a member function save() on null
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-09-27 04:18:36 --> Call to a member function save() on null
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-09-27 04:18:47 --> Call to a member function save() on null
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-09-27 04:19:10 -->  is not a valid rule.
+#0 E:\Projets\marketplace\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 E:\Projets\marketplace\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('telephone', 'telephone', '0340425441', Array, Array)
+#2 E:\Projets\marketplace\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 E:\Projets\marketplace\app\Controllers\Users.php(90): CodeIgniter\Controller->validate(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-09-27 04:20:37 --> Call to a member function save() on null
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-09-27 04:21:10 --> Call to a member function save() on null
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-09-27 04:21:58 --> Call to a member function save() on null
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-09-27 04:22:28 --> Call to a member function save() on null
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-09-27 04:23:53 --> Call to a member function save() on null
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-09-27 04:42:48 -->  is not a valid rule.
+#0 E:\Projets\marketplace\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 E:\Projets\marketplace\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('telephone', 'telephone', '0345246530', Array, Array)
+#2 E:\Projets\marketplace\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 E:\Projets\marketplace\app\Controllers\Users.php(90): CodeIgniter\Controller->validate(Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}

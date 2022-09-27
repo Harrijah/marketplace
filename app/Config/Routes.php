@@ -45,7 +45,7 @@ $routes->get('connexion/changerayon', 'Connexion/changerayon');
 $routes->get('connexion/changecategorie', 'Connexion/changecategorie');
 $routes->get('users/profile', 'Users::profile');
 $routes->match(['get','post'],'register','Users::register');
-$routes->get('Users::index', ['filter' => 'noauth']); 
+$routes->get('Users::index', ['filter' => 'noauth']);
 $routes->get('login', 'Users::index');
 $routes->get('logout', 'Users::logout');
 

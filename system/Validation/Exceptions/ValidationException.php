@@ -5,7 +5,7 @@ use CodeIgniter\Exceptions\FrameworkException;
 
 class ValidationException extends FrameworkException implements ExceptionInterface
 {
-	public static function forRuleNotFound(string $rules = null)
+	public static function forRuleNotFound(?string $rules = null)
 	{
 		return new static(lang('Validation.ruleNotFound', [$rules]));
 	}
