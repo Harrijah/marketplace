@@ -13,9 +13,9 @@
                 'pagetitle' => 'A propos de la boutique',
                 'rayon' => $rayon->getRayon(),
              ];  
-            return view('Templates/header', $data) 
+            return view('Template-parts/header', $data) 
             . view('storebackoffice/createstore') 
-            . view('Templates/footer');
+            . view('Template-parts/footer');
         }
         public function mystore()
         {
@@ -28,12 +28,12 @@
                 'rayon' => $rayon->getSelectedRayon(),
                 'products' => $products->getSelectedProduct($idrayon=null, $limit=10)
             ];
-            return view('Templates/header', $data) //Ceci est le menu
+            return view('Template-parts/header', $data) //Ceci est le menu
             . $assets->storebackofficebanner() // Ceci est la bannière avec photo de couverture de la boutique
             . $assets->storebackofficebar() // Ceci est la barre horizontale contenant les infos de la boutique
             . view('storebackoffice/mystore') // Ceci contient le menu toggle avec la liste des produits
-            . view('assets/productmodal') // Ceci est le modal pour insérer les produits de la boutique
-            . view('Templates/footer'); // Ceci est le footer
+            . view('Template-parts/productmodal') // Ceci est le modal pour insérer les produits de la boutique
+            . view('Template-parts/footer'); // Ceci est le footer
         }
         public function modifyproduct($idproduit)
         {

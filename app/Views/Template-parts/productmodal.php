@@ -17,7 +17,9 @@
                                 <div class="selectcategories displaymeblock shadow">
                                     <div class="categorieselect01">
                                         <label class="displaymeblock" for="categorie02">Rayon</label>
-                                        <?php echo App\Controllers\Assets::productrayons(); ?>
+                                            <select name="rayon" id="" url="<?php echo base_url('filtre/changerayon')?>" url2="<?php echo base_url('filtre/getResultat'); ?>" url3="<?php echo base_url('filtre/getSlider')?>" class="selectrayon selectrayon form-control"> 
+                                                <?php echo App\Controllers\Assets::productrayons(); ?>
+                                            </select>
                                     </div>
                                 <div class="splitcategories displaymeblock">
                                     <div class="splitedcategorie01">

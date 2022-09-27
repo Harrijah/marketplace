@@ -44,7 +44,7 @@
                 'products' => $products->$params1($params2, $params3), //$params1 = nom de la fonction qui change
             ];  
         }        
-        return view('assets/'.$params4, $data); //$params4 = nom de la destination qui change
+        return view('Template-parts/'.$params4, $data); //$params4 = nom de la destination qui change
         // var_dump($data); //$params4 = nom de la destination qui change
     }
 

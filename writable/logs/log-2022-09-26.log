@@ -80,3 +80,88 @@ CRITICAL - 2022-09-26 06:27:17 --> Argument 2 passed to view() must be of the ty
 #13 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #14 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
 #15 {main}
+CRITICAL - 2022-09-26 20:59:34 --> Undefined index: adresse
+#0 E:\Projets\marketplace\app\Controllers\Users.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 59, Array)
+#1 E:\Projets\marketplace\app\Controllers\Users.php(42): App\Controllers\Users->setUserSession(Array)
+#2 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#3 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#7 {main}
+CRITICAL - 2022-09-26 21:33:39 --> Undefined constant 'App\Controllers'
+#0 E:\Projets\marketplace\system\View\View.php(246): include()
+#1 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('assets/homenavm...', Array, true)
+#2 E:\Projets\marketplace\app\Controllers\Assets.php(6): view('assets/homenavm...')
+#3 E:\Projets\marketplace\app\Controllers\Accueil.php(21): App\Controllers\Assets->homenavmenu()
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-09-26 21:41:34 --> Invalid file: assets/allproductshome.php
+#0 E:\Projets\marketplace\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets/allprodu...')
+#1 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('assets/allprodu...', Array, true)
+#2 E:\Projets\marketplace\app\Controllers\Filtre.php(47): view('assets/allprodu...', Array)
+#3 E:\Projets\marketplace\app\Views\Template-parts\allproducts.php(9): App\Controllers\Filtre::getResultat('getSelectedProd...', NULL, 10, 'allproductshome')
+#4 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#5 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('/Template-parts...', Array, true)
+#6 E:\Projets\marketplace\app\Controllers\Assets.php(42): view('/Template-parts...')
+#7 E:\Projets\marketplace\app\Controllers\Accueil.php(26): App\Controllers\Assets->allproducts()
+#8 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#9 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#10 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#13 {main}
+CRITICAL - 2022-09-26 21:51:02 --> Invalid file: Templates-parts/header.php
+#0 E:\Projets\marketplace\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Templates-parts...')
+#1 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('Templates-parts...', Array, true)
+#2 E:\Projets\marketplace\app\Controllers\Accueil.php(19): view('Templates-parts...', Array)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#4 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#5 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#8 {main}
+CRITICAL - 2022-09-26 21:53:34 --> Invalid file: assets/productmodal.php
+#0 E:\Projets\marketplace\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets/productm...')
+#1 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('assets/productm...', Array, true)
+#2 E:\Projets\marketplace\app\Controllers\Storebackoffice.php(35): view('assets/productm...')
+#3 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Storebackoffice->mystore()
+#4 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Storebackoffice))
+#5 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#8 {main}
+CRITICAL - 2022-09-26 21:54:18 --> Invalid file: templates/header.php
+#0 E:\Projets\marketplace\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/heade...')
+#1 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 E:\Projets\marketplace\app\Controllers\Users.php(112): view('templates/heade...', Array)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->register()
+#4 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#8 {main}
+CRITICAL - 2022-09-26 21:54:51 --> Invalid file: templates/header.php
+#0 E:\Projets\marketplace\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/heade...')
+#1 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 E:\Projets\marketplace\app\Controllers\Users.php(48): view('templates/heade...', Array)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#4 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#8 {main}
+CRITICAL - 2022-09-26 21:55:56 --> Invalid file: templates/header.php
+#0 E:\Projets\marketplace\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/heade...')
+#1 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 E:\Projets\marketplace\app\Controllers\Users.php(48): view('templates/heade...', Array)
+#3 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->index()
+#4 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#8 {main}
