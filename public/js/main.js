@@ -33,8 +33,12 @@ function lancerAjax(ajaxUrl, ajaxDestination){ // Factoriser ici, toutes les fon
         data: {}
     })
     .done(function(data){
-        $(ajaxDestination).html(data);
-        addactive();
+        if(ajaxDestination == '#changeCarousel'){
+            $(ajaxDestination).html(data);
+            addactive();
+        } else {
+            $(ajaxDestination).html(data);
+        }
     })
     .fail(function(errorMessage){
         alert(errorMessage);
