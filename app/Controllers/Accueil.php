@@ -16,16 +16,16 @@ class Accueil extends BaseController
             'rayon' => $rayon->getSelectedRayon(),
             'products' => $products->getSelectedProduct(null, 6)
         ];
-        return view('Templates/header', $data)
+        return view('Template-parts/header', $data)
         . view('accueil')
         . $assets->homenavmenu() 
         . $assets->littlehorizontalcard() 
         . $assets->homebanner()
-        . $assets->allcategories($data)
+        . $assets->allcategories()
         . $assets->productfilter()
         . $assets->allproducts()
         . $assets->threenews()
-        . view('Templates/footer');
+        . view('Template-parts/footer');
     }
 
 }

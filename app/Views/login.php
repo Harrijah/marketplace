@@ -9,7 +9,7 @@
                         <?= session()->get('success') ?>
                     </div>
                 <?php endif; ?>
-                <form action="index" method="post"> 
+                <form action="<?php echo base_url('Users/index') ?>" method="post"> 
                     <div class="form-group">
                         <label for="email">Adresse email</label>
                         <input type="text" class="form-control" value="<?= set_value('email') ?>" name="email" id="email">

@@ -45,9 +45,9 @@ class Users extends BaseController
 
             }    
         }
-        echo view('templates/header', $data);
+        echo view('Template-parts/header', $data);
         echo view('/login');
-        echo view('templates/footer');
+        echo view('Template-parts/footer');
     }
 
     private function setUserSession($user){
@@ -56,8 +56,8 @@ class Users extends BaseController
             'nom' => $user['nom'],
             'prenoms' => $user['prenoms'],
             'email' => $user['email'],
-            // 'adresse' => $user['adresse'],
-            // 'telephone' => $user['telephone'],
+            'adresse' => $user['adresse'],
+            'telephone' => $user['telephone'],
             'connecté' => true,
         ];
 
@@ -109,9 +109,9 @@ class Users extends BaseController
             }
         }
 
-        echo view('templates/header', $data);
+        echo view('Template-parts/header', $data);
         echo view('register');
-        echo view('templates/footer');   
+        echo view('Template-parts/footer');   
     }
 
     public function profile()
@@ -161,9 +161,9 @@ class Users extends BaseController
             'rayon'  => $rayon->getSelectedRayon()
 
         ];
-        echo view('templates/header', $data);
+        echo view('Template-parts/header', $data);
         echo view('profile');
-        echo view('templates/footer');
+        echo view('Template-parts/footer');
     }
 
     public function logout()

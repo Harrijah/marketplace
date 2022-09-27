@@ -11,8 +11,8 @@ class Dashboard extends BaseController
         //     redirect()->to('/');
         // }
 
-        echo view('templates/header', $data);
+        echo view('Template-parts/header', $data);
         echo view('dashboard');
-        echo view('templates/footer');
+        echo view('Template-parts/footer');
     }
 }

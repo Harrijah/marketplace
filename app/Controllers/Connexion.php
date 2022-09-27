@@ -17,9 +17,9 @@
                 'pagetitle' => 'Ma page de test', 
                 'rayons' => $rayon->linkrayoncategorie($idrayon),
             ];
-            return view('Templates/header', $globaldata)
+            return view('Template-parts/header', $globaldata)
             . view('testpage', $globaldata)
-            . view('Templates/footer');
+            . view('Template-parts/footer');
         } 
         public function testme()
         {
@@ -45,9 +45,9 @@
                 'souscategories' => $souscategory->getSouscategory(),
                 'pagetitle' => 'Mon compte'
             ];
-            return view('Templates/header', $data)
+            return view('Template-parts/header', $data)
             . view('connexion/moncompte', $data)
-            . view('Templates/footer');
+            . view('Template-parts/footer');
         }
 // --------------------------------------------- create rayon / categorie / sous-categorie -----------------------------
         public function createrayon()
