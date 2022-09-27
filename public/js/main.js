@@ -21,12 +21,10 @@ $(document).ready(function() {
     filtre('.selectsouscategorie', 'url', 'getProductBySousCategory', '10', 'storebackofficeallproducts', '#backofficestoreproductlist');
     
     /*  **************************     USE CAROUSEL     ******************************* */
-function addactive(){ //Activer la première image dans le carousel
-    var imagecarousel = document.querySelector('.montre-moi-00');
-    imagecarousel.classList.add('active');
-}
-
-
+    function addactive(){ //Activer la première image dans le carousel
+        var imagecarousel = document.querySelector('.montre-moi-00');
+        imagecarousel.classList.add('active');
+    }
     /*  **************************     FONCTION AJAX     ******************************* */
     function lancerAjax(ajaxUrl, ajaxDestination){ // Factoriser ici, toutes les fonctions ajax
         $.ajax({
