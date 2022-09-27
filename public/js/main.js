@@ -2,6 +2,7 @@ $(document).ready(function() {
     const tabs = document.querySelector(".wrapper");
     const tabButton = document.querySelectorAll(".mybutton");
     const contents = document.querySelectorAll(".content");
+    
 
     changecategory(); // Changer la catégorie dans le menu déroulant
     changesouscategorie(); // Changer la sous-catégorie dans le menu déroulant
