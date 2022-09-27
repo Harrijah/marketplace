@@ -3,6 +3,7 @@ $(document).ready(function() {
     const tabButton = document.querySelectorAll(".mybutton");
     const contents = document.querySelectorAll(".content");
 
+
     changecategory(); // Changer la catégorie dans le menu déroulant
     changesouscategorie(); // Changer la sous-catégorie dans le menu déroulant
     toggleCreaBoutique(); // Page création nouvelle boutique : toggle des formulaires
@@ -20,26 +21,29 @@ $(document).ready(function() {
     filtre('.selectsouscategorie', 'url', 'getProductBySousCategory', '10', 'storebackofficeallproducts', '#backofficestoreproductlist');
     
     /*  **************************     USE CAROUSEL     ******************************* */
-function addactive(){ //Activer la première image dans le carousel
-    var imagecarousel = document.querySelector('.montre-moi-00');
-    imagecarousel.classList.add('active');
-}
-
+    function addactive(){ //Activer la première image dans le carousel
+        var imagecarousel = document.querySelector('.montre-moi-00');
+        imagecarousel.classList.add('active');
+    }
     /*  **************************     FONCTION AJAX     ******************************* */
-function lancerAjax(ajaxUrl, ajaxDestination){ // Factoriser ici, toutes les fonctions ajax
-    $.ajax({
-        url: ajaxUrl,
-        type: 'post',
-        data: {}
-    })
-    .done(function(data){
-        $(ajaxDestination).html(data);
-        addactive();
-    })
-    .fail(function(errorMessage){
-        alert(errorMessage);
-    });
-}
+    function lancerAjax(ajaxUrl, ajaxDestination){ // Factoriser ici, toutes les fonctions ajax
+        $.ajax({
+            url: ajaxUrl,
+            type: 'post',
+            data: {}
+        })
+        .done(function(data){
+            if(ajaxDestination == '#changeCarousel'){
+                $(ajaxDestination).html(data);
+                addactive();
+            } else {
+                $(ajaxDestination).html(data);
+            }
+        })
+        .fail(function(errorMessage){
+            alert(errorMessage);
+        });
+    }
     
     /*  ****************     Activer le filtre de produits   ************ */
     function changecategory()
