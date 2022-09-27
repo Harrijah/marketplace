@@ -27,7 +27,6 @@ function addactive(){ //Activer la première image dans le carousel
 }
 
 
-
     /*  **************************     FONCTION AJAX     ******************************* */
     function lancerAjax(ajaxUrl, ajaxDestination){ // Factoriser ici, toutes les fonctions ajax
         $.ajax({
