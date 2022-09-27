@@ -82,7 +82,7 @@ class Users extends BaseController
                 'prenoms' => 'required|min_length[3]|max_length[20]',
                 'email' => 'required|min_length[6]|max_length[50]|valid_email|is_unique[users.email]',
                 'adresse' => 'required|min_length[10]|max_length[255]',
-                'telephone' => 'required|min_length[8]|max_length[255]|',
+                'telephone' => 'required|min_length[8]|max_length[255]',
                 'motdepasse' => 'required|min_length[8]|max_length[255]',
                 'motdepasse_confirm' => 'matches[motdepasse]',
             ];
@@ -91,7 +91,7 @@ class Users extends BaseController
                 $data['validation'] = $this->validator;
             } else {
                 //Ajout user dans la BDD
-                $model = model(UsersModel::class);
+                $model = model(UserModel::class);
 
                 $newData = [
                     'nom' => $this->request->getVar('nom'),
