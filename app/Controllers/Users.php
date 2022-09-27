@@ -105,7 +105,7 @@ class Users extends BaseController
                 $model->save($newData) ;
                 $session = session() ;
                 $session->setFlashdata('success', 'Enregistré avec succès!   Vous pouvez vous connecter maintenant!') ;
-                return redirect()->to('/') ;
+                return redirect()->to('/login') ;
             }
         }
 
