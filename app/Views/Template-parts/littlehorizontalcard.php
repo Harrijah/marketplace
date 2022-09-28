@@ -1,5 +1,5 @@
 <div class="row mx-auto">
-    <div id="produits" class="col-10 content active">
+    <div id="produits" class="col-10 active">
         <div class="row">
             <div class="col-6 sliderimages" id="mycarousel2">
                 <?php echo (\App\Controllers\Assets::carouselcommand()); ?>

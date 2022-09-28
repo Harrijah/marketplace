@@ -33,10 +33,10 @@
           <div class="navbar-nav mr-auto">
             <a class="text-white" href="<?php echo base_url(); ?>">Destock.mg  <i class="nav-item d-inline text-warning fa fa-shopping-bag"></i> </a>
           </div>
-          <?php if(session()->get('connecté')): ?>
+          <?php if(session()->get('connecté')): ?> 
             <ul class="navbar-nav mr-auto">
-              <li class="text-white nav-item nav-link ">Bonjour <a href="<?= base_url('users/profile'); ?>" class="d-inline"><?= session()->get('nom') ?></a>,</li>
-              <li class="text-white nav-item nav-link <?= ($uri->getSegment(1) == 'profile' ? 'active' : null) ?>">Votre visite N° <span class="text-warning">0 </span></li>
+              <li class="text-white nav-item nav-link ">Bonjour <a href="<?= base_url('users/profile'); ?>" class="d-inline"><?= session()->get('nom') ?></a>,</li> 
+              <li class="text-white nav-item nav-link <?= ($uri->getSegment(1) == 'profile' ? 'active' : null) ?>">Votre visite N° <span class="text-warning">0 </span></li> 
               <li class="text-white nav-item nav-link ">Vos points de fidelité : <span class="text-warning">0 Pts</span></li>
             </ul>
             <!-- <ul class="navbar-nav mr-auto">

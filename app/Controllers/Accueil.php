@@ -1,5 +1,5 @@
 <?php namespace App\Controllers;
-    use App\Controllers\Addons;
+    use App\Controllers\Addons; 
     use App\Models\RayonModel;
     
 class Accueil extends BaseController
