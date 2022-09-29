@@ -1,7 +1,18 @@
 $(document).ready(function() { 
     const tabs = document.querySelector(".wrapper");
     const tabButton = document.querySelectorAll(".mybutton");
-    const contents = document.querySelectorAll(".content");
+    const contents = document.querySelectorAll(".content"); 
+    let thema = document.querySelector('.thema');
+    let themaChild = thema.children ;
+    $('.mybutton').on('click', function(e){
+        e.preventDefault();
+        
+        for(i=0; i<themaChild.length; i++){
+            if(themaChild[i].classList.contains('active') == true){
+                alert(themaChild[i].value);
+            }
+        }
+    });
 
 
     changecategory(); // Changer la catégorie dans le menu déroulant

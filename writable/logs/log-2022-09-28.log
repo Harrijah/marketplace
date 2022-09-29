@@ -1,0 +1,11 @@
+CRITICAL - 2022-09-28 14:43:13 --> unlink(E:\Projets\marketplace\writable\debugbar/debugbar_1664394190.json): Resource temporarily unavailable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(E:\\Proje...', 'E:\\Projets\\mark...', 106, Array)
+#1 E:\Projets\marketplace\system\Debug\Toolbar\Collectors\History.php(106): unlink('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Debug\Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1664394191, 20)
+#3 E:\Projets\marketplace\system\Debug\Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 E:\Projets\marketplace\app\Config\Events.php(44): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 E:\Projets\marketplace\system\Events\Events.php(188): call_user_func(Object(Closure))
+#7 E:\Projets\marketplace\system\CodeIgniter.php(289): CodeIgniter\Events\Events::trigger('pre_system')
+#8 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
