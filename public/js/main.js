@@ -1,16 +1,20 @@
 $(document).ready(function() { 
     const tabs = document.querySelector(".wrapper");
     const tabButton = document.querySelectorAll(".mybutton");
-    const contents = document.querySelectorAll(".content");
-
+    const contents = document.querySelectorAll(".content"); 
 
     changecategory(); // Changer la catégorie dans le menu déroulant
     changesouscategorie(); // Changer la sous-catégorie dans le menu déroulant
     toggleCreaBoutique(); // Page création nouvelle boutique : toggle des formulaires
-    /*  ****************     UTILISER LE FILTRE PAR RAYON/CATEGORIE/SOUSCATEGORIE    ************ */
+
+    let thema = document.querySelector('.thema');
+    let themaChild = thema.children ;
+    // alert(buttonValue);
+
+    /*  ****************     UTILISER LE FILTRE PAR RAYON/CATEGORIE/SOUSCATEGORIE    ************ */   
     // Slider principal page d'accueil
     filtre('.selectrayon2', 'url2', 'getSelectedProduct', '6', 'selectedproducts', '#homeselectedproduct');    
-    filtre('.selectrayon2', 'url2', 'getSelectedProduct', '6', 'carouselproducts', '#changeCarousel');    
+    filtre('.selectrayon2', 'url2', 'getSelectedProduct', '6', 'carouselproducts', '#changeCarousel'); 
     // Page d'accueil
     filtre('.selectrayon', 'url2', 'getSelectedProduct', '10', 'allproductshome', '#allproductshome');   
     filtre('.selectcategory', 'url2', 'getProductByCategory', '10', 'allproductshome', '#allproductshome');
@@ -72,6 +76,40 @@ $(document).ready(function() {
             lancerAjax(myurl02, '.selectsouscategorie');
         });
     }
+    /*  ****************     Utiliser le filtre   pour le slider principal ************ */
+    function filtre02(bouton, url, fonction, limit, destination, contenu, themaValue)
+    {
+        for(i=0; i<themaChild.length; i++){
+            if(themaChild[i].classList.contains('active') == true)
+            {
+                themaValue = themaChild[i].value;
+                filtre(bouton, url, fonction, limit, destination, contenu, themaValue);
+            }
+        }
+    }
+    
+    /*  ****************     Utiliser le filtre   ************ */
+    function filtre(bouton, url, fonction, limit, destination, contenu, themaValue)
+    {
+        $(bouton).on('change', function(e)
+        {
+            e.preventDefault();
+            var optionselect = this.options[this.selectedIndex];
+            if(optionselect.classList == 'retourrayon') 
+            {
+                var urlx = $(this).attr(url)+'/getSelectedProduct/'+optionselect.value+'/'+limit+'/'+destination/themaValue;
+            }
+            else if(optionselect.classList == 'retourcategorie')
+            {
+                var urlx = $(this).attr(url)+'/getProductByCategory/'+optionselect.value+'/'+limit+'/'+destination/themaValue;
+            }
+            else
+            {
+                var urlx = $(this).attr(url)+'/'+fonction+'/'+optionselect.value+'/'+limit+'/'+destination/themaValue;
+            }
+            lancerAjax(urlx, contenu);
+        });
+    }
     
     /*  ****************     Utiliser le filtre   ************ */
     function filtre(bouton, url, fonction, limit, destination, contenu)
@@ -106,6 +144,10 @@ $(document).ready(function() {
             tabButton.forEach(btn => {btn.classList.remove("active");});
             e.target.classList.add("active");
             e.target.classList.add("mybutton");
+            // let buttonValue = e.target.value;
+            // filtre('.selectrayon2', 'url2', 'getSelectedProduct', '6', 'selectedproducts', '#homeselectedproduct');     
+            // filtre('.selectrayon2', 'url2', 'getSelectedProduct', '6', 'carouselproducts', '#changeCarousel');   
+            
             
             contents.forEach(content => {content.classList.remove("active");});
             element00.classList.add("active");

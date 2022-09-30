@@ -39,14 +39,6 @@
               <li class="text-white nav-item nav-link <?= ($uri->getSegment(1) == 'profile' ? 'active' : null) ?>">Votre visite N° <span class="text-warning">0 </span></li> 
               <li class="text-white nav-item nav-link ">Vos points de fidelité : <span class="text-warning">0 Pts</span></li>
             </ul>
-            <!-- <ul class="navbar-nav mr-auto">
-              <li class="nav-item <?= ($uri->getSegment(1) == 'dashboard' ? 'active' : null) ?>" >
-                <a class="nav-link" href="/dashboard">Dashboard</a>
-              </li>
-              <li class="nav-item <?= ($uri->getSegment(1) == 'profile' ? 'active' : null) ?>" >
-                <a class="nav-link" href="/profile">Profile</a>
-              </li>
-            </ul> -->
 
             <ul class="navbar-nav">
               <li><a class="nav-link text-warning" href=""><i style="font-size:20px" class="fa fa-cart-plus"></i></a></li>
@@ -57,11 +49,6 @@
                     <a href="<?php echo base_url('connexion/moncompte'); ?>" class="nav-link text-warning bg-dark">Tableau de bord</a>
                     <a href="/logout" class="nav-link text-warning bg-dark">Se déconnecter</a>
                   </div>
-                  <!-- <div class="dropdown-content">
-                    <a href="<?php //echo base_url('connexion/moncompte'); ?>" class="connexbutton nav-link text-warning bg-dark" value="<?php //echo base_url('connexion/connectmodal'); ?>">Se connecter</a>
-                    <a href="#" class="createbutton nav-link text-warning bg-dark" value="<?php //echo base_url('connexion/createmodal'); ?>">Créer un compte</a>
-                    <a href="#" class="disconnectbutton nav-link text-warning bg-dark">Se déconnecter</a>
-                  </div> -->
               </li>
             </ul>
           <?php else: ?>

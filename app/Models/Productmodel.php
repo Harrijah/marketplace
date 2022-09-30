@@ -44,22 +44,29 @@
             return $this->findAll();
         }
 
-        public function getSelectedProduct($idrayon=null, $limit)
+        public function getSelectedProduct($idrayon, $limit, $thema)
         {
-            if($idrayon == null)
-            {
-                $this->join('souscategorie', 'produit.souscategorie=souscategorie.id', 'left');
-                $this->join('categorie', 'produit.categorie=categorie.id', 'left');
-                $this->join('rayon', 'produit.rayon=rayon.id', 'left');
-                $this->limit($limit);
-                return $this->find();
-            }
             $this->join('souscategorie', 'produit.souscategorie=souscategorie.id', 'left');
             $this->join('categorie', 'produit.categorie=categorie.id', 'left');
             $this->join('rayon', 'produit.rayon=rayon.id', 'left');
-            $this->limit($limit);
-            $this->where('rayon.id', $idrayon);
-            return $this->find();
+            if(!$idrayon && !$thema)
+            {
+                $this->limit($limit);
+                return $this->find();
+            } 
+            elseif ($idrayon && !$thema) 
+            {
+                $this->limit($limit);
+                $this->where('rayon.id', $idrayon);
+                return $this->find();
+            }
+            elseif ($idrayon && $thema)
+            {
+                $this->limit($limit);
+                $this->where('rayon.id', $idrayon);
+                $this->where($thema, 1);
+                return $this->find();
+            }
         }
 
         public function getProductByCategory($idcategory=null, $limit)

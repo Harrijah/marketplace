@@ -28,7 +28,7 @@
     
     
     // ------------  SELECTIONNER LES PRODUITS PAR RAYON / CATEGORIE / SOUSCATEGORIE AVEC LE FILTRE  /////////// OK
-    public static function getResultat($params1, $params2, $params3, $params4) //unNomEnParticulier
+    public static function getResultat($params1, $params2, $params3, $params4, $params5) //unNomEnParticulier
     {
         $products = model(Produit::class);
         if($params2 == '0')
