@@ -2,27 +2,45 @@ $(document).ready(function() {
     const tabs = document.querySelector(".wrapper");
     const tabButton = document.querySelectorAll(".mybutton");
     const contents = document.querySelectorAll(".content"); 
-
+    let thematique = 'selection';
+    
+    littlehorizontalcard(); // Slider principal page d'accueil
     changecategory(); // Changer la catégorie dans le menu déroulant
     changesouscategorie(); // Changer la sous-catégorie dans le menu déroulant
     toggleCreaBoutique(); // Page création nouvelle boutique : toggle des formulaires
 
-    let thema = document.querySelector('.thema');
-    let themaChild = thema.children ;
-    // alert(buttonValue);
-
     /*  ****************     UTILISER LE FILTRE PAR RAYON/CATEGORIE/SOUSCATEGORIE    ************ */   
-    // Slider principal page d'accueil
-    filtre('.selectrayon2', 'url2', 'getSelectedProduct', '6', 'selectedproducts', '#homeselectedproduct');    
-    filtre('.selectrayon2', 'url2', 'getSelectedProduct', '6', 'carouselproducts', '#changeCarousel'); 
     // Page d'accueil
-    filtre('.selectrayon', 'url2', 'getSelectedProduct', '10', 'allproductshome', '#allproductshome');   
-    filtre('.selectcategory', 'url2', 'getProductByCategory', '10', 'allproductshome', '#allproductshome');
-    filtre('.selectsouscategorie', 'url', 'getProductBySousCategory', '10', 'allproductshome', '#allproductshome');
+    filtre('.selectrayon', 'url2', 'getSelectedProduct', '10', 'allproductshome', '#allproductshome', thematique);   
+    filtre('.selectcategory', 'url2', 'getProductByCategory', '10', 'allproductshome', '#allproductshome', thematique);
+    filtre('.selectsouscategorie', 'url', 'getProductBySousCategory', '10', 'allproductshome', '#allproductshome', thematique);
     // Backoffice
-    filtre('.selectrayon', 'url2', 'getSelectedProduct', '10', 'storebackofficeallproducts', '#backofficestoreproductlist');
-    filtre('.selectcategory', 'url2', 'getProductByCategory', '10', 'storebackofficeallproducts', '#backofficestoreproductlist');
-    filtre('.selectsouscategorie', 'url', 'getProductBySousCategory', '10', 'storebackofficeallproducts', '#backofficestoreproductlist');
+    filtre('.selectrayon', 'url2', 'getSelectedProduct', '10', 'storebackofficeallproducts', '#backofficestoreproductlist', thematique);
+    filtre('.selectcategory', 'url2', 'getProductByCategory', '10', 'storebackofficeallproducts', '#backofficestoreproductlist', thematique);
+    filtre('.selectsouscategorie', 'url', 'getProductBySousCategory', '10', 'storebackofficeallproducts', '#backofficestoreproductlist', thematique);
+
+    
+    /*  **************************     TOGGLE MENU     ******************************* */
+    function littlehorizontalcard(){         
+        filtre('.selectrayon2', 'url2', 'getSelectedProduct', '6', 'selectedproducts', '#homeselectedproduct', thematique);    
+        filtre('.selectrayon2', 'url2', 'getSelectedProduct', '6', 'carouselproducts', '#changeCarousel', thematique); 
+        $(tabs).on('click', function(e){
+            const id = e.target.dataset.id;
+            const element00 = document.getElementById(id);
+            if (id) {
+                tabButton.forEach(btn => {btn.classList.remove("active");});
+                e.target.classList.add("active");
+                e.target.classList.add("mybutton");  
+                thematique = e.target.value;         
+                filtre('.selectrayon2', 'url2', 'getSelectedProduct', '6', 'selectedproducts', '#homeselectedproduct', thematique);    
+                filtre('.selectrayon2', 'url2', 'getSelectedProduct', '6', 'carouselproducts', '#changeCarousel', thematique); 
+                
+                contents.forEach(content => {content.classList.remove("active");});
+                element00.classList.add("active");
+            } 
+        });
+    }
+
     
     /*  **************************     USE CAROUSEL     ******************************* */
     function addactive(){ //Activer la première image dans le carousel
@@ -76,85 +94,33 @@ $(document).ready(function() {
             lancerAjax(myurl02, '.selectsouscategorie');
         });
     }
-    /*  ****************     Utiliser le filtre   pour le slider principal ************ */
-    function filtre02(bouton, url, fonction, limit, destination, contenu, themaValue)
-    {
-        for(i=0; i<themaChild.length; i++){
-            if(themaChild[i].classList.contains('active') == true)
-            {
-                themaValue = themaChild[i].value;
-                filtre(bouton, url, fonction, limit, destination, contenu, themaValue);
-            }
-        }
-    }
     
-    /*  ****************     Utiliser le filtre   ************ */
+    /*  ****************     Utiliser le filtre   ************ */ 
     function filtre(bouton, url, fonction, limit, destination, contenu, themaValue)
     {
+        
         $(bouton).on('change', function(e)
         {
             e.preventDefault();
             var optionselect = this.options[this.selectedIndex];
             if(optionselect.classList == 'retourrayon') 
             {
-                var urlx = $(this).attr(url)+'/getSelectedProduct/'+optionselect.value+'/'+limit+'/'+destination/themaValue;
+                var urlx = $(this).attr(url)+'/getSelectedProduct/'+optionselect.value+'/'+limit+'/'+destination+'/'+themaValue;
             }
             else if(optionselect.classList == 'retourcategorie')
             {
-                var urlx = $(this).attr(url)+'/getProductByCategory/'+optionselect.value+'/'+limit+'/'+destination/themaValue;
+                var urlx = $(this).attr(url)+'/getProductByCategory/'+optionselect.value+'/'+limit+'/'+destination+'/'+themaValue;
             }
             else
             {
-                var urlx = $(this).attr(url)+'/'+fonction+'/'+optionselect.value+'/'+limit+'/'+destination/themaValue;
-            }
-            lancerAjax(urlx, contenu);
-        });
-    }
-    
-    /*  ****************     Utiliser le filtre   ************ */
-    function filtre(bouton, url, fonction, limit, destination, contenu)
-    {
-        $(bouton).on('change', function(e)
-        {
-            e.preventDefault();
-            var optionselect = this.options[this.selectedIndex];
-            if(optionselect.classList == 'retourrayon') 
-            {
-                var urlx = $(this).attr(url)+'/getSelectedProduct/'+optionselect.value+'/'+limit+'/'+destination;
-            }
-            else if(optionselect.classList == 'retourcategorie')
-            {
-                var urlx = $(this).attr(url)+'/getProductByCategory/'+optionselect.value+'/'+limit+'/'+destination;
-            }
-            else
-            {
-                var urlx = $(this).attr(url)+'/'+fonction+'/'+optionselect.value+'/'+limit+'/'+destination;
+                var urlx = $(this).attr(url)+'/'+fonction+'/'+optionselect.value+'/'+limit+'/'+destination+'/'+themaValue;
             }
             lancerAjax(urlx, contenu);
         });
     }
     
 
-    
-    /*  **************************     TOGGLE MENU     ******************************* */
-    $(tabs).on('click', function(e){
-        const id = e.target.dataset.id;
-        const element00 = document.getElementById(id);
-        if (id) {
-            tabButton.forEach(btn => {btn.classList.remove("active");});
-            e.target.classList.add("active");
-            e.target.classList.add("mybutton");
-            // let buttonValue = e.target.value;
-            // filtre('.selectrayon2', 'url2', 'getSelectedProduct', '6', 'selectedproducts', '#homeselectedproduct');     
-            // filtre('.selectrayon2', 'url2', 'getSelectedProduct', '6', 'carouselproducts', '#changeCarousel');   
-            
-            
-            contents.forEach(content => {content.classList.remove("active");});
-            element00.classList.add("active");
-        }
-    });
 
-    
     /*  **************************     TOGGLE CREATION MAGASIN     ******************************* */
     function toggleCreaBoutique(){   
         var coeff=1;
