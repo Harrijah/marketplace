@@ -49,20 +49,19 @@
             $this->join('souscategorie', 'produit.souscategorie=souscategorie.id', 'left');
             $this->join('categorie', 'produit.categorie=categorie.id', 'left');
             $this->join('rayon', 'produit.rayon=rayon.id', 'left');
-            if(!$idrayon && !$thema)
+            $this->limit($limit);
+            if(!$idrayon && $thema)
             {
-                $this->limit($limit);
+                $this->where($thema, 1);
                 return $this->find();
             } 
-            elseif ($idrayon && !$thema) 
+            elseif($idrayon && !$thema)
             {
-                $this->limit($limit);
                 $this->where('rayon.id', $idrayon);
                 return $this->find();
             }
-            elseif ($idrayon && $thema)
+            else
             {
-                $this->limit($limit);
                 $this->where('rayon.id', $idrayon);
                 $this->where($thema, 1);
                 return $this->find();

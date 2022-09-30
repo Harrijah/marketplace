@@ -35,17 +35,27 @@
         {
             $params2 = null;
             $data = [
-                'products' => $products->$params1($params2, $params3), //$params1 = nom de la fonction qui change
+                'products' => $products->$params1($params2, $params3, $params5), //$params1 = nom de la fonction qui change
             ];
         }
         else
         {
-            $data = [
-                'products' => $products->$params1($params2, $params3), //$params1 = nom de la fonction qui change
-            ];  
+            if(!$params5)
+            {
+                $params5 = 'promo';
+                $data = [
+                    'products' => $products->$params1($params2, $params3, $params5), //$params1 = nom de la fonction qui change
+                ];  
+            }
+            else
+            {
+                $data = [
+                    'products' => $products->$params1($params2, $params3, $params5), //$params1 = nom de la fonction qui change
+                ];  
+            }
+            
         }        
         return view('Template-parts/'.$params4, $data); //$params4 = nom de la destination qui change
-        // var_dump($data); //$params4 = nom de la destination qui change
     }
 
 /*  ************************************** BACK OFFICE   ***************************************/

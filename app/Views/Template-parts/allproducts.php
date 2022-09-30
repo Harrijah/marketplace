@@ -6,7 +6,7 @@
                 <!-- 
                     Ceci est la liste affichée par défaut sur la page d'accueil. Elle utilise la méthode getResultat() dans la classe Filtre, avec comme paramètres :'getSelectedProduct', null, 10, 'allproductshome' 
                 -->
-                <?php echo(\App\Controllers\Filtre::getResultat('getSelectedProduct', null, 10, 'allproductshome')); ?>
+                <?php echo(\App\Controllers\Filtre::getResultat('getSelectedProduct', null, 10, 'allproductshome', null)); ?>
                 <!-- 
                     Quand le filtre sur la page d'accueil est utilisé, les résultats sont gérés par Javascript et Ajax.
                 -->
