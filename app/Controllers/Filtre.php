@@ -42,7 +42,7 @@
         {
             if(!$params5)
             {
-                $params5 = 'promo';
+                $params5 = 'allprod';
                 $data = [
                     'products' => $products->$params1($params2, $params3, $params5), //$params1 = nom de la fonction qui change
                 ];  
