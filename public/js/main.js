@@ -3,7 +3,9 @@ $(document).ready(function() {
     const selectButton = document.querySelector('.thema');
     const tabButton = document.querySelectorAll(".mybutton");
     const contents = document.querySelectorAll(".content"); 
+    const mybaseurl = $(document.querySelector('#myurl')).attr('value');
     let thematique = 'selection';
+
 
     littlehorizontalcard(); // Toogle des boutons et contents : "active" ou non 
     changecategory(); // Changer la catégorie dans le menu déroulant
@@ -22,7 +24,10 @@ $(document).ready(function() {
     // Page d'accueil / Slider prncipal / Choisir les thématiques : produit de la semaine, nouveauté, ou promo
     $(selectButton).on('click', function(e){
         thematique = $(e.target).attr('val');
-        console.log(thematique);
+        var urlx1 = mybaseurl+'/getSelectedProduct/0/6/selectedproducts/'+thematique; 
+        var urlx2 = mybaseurl+'/getSelectedProduct/0/6/carouselproducts/'+thematique;
+        lancerAjax(urlx1, '#homeselectedproduct');
+        lancerAjax(urlx2, '#changeCarousel');
     });
 
     // Page d'accueil/ Slider principal / Sélectionner les produits en fonction du rayon (+ thématique ci-dessus)
