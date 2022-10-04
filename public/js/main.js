@@ -1,53 +1,41 @@
 $(document).ready(function() { 
     const tabs = document.querySelector(".wrapper");
+    const selectButton = document.querySelector('.thema');
     const tabButton = document.querySelectorAll(".mybutton");
     const contents = document.querySelectorAll(".content"); 
     let thematique = 'selection';
-    let themaSelection = document.querySelector('#selection');
-    let themaNouveaute = document.querySelector('#nouveautes');
-    let themaPromo = document.querySelector('#promos');
-    filtre('.selectrayon2', 'url2', 'getSelectedProduct', '6', 'selectedproducts', '#homeselectedproduct', thematique);    
-    filtre('.selectrayon2', 'url2', 'getSelectedProduct', '6', 'carouselproducts', '#changeCarousel', thematique);
-    
-    $(themaSelection).on('click', function(e){
-        e.preventDefault();
-        thematique = themaSelection.value;
-        filtre('.selectrayon2', 'url2', 'getSelectedProduct', '6', 'selectedproducts', '#homeselectedproduct', thematique);    
-        filtre('.selectrayon2', 'url2', 'getSelectedProduct', '6', 'carouselproducts', '#changeCarousel', thematique);
-    });
-    $(themaNouveaute).on('click', function(e){
-        e.preventDefault();
-        thematique = themaNouveaute.value;
-        filtre('.selectrayon2', 'url2', 'getSelectedProduct', '6', 'selectedproducts', '#homeselectedproduct', thematique);    
-        filtre('.selectrayon2', 'url2', 'getSelectedProduct', '6', 'carouselproducts', '#changeCarousel', thematique);
-    });
-    $(themaPromo).on('click', function(e){
-        e.preventDefault();
-        thematique = themaPromo.value;
-        filtre('.selectrayon2', 'url2', 'getSelectedProduct', '6', 'selectedproducts', '#homeselectedproduct', thematique);    
-        filtre('.selectrayon2', 'url2', 'getSelectedProduct', '6', 'carouselproducts', '#changeCarousel', thematique);
-    });
-    
-    littlehorizontalcard(); // Slider principal page d'accueil
+
+    littlehorizontalcard(); // Toogle des boutons et contents : "active" ou non 
     changecategory(); // Changer la catégorie dans le menu déroulant
     changesouscategorie(); // Changer la sous-catégorie dans le menu déroulant
     toggleCreaBoutique(); // Page création nouvelle boutique : toggle des formulaires
-
     /*  ****************     UTILISER LE FILTRE PAR RAYON/CATEGORIE/SOUSCATEGORIE    ************ */    
     // Page d'accueil
-    filtre('.selectrayon', 'url2', 'getSelectedProduct', '10', 'allproductshome', '#allproductshome', thematique);   
-    filtre('.selectcategory', 'url2', 'getProductByCategory', '10', 'allproductshome', '#allproductshome', thematique);
-    filtre('.selectsouscategorie', 'url', 'getProductBySousCategory', '10', 'allproductshome', '#allproductshome', thematique);
+    filtre('.selectrayon', 'url2', 'getSelectedProduct', '10', 'allproductshome', '#allproductshome', 'allprod');   
+    filtre('.selectcategory', 'url2', 'getProductByCategory', '10', 'allproductshome', '#allproductshome', 'allprod');
+    filtre('.selectsouscategorie', 'url', 'getProductBySousCategory', '10', 'allproductshome', '#allproductshome', 'allprod');
     // Backoffice
-    filtre('.selectrayon', 'url2', 'getSelectedProduct', '10', 'storebackofficeallproducts', '#backofficestoreproductlist', thematique);
-    filtre('.selectcategory', 'url2', 'getProductByCategory', '10', 'storebackofficeallproducts', '#backofficestoreproductlist', thematique);
-    filtre('.selectsouscategorie', 'url', 'getProductBySousCategory', '10', 'storebackofficeallproducts', '#backofficestoreproductlist', thematique);
+    filtre('.selectrayon', 'url2', 'getSelectedProduct', '10', 'storebackofficeallproducts', '#backofficestoreproductlist', 'allprod');
+    filtre('.selectcategory', 'url2', 'getProductByCategory', '10', 'storebackofficeallproducts', '#backofficestoreproductlist', 'allprod');
+    filtre('.selectsouscategorie', 'url', 'getProductBySousCategory', '10', 'storebackofficeallproducts', '#backofficestoreproductlist', 'allprod');
 
-    
+    // Page d'accueil / Slider prncipal / Choisir les thématiques : produit de la semaine, nouveauté, ou promo
+    $(selectButton).on('click', function(e){
+        thematique = $(e.target).attr('val');
+        console.log(thematique);
+    });
 
+    // Page d'accueil/ Slider principal / Sélectionner les produits en fonction du rayon (+ thématique ci-dessus)
+    $('.selectrayon2').on('change', function(){
+        var optionselect = this.options[this.selectedIndex];
+        var urlx1 = $(this).attr('url2')+'/getSelectedProduct/'+optionselect.value+'/6/selectedproducts/'+thematique;
+        var urlx2 = $(this).attr('url2')+'/getSelectedProduct/'+optionselect.value+'/6/carouselproducts/'+thematique;
+        lancerAjax(urlx1, '#homeselectedproduct');
+        lancerAjax(urlx2, '#changeCarousel');
+    });
     
     /*  **************************     USE CAROUSEL     ******************************* */
-    function addactive(){ //Activer la première image dans le carousel
+    function addactive(){ //Activer la première image dans le carousel de la page d'accueil
         var imagecarousel = document.querySelector('.montre-moi-00');
         imagecarousel.classList.add('active');
     }
@@ -71,13 +59,11 @@ $(document).ready(function() {
         });
     }
     
-    /*  ****************     Utiliser le filtre   ************ */ 
+    /*  ****************     Utiliser le filtre de produits  ************ */ 
     function filtre(bouton, url, fonction, limit, destination, contenu, themaValue)
     {
-        
-        $(bouton).on('change', function(e)
+        $(bouton).on('change', function()
         {
-            e.preventDefault();
             var optionselect = this.options[this.selectedIndex];
             if(optionselect.classList == 'retourrayon') 
             {
@@ -95,21 +81,26 @@ $(document).ready(function() {
         });
     }
 
-    /*  **************************     TOGGLE MENU     ******************************* */
+    /*  **************************     TOGGLE MENU / BOUTONS    ******************************* */
     function littlehorizontalcard(){         
         $(tabs).on('click', function(e){
-            const id = e.target.dataset.id;
-            const element00 = document.getElementById(id);
+            let id = e.target.dataset.id;
+            let element00 = document.getElementById(id);
             if (id) {
-                tabButton.forEach(btn => {btn.classList.remove("active");});
+                tabButton.forEach(btn => 
+                    {
+                        btn.classList.remove("active");
+                    }
+                    );
                 e.target.classList.add("active");
                 e.target.classList.add("mybutton");
-                
+
                 contents.forEach(content => {content.classList.remove("active");}); 
                 element00.classList.add("active");
+
             } 
         });
-    }
+    } 
     
     /*  ****************     Activer le filtre de produits   ************ */
     function changecategory()
@@ -119,7 +110,7 @@ $(document).ready(function() {
             var optionselect = this.options[this.selectedIndex].value;
             var myurl03 = $(this).attr('url')+'/'+optionselect;
             lancerAjax(myurl03, '.selectcategory');
-            $('.selectsouscategorie').html("<option></option>");  
+            $('.selectsouscategorie').html("<option></option>"); 
         });
     }
     function changesouscategorie()
@@ -138,8 +129,6 @@ $(document).ready(function() {
             lancerAjax(myurl02, '.selectsouscategorie');
         });
     }
-    
-
 
     /*  **************************     TOGGLE CREATION MAGASIN     ******************************* */
     function toggleCreaBoutique(){   
