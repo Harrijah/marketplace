@@ -5,6 +5,17 @@
 
     class Filtre extends BaseController
     {
+    // ---------------  CHANGER LA LISTE DE RAYON 
+        public function changeMyRayon()
+        {
+            $assets = model(Assets::class);
+            $rayon = model(RayonModel::class);
+            $data = [
+                'rayons' => $rayon->getRayon(),
+            ];
+            return view('filtre/productrayons', $data);
+        }
+
     // ---------------  CHANGER LE NOM DE LA CATEGORIE DANS LE FILTRE, SELON LE RAYON
         public function changerayon($idrayons) 
         {

@@ -24,10 +24,13 @@ $(document).ready(function() {
     // Page d'accueil / Slider prncipal / Choisir les thématiques : produit de la semaine, nouveauté, ou promo
     $(selectButton).on('click', function(e){
         thematique = $(e.target).attr('val');
-        var urlx1 = mybaseurl+'/getSelectedProduct/0/6/selectedproducts/'+thematique; 
-        var urlx2 = mybaseurl+'/getSelectedProduct/0/6/carouselproducts/'+thematique;
+        var urlx1 = mybaseurl+'/getResultat/getSelectedProduct/0/6/selectedproducts/'+thematique; 
+        var urlx2 = mybaseurl+'/getResultat/getSelectedProduct/0/6/carouselproducts/'+thematique;
+        var urlx3 = mybaseurl+'/changeMyRayon';
         lancerAjax(urlx1, '#homeselectedproduct');
         lancerAjax(urlx2, '#changeCarousel');
+        lancerAjax(urlx3, '#changeMyRayon');
+        addactive();
     });
 
     // Page d'accueil/ Slider principal / Sélectionner les produits en fonction du rayon (+ thématique ci-dessus)
