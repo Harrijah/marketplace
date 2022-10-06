@@ -1,0 +1,196 @@
+CRITICAL - 2022-10-06 03:52:14 --> Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée.
+
+#0 E:\Projets\marketplace\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\Projets\marketplace\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\Projets\marketplace\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\Projets\marketplace\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\Projets\marketplace\app\Models\RayonModel.php(13): CodeIgniter\Model->findAll()
+#5 E:\Projets\marketplace\app\Controllers\Accueil.php(15): App\Models\RayonModel->getRayon()
+#6 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#7 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#8 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#11 {main}
+CRITICAL - 2022-10-06 06:20:48 --> Undefined variable: product
+#0 E:\Projets\marketplace\app\Views\Template-parts\footer.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 39, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('Template-parts/...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Accueil.php(28): view('Template-parts/...')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-10-06 06:23:00 --> Undefined variable: product
+#0 E:\Projets\marketplace\app\Views\Template-parts\footer.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 39, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('Template-parts/...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Accueil.php(28): view('Template-parts/...')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-10-06 06:23:18 --> Undefined index: idproduit
+#0 E:\Projets\marketplace\app\Views\Template-parts\footer.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 39, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('Template-parts/...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Accueil.php(28): view('Template-parts/...')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-10-06 06:23:22 --> Undefined index: idproduit
+#0 E:\Projets\marketplace\app\Views\Template-parts\footer.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 39, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('Template-parts/...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Accueil.php(28): view('Template-parts/...')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-10-06 06:23:38 --> Undefined variable: product
+#0 E:\Projets\marketplace\app\Views\Template-parts\footer.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 42, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('Template-parts/...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Accueil.php(28): view('Template-parts/...')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-10-06 06:25:17 --> Undefined offset: 52
+#0 E:\Projets\marketplace\app\Views\Template-parts\footer.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 39, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('Template-parts/...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Accueil.php(28): view('Template-parts/...')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-10-06 06:26:17 --> Undefined offset: 3
+#0 E:\Projets\marketplace\app\Views\Template-parts\footer.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 39, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('Template-parts/...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Accueil.php(28): view('Template-parts/...')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-10-06 06:26:34 --> Undefined offset: 0
+#0 E:\Projets\marketplace\app\Views\Template-parts\footer.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 39, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('Template-parts/...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Accueil.php(28): view('Template-parts/...')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-10-06 06:26:46 --> Undefined offset: 1
+#0 E:\Projets\marketplace\app\Views\Template-parts\footer.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\Projets\\mark...', 39, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('Template-parts/...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Accueil.php(28): view('Template-parts/...')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-10-06 06:31:26 --> Call to undefined function va_dump()
+#0 E:\Projets\marketplace\system\View\View.php(246): include()
+#1 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('Template-parts/...', Array, true)
+#2 E:\Projets\marketplace\app\Controllers\Accueil.php(28): view('Template-parts/...')
+#3 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#4 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#5 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#8 {main}
+CRITICAL - 2022-10-06 06:37:05 --> Array to string conversion
+#0 E:\Projets\marketplace\app\Views\Template-parts\footer.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\Projets\\mark...', 38, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('Template-parts/...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Accueil.php(28): view('Template-parts/...')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-10-06 08:17:57 --> Undefined index: photo1
+#0 E:\Projets\marketplace\app\Views\Template-parts\footer.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 42, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('Template-parts/...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Accueil.php(28): view('Template-parts/...')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-10-06 11:03:05 --> Argument 2 passed to view() must be of the type array, string given, called in E:\Projets\marketplace\app\Controllers\Filtre.php on line 78
+#0 E:\Projets\marketplace\app\Controllers\Filtre.php(78): view('Template-parts/...', '53')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Filtre->modalproduct('53')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Filtre))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-10-06 11:04:44 --> Argument 2 passed to view() must be of the type array, string given, called in E:\Projets\marketplace\app\Controllers\Filtre.php on line 78
+#0 E:\Projets\marketplace\app\Controllers\Filtre.php(78): view('Template-parts/...', '52')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Filtre::modalproduct('52')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Filtre))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-10-06 11:07:42 --> Argument 2 passed to view() must be of the type array, string given, called in E:\Projets\marketplace\app\Controllers\Filtre.php on line 78
+#0 E:\Projets\marketplace\app\Controllers\Filtre.php(78): view('Template-parts/...', '58')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Filtre::modalproduct('58')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Filtre))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-10-06 11:10:22 --> Argument 2 passed to view() must be of the type array, string given, called in E:\Projets\marketplace\app\Controllers\Filtre.php on line 78
+#0 E:\Projets\marketplace\app\Controllers\Filtre.php(78): view('Template-parts/...', '58')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Filtre::modalproduct('58')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Filtre))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-10-06 11:10:35 --> Argument 2 passed to view() must be of the type array, string given, called in E:\Projets\marketplace\app\Controllers\Filtre.php on line 78
+#0 E:\Projets\marketplace\app\Controllers\Filtre.php(78): view('Template-parts/...', '57')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Filtre::modalproduct('57')
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Filtre))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}
+CRITICAL - 2022-10-06 11:14:57 --> Undefined index: nom
+#0 E:\Projets\marketplace\app\Views\Template-parts\showproduct.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\Projets\\mark...', 5, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('Template-parts/...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Filtre.php(78): view('Template-parts/...', Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Filtre::modalproduct('59')
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Filtre))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}

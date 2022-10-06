@@ -69,6 +69,15 @@
         return view('Template-parts/'.$params4, $data); //$params4 = nom de la destination qui change
     }
 
+    public static function modalproduct($idproduit)
+    {
+        $product = model(Produit::class);
+        $data = [
+            'product' => $product->getOneProduct($idproduit),
+        ];
+        return view('Template-parts/showproduct', $data);
+    }
+
 /*  ************************************** BACK OFFICE   ***************************************/
 
 

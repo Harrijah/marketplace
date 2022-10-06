@@ -4,10 +4,30 @@ $(document).ready(function() {
     const tabButton = document.querySelectorAll(".mybutton");
     const contents = document.querySelectorAll(".content"); 
     const mybaseurl = $(document.querySelector('#myurl')).attr('value');
+    let selectMyProduct = document.getElementsByClassName("showmyproduct"); 
+    let sortir = document.getElementsByClassName('sortir');
+    let showselected = document.querySelector('#showselected');
     let thematique = 'selection';
 
+    for(i=0; i<selectMyProduct.length; i++){
+        let myproductvalue = $(selectMyProduct[i]).attr('value');
+        let myProductModal = document.getElementById('thisismymodal');
+        let url = mybaseurl+'/modalproduct/'+myproductvalue;
+        $(selectMyProduct[i]).on('click', function(){
+            lancerAjax(url, showselected); 
+            myProductModal.style.display = "block";
+            window.onclick = function(event){
+                if(event.target == myProductModal){
+                    myProductModal.style.display = "none";
+                }
+            }           
+        });
+        $(sortir).on('click', function(){
+            myProductModal.style.display = "none";
+        });
+    }
 
-    littlehorizontalcard(); // Toogle des boutons et contents : "active" ou non 
+    buttonToggle(); // Toogle des boutons et contents : "active" ou non 
     changecategory(); // Changer la catégorie dans le menu déroulant
     changesouscategorie(); // Changer la sous-catégorie dans le menu déroulant
     toggleCreaBoutique(); // Page création nouvelle boutique : toggle des formulaires
@@ -30,7 +50,6 @@ $(document).ready(function() {
         lancerAjax(urlx1, '#homeselectedproduct');
         lancerAjax(urlx2, '#changeCarousel');
         lancerAjax(urlx3, '#changeMyRayon');
-        addactive();
     });
 
     // Page d'accueil/ Slider principal / Sélectionner les produits en fonction du rayon (+ thématique ci-dessus)
@@ -90,7 +109,7 @@ $(document).ready(function() {
     }
 
     /*  **************************     TOGGLE MENU / BOUTONS    ******************************* */
-    function littlehorizontalcard(){         
+    function buttonToggle(){         
         $(tabs).on('click', function(e){
             let id = e.target.dataset.id;
             let element00 = document.getElementById(id);
