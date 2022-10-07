@@ -3,30 +3,16 @@ $(document).ready(function() {
     const selectButton = document.querySelector('.thema');
     const tabButton = document.querySelectorAll(".mybutton");
     const contents = document.querySelectorAll(".content"); 
-    const mybaseurl = $(document.querySelector('#myurl')).attr('value');
-    let selectMyProduct = document.getElementsByClassName("showmyproduct"); 
+    const mybaseurl = $(document.querySelector('#myurl')).attr('value'); 
     let sortir = document.getElementsByClassName('sortir');
     let showselected = document.querySelector('#showselected');
+    let myProductModal = document.getElementById('thisismymodal'); // Sélectionner le modal
+    let newContainer01 = document.querySelector('#homeselectedproduct'); // Sélectionner le container pour la sélection
+    let newContainer02 = document.querySelector('#allproductshome'); // Sélectionner le container pour la sélection
     let thematique = 'selection';
 
-    for(i=0; i<selectMyProduct.length; i++){
-        let myproductvalue = $(selectMyProduct[i]).attr('value');
-        let myProductModal = document.getElementById('thisismymodal');
-        let url = mybaseurl+'/modalproduct/'+myproductvalue;
-        $(selectMyProduct[i]).on('click', function(){
-            lancerAjax(url, showselected); 
-            myProductModal.style.display = "block";
-            window.onclick = function(event){
-                if(event.target == myProductModal){
-                    myProductModal.style.display = "none";
-                }
-            }           
-        });
-        $(sortir).on('click', function(){
-            myProductModal.style.display = "none";
-        });
-    }
-
+    newmodal02(newContainer01); // Activer le modal des produits pour la page d'accueil
+    newmodal02(newContainer02); // Activer le modal des produits pour la page d'accueil
     buttonToggle(); // Toogle des boutons et contents : "active" ou non 
     changecategory(); // Changer la catégorie dans le menu déroulant
     changesouscategorie(); // Changer la sous-catégorie dans le menu déroulant
@@ -40,16 +26,20 @@ $(document).ready(function() {
     filtre('.selectrayon', 'url2', 'getSelectedProduct', '10', 'storebackofficeallproducts', '#backofficestoreproductlist', 'allprod');
     filtre('.selectcategory', 'url2', 'getProductByCategory', '10', 'storebackofficeallproducts', '#backofficestoreproductlist', 'allprod');
     filtre('.selectsouscategorie', 'url', 'getProductBySousCategory', '10', 'storebackofficeallproducts', '#backofficestoreproductlist', 'allprod');
+    
+    
 
     // Page d'accueil / Slider prncipal / Choisir les thématiques : produit de la semaine, nouveauté, ou promo
     $(selectButton).on('click', function(e){
-        thematique = $(e.target).attr('val');
+        thematique = $(e.target).attr('val'); // Obtenir la thématique
         var urlx1 = mybaseurl+'/getResultat/getSelectedProduct/0/6/selectedproducts/'+thematique; 
         var urlx2 = mybaseurl+'/getResultat/getSelectedProduct/0/6/carouselproducts/'+thematique;
-        var urlx3 = mybaseurl+'/changeMyRayon';
-        lancerAjax(urlx1, '#homeselectedproduct');
-        lancerAjax(urlx2, '#changeCarousel');
-        lancerAjax(urlx3, '#changeMyRayon');
+        var urlx3 = mybaseurl+'/changeMyRayon'; 
+        lancerAjax(urlx1, '#homeselectedproduct'); // Montrer la séclection de produits sur la liste
+        lancerAjax(urlx2, '#changeCarousel'); // Montrer la séclection de produits sur le carousel
+        lancerAjax(urlx3, '#changeMyRayon'); // Réinitialiser la liste des rayons dans la balise "SELECT"
+
+        newmodal02(newContainer01); // Montrer le modal pour les produits filtrés
     });
 
     // Page d'accueil/ Slider principal / Sélectionner les produits en fonction du rayon (+ thématique ci-dessus)
@@ -59,8 +49,9 @@ $(document).ready(function() {
         var urlx2 = $(this).attr('url2')+'/getSelectedProduct/'+optionselect.value+'/6/carouselproducts/'+thematique;
         lancerAjax(urlx1, '#homeselectedproduct');
         lancerAjax(urlx2, '#changeCarousel');
+        newmodal();
     });
-    
+
     /*  **************************     USE CAROUSEL     ******************************* */
     function addactive(){ //Activer la première image dans le carousel de la page d'accueil
         var imagecarousel = document.querySelector('.montre-moi-00');
@@ -105,9 +96,31 @@ $(document).ready(function() {
                 var urlx = $(this).attr(url)+'/'+fonction+'/'+optionselect.value+'/'+limit+'/'+destination+'/'+themaValue;
             }
             lancerAjax(urlx, contenu);
+            newmodal02(newContainer02); // Activer le modal des produits pour la page d'accueil
         });
     }
+      
+    // Une fois que les produits sont affichés, on va sortir un modal pour chacun des produits listés par le filtre
+    function newmodal02(container){
+        $(container).on('click', function(e){ // lorsqu'on clique sur les éléments du container
+            let id02 = e.target; // créer un variable pour l'élément cliqué
+            if(id02.classList.contains("showmyproduct02") == true){ // Condition montrant si l'élément cliqué est bien un produit
+                myproductvalue = $(id02).attr('value'); // Créer une variable pour l'ID du produit
+                urly = mybaseurl+'/modalproduct/'+myproductvalue; // Créer un lien pour le Controller qui va gérer la requête
+                lancerAjax(urly, showselected); // lancer la requête à l'aide d'Ajax
+                myProductModal.style.display = "block"; //montrer le modal avec les résultats obtenus par l'Ajax
+                window.onclick = function(event){ // fermer le modal
+                    if(event.target == myProductModal){
+                        myProductModal.style.display = "none";
+                    }
+                }
+                $(sortir).on('click', function(){
+                    myProductModal.style.display = "none";
+                });
+            }
 
+        });
+    }
     /*  **************************     TOGGLE MENU / BOUTONS    ******************************* */
     function buttonToggle(){         
         $(tabs).on('click', function(e){
@@ -282,6 +295,31 @@ $(document).ready(function() {
 });
 
 
+
+
+
+
+
+// Ancien modal
+let selectMyProduct = document.getElementsByClassName("showmyproduct");  
+function newmodal(){
+    for(i=0; i<selectMyProduct.length; i++){
+        let myproductvalue = $(selectMyProduct[i]).attr('value');
+        let url = mybaseurl+'/modalproduct/'+myproductvalue;
+        $(selectMyProduct[i]).on('click', function(){
+            lancerAjax(url, showselected); 
+            myProductModal.style.display = "block";
+            window.onclick = function(event){
+                if(event.target == myProductModal){
+                    myProductModal.style.display = "none";
+                }
+            }           
+        });
+        $(sortir).on('click', function(){
+            myProductModal.style.display = "none";
+        });
+    }
+}  
 
 
 
