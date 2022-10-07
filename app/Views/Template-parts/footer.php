@@ -35,8 +35,13 @@
     <script>CKEDITOR.replace('shortdescprod');</script> 
     <script>CKEDITOR.replace('longdescprod');</script> 
     <script type="text/javascript" src="<?php echo base_url('js/main.js'); ?>"></script>
-
-
+    
+    <div class="modal" id="thisismymodal">
+        <div class="modal-content">
+            <div id="showselected"></div>
+            <div class="modal-footer"><a href="javascript:void(0)" class="sortir">Retour</a></div>
+        </div>
+    </div>
 </div>
 </body>
 </html>

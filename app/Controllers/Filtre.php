@@ -5,6 +5,17 @@
 
     class Filtre extends BaseController
     {
+    // ---------------  CHANGER LA LISTE DE RAYON 
+        public function changeMyRayon()
+        {
+            $assets = model(Assets::class);
+            $rayon = model(RayonModel::class);
+            $data = [
+                'rayons' => $rayon->getRayon(),
+            ];
+            return view('filtre/productrayons', $data);
+        }
+
     // ---------------  CHANGER LE NOM DE LA CATEGORIE DANS LE FILTRE, SELON LE RAYON
         public function changerayon($idrayons) 
         {
@@ -56,6 +67,15 @@
             
         }        
         return view('Template-parts/'.$params4, $data); //$params4 = nom de la destination qui change
+    }
+
+    public static function modalproduct($idproduit)
+    {
+        $product = model(Produit::class);
+        $data = [
+            'product' => $product->getOneProduct($idproduit),
+        ];
+        return view('Template-parts/showproduct', $data);
     }
 
 /*  ************************************** BACK OFFICE   ***************************************/

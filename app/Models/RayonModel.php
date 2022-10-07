@@ -6,10 +6,15 @@
         protected $table = ['rayon'];  
         protected $allowedFields = ['rayon']; 
 
+
+
         public function getRayon()
         {
             return $this->findAll();
         }
+
+
+
         public function getSelectedRayon()
         {
             $this->where('id !=', 0);

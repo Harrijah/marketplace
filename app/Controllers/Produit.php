@@ -67,5 +67,10 @@
             $product = model(Productmodel::class);
             return $product->getProductBySousCategory($idsouscategory, $limit);
         }
+        public function getOneProduct($idproduit)
+        {
+            $product = model(Productmodel::class);
+            return $product->getOneProduct($idproduit);
+        }
 
     }

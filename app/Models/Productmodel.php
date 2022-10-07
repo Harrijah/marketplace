@@ -30,10 +30,10 @@
                 return $this->insert($data);
         }
         
-        public function modifyoneproduct($idproduit)
+        public function getOneProduct($idproduit)
         {
             $this->where('idproduit', $idproduit);
-            return $this->findAll();
+            return $this->find();
         }
 
         public function getProduct()
