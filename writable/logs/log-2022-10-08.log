@@ -1,0 +1,8 @@
+CRITICAL - 2022-10-08 05:20:34 --> Too few arguments to function App\Controllers\Produit::getSelectedProduct(), 2 passed in E:\Projets\marketplace\app\Controllers\Storebackoffice.php on line 29 and exactly 3 expected
+#0 E:\Projets\marketplace\app\Controllers\Storebackoffice.php(29): App\Controllers\Produit::getSelectedProduct(NULL, 10)
+#1 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Storebackoffice->mystore()
+#2 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Storebackoffice))
+#3 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#6 {main}

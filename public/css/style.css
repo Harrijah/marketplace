@@ -1,4 +1,4 @@
-body, .mytext{
+body{
 	font-size: 14px;
 }
 /* 	**************************************		TOGGLE		***********************************************		*/
@@ -42,6 +42,14 @@ body, .mytext{
 
 
 /* 	**************************************		SECTION 01		***********************************************		*/
+.mytext{
+	font-size: 14px;
+}
+#changeMyRayon{
+	border: solid rgb(212, 212, 212) 1px;
+	border-radius: 3px;
+	padding: 5px 0px;
+}
 .section01{
 	margin: auto;
 	padding-right: 10px;
@@ -93,9 +101,21 @@ body, .mytext{
 	transform: translateY(-50%);
 }
 .card00{
-	margin: auto;
+	margin: 1px;
 	position: relative;
-	display: inline-block;
+	/* display: inline-block; */
+	float: left;
+	text-align: left;
+	border: solid rgb(190, 190, 190) 1px;
+	border-radius: 5px;
+	padding: 2px;
+	background-color: white;
+}
+.card03{
+	margin: 1px;
+	position: relative;
+	/* display: inline-block; */
+	float: left;
 	text-align: left;
 	border: solid rgb(190, 190, 190) 1px;
 	border-radius: 5px;
@@ -104,8 +124,18 @@ body, .mytext{
 }
 .testimg{
 	position: relative;
-	padding: 4px;
-	height: 100%;
+	top: 50%;
+	left: 50%;
+	transform: perspective(1px) translateY(-50%) translateX(-50%);
+	/* padding: 4px; */
+	width: 100%;
+}.testimg:hover{
+	cursor: pointer;
+}
+.photoprod{
+	position: relative;
+	width: 7vw;
+	height: 15vh;
 }
 .produits02{
 	margin: 0px;
@@ -117,12 +147,8 @@ body, .mytext{
 	top: 50%;
 	left: 50%;
 	transform: perspective(1px) translateY(-50%) translateX(-50%);
-}
-.photoprod{
-	position: relative;
-	width: 7vw;
-	height: 15vh;
-
+	border: solid rgb(212, 212, 212) 1px;
+	border-radius: 5px;
 }
 .descprod{
 	position: relative;
@@ -130,7 +156,9 @@ body, .mytext{
 	height: 15vh;
 }
 .textprod{
-	margin: 0px;
+	margin: 0px 0px 0px 3px;
+	/* color: #343A40; */
+	color: #3e464d;
 	overflow-y: hidden;
 }
 
@@ -178,7 +206,7 @@ body, .mytext{
 	position: relative;
 	width: 15vw;
 	height: 240px;
-	display: inline-block;
+	float: left;
 	border: solid 1px rgb(190, 190, 190);
 	border-radius: 5px;
 	margin: 2px;
@@ -543,6 +571,28 @@ li a, .dropbtn{
 	position : relative;
 	height: 300px;
 }
-/* .custom-caption-background{
-	background-color: #1b1b1b6c;
-} */
+.myproductlink{
+	text-decoration: none;
+	font-weight: 600;
+	color: #343A40;
+}
+.myproductlink:hover{
+	text-decoration: none;
+	cursor: pointer;
+	color: #566069;
+}
+.dblock{
+	margin: auto;
+	position: relative;
+	display: block;
+	padding: 2px;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%); 
+	z-index: -1;
+}
+.productcounter{
+	display: block;
+	font-size: 30px;
+	color: rgb(172, 171, 171);
+}

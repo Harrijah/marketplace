@@ -38,8 +38,11 @@
     
     <div class="modal" id="thisismymodal">
         <div class="modal-content">
-            <div id="showselected"></div>
-            <div class="modal-footer"><a href="javascript:void(0)" class="sortir">Retour</a></div>
+            <div id="showselected">
+
+
+            
+            </div> 
         </div>
     </div>
 </div>

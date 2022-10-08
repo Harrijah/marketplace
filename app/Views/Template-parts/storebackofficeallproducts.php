@@ -14,7 +14,7 @@
                 <span><?php echo $products[$i]['souscategorie']; ?>&nbsp;</span>
                 <span style="font-weight:bold" class="text-dark"><i class='fa fa-hashtag'></i></span>
                 <span><?php echo $products[$i]['reference']; ?>&nbsp;</span>
-                <span style="font-weight:bold" class="text-dark"><i class='fa fa-eye'></i></span>
+                <span style="font-weight:bold" class="text-dark"><a href="javascript:void(0)"><i class='fa fa-eye showmyproduct02' value="<?php echo $products[$i]['idproduit']; ?>"></i></a></span>
                 <span><?php //echo $products[$i]['reference']; ?>1 &nbsp;</span>
 
             </div> 
@@ -31,4 +31,9 @@
         </div>
 
     </div>
-<?php endfor; ?>
+<?php endfor; 
+    if(count($products) < 10)
+    {
+        echo "<span class='productcounter'>".count($products)." produits trouvé(s). </span><br> " ;
+    }
+?>

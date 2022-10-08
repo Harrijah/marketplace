@@ -8,7 +8,6 @@
     // ---------------  CHANGER LA LISTE DE RAYON 
         public function changeMyRayon()
         {
-            $assets = model(Assets::class);
             $rayon = model(RayonModel::class);
             $data = [
                 'rayons' => $rayon->getRayon(),
