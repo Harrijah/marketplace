@@ -6,9 +6,9 @@
     
     <!-- Carousel commands -->
     <a class="left carousel-control carousel-control-prev" href="#myCarousel" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
+        <span class="carousel-control-prev-icon"></span>
     </a>
     <a class="right carousel-control carousel-control-next" href="#myCarousel" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
+        <span class="carousel-control-next-icon"></span>
     </a>
 </div>
