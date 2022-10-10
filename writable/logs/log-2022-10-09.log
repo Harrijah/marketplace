@@ -1,0 +1,11 @@
+CRITICAL - 2022-10-09 10:01:37 --> Argument 2 passed to set_value() must be of the type string, null given, called in E:\Projets\marketplace\app\Views\profile.php on line 17
+#0 E:\Projets\marketplace\app\Views\profile.php(17): set_value('nom', NULL)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('profile', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Users.php(165): view('profile')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Users->profile()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}

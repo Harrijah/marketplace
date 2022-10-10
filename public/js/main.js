@@ -3,7 +3,7 @@ $(document).ready(function() {
     const selectButton = document.querySelector('.thema');
     const tabButton = document.querySelectorAll(".mybutton"); 
     const contents = document.querySelectorAll(".content"); 
-    const mybaseurl = $(document.querySelector('#myurl')).attr('value'); // base URL pour le filtre
+    const mybaseurl = $(document.querySelector('#myurl')).attr('value'); // base URL pour le filtre (dans le header)
     let sortir = document.getElementsByClassName('sortir'); // fermer le modal
     let showselected = document.querySelector('#showselected');
     let myProductModal = document.getElementById('thisismymodal'); // Sélectionner le modal sur la page d'accueil
@@ -37,13 +37,13 @@ $(document).ready(function() {
         var urlx1 = mybaseurl+'/getResultat/getSelectedProduct/0/6/selectedproducts/'+thematique; 
         var urlx3 = mybaseurl+'/changeMyRayon'; 
         lancerAjax(urlx2, '#changeCarousel'); // Montrer la séclection de produits sur le carousel du slider
-        lancerAjax(urlx1, '#homeselectedproduct'); // Montrer la séclection de produits sur la liste de produits sur le slider principal
+        lancerAjax(urlx1, '#homeselectedproduct'); // Montrer la sélection de produits sur la liste de produits sur le slider principal
         lancerAjax(urlx3, '#changeMyRayon'); // Réinitialiser la liste des rayons dans la balise "SELECT"
 
         newmodal02(newContainer01); // Montrer le modal pour les produits filtrés
     });
 
-    // Page d'accueil/ Slider principal / Sélectionner les produits par rayon en fonction thématique ci-dessus
+    // Page d'accueil/ Slider principal / Sélectionner les produits par rayon en fonction de la thématique ci-dessus
     $('.selectrayon2').on('change', function(){
         var optionselect = this.options[this.selectedIndex];
         var urlx1 = $(this).attr('url2')+'/getSelectedProduct/'+optionselect.value+'/6/selectedproducts/'+thematique;
@@ -146,6 +146,20 @@ $(document).ready(function() {
             } 
         });
     } 
+    let tabs02 = document.querySelector('.brefwrapper');
+    let myButton02 = document.querySelectorAll('.myButton02');
+    $(tabs02).on('click', function(e){
+        let id03 = e.target.dataset.id;
+       if (id03) {
+        myButton02.forEach(btn => 
+            {
+                btn.classList.remove("active");
+            }
+            );
+            e.target.classList.add("active");
+            e.target.classList.add("myButton02");
+       }
+    });
     
     /*  ****************     Activer le filtre de produits   ************ */
     function changecategory()

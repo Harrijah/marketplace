@@ -46,6 +46,9 @@ body{
 	font-size: 14px;
 	padding: 10px;
 }
+.mytab:hover{
+	cursor: pointer;
+}
 .mywrapper{
 	margin: 15px;
 }
@@ -82,6 +85,11 @@ body{
 /* .mesmenus{
 	display: block;
 } */
+
+.littlehorizontalcard{
+	display: inline-block;
+	background-color: #888;
+}
 .categories{
 	margin: auto;
 	position: relative;
@@ -90,7 +98,7 @@ body{
 }
 .listprod04{
 	position: relative;
-	margin: auto;
+	/* margin: auto; */
 	padding: 3px;
 	height: 87%;
 }
@@ -101,19 +109,19 @@ body{
 	width: 100%;
 	height: 100%;
 	padding: 2px;
-	top: 50%;
-	transform: translateY(-50%);
+	/* top: 50%;
+	transform: translateY(-50%); */
 }
 .card00{
 	margin: 1px;
 	position: relative;
-	/* display: inline-block; */
-	float: left;
+	display: block;
+	/* float: left; */
 	text-align: left;
 	border: solid rgb(190, 190, 190) 1px;
 	border-radius: 5px;
 	padding: 2px;
-	background-color: white;
+	/* background-color: white; */
 }
 .card03{
 	margin: 1px;
@@ -158,8 +166,8 @@ body{
 
 .descprod{
 	position: relative;
-	width: 11vw;
-	height: 15vh;
+	display: block;
+	width: 100%;
 }
 .textprod{
 	margin: 0px 0px 0px 3px;
@@ -592,6 +600,7 @@ li a, .dropbtn{
 	/* margin: auto; */
 	left: 50%;
 	transform: translateX(-50%);
+	background-color: white;
 }
 .myimagetest{
 	position : relative;
