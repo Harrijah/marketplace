@@ -41,31 +41,50 @@
     public static function getResultat($params1, $params2, $params3, $params4, $params5) //unNomEnParticulier
     {
         $products = model(Produit::class);
-        if($params2 == '0')
+        if($params2 == '0') // Si il n'y a pas de rayon sélectionné, alors redirection par défaut vers "Tous les rayons"
         {
             $params2 = null;
             $data = [
-                'products' => $products->$params1($params2, $params3, $params5), //$params1 = nom de la fonction qui change
+                'products' => $products->$params1($params2, $params3, $params5), //$params1 = nom de la fonction
             ];
         }
-        else
+        else // Si il y a un rayon sélectionné
         {
-            if(!$params5)
+            if(!$params5) // Si pas de thématique spécifique de produits dans la requête
             {
-                $params5 = 'allprod';
+                $params5 = 'allprod'; // Alors "Thématique par défaut" = "Tous les produits"
                 $data = [
-                    'products' => $products->$params1($params2, $params3, $params5), //$params1 = nom de la fonction qui change
+                    'products' => $products->$params1($params2, $params3, $params5), //$params1 = nom de la fonction
                 ];  
             }
-            else
+            else // Si il y a un rayon et une thématique dans la requête
             {
                 $data = [
-                    'products' => $products->$params1($params2, $params3, $params5), //$params1 = nom de la fonction qui change
+                    'products' => $products->$params1($params2, $params3, $params5), //$params1 = nom de la fonction
                 ];  
             }
             
-        }        
-        return view('Template-parts/'.$params4, $data); //$params4 = nom de la destination qui change
+        }
+
+        // DANS LE CAS OU LA REQUETE RETOURNE "ZERO PRODUITS" (pas de produits dans la base de données)
+        if($data['products'] == null) 
+        {
+            if($params4 == 'carouselproducts') // Pour le carousel, il faut afficher une image par défaut, sinon, l'animation du slide se casse
+            {
+                $data = [
+                    'products' => $products->getSelectedProduct(null, 1, 'promo'), // Assigner un affichage par défaut sur le slide du carousel
+                ];
+                return view('Template-parts/'.$params4, $data); //$params4 = la Template-parts qui contient la boucle foreach($products as $product) et la mise en forme des produits
+            }
+            else
+            {
+                echo "Des articles à venir !!";
+            }
+        }
+        else
+        {
+            return view('Template-parts/'.$params4, $data); //$params4 = la Template-parts qui contient la boucle foreach($products as $product) et la mise en forme des produits
+        }
     }
 
     public static function modalproduct($idproduit)
