@@ -98,9 +98,11 @@ body{
 }
 .listprod04{
 	position: relative;
-	/* margin: auto; */
+	margin: 5px 0px;
 	padding: 3px;
-	height: 87%;
+	height: 365px;
+	overflow-y: scroll;
+	scrollbar-width: thin;
 }
 .listprod{
 	margin: auto;
@@ -225,7 +227,7 @@ body{
 	border-radius: 5px;
 	margin: 2px;
 	background-color: white;
-	z-index: 19;
+	/* z-index: 19; */
 }
 .produits03{
 	position: relative;

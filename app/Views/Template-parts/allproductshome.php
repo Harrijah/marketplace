@@ -17,11 +17,11 @@
 <?php endforeach; ?>
 
 
-<div class="dblock">
+<!-- <div class="">
     <?php
-        if(count($products) < 10)
-        {
-            echo "<span class='productcounter'>".count($products)." produits trouvé(s). </span><br> " ;
-        }
+        // if(count($products) < 10)
+        // {
+        //     echo "<span class='productcounter'>".count($products)." produits trouvé(s). </span><br> " ;
+        // }
     ?>
-</div>
+</div> -->

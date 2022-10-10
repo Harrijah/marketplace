@@ -9,32 +9,12 @@
         </div>
     <?php endforeach; ?>
 
-    <div class="dblock">
+    <!-- <div class="dblock">
         <?php 
-            if(count($products) < 6)
-            {
-                echo "<p class='productcounter'>".count($products)." produits trouvé(s). </p><br> " ;
-            }
-            else
-            {
-                
-            }
+            // if(count($products) < 6)
+            // {
+            //     echo "<p class='productcounter'>".count($products)." produits trouvé(s). </p><br> " ;
+            // }
         ?>
-    </div>
+    </div> -->
 </div>
-
-
-
-
-
-<!-- <div class="photoprod float-left"> -->
-    <!-- <div class="produits02 showmyproduct02" value="<?php echo $product['idproduit'];?>">
-        <span class="">
-            <img 
-                src="<?php echo base_url('uploads/image/'.$product['photo01']);  ?>" 
-                alt="image" class="testimg myproductimage img-fluid showmyproduct02" 
-                value="<?php echo $product['idproduit'];?>"
-            >
-        </span>
-    </div>  -->
-<!-- </div> -->

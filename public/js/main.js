@@ -4,7 +4,6 @@ $(document).ready(function() {
     const tabButton = document.querySelectorAll(".mybutton"); 
     const contents = document.querySelectorAll(".content"); 
     const mybaseurl = $(document.querySelector('#myurl')).attr('value'); // base URL pour le filtre (dans le header)
-    let sortir = document.getElementsByClassName('sortir'); // fermer le modal
     let showselected = document.querySelector('#showselected');
     let myProductModal = document.getElementById('thisismymodal'); // Sélectionner le modal sur la page d'accueil
     let newContainer01 = document.querySelector('#homeselectedproduct'); // Sélectionner le container pour le modal
@@ -41,6 +40,8 @@ $(document).ready(function() {
         lancerAjax(urlx3, '#changeMyRayon'); // Réinitialiser la liste des rayons dans la balise "SELECT"
 
         newmodal02(newContainer01); // Montrer le modal pour les produits filtrés
+        // Page d'accueil/ Slider principal / Sélectionner les produits par rayon en fonction de la thématique ci-dessus
+       
     });
 
     // Page d'accueil/ Slider principal / Sélectionner les produits par rayon en fonction de la thématique ci-dessus
@@ -50,7 +51,8 @@ $(document).ready(function() {
         var urlx2 = $(this).attr('url2')+'/getSelectedProduct/'+optionselect.value+'/6/carouselproducts/'+thematique;
         lancerAjax(urlx1, '#homeselectedproduct');
         lancerAjax(urlx2, '#changeCarousel');
-        newmodal();
+        newmodal02(newContainer01);
+        addactive();
     });
 
     /*  **************************     USE CAROUSEL     ******************************* */
