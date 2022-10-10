@@ -65,26 +65,7 @@
             }
             
         }
-
-        // DANS LE CAS OU LA REQUETE RETOURNE "ZERO PRODUITS" (pas de produits dans la base de données)
-        if($data['products'] == null) 
-        {
-            if($params4 == 'carouselproducts') // Pour le carousel, il faut afficher une image par défaut, sinon, l'animation du slide se casse
-            {
-                $data = [
-                    'products' => $products->getSelectedProduct(null, 1, 'promo'), // Assigner un affichage par défaut sur le slide du carousel
-                ];
-                return view('Template-parts/'.$params4, $data); //$params4 = la Template-parts qui contient la boucle foreach($products as $product) et la mise en forme des produits
-            }
-            else
-            {
-                echo "Des articles à venir !!";
-            }
-        }
-        else
-        {
-            return view('Template-parts/'.$params4, $data); //$params4 = la Template-parts qui contient la boucle foreach($products as $product) et la mise en forme des produits
-        }
+        return view('Template-parts/'.$params4, $data); //$params4 = la Template-parts qui contient la boucle foreach($products as $product) et la mise en forme des produits
     }
 
     public static function modalproduct($idproduit)
