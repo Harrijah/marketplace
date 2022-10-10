@@ -1,7 +1,7 @@
 <?php namespace App\Controllers;
     class Assets extends BaseController
     {
-        public function homenavmenu() //Menu 
+        public static function homenavmenu() //Menu 
         {
             return view('Template-parts/homenavmenu');
         }
