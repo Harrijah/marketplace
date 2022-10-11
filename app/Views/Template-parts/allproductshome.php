@@ -13,7 +13,7 @@
                 </span>
             </div>
             <div class="textprod03 text-left text-white">
-                <span class="textprod"><a href="javascript:void(0)" value="<?php echo $product['idproduit'];?>" class="myproductlink text-white showmyproduct02"><?php echo $product['nom']; ?></a></span><br>
+                <span class="textprod"><a href="javascript:void(0)" value="<?php echo $product['idproduit'];?>" class="myproductlink text-warning showmyproduct02"><?php echo $product['nom']; ?></a></span><br>
                 <span class="textprod text-white"><span class="text-warning">Ar </span><?= $product['prix']; ?></span><br>
             </div>
         </div>

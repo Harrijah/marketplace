@@ -1,0 +1,12 @@
+CRITICAL - 2022-10-11 11:31:01 --> Undefined variable: ray
+#0 E:\Projets\marketplace\app\Views\Template-parts\allcategories.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 6, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('Template-parts/...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Assets.php(30): view('Template-parts/...')
+#4 E:\Projets\marketplace\app\Controllers\Accueil.php(23): App\Controllers\Assets->allcategories()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#6 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#7 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#10 {main}
