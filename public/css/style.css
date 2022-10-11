@@ -138,9 +138,9 @@ body{
 }
 .testimg{
 	position: relative;
-	top: 50%;
+	/* top: 50%; */
 	left: 50%;
-	transform: perspective(1px) translateY(-50%) translateX(-50%);
+	transform: perspective(1px) translateX(-50%);
 	/* padding: 4px; */
 	width: 100%;
 }
@@ -188,25 +188,68 @@ body{
 }
 
 /* 	**************************************		CATEGORIES	***********************************************		*/
+.popularRay{
+	margin-top: 20px;
+	padding: 20px 50px;
+}
+.catheading{
+	position: relative;
+	margin-left: 15px;
+	padding: 10px;
+	display: inline-block;
+	border-top: solid 1px rgb(172, 171, 171);
+	border-right: solid 1px rgb(172, 171, 171);
+	border-left: solid 1px rgb(172, 171, 171);
+	border-top-right-radius: 1rem;
+	border-top-left-radius: 1rem;
+	background-color: rgba(172, 171, 171, 0.233);
+}
+.divider{
+	width: 300px;
+	border-bottom: solid 1px rgb(172, 171, 171);
+}
 .categories02{
 	position: relative;
+	margin: auto;
 	text-align: center;
-	height: 15vh;
+	height: 175px;
 	width: 100%;
+	overflow-x: scroll;
+	scrollbar-width: thin;
+	/* border-right: solid 1px rgb(172, 171, 171); */
+	/* border-bottom: solid 1px rgb(172, 171, 171); */
+	border-bottom-right-radius: 1rem;
+}
+.categorycontainer{
+	position: relative;
+	/* height: 100%; */
+	width: max-content;
+	top: 50%;
+	transform: translateY(-50%);
 }
 .card01{
 	position: relative;
 	display: inline-block;
+	width: 125px;
+	height: 125px;
+	margin: 10px 10px;
+	padding: 8px;
+	color: gray;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px #343A40;
+}
+.producticone{
+	position: relative;	
 	top: 50%;
 	transform: translateY(-50%);
-	padding: 8px;
-	border: none;
-	color: gray;
 }
-.monicone{
-	color:grey;
+.iconeshadow{
+	font-size: 52px;
+	color: #292b2cb7;
+	stroke: #f0ad4e;
+	stroke-width: 9px;
 }
-.monicone:hover{
+.iconeshadow:hover{
 	color:orange;
 }
 .card01:hover{
@@ -214,6 +257,24 @@ body{
 }
 
 /* 	**************************************		PRODUITS 02		***********************************************		*/
+.popularCat{
+	margin-top: 0px;
+	padding: 20px 0px 0px 50px;
+}
+.bigfiltercontainer{
+	position: relative;
+	margin: 20px 0px 0px 0px;
+	padding: 15px 0px 15px 30px;
+	border-bottom-left-radius: 3rem;
+	border-top-left-radius: 3rem;
+	/* background-color: #292b2c; */
+	background-color: #292b2cb7;
+}
+.mysearchcol{
+	position: relative;
+	width: 200px;
+	margin-right: 10px;
+}
 .blocrandomprod{
 	margin: auto;
 	width: auto;
@@ -221,7 +282,7 @@ body{
 .photoprod02{
 	position: relative;
 	width: 15vw;
-	height: 240px;
+	height: 200px;
 	float: left;
 	border: solid 1px rgb(190, 190, 190);
 	border-radius: 5px;
@@ -231,10 +292,11 @@ body{
 }
 .produits03{
 	position: relative;
-	height: 240px;
+	height: 200px;
 	border-radius: 3px;
 	left: 50%;
 	transform: translateX(-50%); /* test*/
+	overflow-y: hidden;
 }
 .produits03:hover{
 	cursor: pointer;
@@ -246,7 +308,7 @@ body{
 	right: 0;
 	height: 0;
 	width: 100%;
-	padding: 10px 5px 20px 5px;
+	padding: 20px 5px 50px 5px;
 	overflow: hidden;
 	background-color: rgba(0, 0, 0, 0.655);  
   	transition: .5s ease;
@@ -406,9 +468,10 @@ body{
   .modal-content {
     background-color: #fefefe;
     margin: 2% auto; /* 15% from the top and centered */
-    padding: 5px;
-    border: 1px solid #888;
+    /* padding: 5px; */
+    /* border: 1px solid #888; */
     width: 40%; /* Could be more or less, depending on screen size */
+	border-radius: 5px;
   }
   .modal-content2 {
     background-color: #fefefe;
@@ -435,8 +498,21 @@ body{
     color: black;
     text-decoration: none;
     cursor: pointer;
+  }
+  .modalproductname{
+	padding: 2rem;
+	text-align: center;
+	background-color: #343A40;
+	color: whitesmoke;
   } 
-
+  .productprice{
+	font-size: 30px;
+	font-weight: 900;
+	color: whitesmoke;
+  }
+.idproduit{
+	padding: 10px;
+}
   
 /* 	**************************************		dropdown menu		***********************************************		*/
 .dropdown{

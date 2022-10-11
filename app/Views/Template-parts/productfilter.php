@@ -1,4 +1,5 @@
-<div class="mx-auto pl-5 mt-4">
-    <h3 class="d-inline">Trouver un produit</h3>
+<div class="popularCat">
+    <h3 class="catheading">Trouver un produit</h3>
+    <div class="divider"></div>
     <?php echo (\App\Controllers\Assets::filterproducts()); ?>
 </div>

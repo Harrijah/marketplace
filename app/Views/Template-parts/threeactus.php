@@ -1,5 +1,7 @@
-<div class="container mt-4">
-    <h3>Les dernières actus</h3>
+
+<div class="popularCat mt-5">
+    <h3 class="catheading">Les dernières actus</h3>
+    <div class="divider"></div>
     <div class="actus">
         <?php for ($i=0; $i < 3; $i++): ?> 
             <div class="card card02 bg-light text-center">

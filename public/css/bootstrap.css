@@ -4446,7 +4446,8 @@ input[type="button"].btn-block {
 .card-body {
   flex: 1 1 auto;
   min-height: 1px;
-  padding: 1.25rem;
+  /* padding: 1.25rem; */
+	background-color: #b3b7bb;
 }
 
 .card-title {
@@ -4471,7 +4472,7 @@ input[type="button"].btn-block {
 }
 
 .card-header {
-  padding: 0.75rem 1.25rem;
+  /* padding: 0.75rem 1.25rem; */
   margin-bottom: 0;
   background-color: rgba(0, 0, 0, 0.03);
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
@@ -4482,8 +4483,10 @@ input[type="button"].btn-block {
 }
 
 .card-footer {
-  padding: 0.75rem 1.25rem;
-  background-color: rgba(0, 0, 0, 0.03);
+  padding: 2rem 1.25rem;
+  /* background-color: rgba(0, 0, 0, 0.03); */
+  text-align: center;
+	background-color: #343A40;
   border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
 
@@ -5645,6 +5648,7 @@ a.close.disabled {
 .modal-content {
   position: relative;
   display: flex;
+  padding: 0px;
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
@@ -7800,7 +7804,7 @@ button.bg-dark:focus {
 
 .pl-5,
 .px-5 {
-  padding-left: 3rem !important;
+  padding-left: 0rem !important;
 }
 
 .m-n1 {
