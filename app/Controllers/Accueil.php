@@ -17,7 +17,6 @@ class Accueil extends BaseController
             'products' => $products->getSelectedProduct(null, 6, 'selection')
         ];
         return view('Template-parts/header', $data)
-        // . view('accueil')
         . $assets->littlehorizontalcard() 
         . $assets->homebanner()
         . $assets->allcategories()

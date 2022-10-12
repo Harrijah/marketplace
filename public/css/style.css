@@ -181,6 +181,7 @@ body{
 /* 	**************************************		BANDEAU		***********************************************		*/
 .bandeau{
 	width: 100%;
+	padding: 0px 50px 0px 50px;
 	background: linear-gradient(45deg, #1b1b1b, rgba(27, 27, 27, 0.747)), url(../uploads/images/4.jpg) fixed;
 }
 .bloc{
@@ -190,7 +191,7 @@ body{
 /* 	**************************************		CATEGORIES	***********************************************		*/
 .popularRay{
 	margin-top: 20px;
-	padding: 20px 50px;
+	padding: 20px 50px 0px 50px;
 }
 .catheading{
 	position: relative;
@@ -202,10 +203,17 @@ body{
 	border-left: solid 1px rgb(172, 171, 171);
 	border-top-right-radius: 1rem;
 	border-top-left-radius: 1rem;
-	background-color: rgba(172, 171, 171, 0.233);
+	background-color: rgb(233, 233, 233);
 }
 .divider{
 	width: 300px;
+	border-bottom: solid 1px rgb(172, 171, 171);
+}
+.divider02{
+	position: relative;
+	margin: 20px 50px 0px 0px;
+	width: 300px;
+	float: right;
 	border-bottom: solid 1px rgb(172, 171, 171);
 }
 .categories02{
@@ -216,8 +224,6 @@ body{
 	width: 100%;
 	overflow-x: scroll;
 	scrollbar-width: thin;
-	/* border-right: solid 1px rgb(172, 171, 171); */
-	/* border-bottom: solid 1px rgb(172, 171, 171); */
 	border-bottom-right-radius: 1rem;
 }
 .categorycontainer{
@@ -245,8 +251,8 @@ body{
 }
 .iconeshadow{
 	font-size: 52px;
-	color: #292b2cb7;
-	stroke: #f0ad4e;
+	color: #f0ad4e;
+	stroke: #343A40;
 	stroke-width: 9px;
 }
 .iconeshadow:hover{
@@ -267,8 +273,7 @@ body{
 	padding: 15px 0px 15px 30px;
 	border-bottom-left-radius: 3rem;
 	border-top-left-radius: 3rem;
-	/* background-color: #292b2c; */
-	background-color: #292b2cb7;
+	background-color: rgb(233, 233, 233);
 }
 .mysearchcol{
 	position: relative;
@@ -342,6 +347,11 @@ body{
 	width: 90%;
 	left: 50%;
 	transform: translateX(-50%);
+}
+.blogimages{
+	position: relative;
+	height: 200px;
+	overflow-y: hidden;
 }
 
 /* 	**************************************		CONNEXION		***********************************************		*/
