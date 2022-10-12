@@ -10,3 +10,6 @@ CRITICAL - 2022-10-11 11:31:01 --> Undefined variable: ray
 #8 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #9 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
 #10 {main}
+CRITICAL - 2022-10-11 22:26:46 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

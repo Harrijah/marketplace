@@ -12,6 +12,6 @@
                 </div>
             <?php endforeach; ?>
         </div>
-        
     </div>
 </div>
+<div class="divider02"></div>

@@ -15,3 +15,5 @@
         <div class="col-1 text-center"><i class="fa fa-angle-right text-warning inner-div" style="font-size:76px"></i></div>
     </div>
 </div>
+
+<div class="divider02"></div>
