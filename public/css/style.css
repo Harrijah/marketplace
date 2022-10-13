@@ -42,6 +42,10 @@ body{
 
 
 /* 	**************************************		SECTION 01		***********************************************		*/
+.littleCat{
+	position: relative;
+	margin: 20px;
+}
 .mytext{
 	font-size: 14px;
 	padding: 10px;
@@ -96,6 +100,12 @@ body{
 	height: 13%;
 	width: 100%;
 }
+
+.custom-caption-background{
+	background-color: rgba(100%, 100%, 100%, 60%);
+	backdrop-filter: blur(50px);
+	/* backdrop-filter: blur(75%); */
+}
 .listprod04{
 	position: relative;
 	margin: 5px 0px;
@@ -105,22 +115,22 @@ body{
 	scrollbar-width: thin;
 }
 .listprod{
-	margin: auto;
 	position: relative;
 	text-align: center;
-	width: 100%;
 	height: 100%;
-	padding: 2px;
-	/* top: 50%;
-	transform: translateY(-50%); */
+	width: 100%;
+	/* padding: 2px; */
+	/* top: 50%; */
+	left: 50%;
+	transform: translateX(-50%);
 }
 .card00{
-	margin: 1px;
+	margin: 5px 1px;
 	position: relative;
 	display: block;
 	/* float: left; */
 	text-align: left;
-	border: solid rgb(190, 190, 190) 1px;
+	border: solid #dee2e6 1px;
 	border-radius: 5px;
 	padding: 2px;
 	/* background-color: white; */
@@ -193,7 +203,7 @@ body{
 	margin-top: 20px;
 	padding: 20px 50px 0px 50px;
 }
-.catheading{
+/* .catheading{
 	position: relative;
 	margin-left: 15px;
 	padding: 10px;
@@ -204,8 +214,8 @@ body{
 	border-top-right-radius: 1rem;
 	border-top-left-radius: 1rem;
 	background-color: rgb(233, 233, 233);
-}
-.divider{
+}*/
+.divider{ 
 	width: 300px;
 	border-bottom: solid 1px rgb(172, 171, 171);
 }
@@ -222,7 +232,7 @@ body{
 	text-align: center;
 	height: 175px;
 	width: 100%;
-	overflow-x: scroll;
+	overflow-x: hidden;
 	scrollbar-width: thin;
 	border-bottom-right-radius: 1rem;
 }
@@ -242,7 +252,8 @@ body{
 	padding: 8px;
 	color: gray;
 	border-radius: 5px;
-	box-shadow: 1px 1px 5px #343A40;
+	border: solid 1px #dee2e6;
+	/* box-shadow: 1px 1px 5px #343A40; */
 }
 .producticone{
 	position: relative;	
@@ -251,9 +262,10 @@ body{
 }
 .iconeshadow{
 	font-size: 52px;
-	color: #f0ad4e;
-	stroke: #343A40;
-	stroke-width: 9px;
+	color: white;
+	/* stroke: #dee2e6; */
+	stroke: #f0ad4e;
+	stroke-width: 13px;
 }
 .iconeshadow:hover{
 	color:orange;
@@ -264,12 +276,12 @@ body{
 
 /* 	**************************************		PRODUITS 02		***********************************************		*/
 .popularCat{
-	margin-top: 0px;
+	margin-top: 20px;
 	padding: 20px 0px 0px 50px;
 }
 .bigfiltercontainer{
 	position: relative;
-	margin: 20px 0px 0px 0px;
+	margin: 20px 0px 20px 0px;
 	padding: 15px 0px 15px 30px;
 	border-bottom-left-radius: 3rem;
 	border-top-left-radius: 3rem;
@@ -280,6 +292,13 @@ body{
 	width: 200px;
 	margin-right: 10px;
 }
+#allproductshome{
+	position: relative;
+	margin: auto;
+	width: 85%;
+	background-color: rgb(233, 233, 233);
+	padding: 10px;
+}
 .blocrandomprod{
 	margin: auto;
 	width: auto;
@@ -288,7 +307,7 @@ body{
 	position: relative;
 	width: 15vw;
 	height: 200px;
-	float: left;
+	display: inline-block;
 	border: solid 1px rgb(190, 190, 190);
 	border-radius: 5px;
 	margin: 2px;
@@ -315,11 +334,12 @@ body{
 	width: 100%;
 	padding: 20px 5px 50px 5px;
 	overflow: hidden;
-	background-color: rgba(0, 0, 0, 0.655);  
+	background-color: rgba(0%, 0%, 0%, 60%);
   	transition: .5s ease;
 }
 .photoprod02:hover .textprod03{
 	height: 50%;
+	backdrop-filter: blur(50px);  
 }
 
 
@@ -512,7 +532,7 @@ body{
   .modalproductname{
 	padding: 2rem;
 	text-align: center;
-	background-color: #343A40;
+	background: linear-gradient(90deg, #343A40, gray, #343A40);
 	color: whitesmoke;
   } 
   .productprice{

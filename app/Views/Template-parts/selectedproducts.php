@@ -3,9 +3,9 @@
     if($products)
     {
         foreach($products as $product): ?>
-        <div class="card00">
+        <div class="card00 bg-light">
             <div class="descprod">
-                <span class="textprod text-primary" style="font-size:13px"><a href="javascript:void(0)" value="<?php echo $product['idproduit'];?>" class="showmyproduct02 myproductlink text-warning"><?php echo $product['nom']; ?></a></span><br>
+                <span class="textprod text-primary" style="font-size:13px"><a href="javascript:void(0)" value="<?php echo $product['idproduit'];?>" class="showmyproduct02 myproductlink"><?php echo $product['nom']; ?></a></span><br>
                 <span class="textprod" style="font-size:13px">Boutique vendeur</span><br>
                 <span class="textprod" style="font-size:13px"><?php echo $product['prix']; ?> Ar </span>
             </div>
