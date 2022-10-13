@@ -27,7 +27,7 @@
     ?>
 </div>
 
-<div class="card-footer">
+<div class="card-footer modalproductname">
     <div class="">
         <button class="btn btn-outline-warning idproduit " value="<?php echo $product[0]['idproduit']; ?> ">Ajouter au panier <span><i class="fa fa-cart-plus"></i></span></button>
         <button class="btn btn-outline-warning idproduit" value="<?php echo $product[0]['idproduit']; ?> ">Voir les détails</button>

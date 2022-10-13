@@ -1,4 +1,4 @@
-<div class="container-fluid row mx-auto pt-5 pb-5 bandeau">
+<div class="row mx-auto pt-5 pb-5 bandeau">
     <div class="row">    
         <div class="col-5 pt-4 pb-4 pl-5">
             <h3 class="text-warning">Rechercher un magasin</h3>
