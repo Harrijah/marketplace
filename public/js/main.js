@@ -4,6 +4,9 @@ $(document).ready(function() {
     const tabButton = document.querySelectorAll(".mybutton"); 
     const contents = document.querySelectorAll(".content"); 
     const mybaseurl = $(document.querySelector('#myurl')).attr('value'); // base URL pour le filtre (dans le header)
+    const buttonLeft = document.getElementById('buttonLeft')
+    const buttonRight = document.getElementById('buttonRight');
+    const categories02 = document.querySelector('.categories02');
     let showselected = document.querySelector('#showselected');
     let myProductModal = document.getElementById('thisismymodal'); // Sélectionner le modal sur la page d'accueil
     let newContainer01 = document.querySelector('#homeselectedproduct'); // Sélectionner le container pour le modal
@@ -30,7 +33,7 @@ $(document).ready(function() {
     filtre('.selectsouscategorie', 'url', 'getProductBySousCategory', '10', 'storebackofficeallproducts', '#backofficestoreproductlist', 'allprod');
     
     // Page d'accueil / Slider prncipal / Choisir les thématiques : produit de la semaine, nouveauté, ou promo
-    $(selectButton).on('click', function(e){
+    $(selectButton).on('click', (e)=>{
         thematique = $(e.target).attr('val'); // Obtenir la thématique
         var urlx2 = mybaseurl+'/getResultat/getSelectedProduct/0/6/carouselproducts/'+thematique;
         var urlx1 = mybaseurl+'/getResultat/getSelectedProduct/0/6/selectedproducts/'+thematique; 
@@ -45,7 +48,7 @@ $(document).ready(function() {
     });
 
     // Page d'accueil/ Slider principal / Sélectionner les produits par rayon en fonction de la thématique ci-dessus
-    $('.selectrayon2').on('change', function(){
+    $('.selectrayon2').on('change', ()=>{
         var optionselect = this.options[this.selectedIndex];
         var urlx1 = $(this).attr('url2')+'/getSelectedProduct/'+optionselect.value+'/6/selectedproducts/'+thematique;
         var urlx2 = $(this).attr('url2')+'/getSelectedProduct/'+optionselect.value+'/6/carouselproducts/'+thematique;
@@ -67,7 +70,7 @@ $(document).ready(function() {
             type: 'post',
             data: {}
         })
-        .done(function(data){
+        .done((data)=>{
             if(ajaxDestination == '#changeCarousel'){
                 $(ajaxDestination).html(data);
                 addactive();
@@ -75,7 +78,7 @@ $(document).ready(function() {
                 $(ajaxDestination).html(data);
             }
         })
-        .fail(function(errorMessage){
+        .fail((errorMessage)=>{
             alert(errorMessage);
         });
     }
@@ -83,8 +86,7 @@ $(document).ready(function() {
     /*  ****************     Utiliser le filtre de produits  ************ */ 
     function filtre(bouton, url, fonction, limit, destination, contenu, themaValue)
     {
-        $(bouton).on('change', function()
-        {
+        $(bouton).on('change', ()=>{
             var optionselect = this.options[this.selectedIndex];
             if(optionselect.classList == 'retourrayon') 
             {
@@ -105,7 +107,7 @@ $(document).ready(function() {
       
     // Une fois que les produits sont affichés, on va sortir un modal pour chacun des produits listés par le filtre
     function newmodal02(container){
-        $(container).on('click', function(e){ // lorsqu'on clique sur les éléments du container
+        $(container).on('click', (e)=>{ // lorsqu'on clique sur les éléments du container
             let monlien = e.target; // créer un variable pour l'élément cliqué
             if(monlien.classList.contains("showmyproduct02") == true){ // Condition montrant si l'élément cliqué est bien un produit
                 myproductvalue = $(monlien).attr('value'); // Créer une variable pour l'ID du produit
@@ -114,7 +116,7 @@ $(document).ready(function() {
 
                 /* ----------- Montrer le modal ------------ */
                 myProductModal.style.display = "block"; //montrer le modal avec les résultats obtenus par l'Ajax
-                window.onclick = function(event){ // fermer le modal
+                window.onclick = (event)=>{ // fermer le modal
                     let myClick = event.target;
                     if(myClick == myProductModal){
                         myProductModal.style.display = "none";
@@ -128,9 +130,45 @@ $(document).ready(function() {
             }
         });
     }
+
+
+
+    buttonLeft.addEventListener('click', ()=>{
+        setInterval(()=>{
+            categories02.scrollLeft -= 125
+        }, 20);
+    });
+    buttonRight.addEventListener('click', ()=>{
+        setInterval(()=>{
+            categories02.scrollLeft += 125
+        }, 20);
+    });
+
+
+//     var button = document.getElementById('buttonRight');
+// button.onclick = function () {
+//     var container = document.getElementById('container');
+//     sideScroll(categorycontainer,'right',25,100,10);
+// };
+
+
+function sideScroll(element,direction,speed,distance,step){
+    scrollAmount = 0;
+    var slideTimer = setInterval(function(){
+        if(direction == 'left'){
+            element.scrollLeft -= step;
+        } else {
+            element.scrollLeft += step;
+        }
+        scrollAmount += step;
+        if(scrollAmount >= distance){
+            window.clearInterval(slideTimer);
+        }
+    }, speed);
+}
     /*  **************************     TOGGLE MENU / BOUTONS    ******************************* */
     function buttonToggle(){         
-        $(tabs).on('click', function(e){
+        $(tabs).on('click', (e)=>{
             let id = e.target.dataset.id;
             let element00 = document.getElementById(id);
             if (id) {
@@ -150,7 +188,7 @@ $(document).ready(function() {
     } 
     let tabs02 = document.querySelector('.brefwrapper');
     let myButton02 = document.querySelectorAll('.myButton02');
-    $(tabs02).on('click', function(e){
+    $(tabs02).on('click', (e)=>{
         let id03 = e.target.dataset.id;
        if (id03) {
         myButton02.forEach(btn => 
@@ -166,7 +204,7 @@ $(document).ready(function() {
     /*  ****************     Activer le filtre de produits   ************ */
     function changecategory()
     {
-        $('.selectrayon').on('change', function(e){
+        $('.selectrayon').on('change', (e)=>{
             e.preventDefault();
             var optionselect = this.options[this.selectedIndex].value;
             var myurl03 = $(this).attr('url')+'/'+optionselect;
@@ -176,7 +214,7 @@ $(document).ready(function() {
     }
     function changesouscategorie()
     {
-        $('.selectcategory').on('change', function(e){
+        $('.selectcategory').on('change', (e)=>{
             e.preventDefault(e);
             var optionselect = this.options[this.selectedIndex];
             if(optionselect.classList == 'retourrayon')
@@ -198,9 +236,9 @@ $(document).ready(function() {
         const next = document.getElementById('buttonnext');
         const tabs2 = document.querySelector(".wrapper2");
     
-        $(previous).on('click', function(){if(coeff > 1){coeff--;}});
-        $(next).on('click', function(){if(coeff < 3){coeff++;}}); 
-        $(tabs2).on('click', function(){
+        $(previous).on('click', ()=>{if(coeff > 1){coeff--;}});
+        $(next).on('click', ()=>{if(coeff < 3){coeff++;}}); 
+        $(tabs2).on('click', ()=>{
             if (coeff) {
                 const toactivate = 'menu'+coeff;
                 const mybuttonactive = document.getElementById(toactivate);
@@ -216,31 +254,30 @@ $(document).ready(function() {
     }
 
     /*  **************************     TOGGLE CREATION COMPTE     ******************************* */
-    $(document.body).on('click', '.createbutton', function(e){
+    $(document.body).on('click', '.createbutton', (e)=>{
         e.preventDefault();
         var myurl =$(this).attr('value');
         var connexmodal = document.getElementById('connexmodal');
         connexmodal.style.display = 'block';
-        window.onclick = function(event){
+        window.onclick = (event)=>{
             if(event.target == connexmodal){
                 connexmodal.style.display = "none";
             }
         }
         lancerAjax(myurl, '#modalcontent');        
         var span = document.getElementsByClassName("close")[0];
-        span.onclick = function() {
+        span.onclick = ()=> {
             connexmodal.style.display = "none";
             };
     });
 
     /*  **************************     TOGGLE CONNEXION MEMBRE    ******************************* */
-    $(document.body).on('click', '.connexbutton', function(e){
+    $(document.body).on('click', '.connexbutton', (e)=>{
         e.preventDefault();
         var myurl = $(this).attr('value');
         var connexmodal = document.getElementById('connexmodal');
         connexmodal.style.display = 'block';
-        window.onclick = function(event)
-            {
+        window.onclick = (event)=>{
                 if(event.target == connexmodal)
                     {
                         connexmodal.style.display = 'none';
@@ -248,31 +285,30 @@ $(document).ready(function() {
             }
         lancerAjax(myurl, '#modalcontent');        
         var span = document.getElementsByClassName("close")[0];
-        span.onclick = function() {
+        span.onclick = () => {
             connexmodal.style.display = "none";
             };
     });
 
     
     /*  **************************     MODAL CREATION PRODUITS   ******************************* */
-    $(document.body).on('click', '.ajouterproduit', function(e){
+    $(document.body).on('click', '.ajouterproduit', (e)=>{
         e.preventDefault();
         var productmodal = document.getElementById('productmodal');
         productmodal.style.display = 'block';
-        window.onclick = function(event)
-            {
+        window.onclick = (event)=>{
                 if(event.target == productmodal)
                     {
                         productmodal.style.display = 'none';
                     }
             }
         var span = document.getElementsByClassName('close')[0];
-        span.onclick = function(){
+        span.onclick = ()=>{
             productmodal.style.display = 'none';
         };
     })
     /*  **************************     MODAL MODIFICATION PRODUITS   ******************************* */
-    $(document.body).on('click', '.modifyproduct', function(e){
+    $(document.body).on('click', '.modifyproduct', (e)=>{
         e.preventDefault();
         var myurl = $(this).attr('value');
         var name = $(this).attr('name');
@@ -280,16 +316,16 @@ $(document).ready(function() {
         // Stuff the popup ----------------------------------------------
         popupmodal.style.display = "block"; 
         $('.productname').text(name);
-        window.onclick = function(event){
+        window.onclick = (event)=>{
             if(event.target == popupmodal){
                 popupmodal.style.display = "none";
             }
         }
         var span = document.getElementsByClassName('close')[0];
-        span.onclick = function(){
+        span.onclick = ()=>{
             popupmodal.style.display = "none";
         }
-        $('.ajouterproduit').on('click', function(){
+        $('.ajouterproduit').on('click', ()=>{
             popupmodal.style.display = "none";
         });
         // Launch AJAX ----------------------------------------------------
@@ -299,10 +335,10 @@ $(document).ready(function() {
     /*  **************************     MODAL CREATION PRODUITS   ******************************* */
     var testmodal = document.getElementById('testmodal');
 
-    $(document.body).on('click', '.showmodal', function(){
+    $(document.body).on('click', '.showmodal', ()=>{
         testmodal.style.display = "block";
         
-        window.onclick = function(event){
+        window.onclick = (event)=>{
             if(event.target == testmodal){
                 testmodal.style.display = "none";
             }

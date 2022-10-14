@@ -215,6 +215,9 @@ body{
 	border-top-left-radius: 1rem;
 	background-color: rgb(233, 233, 233);
 }*/
+#buttonLeft:hover, #buttonRight:hover{
+	cursor: pointer;
+}
 .divider{ 
 	width: 300px;
 	border-bottom: solid 1px rgb(172, 171, 171);
@@ -232,13 +235,17 @@ body{
 	text-align: center;
 	height: 175px;
 	width: 100%;
-	overflow-x: hidden;
-	scrollbar-width: thin;
 	border-bottom-right-radius: 1rem;
+    overflow: auto;
+	-ms-overflow-style: scroll;
+	scrollbar-width: none;
 }
+.categories02::-webkit-scrollbar { 
+	display: none;
+	}
 .categorycontainer{
 	position: relative;
-	/* height: 100%; */
+    height: auto;
 	width: max-content;
 	top: 50%;
 	transform: translateY(-50%);
