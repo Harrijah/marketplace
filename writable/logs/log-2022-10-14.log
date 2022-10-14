@@ -1,0 +1,29 @@
+CRITICAL - 2022-10-14 06:07:05 --> Undefined variable: pagetitle
+#0 E:\Projets\marketplace\app\Views\Template-parts\header.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 21, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('Template-parts/...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Home.php(9): view('Template-parts/...')
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-10-14 06:08:21 --> Undefined variable: rayon
+#0 E:\Projets\marketplace\app\Views\Template-parts\header.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Projets\\mark...', 72, Array)
+#1 E:\Projets\marketplace\system\View\View.php(246): include('E:\\Projets\\mark...')
+#2 E:\Projets\marketplace\system\Common.php(1087): CodeIgniter\View\View->render('Template-parts/...', Array, true)
+#3 E:\Projets\marketplace\app\Controllers\Home.php(12): view('Template-parts/...', Array)
+#4 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#5 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#9 {main}
+CRITICAL - 2022-10-14 06:09:32 --> Call to a member function getRayon() on null
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}

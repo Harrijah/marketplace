@@ -2,7 +2,7 @@
     <h3 class="catheading">Catégories populaires</h3>
     <div class="divider"></div>
     <div class="row">
-        <div class="col-1 text-center"><i class="fa fa-angle-left text-warning inner-div" style="font-size:76px"></i></div>
+        <div class="col-1 text-center" id="buttonLeft"><i class="fa fa-angle-left text-warning inner-div" style="font-size:76px"></i></div>
         <div class="categories02 mb-2 col-10">
             <div class="categorycontainer">
                 <?php foreach($rayon as $ray): ?>
@@ -15,7 +15,7 @@
                 <?php endforeach; ?>
             </div>
         </div>
-    <div class="col-1 text-center"><i class="fa fa-angle-right text-warning inner-div" style="font-size:76px"></i></div>
+    <div class="col-1 text-center" id="buttonRight"><i class="fa fa-angle-right text-warning inner-div buttonRight" style="font-size:76px"></i></div>
     </div>
 </div>
 <div class="divider02"></div>
