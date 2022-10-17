@@ -6,14 +6,31 @@ $(document).ready(function() {
     const mybaseurl = $(document.querySelector('#myurl')).attr('value'); // base URL pour le filtre (dans le header)
     const buttonLeft = document.getElementById('buttonLeft')
     const buttonRight = document.getElementById('buttonRight');
+    const buttonUp = document.getElementById('buttonUp');
+    const buttonDown = document.getElementById('buttonDown');
     const categories02 = document.querySelector('.categories02');
+    const categorycontainer = document.querySelector('.categorycontainer');
+    const listprod = document.querySelector('.listprod');
+    const listprod04 = document.querySelector('.listprod04');
+
+    let categoryWidth = categories02.clientWidth;
+    let containerWidth = categorycontainer.clientWidth;
+    let listprodHeight = listprod.clientHeight;
+    let listprod04Height = listprod04.clientHeight;
+    let distance01 = containerWidth - categoryWidth;
+    let distance02 = listprod04Height - listprodHeight;
+    let scrollAmount = 0;
     let showselected = document.querySelector('#showselected');
-    let myProductModal = document.getElementById('thisismymodal'); // Sélectionner le modal sur la page d'accueil
+    let myProductModal = document.getElementById('thisismymodal'); // Sélectionner le modal sur la page d'accueil 
     let newContainer01 = document.querySelector('#homeselectedproduct'); // Sélectionner le container pour le modal
     let newContainer02 = document.querySelector('#allproductshome'); // Sélectionner le container pour le modal
     let newContainer03 = document.querySelector('#backofficestoreproductlist'); // Sélectionner le container pour le modal
     let thematique = 'selection';
-
+    
+    scrollMyList(buttonUp, 'up', listprod, 50, distance02, 375);
+    scrollMyList(buttonDown, 'down', listprod, 50, distance02, 375);
+    scrollMyList(buttonLeft, 'left', categories02, 125, distance01, 800); // Homepage : scroller de gauche à droite la liste des catégories
+    scrollMyList(buttonRight, 'right', categories02, 125, distance01, 800); // Homepage : scroller de droite à gauche la liste des catégories
     newmodal02(newContainer01); // Activer le modal des produits || Slider principal
     newmodal02(newContainer02); // Activer le modal des produits || Page d'accueil
     newmodal02(newContainer03); // Activer le modal des produits || BackOffice
@@ -35,23 +52,23 @@ $(document).ready(function() {
     // Page d'accueil / Slider prncipal / Choisir les thématiques : produit de la semaine, nouveauté, ou promo
     $(selectButton).on('click', (e)=>{
         thematique = $(e.target).attr('val'); // Obtenir la thématique
-        var urlx2 = mybaseurl+'/getResultat/getSelectedProduct/0/6/carouselproducts/'+thematique;
-        var urlx1 = mybaseurl+'/getResultat/getSelectedProduct/0/6/selectedproducts/'+thematique; 
-        var urlx3 = mybaseurl+'/changeMyRayon'; 
+        var urlx2 = mybaseurl+'/filtre/getResultat/getSelectedProduct/0/6/carouselproducts/'+thematique;
+        var urlx1 = mybaseurl+'/filtre/getResultat/getSelectedProduct/0/6/selectedproducts/'+thematique; 
+        var urlx3 = mybaseurl+'/filtre/changeMyRayon'; 
         lancerAjax(urlx2, '#changeCarousel'); // Montrer la séclection de produits sur le carousel du slider
         lancerAjax(urlx1, '#homeselectedproduct'); // Montrer la sélection de produits sur la liste de produits sur le slider principal
         lancerAjax(urlx3, '#changeMyRayon'); // Réinitialiser la liste des rayons dans la balise "SELECT"
-
         newmodal02(newContainer01); // Montrer le modal pour les produits filtrés
         // Page d'accueil/ Slider principal / Sélectionner les produits par rayon en fonction de la thématique ci-dessus
        
     });
 
     // Page d'accueil/ Slider principal / Sélectionner les produits par rayon en fonction de la thématique ci-dessus
-    $('.selectrayon2').on('change', ()=>{
-        var optionselect = this.options[this.selectedIndex];
-        var urlx1 = $(this).attr('url2')+'/getSelectedProduct/'+optionselect.value+'/6/selectedproducts/'+thematique;
-        var urlx2 = $(this).attr('url2')+'/getSelectedProduct/'+optionselect.value+'/6/carouselproducts/'+thematique;
+    $('.selectrayon2').on('input', (e)=>{
+        // var optionselect = this.options[this.selectedIndex];
+        let optionselect = e.target.options.selectedIndex;
+        var urlx1 = e.target.attributes[2].value+'/getSelectedProduct/'+optionselect+'/6/selectedproducts/'+thematique;
+        var urlx2 = e.target.attributes[2].value+'/getSelectedProduct/'+optionselect+'/6/carouselproducts/'+thematique;
         lancerAjax(urlx1, '#homeselectedproduct');
         lancerAjax(urlx2, '#changeCarousel');
         newmodal02(newContainer01);
@@ -86,7 +103,7 @@ $(document).ready(function() {
     /*  ****************     Utiliser le filtre de produits  ************ */ 
     function filtre(bouton, url, fonction, limit, destination, contenu, themaValue)
     {
-        $(bouton).on('change', ()=>{
+        $(bouton).on('change', function(){
             var optionselect = this.options[this.selectedIndex];
             if(optionselect.classList == 'retourrayon') 
             {
@@ -111,7 +128,7 @@ $(document).ready(function() {
             let monlien = e.target; // créer un variable pour l'élément cliqué
             if(monlien.classList.contains("showmyproduct02") == true){ // Condition montrant si l'élément cliqué est bien un produit
                 myproductvalue = $(monlien).attr('value'); // Créer une variable pour l'ID du produit
-                url = mybaseurl+'/modalproduct/'+myproductvalue; // Créer un lien pour le Controller qui va gérer la requête
+                url = mybaseurl+'/filtre/modalproduct/'+myproductvalue; // Créer un lien pour le Controller qui va gérer la requête
                 lancerAjax(url, showselected); // lancer la requête à l'aide d'Ajax
 
                 /* ----------- Montrer le modal ------------ */
@@ -131,41 +148,27 @@ $(document).ready(function() {
         });
     }
 
+    /*  ************************     SCROLLER LA LISTE DES RESULTATS    ************************** */
+    function scrollMyList(button, direction, container, step, distance, speed){
+        $(button).on('click', ()=>{
+            let deplacement = setInterval(()=>{
+                if(direction == 'up'){
+                    container.scrollTop -= step; 
+                } else if (direction == 'down'){
+                    container.scrollTop += step;
+                } else if (direction == 'left'){
+                    container.scrollLeft -= step;
+                } else if (direction == 'right'){
+                    container.scrollLeft += step;
+                }
+                scrollAmount += step;
+                if(scrollAmount >= distance){
+                    clearInterval(deplacement);
+                }
+            }, speed);            
+        });
+    }
 
-
-    buttonLeft.addEventListener('click', ()=>{
-        setInterval(()=>{
-            categories02.scrollLeft -= 125
-        }, 20);
-    });
-    buttonRight.addEventListener('click', ()=>{
-        setInterval(()=>{
-            categories02.scrollLeft += 125
-        }, 20);
-    });
-
-
-//     var button = document.getElementById('buttonRight');
-// button.onclick = function () {
-//     var container = document.getElementById('container');
-//     sideScroll(categorycontainer,'right',25,100,10);
-// };
-
-
-function sideScroll(element,direction,speed,distance,step){
-    scrollAmount = 0;
-    var slideTimer = setInterval(function(){
-        if(direction == 'left'){
-            element.scrollLeft -= step;
-        } else {
-            element.scrollLeft += step;
-        }
-        scrollAmount += step;
-        if(scrollAmount >= distance){
-            window.clearInterval(slideTimer);
-        }
-    }, speed);
-}
     /*  **************************     TOGGLE MENU / BOUTONS    ******************************* */
     function buttonToggle(){         
         $(tabs).on('click', (e)=>{
@@ -205,9 +208,8 @@ function sideScroll(element,direction,speed,distance,step){
     function changecategory()
     {
         $('.selectrayon').on('change', (e)=>{
-            e.preventDefault();
-            var optionselect = this.options[this.selectedIndex].value;
-            var myurl03 = $(this).attr('url')+'/'+optionselect;
+            var optionselect = e.target.options.selectedIndex;
+            var myurl03 = e.target.attributes[2].value+'/'+optionselect;
             lancerAjax(myurl03, '.selectcategory');
             $('.selectsouscategorie').html("<option></option>"); 
         });
@@ -215,15 +217,20 @@ function sideScroll(element,direction,speed,distance,step){
     function changesouscategorie()
     {
         $('.selectcategory').on('change', (e)=>{
-            e.preventDefault(e);
-            var optionselect = this.options[this.selectedIndex];
+            console.log(e);
+            var optionselect = e.target.options[e.target.options.selectedIndex];
+            // var optionselect = e.target.selectedOptions[0];
+            // var optionselect = this.options[this.selectedIndex];
+
             if(optionselect.classList == 'retourrayon')
             {
-                var myurl02 = $(this).attr('url')+'/0';
+                var myurl02 = e.target.attributes[2].value+'/0';
+                // var myurl02 = $(this).attr('url')+'/0';
             }
             else
             {
-                var myurl02 = $(this).attr('url')+'/'+optionselect.value;
+                var myurl02 = e.target.attributes[2].value+'/'+optionselect.value;
+                // var myurl02 = $(this).attr('url')+'/'+optionselect.value;
             }
             lancerAjax(myurl02, '.selectsouscategorie');
         });
@@ -362,7 +369,7 @@ let selectMyProduct = document.getElementsByClassName("showmyproduct");
 function newmodal(){
     for(i=0; i<selectMyProduct.length; i++){
         let myproductvalue = $(selectMyProduct[i]).attr('value');
-        let url = mybaseurl+'/modalproduct/'+myproductvalue;
+        let url = mybaseurl+'/filtre/modalproduct/'+myproductvalue;
         $(selectMyProduct[i]).on('click', function(){
             lancerAjax(url, showselected); 
             myProductModal.style.display = "block";

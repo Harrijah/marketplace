@@ -89,6 +89,6 @@
 <!-- -------------------------------------- modal creation compte --------------------------------------------------------->
 <div id="connexmodal" class="modal"><div id="modalcontent" class="modal-content shadow bg-dark pr-3 pl-3"></div></div>
 
-<div id="myurl" value="<?php echo base_url('filtre'); ?>">
+<div id="myurl" value="<?php echo base_url(); ?>">
 
 </div>
