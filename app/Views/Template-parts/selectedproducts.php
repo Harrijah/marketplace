@@ -1,4 +1,4 @@
-<div class="listprod d-block">
+<div class="d-block">
     <?php 
     if($products)
     {

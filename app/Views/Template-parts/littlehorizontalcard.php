@@ -13,13 +13,19 @@
                 <!-- Liste déroulante -->
                 <div class="col-4 mt-3"> 
                     <div class="">
-                        <select name="rayon" id="changeMyRayon" url2="<?php echo base_url('filtre/getResultat'); ?>" url3="<?php echo base_url('filtre/getSlider')?>" class="selectrayon2 mybutton mytext  myrayonList form-control">
+                        <select name="rayon" id="changeMyRayon" url2="<?php echo base_url('filtre/getResultat'); ?>" url3="<?php echo base_url('filtre/getSlider')?>" class="selectrayon2 mybutton mytext myrayonList form-control">
                             <?php echo App\Controllers\Assets::productrayons(); ?>
                         </select>
                     </div>
-                    <div class="listprod04"  id="homeselectedproduct">
-                        <?php  echo (\App\Controllers\Assets::selectedproducts()); ?> 
-                    </div>
+                    <!-- <div> -->
+                        <button  id="buttonUp" class="form-control btn btn-outline-warning"><i class="fa fa-angle-up text-warning" style=""></i></button>
+                        <div class="listprod">
+                            <div class="listprod04" id="homeselectedproduct">
+                                <?php  echo (\App\Controllers\Assets::selectedproducts()); ?> 
+                            </div>
+                        </div>
+                        <button  id="buttonDown" class="form-control btn btn-outline-warning"><i class="fa fa-angle-down text-warning" style=""></i></button>
+                    <!-- </div> -->
                 </div>
             </div>
         </div>

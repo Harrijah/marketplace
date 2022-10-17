@@ -1,0 +1,42 @@
+CRITICAL - 2022-10-16 04:10:55 --> Too few arguments to function App\Controllers\Filtre::getResultat(), 4 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 5 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Filtre::getResultat('getSelectedProd...', '6', 'selectedproduct...', 'selection')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Filtre))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-10-16 04:10:55 --> Too few arguments to function App\Controllers\Filtre::getResultat(), 4 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 5 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Filtre::getResultat('getSelectedProd...', '6', 'carouselproduct...', 'selection')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Filtre))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-10-16 04:11:10 --> Too few arguments to function App\Controllers\Filtre::getResultat(), 4 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 5 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Filtre::getResultat('getSelectedProd...', '6', 'selectedproduct...', 'selection')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Filtre))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-10-16 04:11:10 --> Too few arguments to function App\Controllers\Filtre::getResultat(), 4 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 5 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Filtre::getResultat('getSelectedProd...', '6', 'carouselproduct...', 'selection')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Filtre))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-10-16 04:15:23 --> Too few arguments to function App\Controllers\Filtre::getResultat(), 4 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 5 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Filtre::getResultat('getSelectedProd...', '6', 'selectedproduct...', 'selection')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Filtre))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
+CRITICAL - 2022-10-16 04:15:24 --> Too few arguments to function App\Controllers\Filtre::getResultat(), 4 passed in E:\Projets\marketplace\system\CodeIgniter.php on line 914 and exactly 5 expected
+#0 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Filtre::getResultat('getSelectedProd...', '6', 'carouselproduct...', 'selection')
+#1 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Filtre))
+#2 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#5 {main}
