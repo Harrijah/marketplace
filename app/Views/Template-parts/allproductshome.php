@@ -1,4 +1,4 @@
-<div class="listprod">
+<div class="listprod02">
     <?php 
         if($products)
         {

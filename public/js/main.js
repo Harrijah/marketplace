@@ -217,20 +217,15 @@ $(document).ready(function() {
     function changesouscategorie()
     {
         $('.selectcategory').on('change', (e)=>{
-            console.log(e);
             var optionselect = e.target.options[e.target.options.selectedIndex];
-            // var optionselect = e.target.selectedOptions[0];
-            // var optionselect = this.options[this.selectedIndex];
 
             if(optionselect.classList == 'retourrayon')
             {
-                var myurl02 = e.target.attributes[2].value+'/0';
-                // var myurl02 = $(this).attr('url')+'/0';
+                var myurl02 = mybaseurl+'/filtre/changecategorie/0';
             }
             else
             {
-                var myurl02 = e.target.attributes[2].value+'/'+optionselect.value;
-                // var myurl02 = $(this).attr('url')+'/'+optionselect.value;
+                var myurl02 = mybaseurl+'/filtre/changecategorie/'+optionselect.value;
             }
             lancerAjax(myurl02, '.selectsouscategorie');
         });

@@ -119,6 +119,14 @@ body{
 	left: 50%;
 	transform: translateX(-50%);
 }
+.listprod02{
+	position: relative;
+	text-align: center;
+	width: 100%;
+	overflow: auto;
+	left: 50%;
+	transform: translateX(-50%);
+}
 .listprod04{
 	position: relative;
 	margin: 5px 0px;
