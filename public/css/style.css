@@ -309,9 +309,10 @@ body{
 #allproductshome{
 	position: relative;
 	margin: auto;
-	width: 85%;
-	background-color: rgb(233, 233, 233);
+	width: fit-content;
+	border-radius: 5px;
 	padding: 10px;
+	background-color: rgb(233, 233, 233);
 }
 .blocrandomprod{
 	margin: auto;
