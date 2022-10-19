@@ -1,9 +1,9 @@
 <?php namespace App\Controllers;
     use App\Models\Productmodel;
-
+    
     class Produit extends BaseController
     {
-    // --------------------------- ADD PRODUCTS ------------------------------------------
+        // --------------------------- ADD PRODUCTS ------------------------------------------
         public function addproduct()
         {
             $model = model(Productmodel::class);
@@ -49,23 +49,33 @@
             $product = model(Productmodel::class);
             return $product->getProduct();
         }
-
+        
         public static function getSelectedProduct($idrayon, $limit, $thema)
         {
+            // $pager = \Config\Services::pager();
             $product = model(Productmodel::class);
             return $product->getSelectedProduct($idrayon, $limit, $thema);
+        }
+        public static function getSelectedProduct02($idrayon, $limit, $thema)
+        {
+            $product = model(Productmodel::class);
+            $data = [
+                'products' => $product->paginate(3),
+                'pager' => $product->pager,
+            ];
+            return view('Template-parts/allproductshome', $data); 
         }
 
         public function getProductByCategory($idcategory, $limit)
         {
             $product = model(Productmodel::class);
-            return $product->getProductByCategory($idcategory, $limit);
+            return $product->getProductByCategory($idcategory, $limit, $pager);
         }
 
         public function getProductBySousCategory($idsouscategory, $limit)
         {
             $product = model(Productmodel::class);
-            return $product->getProductBySousCategory($idsouscategory, $limit);
+            return $product->getProductBySousCategory($idsouscategory, $limit, $pager);
         }
         public function getOneProduct($idproduit)
         {

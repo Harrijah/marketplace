@@ -20,6 +20,8 @@
                 <h3><?php echo "Pas de résultats à afficher pour le moment"; ?></h3>
             </div>
         </div>
-    <?php };
-?>
+    <?php };?>
+    <?= $pager->links(); ?>
+
 </div>
+ 

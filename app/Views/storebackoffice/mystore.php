@@ -17,7 +17,7 @@
             <!-- Liste des produits -->
             <div id="testmodal"></div>
             <div id="backofficestoreproductlist">
-                <?php echo (\App\Controllers\Assets::storebackofficeallproducts()); ?>  
+                <?php echo(\App\Controllers\Filtre::getResultat('getSelectedProduct', null, 100, 'storebackofficeallproducts', null)); ?>
             </div>          
         </div>
 

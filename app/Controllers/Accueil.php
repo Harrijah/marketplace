@@ -9,12 +9,13 @@ class Accueil extends BaseController
         $assets = model(Assets::class);
         $rayon = model(RayonModel::class); 
         $products = model(Produit::class);
+        $model = model(Productmodel::class);
         $data = 
         [
             'pagetitle' => 'Marketplace',
             'rayons' => $rayon->getRayon(),
             'rayon' => $rayon->getSelectedRayon(),
-            'products' => $products->getSelectedProduct(null, 6, 'selection')
+            // 'products' => $products->getSelectedProduct(null, 100, 'selection'),
         ];
         return view('Template-parts/header', $data)
         . $assets->littlehorizontalcard() 

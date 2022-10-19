@@ -26,7 +26,6 @@
                 'pagetitle' => 'Mon magasin',
                 'rayons' => $rayon->getRayon(),
                 'rayon' => $rayon->getSelectedRayon(),
-                'products' => $products->getSelectedProduct($idrayon=null, $limit=10, 'allprod')
             ];
             return view('Template-parts/header', $data) //Ceci est le menu
             . $assets->storebackofficebanner() // Ceci est la bannière avec photo de couverture de la boutique

@@ -21,7 +21,8 @@
                         <button  id="buttonUp" class="form-control btn btn-outline-warning"><i class="fa fa-angle-up text-warning" style=""></i></button>
                         <div class="listprod">
                             <div class="listprod04" id="homeselectedproduct">
-                                <?php  echo (\App\Controllers\Assets::selectedproducts()); ?> 
+                                <?php  //echo (\App\Controllers\Assets::selectedproducts()); ?> 
+                                <?php echo(\App\Controllers\Filtre::getResultat('getSelectedProduct', null, 100, 'selectedproducts', null)); ?> 
                             </div>
                         </div>
                         <button  id="buttonDown" class="form-control btn btn-outline-warning"><i class="fa fa-angle-down text-warning" style=""></i></button>
