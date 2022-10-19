@@ -41,19 +41,19 @@ $(document).ready(function() {
 
     /*  ****************     UTILISER LE FILTRE PAR RAYON/CATEGORIE/SOUSCATEGORIE    ************ */    
     // Page d'accueil
-    filtre('.selectrayon', 'url2', 'getSelectedProduct', '10', 'allproductshome', '#allproductshome', 'allprod');   
-    filtre('.selectcategory', 'url2', 'getProductByCategory', '10', 'allproductshome', '#allproductshome', 'allprod');
-    filtre('.selectsouscategorie', 'url', 'getProductBySousCategory', '10', 'allproductshome', '#allproductshome', 'allprod');
+    filtre('.selectrayon', 'url2', 'getSelectedProduct', '100', 'allproductshome', '#allproductshome', 'allprod');   
+    filtre('.selectcategory', 'url2', 'getProductByCategory', '100', 'allproductshome', '#allproductshome', 'allprod');
+    filtre('.selectsouscategorie', 'url', 'getProductBySousCategory', '100', 'allproductshome', '#allproductshome', 'allprod');
     // Backoffice
-    filtre('.selectrayon', 'url2', 'getSelectedProduct', '10', 'storebackofficeallproducts', '#backofficestoreproductlist', 'allprod');
-    filtre('.selectcategory', 'url2', 'getProductByCategory', '10', 'storebackofficeallproducts', '#backofficestoreproductlist', 'allprod');
-    filtre('.selectsouscategorie', 'url', 'getProductBySousCategory', '10', 'storebackofficeallproducts', '#backofficestoreproductlist', 'allprod');
+    filtre('.selectrayon', 'url2', 'getSelectedProduct', '100', 'storebackofficeallproducts', '#backofficestoreproductlist', 'allprod');
+    filtre('.selectcategory', 'url2', 'getProductByCategory', '100', 'storebackofficeallproducts', '#backofficestoreproductlist', 'allprod');
+    filtre('.selectsouscategorie', 'url', 'getProductBySousCategory', '100', 'storebackofficeallproducts', '#backofficestoreproductlist', 'allprod');
     
     // Page d'accueil / Slider prncipal / Choisir les thématiques : produit de la semaine, nouveauté, ou promo
     $(selectButton).on('click', (e)=>{
         thematique = $(e.target).attr('val'); // Obtenir la thématique
-        var urlx2 = mybaseurl+'/filtre/getResultat/getSelectedProduct/0/6/carouselproducts/'+thematique;
-        var urlx1 = mybaseurl+'/filtre/getResultat/getSelectedProduct/0/6/selectedproducts/'+thematique; 
+        var urlx2 = mybaseurl+'/filtre/getResultat/getSelectedProduct/0/6000/carouselproducts/'+thematique;
+        var urlx1 = mybaseurl+'/filtre/getResultat/getSelectedProduct/0/6000/selectedproducts/'+thematique; 
         var urlx3 = mybaseurl+'/filtre/changeMyRayon'; 
         lancerAjax(urlx2, '#changeCarousel'); // Montrer la séclection de produits sur le carousel du slider
         lancerAjax(urlx1, '#homeselectedproduct'); // Montrer la sélection de produits sur la liste de produits sur le slider principal

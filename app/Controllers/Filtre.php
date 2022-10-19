@@ -1,4 +1,5 @@
 <?php namespace App\Controllers;
+    use App\Models\Productmodel;
     use App\Models\RayonModel;
     use App\Models\CategorieModel;
     use App\Models\SouscategorieModel;
@@ -40,12 +41,14 @@
     // ------------  SELECTIONNER LES PRODUITS PAR RAYON / CATEGORIE / SOUSCATEGORIE AVEC LE FILTRE  /////////// OK
     public static function getResultat($params1, $params2, $params3, $params4, $params5) //unNomEnParticulier
     {
-        $products = model(Produit::class);
+        // $products = model(Produit::class); 
+        $model = model(Productmodel::class); 
         if($params2 == '0') // Si il n'y a pas de rayon sélectionné, alors redirection par défaut vers "Tous les rayons"
         {
             $params2 = null;
             $data = [
-                'products' => $products->$params1($params2, $params3, $params5), //$params1 = nom de la fonction
+                'products' => $model->$params1($params2, $params3, $params5)->paginate(5), //$params1 = nom de la fonction
+                'pager' => $model->pager,
             ];
         }
         else // Si il y a un rayon sélectionné
@@ -54,13 +57,15 @@
             {
                 $params5 = 'allprod'; // Alors "Thématique par défaut" = "Tous les produits"
                 $data = [
-                    'products' => $products->$params1($params2, $params3, $params5), //$params1 = nom de la fonction
+                    'products' => $model->$params1($params2, $params3, $params5)->paginate(5), //$params1 = nom de la fonction
+                    'pager' => $model->pager,
                 ];  
             }
             else // Si il y a un rayon et une thématique dans la requête
             {
                 $data = [
-                    'products' => $products->$params1($params2, $params3, $params5), //$params1 = nom de la fonction
+                    'products' => $model->$params1($params2, $params3, $params5)->paginate(5), //$params1 = nom de la fonction
+                    'pager' => $model->pager,
                 ];  
             }
             

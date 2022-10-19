@@ -18,7 +18,9 @@
                         <span class="textprod text-white"><span class="text-warning">Ar </span><?= $product['prix']; ?></span><br>
                     </div>
                 </div>
-            <?php endforeach; 
+            <?php endforeach; ?>
+            <?= $pager->links(); ?>
+            <?php 
         }
         else
         { ?>

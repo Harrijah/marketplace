@@ -53,18 +53,18 @@
             if(!$idrayon && $thema)
             {
                 $this->where($thema, 1);
-                return $this->find();
+                return $this;
             } 
             elseif($idrayon && !$thema)
             {
                 $this->where('rayon.id', $idrayon);
-                return $this->find();
+                return $this;
             }
             else
             {
                 $this->where('rayon.id', $idrayon);
                 $this->where($thema, 1);
-                return $this->find();
+                return $this;
             }
         }
 
@@ -75,7 +75,7 @@
             $this->join('rayon', 'produit.rayon=rayon.id', 'left');
             $this->limit($limit);
             $this->where('categorie.id', $idcategory);
-            return $this->find();
+            return $this;
         }
 
         public function getProductBySousCategory($idsouscategory, $limit)
@@ -85,6 +85,6 @@
             $this->join('rayon', 'produit.rayon=rayon.id', 'left');
             $this->limit($limit);
             $this->where('souscategorie.id', $idsouscategory);
-            return $this->find();
+            return $this;
         }
     }
