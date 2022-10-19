@@ -34,7 +34,9 @@
             </div>
 
     </div>
-<?php endfor; 
+<?php endfor; ?>
+<?= $pager->links(); ?>
+<?php 
     }
     else
     { ?>
