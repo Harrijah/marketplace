@@ -1893,3 +1893,31 @@ CRITICAL - 2022-10-19 09:13:40 --> Invalid file: Template-parts/backofficestorep
 #10 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #11 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
 #12 {main}
+CRITICAL - 2022-10-19 21:11:24 --> Unknown column 'undefined' in 'where clause'
+#0 E:\Projets\marketplace\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT COUNT(*)...')
+#1 E:\Projets\marketplace\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 E:\Projets\marketplace\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 E:\Projets\marketplace\system\Database\BaseBuilder.php(1937): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 E:\Projets\marketplace\system\Model.php(1596): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 E:\Projets\marketplace\system\Model.php(1145): CodeIgniter\Model->countAllResults(false)
+#6 E:\Projets\marketplace\app\Controllers\Filtre.php(50): CodeIgniter\Model->paginate(5)
+#7 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Filtre::getResultat('getSelectedProd...', NULL, '6000', 'carouselproduct...', 'undefined')
+#8 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Filtre))
+#9 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#12 {main}
+CRITICAL - 2022-10-19 21:11:34 --> Unknown column 'undefined' in 'where clause'
+#0 E:\Projets\marketplace\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT COUNT(*)...')
+#1 E:\Projets\marketplace\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 E:\Projets\marketplace\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 E:\Projets\marketplace\system\Database\BaseBuilder.php(1937): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 E:\Projets\marketplace\system\Model.php(1596): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 E:\Projets\marketplace\system\Model.php(1145): CodeIgniter\Model->countAllResults(false)
+#6 E:\Projets\marketplace\app\Controllers\Filtre.php(50): CodeIgniter\Model->paginate(5)
+#7 E:\Projets\marketplace\system\CodeIgniter.php(914): App\Controllers\Filtre::getResultat('getSelectedProd...', NULL, '6000', 'selectedproduct...', 'undefined')
+#8 E:\Projets\marketplace\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Filtre))
+#9 E:\Projets\marketplace\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Projets\marketplace\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 E:\Projets\marketplace\system\Commands\Server\rewrite.php(34): require_once('E:\\Projets\\mark...')
+#12 {main}

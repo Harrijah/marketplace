@@ -27,6 +27,8 @@ $(document).ready(function() {
     let newContainer03 = document.querySelector('#backofficestoreproductlist'); // Sélectionner le container pour le modal
     let thematique = 'selection';
     
+    pagination(newContainer01, '#homeselectedproduct', 'selectedproducts');
+    pagination(newContainer02, '#allproductshome', 'allproductshome');
     scrollMyList(buttonUp, 'up', listprod, 50, distance02, 375);
     scrollMyList(buttonDown, 'down', listprod, 50, distance02, 375);
     scrollMyList(buttonLeft, 'left', categories02, 125, distance01, 800); // Homepage : scroller de gauche à droite la liste des catégories
@@ -75,6 +77,26 @@ $(document).ready(function() {
         addactive();
     });
 
+    /*  **************************     PAGINATION DES RESULTATS     ******************************* */
+    function pagination(container, destination, content){
+        container.addEventListener('click', function(e){
+            let paginationButton = e.target;
+            if(paginationButton.classList.contains('mylist') == true){
+                paginationUrl = $(paginationButton).attr('uri');
+                let buttonSplit = paginationUrl.split('/');
+                if(buttonSplit.length>=5){
+                    lancerAjax(paginationUrl, destination);
+                }
+                else{
+                    if(destination == '#allproductshome'){
+                        lancerAjax(mybaseurl+'/filtre/getResultat/getSelectedProduct/0/6000/'+content+'/allprod/'+buttonSplit[4], container);
+                    } else {
+                        lancerAjax(mybaseurl+'/filtre/getResultat/getSelectedProduct/0/6000/'+content+'/'+thematique+'/'+buttonSplit[4], container);
+                    }
+                }
+            }
+        });
+    }
     /*  **************************     USE CAROUSEL     ******************************* */
     function addactive(){ //Activer la première image dans le carousel de la page d'accueil
         var imagecarousel = document.querySelector('.montre-moi-00');
@@ -119,6 +141,7 @@ $(document).ready(function() {
             }
             lancerAjax(urlx, contenu);
             newmodal02(newContainer02); // Activer le modal des produits pour la page d'accueil
+            // takefunction();
         });
     }
       

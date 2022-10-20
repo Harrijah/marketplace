@@ -1,7 +1,7 @@
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- List of products -->
     <div class="carousel-inner" id="changeCarousel">
-        <?php echo(\App\Controllers\Filtre::getResultat('getSelectedProduct', null, 100, 'carouselproducts', null)); ?>
+        <?php echo(\App\Controllers\Filtre::getResultat('getSelectedProduct', null, 100, 'carouselproducts', 'selection')); ?>
     </div>
     
     <!-- Carousel commands -->

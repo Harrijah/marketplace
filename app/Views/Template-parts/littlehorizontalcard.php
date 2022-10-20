@@ -1,5 +1,8 @@
 <div class="littleCat">
-    <div class="row mx-auto pb-3">
+    
+    <h3 class="catheading">Produits à thème</h3>
+    <div class="divider"></div>
+    <div class="row mt-3 mx-auto pb-3">
         <div id="produits" class="col-9 active">
             <!-- Menu : Produits de la semaine, Nouveautés, Promo -->
             <?php echo (App\Controllers\Assets::homenavmenu()); ?>
@@ -22,7 +25,7 @@
                         <div class="listprod">
                             <div class="listprod04" id="homeselectedproduct">
                                 <?php  //echo (\App\Controllers\Assets::selectedproducts()); ?> 
-                                <?php echo(\App\Controllers\Filtre::getResultat('getSelectedProduct', null, 100, 'selectedproducts', null)); ?> 
+                                <?php echo(\App\Controllers\Filtre::getResultat('getSelectedProduct', null, 100, 'selectedproducts', 'selection')); ?> 
                             </div>
                         </div>
                         <button  id="buttonDown" class="form-control btn btn-outline-warning"><i class="fa fa-angle-down text-warning" style=""></i></button>

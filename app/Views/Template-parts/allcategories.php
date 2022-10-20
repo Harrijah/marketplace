@@ -1,5 +1,5 @@
 <div class="popularRay">
-    <h3 class="catheading">Catégories populaires</h3>
+    <h3 class="catheading">Visitez un rayon</h3>
     <div class="divider"></div>
     <div class="row">
         <div class="col-1 text-center" id="buttonLeft"><i class="fa fa-angle-left text-warning inner-div" style="font-size:76px"></i></div>
