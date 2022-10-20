@@ -20,9 +20,9 @@ class Accueil extends BaseController
         return view('Template-parts/header', $data)
         . $assets->littlehorizontalcard() 
         . $assets->homebanner()
-        . $assets->allcategories()
         . $assets->productfilter()
         . $assets->allproducts()
+        . $assets->allcategories()
         . $assets->threenews()
         . view('Template-parts/footer');
     }

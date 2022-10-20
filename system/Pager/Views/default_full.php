@@ -24,7 +24,7 @@ $pager->setSurroundCount(2);
 
 		<?php foreach ($pager->links() as $link) : ?>
 			<li <?= $link['active'] ? 'class="active"' : '' ?>>
-				<a href="<?= $link['uri'] ?>">
+				<a href="javascript:void(0)" uri="<?= $link['uri'] ?>" value="<?= $link['title'] ?>" class="mylist thema">
 					<?= $link['title'] ?>
 				</a>
 			</li>

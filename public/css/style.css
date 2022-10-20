@@ -228,6 +228,7 @@ body{
 .divider{ 
 	width: 300px;
 	border-bottom: solid 1px rgb(172, 171, 171);
+	box-shadow : 4px 2px 4px rgb(172, 171, 171);
 }
 .divider02{
 	position: relative;
@@ -235,6 +236,7 @@ body{
 	width: 300px;
 	float: right;
 	border-bottom: solid 1px rgb(172, 171, 171);
+	box-shadow : -2px -2px 4px rgb(172, 171, 171);
 }
 .categories02{
 	position: relative;
@@ -254,6 +256,7 @@ body{
 	position: relative;
     height: auto;
 	width: max-content;
+	/* background-color: rgb(233, 233, 233); */
 	top: 50%;
 	transform: translateY(-50%);
 }
@@ -267,7 +270,7 @@ body{
 	color: gray;
 	border-radius: 5px;
 	border: solid 1px #dee2e6;
-	/* box-shadow: 1px 1px 5px #343A40; */
+	box-shadow: 1px 1px 10px rgb(233, 233, 233);
 }
 .producticone{
 	position: relative;	
