@@ -36,7 +36,7 @@
 
         <!-- Encart publicitaire -->
         <div class='col-3'>
-            <img src="<?php echo base_url('uploads/images/pub.jpg'); ?>" alt="pub" class="img-fluid">
+            <img src="<?php echo base_url('uploads/images/pub.jpg'); ?>" alt="pub" class="img-fluid mapub">
         </div>
     </div>
 </div>

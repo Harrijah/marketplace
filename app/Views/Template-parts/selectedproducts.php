@@ -10,18 +10,23 @@
                 <span class="textprod" style="font-size:13px"><?php echo $product['prix']; ?> Ar </span>
             </div>
         </div>
-    <?php endforeach; 
+        <?php endforeach; 
+        if(count($products)>=5){
+            echo $pager->links(); 
+        }
     }
     else
-    { ?>
+    { 
+    ?>
         <div class="item montre-moi-00 mysliderimage">
             <img src="<?php echo base_url('uploads/image/banniere.jpg'); ?>" alt="" class="slider-image img-fluid mysliderimage"> 
             <div class="carousel-caption custom-caption-background">
                 <h3><?php echo "Pas de résultats à afficher pour le moment"; ?></h3>
             </div>
         </div>
-    <?php };?>
-    <?= $pager->links(); ?>
+    <?php 
+    };
+    ?>
 
 </div>
  

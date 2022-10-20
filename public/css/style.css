@@ -42,6 +42,10 @@ body{
 
 
 /* 	**************************************		SECTION 01		***********************************************		*/
+.myselection{
+	border-radius: 20px;
+}
+
 .littleCat{
 	position: relative;
 	margin: 20px;
@@ -73,6 +77,15 @@ body{
 	margin: 0px;
 	height: 56vh;
 	text-align: center;
+}
+.mapub{
+	position: relative;
+	margin: auto;
+	width: fit-content;
+	border-image: linear-gradient(235deg, rgba(0%, 0%, 0%, 70%) 25%, white, white); 
+	border-image-slice: 2;
+	border-image-width: 7px;
+	padding: 7px;
 }
 .inner-div{
 	position: relative;
@@ -210,18 +223,6 @@ body{
 	margin-top: 20px;
 	padding: 20px 50px 0px 50px;
 }
-/* .catheading{
-	position: relative;
-	margin-left: 15px;
-	padding: 10px;
-	display: inline-block;
-	border-top: solid 1px rgb(172, 171, 171);
-	border-right: solid 1px rgb(172, 171, 171);
-	border-left: solid 1px rgb(172, 171, 171);
-	border-top-right-radius: 1rem;
-	border-top-left-radius: 1rem;
-	background-color: rgb(233, 233, 233);
-}*/
 #buttonLeft:hover, #buttonRight:hover{
 	cursor: pointer;
 }
@@ -313,8 +314,10 @@ body{
 	position: relative;
 	margin: auto;
 	width: fit-content;
-	border-radius: 5px;
-	padding: 10px;
+	border-image: linear-gradient(345deg, rgba(0%, 0%, 0%, 70%) 25%, white, white); 
+	border-image-slice: 2;
+	border-image-width: 7px;
+	padding: 15px;
 	background-color: rgb(233, 233, 233);
 }
 .blocrandomprod{
@@ -714,7 +717,7 @@ li a, .dropbtn{
 .carousel{
 	border: solid rgb(190, 190, 190) 1px;
 	border-radius: 5px;
-	box-shadow: 1px 1px 5px #343A40;
+	box-shadow: 1px 1px 5px rgba(0%, 0%, 0%, 30%);
 }
 #changeCarousel{
 	position: relative;
@@ -723,7 +726,6 @@ li a, .dropbtn{
 }
 .mysliderimage{
 	position: relative;
-	/* margin: auto; */
 	left: 50%;
 	transform: translateX(-50%);
 	background-color: white;
