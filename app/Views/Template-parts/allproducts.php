@@ -1,4 +1,4 @@
-<div class="container" id="allproductshome">
+<div class="" id="allproductshome">
         <?php echo(\App\Controllers\Filtre::getResultat('getSelectedProduct', null, 100, 'allproductshome', null)); ?>  
 </div>
 

@@ -19,7 +19,7 @@
                     </div>
                 </div>
             <?php endforeach; 
-            if(count($products)>=5)
+            if(count($products)>10)
             {
                 echo $pager->links(); 
             }
