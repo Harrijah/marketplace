@@ -47,7 +47,7 @@
         {
             $params2 = null;
             $data = [
-                'products' => $model->$params1($params2, $params3, $params5)->paginate(5), //$params1 = nom de la fonction
+                'products' => $model->$params1($params2, $params3, $params5)->paginate(10), //$params1 = nom de la fonction
                 'pager' => $model->pager,
             ];
         }
@@ -57,14 +57,14 @@
             {
                 $params5 = 'allprod'; // Alors "Thématique par défaut" = "Tous les produits"
                 $data = [
-                    'products' => $model->$params1($params2, $params3, $params5)->paginate(5), //$params1 = nom de la fonction
+                    'products' => $model->$params1($params2, $params3, $params5)->paginate(10), //$params1 = nom de la fonction
                     'pager' => $model->pager,
                 ];  
             }
             else // Si il y a un rayon et une thématique dans la requête
             {
                 $data = [
-                    'products' => $model->$params1($params2, $params3, $params5)->paginate(5), //$params1 = nom de la fonction
+                    'products' => $model->$params1($params2, $params3, $params5)->paginate(10), //$params1 = nom de la fonction
                     'pager' => $model->pager,
                 ];  
             }

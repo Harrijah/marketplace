@@ -45,10 +45,18 @@ body{
 .myselection{
 	border-radius: 20px;
 }
-
+.mycontainer{
+	padding: 0px 50px;
+}
+.mytitle{
+	padding: 20px 0px 10px 75px;
+}
+.catheading{
+	font-weight: bold;
+}
 .littleCat{
 	position: relative;
-	margin: 20px;
+	margin: 20px, 0px;
 }
 .mytext{
 	font-size: 14px;
@@ -211,7 +219,7 @@ body{
 /* 	**************************************		BANDEAU		***********************************************		*/
 .bandeau{
 	width: 100%;
-	padding: 0px 50px 0px 50px;
+	padding: 0px 50px 0px 75px;
 	background: linear-gradient(45deg, #1b1b1b, rgba(27, 27, 27, 0.747)), url(../uploads/images/4.jpg) fixed;
 }
 .bloc{
@@ -221,7 +229,7 @@ body{
 /* 	**************************************		CATEGORIES	***********************************************		*/
 .popularRay{
 	margin-top: 20px;
-	padding: 20px 50px 0px 50px;
+	padding: 20px 75px 0px 75px;
 }
 #buttonLeft:hover, #buttonRight:hover{
 	cursor: pointer;
@@ -295,11 +303,11 @@ body{
 /* 	**************************************		PRODUITS 02		***********************************************		*/
 .popularCat{
 	margin-top: 20px;
-	padding: 20px 0px 0px 50px;
+	padding: 20px 75px 0px 75px;
 }
 .bigfiltercontainer{
 	position: relative;
-	margin: 20px 0px 20px 0px;
+	margin: 5px 0px 20px 75px;
 	padding: 15px 0px 15px 30px;
 	border-bottom-left-radius: 3rem;
 	border-top-left-radius: 3rem;
@@ -313,10 +321,10 @@ body{
 #allproductshome{
 	position: relative;
 	margin: auto;
-	width: fit-content;
-	border-image: linear-gradient(345deg, rgba(0%, 0%, 0%, 70%) 25%, white, white); 
+	width: 85%;
+	border-image: linear-gradient(345deg, rgba(0%, 0%, 0%, 70%) 25%, #f0ad4e, white, white, white); 
 	border-image-slice: 2;
-	border-image-width: 7px;
+	border-image-width: 5px;
 	padding: 15px;
 	background-color: rgb(233, 233, 233);
 }
