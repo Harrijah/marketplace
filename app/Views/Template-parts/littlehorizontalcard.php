@@ -38,29 +38,30 @@
         <!-- Encart publicitaire -->
         <div class='col-3'>
             <div class="mapub">
-                <div class="animtext content">
-                    <div class="">
-                        <span>Bienvenue sur</span><br>
-                        <span>Destock.mg</span>
+                <div class="animtext">
+                    <div id="firsttitle">
+                        <span class="welcometitle content">Bienvenue sur</span><br>
+                        <span class="welcomelogo content">Destock<span class="welcomelogo2">.mg</span></span>
+                        <img src="<?php echo base_url('uploads/images/pub.jpg'); ?>" alt="pub" class="content myshowimage img-fluid"> 
+                        <img src="<?php echo base_url('uploads/images/pub.gif'); ?>" alt="pub" class="content myshowimage2 img-fluid"> 
+                        <span class="mytestaccount content">
+                            Créez votre compte, en 2mn, ici :
+                        </span>
+                        <span class="mytestbutton content"><button>Créer mon compte</button></span>
                     </div>
-                    <div class="">
+                    <div class="content">
                         <span>
                             Bons plans? Nouveautés ? Promos? 
                             Naviguez facilement, et trouvez ce dont vous avez besoins sur la marketplace.
                         </span>
                     </div>
-                    <div class="">
+                    <div class="content">
                         <span>
                             Créez un compte et bénéficiez de remises supplémentaires. Accumulez utilisez 
                             vos points de fidélité à votre avantage sur le site 
                         </span>
-                        <span>
-                            Créez votre compte, en 2mn, ici :
-                        </span>
-                        <span><button>Créer mon compte</button></span>
                     </div>
                 </div>
-                <img src="<?php echo base_url('uploads/images/pub.jpg'); ?>" alt="pub" class="img-fluid">
             </div>
         </div>
     </div>
