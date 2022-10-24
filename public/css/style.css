@@ -89,11 +89,35 @@ body{
 .mapub{
 	position: relative;
 	margin: auto;
-	width: fit-content;
+	height: 464px;
+	width: 285,75px;
 	border-image: linear-gradient(235deg, rgba(0%, 0%, 0%, 70%) 25%, white, white); 
 	border-image-slice: 2;
 	border-image-width: 7px;
 	padding: 7px;
+}
+.animtext{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	text-align: center;
+	padding: 10px;
+}
+.welcometitle{
+	font-size: 34px;
+}
+.welcomelogo{
+	font-size: 44px;
+}
+.welcomelogo2{
+	color: #f0ad4e;
+}
+.mytestaccount{
+	font-size: 34px;	
+}
+.mytestbutton{
+	font-size: 34px;	
 }
 .inner-div{
 	position: relative;

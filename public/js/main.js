@@ -26,6 +26,132 @@ $(document).ready(function() {
     let newContainer02 = document.querySelector('#allproductshome'); // Sélectionner le container pour le modal
     let newContainer03 = document.querySelector('#backofficestoreproductlist'); // Sélectionner le container pour le modal
     let thematique = 'selection';
+
+    const firsttitle = document.getElementById('firsttitle');
+    const welcometitle = document.querySelector('.welcometitle');
+    const welcomelogo = document.querySelector('.welcomelogo');
+    const mytestaccount = document.querySelector('.mytestaccount');
+    const mytestbutton = document.querySelector('.mytestbutton');
+    const myshowimage = document.querySelector('.myshowimage');
+    const myshowimage2 = document.querySelector('.myshowimage2');
+    let wordIndex = 0;
+    let wordIndex02 = 0;
+    let imageIndex = 0;
+    let letterIndex = 0;
+    let compteur01 = 0;
+    
+    let myword = [welcometitle, welcomelogo];
+    let myword2 = [mytestaccount, mytestbutton];
+    let myimage = [myshowimage, myshowimage2]; 
+
+    
+    let itemDuration;
+    let itemTimeBeforeEntry;
+    let wordLength = myword.length;
+    let wordLength2 = myword2.length;
+    let wordDuration;
+    let wordTimeBeforeEntry;
+    let wordLoopTotalDuration;
+    let imageLength = myimage.length;
+    let imageDuration;
+    let imageTimeFadeOut;
+    let imageTimeBeforeEntry;
+    let imageLoopTotalDuration;
+    let itemLoopTotalDuration; 
+    let itemCounter = 0;
+    let loopCounter = 0; 
+    itemTimeBeforeEntry = 1500;
+    let itemTotalTime = itemTimeBeforeEntry * length;
+    
+    
+    
+    function loopDuration(duration, latency){
+        itemDuration = duration;
+        itemTimeBeforeEntry = latency;
+    };
+    
+    function initialLoop(myloop){        
+        setTimeout(() => {
+            myloop();
+        }, itemTimeBeforeEntry);
+    }
+    function reInitializeLoop(myloop){ 
+        setTimeout(()=>{
+            myloop();
+        }, itemDuration - itemTimeBeforeEntry);
+    }
+    
+    const createView = (index, myarray, timeout)=>{
+            myarray[index].classList.remove('content');
+            setTimeout(() => {
+                    myarray[index].classList.add('content');            
+                }, timeout);
+            }
+    // createView(wordIndex, myword, itemDuration-300);
+            
+    // const loop01 = ()=>{
+    //     loopDuration(5000, 5000);
+    //     setTimeout(()=>{
+    //         if(imageIndex >= imageLength){
+    //             imageIndex = 0;
+    //             reInitializeLoop(loop01);
+    //         } 
+    //         else 
+    //         if(imageIndex < imageLength)
+    //         {
+    //             createView(imageIndex, myimage, itemDuration-300);
+    //             imageIndex ++;
+    //             initialLoop(loop01);
+    //         }
+    //     }, 0);
+    // }
+
+    const itemForLoop = (index, length, myarray, itemTimeBeforeEntry) => {
+            if(index < length)
+                {
+                    if(itemCounter == 0)
+                        {
+                            console.log(myarray[index].textContent +" || test ajout || Index = "+ index + " || Compteur = "+ itemCounter);
+                            myarray[index].classList.remove('content');
+                            index++;                            
+                            setTimeout(() => {
+                                itemForLoop(index, length, myarray, itemTimeBeforeEntry);
+                            }, itemTimeBeforeEntry);                           
+                        }
+                    else if(itemCounter == 1)
+                        {
+                            setTimeout(() => {
+                                console.log(myarray[index].textContent +" || test enlevement || Index = "+ index + " || Compteur = "+ itemCounter);
+                                myarray[index].classList.add('content');  
+                                index++;
+                                itemForLoop(index, length, myarray, itemTimeBeforeEntry); 
+                            }, itemTimeBeforeEntry);
+                        }
+                    else 
+                        {
+                            index = 0;
+                            itemCounter = 0;
+                        }
+                } 
+            else 
+                {  
+                    index = 0;
+                    itemCounter++;
+                    itemForLoop(index, length, myarray, itemTimeBeforeEntry);
+                }
+    }
+    const loop = ()=>{
+        setTimeout(() => {
+            itemForLoop(wordIndex, wordLength, myword, itemTimeBeforeEntry);
+        }, 0);
+        setTimeout(() => {
+            itemForLoop(wordIndex02, wordLength2, myword2, itemTimeBeforeEntry);
+        }, 8000);
+        setTimeout(() => {
+            loop();
+        }, 16000);
+    }
+    loop();
     
     pagination(newContainer01, '#homeselectedproduct', 'selectedproducts');
     pagination(newContainer02, '#allproductshome', 'allproductshome');
