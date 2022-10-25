@@ -47,7 +47,7 @@
                         <span class="mytestaccount content">
                             Créez votre compte, en 2mn, ici :
                         </span>
-                        <span class="mytestbutton content"><button>Créer mon compte</button></span>
+                        <span class="mytestbutton content"><a href="register" class='btn btn-outline-warning d-block pt-3 pr-3 pb-3 pl-3 mt-3 mr-3 mb-3 ml-3'>Créer mon compte</a></span>
                     </div>
                     <div class="content">
                         <span>

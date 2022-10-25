@@ -39,14 +39,16 @@ $(document).ready(function() {
     let imageIndex = 0;
     let letterIndex = 0;
     let compteur01 = 0;
+    let itemCounter = 0;
+    let loopCounter = 0; 
     
     let myword = [welcometitle, welcomelogo];
     let myword2 = [mytestaccount, mytestbutton];
-    let myimage = [myshowimage, myshowimage2]; 
+    let myimage = [myshowimage]; 
 
     
-    let itemDuration;
-    let itemTimeBeforeEntry;
+    let itemDuration = 3000;
+    let itemTimeBeforeEntry = 1500;
     let wordLength = myword.length;
     let wordLength2 = myword2.length;
     let wordDuration;
@@ -57,55 +59,17 @@ $(document).ready(function() {
     let imageTimeFadeOut;
     let imageTimeBeforeEntry;
     let imageLoopTotalDuration;
-    let itemLoopTotalDuration; 
-    let itemCounter = 0;
-    let loopCounter = 0; 
-    itemTimeBeforeEntry = 1500;
-    let itemTotalTime = itemTimeBeforeEntry * length;
+    let itemLoopTotalDuration;  
     
-    
-    
-    function loopDuration(duration, latency){
-        itemDuration = duration;
-        itemTimeBeforeEntry = latency;
-    };
-    
-    function initialLoop(myloop){        
-        setTimeout(() => {
-            myloop();
-        }, itemTimeBeforeEntry);
-    }
-    function reInitializeLoop(myloop){ 
-        setTimeout(()=>{
-            myloop();
-        }, itemDuration - itemTimeBeforeEntry);
-    }
-    
-    const createView = (index, myarray, timeout)=>{
+/* ***************  CREER UN AFFICHEUR POUR LES IMAGES AFIN DE LES METTRES DANS LE LOOP ********* */
+    const createView = (index, myarray, timeout)=>
+        {
             myarray[index].classList.remove('content');
             setTimeout(() => {
                     myarray[index].classList.add('content');            
                 }, timeout);
-            }
-    // createView(wordIndex, myword, itemDuration-300);
-            
-    // const loop01 = ()=>{
-    //     loopDuration(5000, 5000);
-    //     setTimeout(()=>{
-    //         if(imageIndex >= imageLength){
-    //             imageIndex = 0;
-    //             reInitializeLoop(loop01);
-    //         } 
-    //         else 
-    //         if(imageIndex < imageLength)
-    //         {
-    //             createView(imageIndex, myimage, itemDuration-300);
-    //             imageIndex ++;
-    //             initialLoop(loop01);
-    //         }
-    //     }, 0);
-    // }
-
+        }
+/* ***************  CREER UN AFFICHEUR POUR LES TEXTES AFIN DE LES METTRES DANS LE LOOP ********* */
     const itemForLoop = (index, length, myarray, itemTimeBeforeEntry) => {
             if(index < length)
                 {
@@ -140,17 +104,30 @@ $(document).ready(function() {
                     itemForLoop(index, length, myarray, itemTimeBeforeEntry);
                 }
     }
-    const loop = ()=>{
-        setTimeout(() => {
-            itemForLoop(wordIndex, wordLength, myword, itemTimeBeforeEntry);
-        }, 0);
-        setTimeout(() => {
-            itemForLoop(wordIndex02, wordLength2, myword2, itemTimeBeforeEntry);
-        }, 8000);
-        setTimeout(() => {
-            loop();
-        }, 16000);
-    }
+    
+/* ***************  CREER UNE LOOP POUR TOUS LES ITEMS ********* */
+    const loop = ()=>
+        {
+            let duration01 = (itemTimeBeforeEntry * 2) * wordLength + itemTimeBeforeEntry;
+            let duration02 = (itemTimeBeforeEntry * 2) * wordLength2 + itemTimeBeforeEntry;
+            let duration03 = (itemDuration);
+            let totalLoopTime = duration01 + duration02 + duration03;
+            setTimeout(() => {
+                itemForLoop(wordIndex, wordLength, myword, itemTimeBeforeEntry);
+                }, 0);
+            setTimeout(() => {
+                itemForLoop(wordIndex02, wordLength2, myword2, itemTimeBeforeEntry);
+                }, duration01);
+            setTimeout(() => {
+                createView(imageIndex, myimage, itemDuration);
+                }, duration01 + duration02);
+            setTimeout(() => 
+                {
+                    loop();
+                }, totalLoopTime);
+
+            
+        }
     loop();
     
     pagination(newContainer01, '#homeselectedproduct', 'selectedproducts');
@@ -509,25 +486,58 @@ $(document).ready(function() {
 
 
 // Ancien modal
-let selectMyProduct = document.getElementsByClassName("showmyproduct");  
-function newmodal(){
-    for(i=0; i<selectMyProduct.length; i++){
-        let myproductvalue = $(selectMyProduct[i]).attr('value');
-        let url = mybaseurl+'/filtre/modalproduct/'+myproductvalue;
-        $(selectMyProduct[i]).on('click', function(){
-            lancerAjax(url, showselected); 
-            myProductModal.style.display = "block";
-            window.onclick = function(event){
-                if(event.target == myProductModal){
-                    myProductModal.style.display = "none";
-                }
-            }           
-        });
-        $(sortir).on('click', function(){
-            myProductModal.style.display = "none";
-        });
-    }
-}  
+// let selectMyProduct = document.getElementsByClassName("showmyproduct");  
+// function newmodal(){
+//     for(i=0; i<selectMyProduct.length; i++){
+//         let myproductvalue = $(selectMyProduct[i]).attr('value');
+//         let url = mybaseurl+'/filtre/modalproduct/'+myproductvalue;
+//         $(selectMyProduct[i]).on('click', function(){
+//             lancerAjax(url, showselected); 
+//             myProductModal.style.display = "block";
+//             window.onclick = function(event){
+//                 if(event.target == myProductModal){
+//                     myProductModal.style.display = "none";
+//                 }
+//             }           
+//         });
+//         $(sortir).on('click', function(){
+//             myProductModal.style.display = "none";
+//         });
+//     }
+// }  
+
+/*  --------------- Loop de textes et / ou images ------------------------------  */
+// function loopDuration(duration, latency){
+//     itemDuration = duration;
+//     itemTimeBeforeEntry = latency;
+// };
+
+// function initialLoop(myloop){        
+//     setTimeout(() => {
+//         myloop();
+//     }, itemTimeBeforeEntry);
+// }
+// function reInitializeLoop(myloop){ 
+//     setTimeout(()=>{
+//         myloop();
+//     }, itemDuration - itemTimeBeforeEntry);
+// }
+// const loop01 = ()=>{
+//     loopDuration(5000, 5000);
+//     setTimeout(()=>{
+//         if(imageIndex >= imageLength){
+//             imageIndex = 0;
+//             reInitializeLoop(loop01);
+//         } 
+//         else 
+//         if(imageIndex < imageLength)
+//         {
+//             createView(imageIndex, myimage, itemDuration-300);
+//             imageIndex ++;
+//             initialLoop(loop01);
+//         }
+//     }, 0);
+// }
 
 
 
