@@ -1,0 +1,51 @@
+CRITICAL - 2022-10-05 04:35:27 --> Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée.
+
+#0 E:\PROJET\test\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\PROJET\test\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\PROJET\test\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\PROJET\test\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\PROJET\test\app\Models\RayonModel.php(11): CodeIgniter\Model->findAll()
+#5 E:\PROJET\test\app\Controllers\Accueil.php(15): App\Models\RayonModel->getRayon()
+#6 E:\PROJET\test\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#7 E:\PROJET\test\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#8 E:\PROJET\test\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\PROJET\test\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\PROJET\test\system\Commands\Server\rewrite.php(34): require_once('E:\\PROJET\\test\\...')
+#11 {main}
+CRITICAL - 2022-10-05 04:38:14 --> Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée.
+
+#0 E:\PROJET\test\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\PROJET\test\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\PROJET\test\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\PROJET\test\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\PROJET\test\app\Models\RayonModel.php(11): CodeIgniter\Model->findAll()
+#5 E:\PROJET\test\app\Controllers\Accueil.php(15): App\Models\RayonModel->getRayon()
+#6 E:\PROJET\test\system\CodeIgniter.php(914): App\Controllers\Accueil->accueil()
+#7 E:\PROJET\test\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+#8 E:\PROJET\test\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\PROJET\test\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\PROJET\test\system\Commands\Server\rewrite.php(34): require_once('E:\\PROJET\\test\\...')
+#11 {main}
+CRITICAL - 2022-10-05 05:29:02 --> Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in E:\PROJET\test\app\Config\Routes.php on line 48 and at least 2 expected
+#0 E:\PROJET\test\app\Config\Routes.php(48): CodeIgniter\Router\RouteCollection->get('Users::index')
+#1 E:\PROJET\test\system\CodeIgniter.php(776): require('E:\\PROJET\\test\\...')
+#2 E:\PROJET\test\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\PROJET\test\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\PROJET\test\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\PROJET\test\system\Commands\Server\rewrite.php(34): require_once('E:\\PROJET\\test\\...')
+#6 {main}
+CRITICAL - 2022-10-05 05:29:15 --> Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in E:\PROJET\test\app\Config\Routes.php on line 48 and at least 2 expected
+#0 E:\PROJET\test\app\Config\Routes.php(48): CodeIgniter\Router\RouteCollection->get('Users::index')
+#1 E:\PROJET\test\system\CodeIgniter.php(776): require('E:\\PROJET\\test\\...')
+#2 E:\PROJET\test\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\PROJET\test\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\PROJET\test\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\PROJET\test\system\Commands\Server\rewrite.php(34): require_once('E:\\PROJET\\test\\...')
+#6 {main}
+CRITICAL - 2022-10-05 05:37:58 --> noauth filter must have a matching alias defined.
+#0 E:\PROJET\test\system\Filters\Filters.php(324): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('noauth')
+#1 E:\PROJET\test\system\CodeIgniter.php(369): CodeIgniter\Filters\Filters->enableFilter('noauth', 'before')
+#2 E:\PROJET\test\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\PROJET\test\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\PROJET\test\system\Commands\Server\rewrite.php(34): require_once('E:\\PROJET\\test\\...')
+#5 {main}
